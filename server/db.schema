@@ -1,0 +1,39 @@
+CREATE TABLE "roster" (
+    "id" TEXT,
+    "sport" TEXT,
+    "url" TEXT,
+    "name" TEXT,
+    "hometown" TEXT,
+    "image" TEXT
+)
+
+CREATE TABLE "schedule" (
+    "id" TEXT,
+    "sport" TEXT,
+    "date" TEXT,
+    "time" TEXT,
+    "team" TEXT,
+    "image" TEXT,
+    "location" TEXT,
+    "score" TEXT
+)
+
+CREATE TABLE "teampic" (
+    "id" TEXT,
+    "sport" TEXT,
+    "url" TEXT
+)
+
+CREATE TABLE "buildinghours" (
+	"id" TEXT,
+	"name" TEXT,
+	"sunday" INT,
+	"monday" INT,
+	"tuesday" INT,
+	"wednesday" INT,
+	"thursday" INT,
+	"friday" INT,
+	"saturday" INT,
+	"opentime" INT,
+	"closetime" INT
+)

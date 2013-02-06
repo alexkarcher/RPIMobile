@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        layout="@layout/titlebar" />
+
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="left"
+	    android:background="#000" >
+	
+	    <LinearLayout
+	        android:id="@+id/menuLayout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginRight="50dp"
+	        android:background="#000"
+	        android:orientation="vertical"
+	        android:paddingTop="5dp" >
+	
+	        <Button
+	            android:id="@+id/newsButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="left|center_vertical"
+	            android:paddingBottom="0dp"
+	            android:paddingLeft="60dp"
+	            android:paddingTop="0dp"
+	            android:text="@string/newsText" />
+	
+	        <Button
+	            android:id="@+id/athleticsButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:freezesText="false"
+	            android:gravity="left|center_vertical"
+	            android:paddingBottom="0dp"
+	            android:paddingLeft="60dp"
+	            android:paddingTop="0dp"
+	            android:text="@string/athleticsText" />
+	
+	        <Button
+	            android:id="@+id/settingsButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="bottom"
+	            android:drawableLeft="@android:drawable/ic_menu_preferences"
+	            android:gravity="left|center_vertical"
+	            android:paddingBottom="1dp"
+	            android:paddingLeft="10dp"
+	            android:paddingTop="0dp"
+	            android:text="@string/settingsButton" />
+	
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/mainLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:paddingLeft="0dp"
+	        android:visibility="visible" >
+
+	        <!-- Needed to allow for scrolling effect with a background attached to it (Warning should be ignored for now)-->
+			<LinearLayout
+			    android:id="@+id/lol"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="#0F0"
+			    >
+	
+		            <Button
+		                android:id="@+id/button3"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:onClick="showMenuButton"
+		                android:text="@string/settingsButton" />
+		        </LinearLayout>
+	    </LinearLayout>
+	
+	</FrameLayout>
+</LinearLayout>

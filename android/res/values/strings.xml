@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">RPI Mobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="applicationTitle">RPI Mobile</string>
+    <string name="newsText">News</string>
+    <string name="athleticsText">Athletics</string>
+    <string name="twitterText">Twitter</string>
+    <string name="settingsButton">Settings</string>
+	<string name="weatherText">Weather</string>
+	<string name="athleticsnews">News</string>
+	<string name="athleticsroster">Roster</string>
+	<string name="athleticsschedule">Schedule &amp; Results</string>
+	<string name="athleticsarchives">Archives</string>
+	<string name="laundryText">Laundry</string>
+	<string name="directoryText">Directory</string>
+	<string name="tvText">TV Lineup</string>
+	<string name="men">Men</string>
+	<string name="women">Women</string>
+	
+</resources>

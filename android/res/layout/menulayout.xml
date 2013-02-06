@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginRight="50dp"
+    android:orientation="vertical"
+    android:paddingTop="5dp" >
+     <Button
+         android:id="@+id/newsButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="0dp"
+         android:paddingLeft="60dp"
+         android:paddingTop="0dp"
+         android:text="@string/newsText"
+         style="@style/NavigationButton" />
+
+     <Button
+         android:id="@+id/weatherButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:freezesText="false"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="0dp"
+         android:paddingLeft="60dp"
+         android:paddingTop="0dp"
+         android:text="@string/weatherText"
+         style="@style/NavigationButton" />
+     
+     <Button
+         android:id="@+id/laundryButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:freezesText="false"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="0dp"
+         android:paddingLeft="60dp"
+         android:paddingTop="0dp"
+         android:text="@string/laundryText"
+         style="@style/NavigationButton" />
+     
+     <Button
+         android:id="@+id/athleticsButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:freezesText="false"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="0dp"
+         android:paddingLeft="60dp"
+         android:paddingTop="0dp"
+         android:text="@string/athleticsText"
+         style="@style/NavigationButton" />
+     
+     <Button
+         android:id="@+id/directoryButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:freezesText="false"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="0dp"
+         android:paddingLeft="60dp"
+         android:paddingTop="0dp"
+         android:text="@string/directoryText"
+         style="@style/NavigationButton" />
+
+     <Button
+         android:id="@+id/tvButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:freezesText="false"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="0dp"
+         android:paddingLeft="60dp"
+         android:paddingTop="0dp"
+         android:text="@string/tvText"
+         style="@style/NavigationButton" />
+     
+     <Button
+         android:id="@+id/settingsButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+         android:drawableLeft="@android:drawable/ic_menu_preferences"
+         android:gravity="left|center_vertical"
+         android:paddingBottom="1dp"
+         android:paddingLeft="10dp"
+         android:paddingTop="0dp"
+         android:text="@string/settingsButton"
+         style="@style/NavigationButton" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>athletics</key>
+	<string>http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/%28catuid%3D%2700f18254-27fe1f37-0127-fe1f3969-00000016%27%29/no--object.json</string>
+	<key>everything</key>
+	<string>http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/no--filter/no--object.json</string>
+	<key>empac</key>
+	<string>http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/%28catuid%3D%2700f18254-27fe1f37-0127-fe1f4be6-00000111%27%29/no--object.json</string>
+	<key>student_clubs</key>
+	<string>http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/%28catuid%3D%2700f18254-27ff9c18-0127-ff9c187a-00000003%27%29/no--object.json</string>
+</dict>
+</plist>

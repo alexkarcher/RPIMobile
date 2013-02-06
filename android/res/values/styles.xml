@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    
+    <style name="NavigationButton">
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:background">@drawable/navbutton</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    
+    <!-- <style name="WhiteButton">
+        <item name="android:textColor">#4e2424</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>-->
+</resources>

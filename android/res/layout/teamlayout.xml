@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/teamimage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Team Image"
+        android:adjustViewBounds="true"
+         />
+    
+	<TextView
+	    android:id="@+id/teamname"
+	    android:layout_weight="0.14"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textColor="#000000"
+	    android:textSize="24dp"
+	    />
+	
+	<Button
+	    android:layout_weight="0.14"
+	    android:text="@string/athleticsnews"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="athleticsNews"
+	    />
+	<Button
+	    android:layout_weight="0.14"
+	    android:text="@string/athleticsroster"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="athleticsRoster"
+	    />
+	<Button
+	    android:layout_weight="0.14"
+	    android:text="@string/athleticsschedule"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="athleticsSchedule"
+	    />
+	<Button
+	    android:layout_weight="0.14"
+	    android:text="@string/athleticsarchives"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="athleticsArchives"
+	    />
+	
+</LinearLayout>
+

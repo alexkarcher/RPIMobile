@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Baseball</key>
+	<string>1</string>
+	<key>Basketball</key>
+	<string>2</string>
+	<key>Cross Country</key>
+	<string>2</string>
+	<key>Football</key>
+	<string>1</string>
+	<key>Golf</key>
+	<string>1</string>
+	<key>Hockey</key>
+	<string>2</string>
+	<key>Indoor Track</key>
+	<string>2</string>
+	<key>Lacrosse</key>
+	<string>2</string>
+	<key>Soccer</key>
+	<string>2</string>
+	<key>Swimming &amp; Diving</key>
+	<string>2</string>
+	<key>Tennis</key>
+	<string>2</string>
+	<key>Outdoor Track</key>
+	<string>2</string>
+</dict>
+</plist>

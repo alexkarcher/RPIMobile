@@ -1,0 +1,32 @@
+{
+	"men": [
+		{"Hockey": "hockey"},
+		{"Soccer": "msoc"},
+		{"Football": "football"},
+		{"Indoor Track": "indoortrack"},
+		{"Outdoor Track": "mtrack"},
+		{"Baseball": "baseball"},
+		{"Basketball": "mbball"},
+		{"Cross Country": "mcross"},
+		{"Lacrosse": "mlax"},
+		{"Tennis": "mten"},
+		{"Golf": "golf"},
+		{"Swimming & Diving": "mswim"}
+	],
+	
+	
+	"women": 
+	[
+		{"Hockey": "whock"},
+		{"Soccer": "wsoc"},
+		{"Field Hockey": "fhockey"},
+		{"Indoor Track": "windoortrack"},
+		{"Outdoor Track": "wtrack"},
+		{"Softball": "softball"},
+		{"Lacrosse": "wlax"},
+		{"Basketball": "wbball"},
+		{"Cross Country": "wcross"},
+		{"Tennis": "wten"},
+		{"Swimming & Diving": "wswim"}
+	]
+}

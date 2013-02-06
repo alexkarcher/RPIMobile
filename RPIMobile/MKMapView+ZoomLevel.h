@@ -1,0 +1,18 @@
+//
+//  MKMapView+ZoomLevel.h
+//  RPIMobile
+//
+//  Created by Stephen Silber on 10/31/12.
+//  Copyright (c) 2012 Rensselaer Polytechnic Institute. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
+
+@interface MKMapView (ZoomLevel)
+
+- (void)setCenterCoordinate:(CLLocationCoordinate2D)centerCoordinate
+                  zoomLevel:(NSUInteger)zoomLevel
+                   animated:(BOOL)animated;
+
+@end
