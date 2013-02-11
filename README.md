@@ -52,18 +52,11 @@ Previous:
 
 Libraries used in this project:
   Cocoapods:     https://github.com/CocoaPods/CocoaPods
-  
   PrettyKit:     https://github.com/vicpenap/PrettyKit
-  
   AFNetworking:  https://github.com/AFNetworking/AFNetworking
-  
   JSONKit:       https://github.com/johnezang/JSONKit
-  
   MFSideMenu:    https://github.com/mikefrederick/MFSideMenu
-  
   MKHorizMenu:   https://github.com/MugunthKumar/MKHorizMenuDemo
-  
   SDURLCache:    https://github.com/rs/SDURLCache
-  
   TestFlight:    https://testflightapp.com/
   
