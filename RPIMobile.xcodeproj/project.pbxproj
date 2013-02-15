@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4452D4CF63D741A5AB0BA436 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF1078CBE224332ACD1C2BA /* libPods.a */; };
+		AAE049D116CDC4B40058CE83 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE049D016CDC4B40058CE83 /* EventsViewController.m */; };
+		AAE04BE316CDD0040058CE83 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE04BE216CDD0040058CE83 /* SenTestingKit.framework */; };
+		AAE04BF016CDD1D00058CE83 /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BE916CDD1D00058CE83 /* TSQCalendarCell.m */; };
+		AAE04BF116CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BEB16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m */; };
+		AAE04BF216CDD1D00058CE83 /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BED16CDD1D00058CE83 /* TSQCalendarRowCell.m */; };
+		AAE04BF316CDD1D00058CE83 /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BEF16CDD1D00058CE83 /* TSQCalendarView.m */; };
 		DC03ED55161E973E0083C503 /* PresentationNotReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */; };
 		DC03ED56161E973E0083C503 /* PresentationNotReadyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */; };
 		DC03ED59161E97D80083C503 /* 11769225_HiRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */; };
@@ -113,8 +119,6 @@
 		DC7868DC160F9D69000E9B35 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7868DB160F9D69000E9B35 /* ImageIO.framework */; };
 		DC7868DE160F9D70000E9B35 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7868DD160F9D70000E9B35 /* CoreImage.framework */; };
 		DC7868E1160FA245000E9B35 /* LaundryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7868E0160FA245000E9B35 /* LaundryViewController.m */; };
-		DC7868EC160FC63E000E9B35 /* laundryIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7868EA160FC63E000E9B35 /* laundryIcon.png */; };
-		DC7868ED160FC63E000E9B35 /* laundryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7868EB160FC63E000E9B35 /* laundryIcon@2x.png */; };
 		DC7CAE8815BFD15C00ED728F /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7CAE8615BFD15C00ED728F /* WeatherViewController.m */; };
 		DC7CAE8915BFD15C00ED728F /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7CAE8715BFD15C00ED728F /* WeatherViewController.xib */; };
 		DC7CAEBE15BFD1B200ED728F /* calendar_hdpi.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7CAE8A15BFD1B200ED728F /* calendar_hdpi.png */; };
@@ -239,6 +243,19 @@
 
 /* Begin PBXFileReference section */
 		6FF1078CBE224332ACD1C2BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE049CF16CDC4B40058CE83 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		AAE049D016CDC4B40058CE83 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		AAE04BE216CDD0040058CE83 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SenTestingKit.framework; sourceTree = "<group>"; };
+		AAE04BE616CDD1D00058CE83 /* TimesSquare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimesSquare-Prefix.pch"; sourceTree = "<group>"; };
+		AAE04BE716CDD1D00058CE83 /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
+		AAE04BE816CDD1D00058CE83 /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
+		AAE04BE916CDD1D00058CE83 /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
+		AAE04BEA16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		AAE04BEB16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		AAE04BEC16CDD1D00058CE83 /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		AAE04BED16CDD1D00058CE83 /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		AAE04BEE16CDD1D00058CE83 /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
+		AAE04BEF16CDD1D00058CE83 /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
 		DC03ED52161E973E0083C503 /* PresentationNotReadyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationNotReadyViewController.h; sourceTree = "<group>"; };
 		DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationNotReadyViewController.m; sourceTree = "<group>"; };
 		DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationNotReadyViewController.xib; sourceTree = "<group>"; };
@@ -370,8 +387,6 @@
 		DC7868DD160F9D70000E9B35 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		DC7868DF160FA245000E9B35 /* LaundryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaundryViewController.h; sourceTree = "<group>"; };
 		DC7868E0160FA245000E9B35 /* LaundryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaundryViewController.m; sourceTree = "<group>"; };
-		DC7868EA160FC63E000E9B35 /* laundryIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = laundryIcon.png; path = "../../../../Dropbox/Random/Glyphish Pro/icons/laundryIcon.png"; sourceTree = "<group>"; };
-		DC7868EB160FC63E000E9B35 /* laundryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "laundryIcon@2x.png"; path = "../../../../Dropbox/Random/Glyphish Pro/icons/laundryIcon@2x.png"; sourceTree = "<group>"; };
 		DC7CAE8515BFD15C00ED728F /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
 		DC7CAE8615BFD15C00ED728F /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		DC7CAE8715BFD15C00ED728F /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
@@ -569,12 +584,39 @@
 				DCC8088015BF89450060390F /* CoreGraphics.framework in Frameworks */,
 				DCC8088215BF89450060390F /* CoreData.framework in Frameworks */,
 				4452D4CF63D741A5AB0BA436 /* libPods.a in Frameworks */,
+				AAE04BE316CDD0040058CE83 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAE04BE416CDD1D00058CE83 /* TimesSquare */ = {
+			isa = PBXGroup;
+			children = (
+				AAE04BE516CDD1D00058CE83 /* Supporting Files */,
+				AAE04BE716CDD1D00058CE83 /* TimesSquare.h */,
+				AAE04BE816CDD1D00058CE83 /* TSQCalendarCell.h */,
+				AAE04BE916CDD1D00058CE83 /* TSQCalendarCell.m */,
+				AAE04BEA16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.h */,
+				AAE04BEB16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m */,
+				AAE04BEC16CDD1D00058CE83 /* TSQCalendarRowCell.h */,
+				AAE04BED16CDD1D00058CE83 /* TSQCalendarRowCell.m */,
+				AAE04BEE16CDD1D00058CE83 /* TSQCalendarView.h */,
+				AAE04BEF16CDD1D00058CE83 /* TSQCalendarView.m */,
+			);
+			name = TimesSquare;
+			path = RPIMobile/TimesSquare;
+			sourceTree = "<group>";
+		};
+		AAE04BE516CDD1D00058CE83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE04BE616CDD1D00058CE83 /* TimesSquare-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DC1F515516C0C87100002C46 /* PrettyKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -678,8 +720,6 @@
 		DC51CCD915C64B6300AE2D23 /* Menu Icons */ = {
 			isa = PBXGroup;
 			children = (
-				DC7868EA160FC63E000E9B35 /* laundryIcon.png */,
-				DC7868EB160FC63E000E9B35 /* laundryIcon@2x.png */,
 				DC51CCFE15C655D800AE2D23 /* shuttleIcon.png */,
 				DC51CCFF15C655D800AE2D23 /* shuttleIcon@2x.png */,
 				DC51CD0015C655D800AE2D23 /* weatherIcon.png */,
@@ -874,6 +914,8 @@
 		DCC3AFFF15E3649000DD3648 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				AAE049CF16CDC4B40058CE83 /* EventsViewController.h */,
+				AAE049D016CDC4B40058CE83 /* EventsViewController.m */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -881,6 +923,7 @@
 		DCC8086C15BF89450060390F = {
 			isa = PBXGroup;
 			children = (
+				AAE04BE416CDD1D00058CE83 /* TimesSquare */,
 				DCC8088315BF89450060390F /* RPIMobile */,
 				DCC8087815BF89450060390F /* Products */,
 				E2AF5E0EAFF54340B2666527 /* Pods.xcconfig */,
@@ -898,6 +941,7 @@
 		DCC8087A15BF89450060390F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAE04BE216CDD0040058CE83 /* SenTestingKit.framework */,
 				DC18B65F165E13ED00E8F20C /* CoreAudio.framework */,
 				DC18B65C165E13E500E8F20C /* AudioToolbox.framework */,
 				DC15321D165DD16F00289830 /* MobileCoreServices.framework */,
@@ -1102,7 +1146,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RM;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Rensselaer Polytechnic Institute";
 			};
 			buildConfigurationList = DCC8087115BF89450060390F /* Build configuration list for PBXProject "RPIMobile" */;
@@ -1234,8 +1278,6 @@
 				DCD6725215E20F4C00FD1446 /* stop_marker.png in Resources */,
 				DC71B888160C184400C79342 /* Default-568h@2x.png in Resources */,
 				DC2D67D3160CEF35007DEFD0 /* RPIAthletics.plist in Resources */,
-				DC7868EC160FC63E000E9B35 /* laundryIcon.png in Resources */,
-				DC7868ED160FC63E000E9B35 /* laundryIcon@2x.png in Resources */,
 				DC9506BE16101AE80064DF0C /* CampusMap.png in Resources */,
 				DCC96ECC1614989900556D39 /* womenSportsList.plist in Resources */,
 				DCC96ECD1614989900556D39 /* menSportsList.plist in Resources */,
@@ -1366,6 +1408,11 @@
 				DC1F517016C0C87100002C46 /* PrettyShadowPlainTableview.m in Sources */,
 				DC1F517116C0C87100002C46 /* PrettyTabBar.m in Sources */,
 				DC1F517216C0C87100002C46 /* PrettyToolbar.m in Sources */,
+				AAE049D116CDC4B40058CE83 /* EventsViewController.m in Sources */,
+				AAE04BF016CDD1D00058CE83 /* TSQCalendarCell.m in Sources */,
+				AAE04BF116CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m in Sources */,
+				AAE04BF216CDD1D00058CE83 /* TSQCalendarRowCell.m in Sources */,
+				AAE04BF316CDD1D00058CE83 /* TSQCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1389,6 +1436,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1414,6 +1465,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1434,6 +1489,10 @@
 			buildSettings = {
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stephen Silber (3AD83A87JJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPIMobile/RPIMobile-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1473,6 +1532,10 @@
 			buildSettings = {
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Stephen Silber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPIMobile/RPIMobile-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
