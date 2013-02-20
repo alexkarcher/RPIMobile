@@ -136,8 +136,8 @@
     [cell.imageView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"Placeholder.png"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
         //Successful team image download
         UIImage *newImage = [UIImage imageWithImage:image scaledToSize:CGSizeMake(50, 50)];
-        [[cell imageView] setImage:newImage];
-        
+        [cell.imageView setImage:newImage];
+
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
         //Image failed
         [cell.imageView setImage:[UIImage imageNamed:@"Placeholder.png"]];

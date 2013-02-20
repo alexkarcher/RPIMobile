@@ -11,6 +11,17 @@
 		DC03ED55161E973E0083C503 /* PresentationNotReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */; };
 		DC03ED56161E973E0083C503 /* PresentationNotReadyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */; };
 		DC03ED59161E97D80083C503 /* 11769225_HiRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */; };
+		DC06B7DD16D5494400DE799A /* EventsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC06B7DC16D5494400DE799A /* EventsMainViewController.m */; };
+		DC06B7EA16D54C0500DE799A /* CalendarPreviousMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E016D54C0500DE799A /* CalendarPreviousMonth.png */; };
+		DC06B7EB16D54C0500DE799A /* CalendarPreviousMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E116D54C0500DE799A /* CalendarPreviousMonth@2x.png */; };
+		DC06B7EC16D54C0500DE799A /* CalendarRow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E216D54C0500DE799A /* CalendarRow.png */; };
+		DC06B7ED16D54C0500DE799A /* CalendarRow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E316D54C0500DE799A /* CalendarRow@2x.png */; };
+		DC06B7EE16D54C0500DE799A /* CalendarRowBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E416D54C0500DE799A /* CalendarRowBottom.png */; };
+		DC06B7EF16D54C0500DE799A /* CalendarRowBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E516D54C0500DE799A /* CalendarRowBottom@2x.png */; };
+		DC06B7F016D54C0500DE799A /* CalendarSelectedDate.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E616D54C0500DE799A /* CalendarSelectedDate.png */; };
+		DC06B7F116D54C0500DE799A /* CalendarSelectedDate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E716D54C0500DE799A /* CalendarSelectedDate@2x.png */; };
+		DC06B7F216D54C0500DE799A /* CalendarTodaysDate.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E816D54C0500DE799A /* CalendarTodaysDate.png */; };
+		DC06B7F316D54C0500DE799A /* CalendarTodaysDate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E916D54C0500DE799A /* CalendarTodaysDate@2x.png */; };
 		DC15321B165DD16700289830 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC15321A165DD16700289830 /* SystemConfiguration.framework */; };
 		DC15321E165DD16F00289830 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC15321D165DD16F00289830 /* MobileCoreServices.framework */; };
 		DC18B65D165E13E500E8F20C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC18B65C165E13E500E8F20C /* AudioToolbox.framework */; };
@@ -23,6 +34,8 @@
 		DC1F517016C0C87100002C46 /* PrettyShadowPlainTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F516516C0C87100002C46 /* PrettyShadowPlainTableview.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC1F517116C0C87100002C46 /* PrettyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F516716C0C87100002C46 /* PrettyTabBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC1F517216C0C87100002C46 /* PrettyToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F516916C0C87100002C46 /* PrettyToolbar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */; };
+		DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */; };
 		DC2D67D3160CEF35007DEFD0 /* RPIAthletics.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC2D67D2160CEF35007DEFD0 /* RPIAthletics.plist */; };
 		DC30EFB5160FE97A00CB4B3E /* MainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */; };
 		DC3DAE80165BF45900F50CCD /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DAE7C165BF45900F50CCD /* UIImage+ProportionalFill.m */; };
@@ -243,6 +256,18 @@
 		DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationNotReadyViewController.m; sourceTree = "<group>"; };
 		DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationNotReadyViewController.xib; sourceTree = "<group>"; };
 		DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11769225_HiRes.jpg; sourceTree = "<group>"; };
+		DC06B7DB16D5494400DE799A /* EventsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsMainViewController.h; sourceTree = "<group>"; };
+		DC06B7DC16D5494400DE799A /* EventsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsMainViewController.m; sourceTree = "<group>"; };
+		DC06B7E016D54C0500DE799A /* CalendarPreviousMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarPreviousMonth.png; sourceTree = "<group>"; };
+		DC06B7E116D54C0500DE799A /* CalendarPreviousMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarPreviousMonth@2x.png"; sourceTree = "<group>"; };
+		DC06B7E216D54C0500DE799A /* CalendarRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarRow.png; sourceTree = "<group>"; };
+		DC06B7E316D54C0500DE799A /* CalendarRow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarRow@2x.png"; sourceTree = "<group>"; };
+		DC06B7E416D54C0500DE799A /* CalendarRowBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarRowBottom.png; sourceTree = "<group>"; };
+		DC06B7E516D54C0500DE799A /* CalendarRowBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarRowBottom@2x.png"; sourceTree = "<group>"; };
+		DC06B7E616D54C0500DE799A /* CalendarSelectedDate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarSelectedDate.png; sourceTree = "<group>"; };
+		DC06B7E716D54C0500DE799A /* CalendarSelectedDate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarSelectedDate@2x.png"; sourceTree = "<group>"; };
+		DC06B7E816D54C0500DE799A /* CalendarTodaysDate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarTodaysDate.png; sourceTree = "<group>"; };
+		DC06B7E916D54C0500DE799A /* CalendarTodaysDate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarTodaysDate@2x.png"; sourceTree = "<group>"; };
 		DC15321A165DD16700289830 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DC15321D165DD16F00289830 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DC18B65C165E13E500E8F20C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -266,6 +291,10 @@
 		DC1F516716C0C87100002C46 /* PrettyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyTabBar.m; sourceTree = "<group>"; };
 		DC1F516816C0C87100002C46 /* PrettyToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyToolbar.h; sourceTree = "<group>"; };
 		DC1F516916C0C87100002C46 /* PrettyToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyToolbar.m; sourceTree = "<group>"; };
+		DC2073D016C9A2DC00ED07CE /* SVSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSegmentedControl.h; sourceTree = "<group>"; };
+		DC2073D116C9A2DC00ED07CE /* SVSegmentedThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSegmentedThumb.h; sourceTree = "<group>"; };
+		DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedControl.m; sourceTree = "<group>"; };
+		DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedThumb.m; sourceTree = "<group>"; };
 		DC2D67D2160CEF35007DEFD0 /* RPIAthletics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RPIAthletics.plist; sourceTree = "<group>"; };
 		DC30EFB3160FE97A00CB4B3E /* MainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapViewController.h; sourceTree = "<group>"; };
 		DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapViewController.m; sourceTree = "<group>"; };
@@ -575,6 +604,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC06B7DF16D54BFC00DE799A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DC06B7E016D54C0500DE799A /* CalendarPreviousMonth.png */,
+				DC06B7E116D54C0500DE799A /* CalendarPreviousMonth@2x.png */,
+				DC06B7E216D54C0500DE799A /* CalendarRow.png */,
+				DC06B7E316D54C0500DE799A /* CalendarRow@2x.png */,
+				DC06B7E416D54C0500DE799A /* CalendarRowBottom.png */,
+				DC06B7E516D54C0500DE799A /* CalendarRowBottom@2x.png */,
+				DC06B7E616D54C0500DE799A /* CalendarSelectedDate.png */,
+				DC06B7E716D54C0500DE799A /* CalendarSelectedDate@2x.png */,
+				DC06B7E816D54C0500DE799A /* CalendarTodaysDate.png */,
+				DC06B7E916D54C0500DE799A /* CalendarTodaysDate@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		DC1F515516C0C87100002C46 /* PrettyKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -607,6 +653,17 @@
 				DC1F515E16C0C87100002C46 /* PrettyTableViewCell.m */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		DC2073CF16C9A2D100ED07CE /* SVSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				DC2073D016C9A2DC00ED07CE /* SVSegmentedControl.h */,
+				DC2073D116C9A2DC00ED07CE /* SVSegmentedThumb.h */,
+				DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */,
+				DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */,
+			);
+			name = SVSegmentedControl;
 			sourceTree = "<group>";
 		};
 		DC30EFAB160FE8B900CB4B3E /* Map */ = {
@@ -874,6 +931,7 @@
 		DCC3AFFF15E3649000DD3648 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				DC06B7DF16D54BFC00DE799A /* images */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -923,6 +981,7 @@
 		DCC8088315BF89450060390F /* RPIMobile */ = {
 			isa = PBXGroup;
 			children = (
+				DC2073CF16C9A2D100ED07CE /* SVSegmentedControl */,
 				DC1F515516C0C87100002C46 /* PrettyKit */,
 				DC3DAE77165BF45000F50CCD /* Image Filters */,
 				DCC96EC51614967C00556D39 /* New Athletics */,
@@ -938,6 +997,8 @@
 				DC6A111815BF94C100B2F462 /* imgs */,
 				DC6A111015BF903600B2F462 /* RSSParser */,
 				DCC808C815BF8AF90060390F /* News */,
+				DC06B7DB16D5494400DE799A /* EventsMainViewController.h */,
+				DC06B7DC16D5494400DE799A /* EventsMainViewController.m */,
 				DC7868DF160FA245000E9B35 /* LaundryViewController.h */,
 				DC7868E0160FA245000E9B35 /* LaundryViewController.m */,
 				DC74B2A515C70F1100FD4A69 /* WCXMLParser.h */,
@@ -952,13 +1013,13 @@
 				DC51CCD015C6455700AE2D23 /* MenuViewController.m */,
 				DC51CCD115C6455900AE2D23 /* MenuViewController.xib */,
 				DCC8088F15BF89450060390F /* RPIMobile.xcdatamodeld */,
-				DCC8088415BF89450060390F /* Supporting Files */,
 				DC03ED52161E973E0083C503 /* PresentationNotReadyViewController.h */,
 				DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */,
 				DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */,
 				DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */,
 				DCC2955F16423C050023E195 /* ImageManipulator.h */,
 				DCC2956016423C050023E195 /* ImageManipulator.m */,
+				DCC8088415BF89450060390F /* Supporting Files */,
 				DCC8087A15BF89450060390F /* Frameworks */,
 			);
 			path = RPIMobile;
@@ -1102,7 +1163,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RM;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Rensselaer Polytechnic Institute";
 			};
 			buildConfigurationList = DCC8087115BF89450060390F /* Build configuration list for PBXProject "RPIMobile" */;
@@ -1272,6 +1333,16 @@
 				DC3DAEBA165BF88100F50CCD /* weather_icon@2x.png in Resources */,
 				DC3DAEBD165BF98700F50CCD /* video_icon.png in Resources */,
 				DC3DAEBE165BF98700F50CCD /* video_icon@2x.png in Resources */,
+				DC06B7EA16D54C0500DE799A /* CalendarPreviousMonth.png in Resources */,
+				DC06B7EB16D54C0500DE799A /* CalendarPreviousMonth@2x.png in Resources */,
+				DC06B7EC16D54C0500DE799A /* CalendarRow.png in Resources */,
+				DC06B7ED16D54C0500DE799A /* CalendarRow@2x.png in Resources */,
+				DC06B7EE16D54C0500DE799A /* CalendarRowBottom.png in Resources */,
+				DC06B7EF16D54C0500DE799A /* CalendarRowBottom@2x.png in Resources */,
+				DC06B7F016D54C0500DE799A /* CalendarSelectedDate.png in Resources */,
+				DC06B7F116D54C0500DE799A /* CalendarSelectedDate@2x.png in Resources */,
+				DC06B7F216D54C0500DE799A /* CalendarTodaysDate.png in Resources */,
+				DC06B7F316D54C0500DE799A /* CalendarTodaysDate@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1366,6 +1437,9 @@
 				DC1F517016C0C87100002C46 /* PrettyShadowPlainTableview.m in Sources */,
 				DC1F517116C0C87100002C46 /* PrettyTabBar.m in Sources */,
 				DC1F517216C0C87100002C46 /* PrettyToolbar.m in Sources */,
+				DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */,
+				DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */,
+				DC06B7DD16D5494400DE799A /* EventsMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1389,6 +1463,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1414,6 +1492,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

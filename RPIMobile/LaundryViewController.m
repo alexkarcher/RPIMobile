@@ -158,7 +158,7 @@
         gridCell.tableViewBackgroundColor = tableView.backgroundColor;
         gridCell.selectionStyle = UITableViewCellSelectionStyleNone;
 //        gridCell.selectionGradientStartColor = [UIColor clearColor];
-//        gridCell.selectionGradientEndColor = [UIColor ];
+//        gridCell.selectionGradientEndColor = [UIColor clearColor];
     }
     
     LaundryMachine *cellMachine = [self.laundryMachines objectAtIndex:indexPath.section];

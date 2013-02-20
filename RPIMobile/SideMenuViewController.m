@@ -24,6 +24,7 @@
 #import "STMapViewController.h"
 #import "AthleticsMainViewController.h"
 #import "CampusMapViewController.h"
+#import "EventsMainViewController.h"
 
 //Temporary for presentation
 #include "PresentationNotReadyViewController.h"
@@ -102,25 +103,6 @@
     return 1;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return kHeaderHeight;
-}
-
-- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    PrettyTableViewCell *headerBar = [[PrettyTableViewCell alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kHeaderHeight)];
-    
-    headerBar.gradientStartColor = [UIColor colorWithHex:0x666666];
-    headerBar.gradientEndColor = [UIColor colorWithHex:0x787878];
-    headerBar.textLabel.text = @"RPI Mobile";
-    headerBar.accessoryView = [[UIButton alloc] init];
-    
-    //    UIView *headerBar = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kHeaderHeight)];
-    [headerBar setBackgroundColor:[UIColor redColor]];
-    
-    return headerBar;
-
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return _menuItems.count;
@@ -193,7 +175,7 @@
         
     } else if(indexPath.row == 5) {
 //        MapViewController *nextView = [[MapViewController alloc] init]; //EVENTS
-        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] initWithNibName:@"PresentationNotReadyViewController" bundle:nil];
+        EventsMainViewController *nextView = [[EventsMainViewController alloc] init];
         NSArray *controllers = [NSArray arrayWithObject:nextView];
         [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
         [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
