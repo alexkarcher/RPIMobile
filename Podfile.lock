@@ -1,17 +1,16 @@
 
 SPEC CHECKSUMS: 
-  SVWebViewController: 4004126ffdd39ede42bc645273e8eaae3de700f9
-  SDWebImage: 9e70e5dd0c69d1a043180cd2c5e1d0cd1e4ebcd7
-  MFSideMenu: 5ef5330a4f698758ea719be0e7ddf1b219f03f28
   TestFlightSDK: f638b08651a37af099e40c47241fc58fd3cb1a66
-  TapkuLibrary: 1c6a03ce9d5928b71a5549c68d605856cc0bf79a
-  SDURLCache: 2208f93474756c694eed002fa7e3ab62ff3c6468
-  SDWebImage/Main: 9e70e5dd0c69d1a043180cd2c5e1d0cd1e4ebcd7
-  TimesSquare: e36079b68c7495c06657af19c5853fe49dc8afa3
-  MKHorizMenu: a7d253af174bee6ff1e658f6a2f63032012ce9d7
   JSONKit: 3d4708953ea7ae399a49777372d8b060a43ddd27
+  SDURLCache: 2208f93474756c694eed002fa7e3ab62ff3c6468
   InAppSettingsKit: 8d5ae557a5890ca48c6e2085d6301194e4e2b48a
+  SDWebImage: 9e70e5dd0c69d1a043180cd2c5e1d0cd1e4ebcd7
   AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  MKHorizMenu: a7d253af174bee6ff1e658f6a2f63032012ce9d7
+  MFSideMenu: 5ef5330a4f698758ea719be0e7ddf1b219f03f28
+  SVWebViewController: 4004126ffdd39ede42bc645273e8eaae3de700f9
+  SDWebImage/Main: 9e70e5dd0c69d1a043180cd2c5e1d0cd1e4ebcd7
+  TapkuLibrary: 1c6a03ce9d5928b71a5549c68d605856cc0bf79a
   MBProgressHUD: b23ee11c42253d6d804e8e0bfabdc334e8b2571f
 
 COCOAPODS: 0.16.2
@@ -28,7 +27,6 @@ DEPENDENCIES:
 - SVWebViewController
 - TapkuLibrary
 - TestFlightSDK
-- TimesSquare (~> 1.0.1)
 
 PODS: 
 - AFNetworking (1.1.0)
@@ -44,4 +42,3 @@ PODS:
 - SVWebViewController (0.1)
 - TapkuLibrary (2.1)
 - TestFlightSDK (1.2.3.beta1)
-- TimesSquare (1.0.1)

@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4452D4CF63D741A5AB0BA436 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF1078CBE224332ACD1C2BA /* libPods.a */; };
-		AAE049D116CDC4B40058CE83 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE049D016CDC4B40058CE83 /* EventsViewController.m */; };
-		AAE04BE316CDD0040058CE83 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE04BE216CDD0040058CE83 /* SenTestingKit.framework */; };
-		AAE04BF016CDD1D00058CE83 /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BE916CDD1D00058CE83 /* TSQCalendarCell.m */; };
-		AAE04BF116CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BEB16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m */; };
-		AAE04BF216CDD1D00058CE83 /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BED16CDD1D00058CE83 /* TSQCalendarRowCell.m */; };
-		AAE04BF316CDD1D00058CE83 /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE04BEF16CDD1D00058CE83 /* TSQCalendarView.m */; };
 		DC03ED55161E973E0083C503 /* PresentationNotReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */; };
 		DC03ED56161E973E0083C503 /* PresentationNotReadyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */; };
 		DC03ED59161E97D80083C503 /* 11769225_HiRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */; };
@@ -112,6 +106,7 @@
 		DC51CD2415C707E300AE2D23 /* DirectoryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC51CD2215C707E300AE2D23 /* DirectoryDetailViewController.xib */; };
 		DC51CD2515C707E300AE2D23 /* DirectoryMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC51CD2315C707E300AE2D23 /* DirectoryMasterViewController.xib */; };
 		DC546E7015FCF7CF00EB5315 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC546E6F15FCF7CF00EB5315 /* QuartzCore.framework */; };
+		DC5B708C16D67A0D00E28D23 /* RPIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5B708B16D67A0D00E28D23 /* RPIEvent.m */; };
 		DC6A111615BF903600B2F462 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6A111415BF903600B2F462 /* RSSParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC6A111715BF90A800B2F462 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6A111215BF903600B2F462 /* RSSItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC6A112115BF94C100B2F462 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6A111915BF94C100B2F462 /* close.png */; };
@@ -256,19 +251,6 @@
 
 /* Begin PBXFileReference section */
 		6FF1078CBE224332ACD1C2BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE049CF16CDC4B40058CE83 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
-		AAE049D016CDC4B40058CE83 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
-		AAE04BE216CDD0040058CE83 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SenTestingKit.framework; sourceTree = "<group>"; };
-		AAE04BE616CDD1D00058CE83 /* TimesSquare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimesSquare-Prefix.pch"; sourceTree = "<group>"; };
-		AAE04BE716CDD1D00058CE83 /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
-		AAE04BE816CDD1D00058CE83 /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
-		AAE04BE916CDD1D00058CE83 /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
-		AAE04BEA16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
-		AAE04BEB16CDD1D00058CE83 /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
-		AAE04BEC16CDD1D00058CE83 /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
-		AAE04BED16CDD1D00058CE83 /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
-		AAE04BEE16CDD1D00058CE83 /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
-		AAE04BEF16CDD1D00058CE83 /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
 		DC03ED52161E973E0083C503 /* PresentationNotReadyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationNotReadyViewController.h; sourceTree = "<group>"; };
 		DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationNotReadyViewController.m; sourceTree = "<group>"; };
 		DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationNotReadyViewController.xib; sourceTree = "<group>"; };
@@ -391,6 +373,8 @@
 		DC51CD2215C707E300AE2D23 /* DirectoryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryDetailViewController.xib; sourceTree = "<group>"; };
 		DC51CD2315C707E300AE2D23 /* DirectoryMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryMasterViewController.xib; sourceTree = "<group>"; };
 		DC546E6F15FCF7CF00EB5315 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC5B708A16D67A0D00E28D23 /* RPIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPIEvent.h; sourceTree = "<group>"; };
+		DC5B708B16D67A0D00E28D23 /* RPIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPIEvent.m; sourceTree = "<group>"; };
 		DC6A111115BF903600B2F462 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
 		DC6A111215BF903600B2F462 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 		DC6A111315BF903600B2F462 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
@@ -613,7 +597,6 @@
 				DCC8088015BF89450060390F /* CoreGraphics.framework in Frameworks */,
 				DCC8088215BF89450060390F /* CoreData.framework in Frameworks */,
 				4452D4CF63D741A5AB0BA436 /* libPods.a in Frameworks */,
-				AAE04BE316CDD0040058CE83 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,7 +936,6 @@
 		DCC8086C15BF89450060390F = {
 			isa = PBXGroup;
 			children = (
-				AAE04BE416CDD1D00058CE83 /* TimesSquare */,
 				DCC8088315BF89450060390F /* RPIMobile */,
 				DCC8087815BF89450060390F /* Products */,
 				E2AF5E0EAFF54340B2666527 /* Pods.xcconfig */,
@@ -971,7 +953,6 @@
 		DCC8087A15BF89450060390F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AAE04BE216CDD0040058CE83 /* SenTestingKit.framework */,
 				DC18B65F165E13ED00E8F20C /* CoreAudio.framework */,
 				DC18B65C165E13E500E8F20C /* AudioToolbox.framework */,
 				DC15321D165DD16F00289830 /* MobileCoreServices.framework */,
@@ -1015,6 +996,8 @@
 				DCC808C815BF8AF90060390F /* News */,
 				DC06B7DB16D5494400DE799A /* EventsMainViewController.h */,
 				DC06B7DC16D5494400DE799A /* EventsMainViewController.m */,
+				DC5B708A16D67A0D00E28D23 /* RPIEvent.h */,
+				DC5B708B16D67A0D00E28D23 /* RPIEvent.m */,
 				DC7868DF160FA245000E9B35 /* LaundryViewController.h */,
 				DC7868E0160FA245000E9B35 /* LaundryViewController.m */,
 				DC74B2A515C70F1100FD4A69 /* WCXMLParser.h */,
@@ -1454,6 +1437,7 @@
 				DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */,
 				DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */,
 				DC06B7DD16D5494400DE799A /* EventsMainViewController.m in Sources */,
+				DC5B708C16D67A0D00E28D23 /* RPIEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,23 +29,92 @@
  
  */
 
+#import "AFNetworking.h"
+
 #import "EventsMainViewController.h"
+#import "RPIEvent.h"
+#import "JSONKit.h"
+
+#define kURL @"http://events.rpi.edu/webcache/v1.0/jsonRange/20130201/20130228/list-json/%28catuid%3D%2700f18254-27fe1f37-0127-fe1f37da-00000001%27%7Ccatuid%3D%2700f18254-2ed78a1d-012e-d985bd10-00002a26%27%7Ccatuid%3D%2700f18254-27ff9c18-0127-ff9c1912-00000013%27%29/no--object.json"
 
 
+@interface EventsMainViewController () {
+    NSMutableDictionary *event_array;
+}
+
+@end
 @implementation EventsMainViewController
+
+
+- (void) buildDotArray {
+    self.dataArray = [NSMutableArray array];
+
+    //Inialize array with all falses for days
+    for(int i = 0; i < 18; ++i) {
+        [self.dataArray addObject:[NSNumber numberWithBool:YES]];
+    }
+    for(int i = 0; i < 20; ++i) {
+        [self.dataArray addObject:[NSNumber numberWithBool:NO]];
+    }
+    /*for(id e in event_array) {
+        NSString *short_date = [[e objectForKey:@"start"] objectForKey:@"shortdate"];
+        int location = [[[short_date componentsSeparatedByString:@"/"] objectAtIndex:1] intValue];
+        
+        if([self.dataArray objectAtIndex:location] == [NSNumber numberWithBool:NO]) {
+            //Set the calendar to display a dot
+            [self.dataArray replaceObjectAtIndex:location withObject:[NSNumber numberWithBool:YES]];
+        }
+
+    }*/
+    
+    NSLog(@"New dots built!");
+}
+- (void) fetchEvents:(NSString *)feed {
+    event_array = [[NSMutableDictionary alloc] init];
+    NSURL *url = [NSURL URLWithString:feed];
+
+    NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:7];
+    
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        //Success!
+        NSDictionary *events = [[[[operation responseString] objectFromJSONString] objectForKey:@"bwEventList"] objectForKey:@"events"];
+//        NSLog(@"Events: %@", events);
+        
+        for(id e in events) {
+
+            RPIEvent *temp = [[RPIEvent alloc] initWithSummary:[e objectForKey:@"summary"] description:[e objectForKey:@"description"]];
+            NSString *sd = [[e objectForKey:@"start"] objectForKey:@"datetime"];
+            NSString *ed = [[e objectForKey:@"end"] objectForKey:@"datetime"];
+            [temp buildDatesFromStrings:sd endDateString:ed];
+            
+            [event_array setObject:temp forKey:[e objectForKey:@"guid"]];
+            
+            [self buildDotArray];
+            
+        }
+  
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        //
+    }];
+    
+    [operation start];
+}
 
 #pragma mark - View Lifecycle
 - (void) viewDidLoad{
 	[super viewDidLoad];
 	[self.monthView selectDate:[NSDate month]];
-    
+    [self fetchEvents:kURL];
 }
 
 
 
 #pragma mark - MonthView Delegate & DataSource
 - (NSArray*) calendarMonthView:(TKCalendarMonthView*)monthView marksFromDate:(NSDate*)startDate toDate:(NSDate*)lastDate{
-	[self generateRandomDataForStartDate:startDate endDate:lastDate];
+//	[self generateRandomDataForStartDate:startDate endDate:lastDate];
+    [self buildDotArray];
 	return self.dataArray;
 }
 - (void) calendarMonthView:(TKCalendarMonthView*)monthView didSelectDate:(NSDate*)date{
