@@ -208,7 +208,6 @@
         
     } else if(indexPath.row == 10) {
         VideoFeedViewController *nextView = [[VideoFeedViewController alloc] init];
-//        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] initWithNibName:@"PresentationNotReadyViewController" bundle:nil];
         NSArray *controllers = [NSArray arrayWithObject:nextView];
         [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
         [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;

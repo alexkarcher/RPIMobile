@@ -3,10 +3,472 @@
 <plist version="1.0">
 <array>
 	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
 		<string>RPI Student Union</string>
 		<string>The Rensselaer Union has been the center of campus life at Rensselaer Polytechnic Institute (RPI) since 1890. In its current home since 1967, and as one of the few student-managed unions in the United States, the Rensselaer Union is both a building and a student development program that includes over 175 recognized student organizations. </string>
-		<real>42.7312</real>
-		<real>-73.6753125</real>
+		<real>42.72997</real>
+		<real>-73.676649</real>
+	</array>
+	<array>
+		<string>Blaw-Knox 1 &amp; 2</string>
+		<string></string>
+		<real>42.73208</real>
+		<real>-73.68078</real>
+	</array>
+	<array>
+		<string>Service Building</string>
+		<string></string>
+		<real>42.7328</real>
+		<real>-73.68093</real>
+	</array>
+	<array>
+		<string>Boiler House</string>
+		<string></string>
+		<real>42.7326</real>
+		<real>-73.68017999999999</real>
+	</array>
+	<array>
+		<string>J-Building</string>
+		<string></string>
+		<real>42.73327</real>
+		<real>-73.67994</real>
+	</array>
+	<array>
+		<string>H-Building</string>
+		<string></string>
+		<real>42.73265</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>North Hall</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73135</real>
+		<real>-73.67986999999999</real>
+	</array>
+	<array>
+		<string>Heffner Alumni House</string>
+		<string></string>
+		<real>42.73292</real>
+		<real>-73.67815</real>
+	</array>
+	<array>
+		<string>Berman Park Fire House</string>
+		<string></string>
+		<real>42.73287</real>
+		<real>-73.67740999999999</real>
+	</array>
+	<array>
+		<string>2021 Peoples Avenue</string>
+		<string></string>
+		<real>42.73292</real>
+		<real>-73.67695000000001</real>
+	</array>
+	<array>
+		<string>Graduate Education</string>
+		<string></string>
+		<real>42.73271</real>
+		<real>-73.67592</real>
+	</array>
+	<array>
+		<string>41 Ninth Street</string>
+		<string></string>
+		<real>42.73241</real>
+		<real>-73.68311</real>
+	</array>
+	<array>
+		<string>West Hall</string>
+		<string></string>
+		<real>42.73167</real>
+		<real>-73.68298</real>
+	</array>
+	<array>
+		<string>Blitman Residence Commons</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73112</real>
+		<real>-73.68586000000001</real>
+	</array>
+	<array>
+		<string>Louis Rubin Memorial</string>
+		<string></string>
+		<real>42.73065</real>
+		<real>-73.68434000000001</real>
+	</array>
+	<array>
+		<string>Winslow Building</string>
+		<string></string>
+		<real>42.73098</real>
+		<real>-73.68416000000001</real>
+	</array>
+	<array>
+		<string>Pittsburgh Building</string>
+		<string></string>
+		<real>42.73115</real>
+		<real>-73.68338</real>
+	</array>
+	<array>
+		<string>Carnegie Building</string>
+		<string></string>
+		<real>42.73051</real>
+		<real>-73.68311</real>
+	</array>
+	<array>
+		<string>Walker Laboratory</string>
+		<string></string>
+		<real>42.73086</real>
+		<real>-73.68248</real>
+	</array>
+	<array>
+		<string>Russel Sage Laboratory</string>
+		<string></string>
+		<real>42.73085</real>
+		<real>-73.68163</real>
+	</array>
+	<array>
+		<string>Boiler House</string>
+		<string></string>
+		<real>42.73125</real>
+		<real>-73.68165999999999</real>
+	</array>
+	<array>
+		<string>Troy Building</string>
+		<string></string>
+		<real>42.73102</real>
+		<real>-73.68049999999999</real>
+	</array>
+	<array>
+		<string>Ricketts Building</string>
+		<string></string>
+		<real>42.7309</real>
+		<real>-73.67968999999999</real>
+	</array>
+	<array>
+		<string>&apos;87 Gymnasium</string>
+		<string></string>
+		<real>42.73072</real>
+		<real>-73.67878</real>
+	</array>
+	<array>
+		<string>Quadrangle Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73057</real>
+		<real>-73.67758000000001</real>
+	</array>
+	<array>
+		<string>Russel Sage Dining Hall</string>
+		<string>On Campus Dining Hall</string>
+		<real>42.72978</real>
+		<real>-73.67822</real>
+	</array>
+	<array>
+		<string>RPI Playhouse</string>
+		<string></string>
+		<real>42.72921</real>
+		<real>-73.67816999999999</real>
+	</array>
+	<array>
+		<string>CII</string>
+		<string>Center for Industrial Innovation</string>
+		<real>42.72931</real>
+		<real>-73.67868</real>
+	</array>
+	<array>
+		<string>DCC</string>
+		<string>Darrin Communications Center</string>
+		<real>42.72938</real>
+		<real>-73.6793</real>
+	</array>
+	<array>
+		<string>JEC</string>
+		<string>J. Erik Johnson Engineering Center</string>
+		<real>42.72961</real>
+		<real>-73.68026</real>
+	</array>
+	<array>
+		<string>Greene Building</string>
+		<string></string>
+		<real>42.73002</real>
+		<real>-73.68113</real>
+	</array>
+	<array>
+		<string>Lally Hall</string>
+		<string></string>
+		<real>42.73005</real>
+		<real>-73.68185</real>
+	</array>
+	<array>
+		<string>Amos Eaton Hall</string>
+		<string></string>
+		<real>42.73019</real>
+		<real>-73.68252</real>
+	</array>
+	<array>
+		<string>Folsom Library</string>
+		<string></string>
+		<real>42.72941</real>
+		<real>-73.68261</real>
+	</array>
+	<array>
+		<string>VCC</string>
+		<string>Voorhees Computing Center</string>
+		<real>42.72923</real>
+		<real>-73.68174999999999</real>
+	</array>
+	<array>
+		<string>JSC</string>
+		<string>Johnson-Rowland Science Center</string>
+		<real>42.72883</real>
+		<real>-73.68037</real>
+	</array>
+	<array>
+		<string>CBIS</string>
+		<string>Center for Biotechnical and Interdisciplinary Studies</string>
+		<real>42.72828</real>
+		<real>-73.67841</real>
+	</array>
+	<array>
+		<string>EMPAC</string>
+		<string>Experimental Media &amp; Performing Arts Center</string>
+		<real>42.72886</real>
+		<real>-73.68375</real>
+	</array>
+	<array>
+		<string>MRC</string>
+		<string>Materials Research Center</string>
+		<real>42.72841</real>
+		<real>-73.68245</real>
+	</array>
+	<array>
+		<string>Empire State Hall</string>
+		<string></string>
+		<real>42.72829</real>
+		<real>-73.68177</real>
+	</array>
+	<array>
+		<string>Cogswell Laboratory</string>
+		<string></string>
+		<real>42.72819</real>
+		<real>-73.68125999999999</real>
+	</array>
+	<array>
+		<string>Parking Garage</string>
+		<string></string>
+		<real>42.72773</real>
+		<real>-73.6814</real>
+	</array>
+	<array>
+		<string>Academy Hall</string>
+		<string>Fin. Aid, Student Life, Services, Health Center</string>
+		<real>42.72746</real>
+		<real>-73.67868</real>
+	</array>
+	<array>
+		<string>RPI Ambulance</string>
+		<string></string>
+		<real>42.72724</real>
+		<real>-73.68083</real>
+	</array>
+	<array>
+		<string>Java++ Cafe</string>
+		<string></string>
+		<real>42.72675</real>
+		<real>-73.67827</real>
+	</array>
+	<array>
+		<string>Polytechnic Residence Commons</string>
+		<string></string>
+		<real>42.72217</real>
+		<real>-73.67944</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
+	</array>
+	<array>
+		<string>E-Complex</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.731384</real>
+		<real>-73.67921</real>
 	</array>
 </array>
 </plist>
