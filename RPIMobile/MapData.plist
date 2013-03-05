@@ -10,7 +10,7 @@
 	</array>
 	<array>
 		<string>RPI Student Union</string>
-		<string>The Rensselaer Union has been the center of campus life at Rensselaer Polytechnic Institute (RPI) since 1890. In its current home since 1967, and as one of the few student-managed unions in the United States, the Rensselaer Union is both a building and a student development program that includes over 175 recognized student organizations. </string>
+		<string></string>
 		<real>42.72997</real>
 		<real>-73.676649</real>
 	</array>
@@ -285,190 +285,232 @@
 		<real>-73.67944</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Admissions</string>
+		<string></string>
+		<real>42.73065</real>
+		<real>-73.67549</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Chapel + Cultural Center</string>
+		<string></string>
+		<real>42.73182</real>
+		<real>-73.67221000000001</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Public Safety</string>
+		<string></string>
+		<real>42.72926</real>
+		<real>-73.67700000000001</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Mueller Center</string>
+		<string></string>
+		<real>42.72881</real>
+		<real>-73.67688</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>ALumni Sports and Recreation Center</string>
+		<string></string>
+		<real>42.72844</real>
+		<real>-73.67686</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Robison Swimming Pool</string>
+		<string></string>
+		<real>42.728</real>
+		<real>-73.67753</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Barton Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72911</real>
+		<real>-73.67404000000001</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Cary Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72888</real>
+		<real>-73.67479</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Bray Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72868</real>
+		<real>-73.67346000000001</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Hall Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72858</real>
+		<real>-73.67531</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Commons Dining Hall</string>
+		<string>On Campus Dining</string>
+		<real>42.72827</real>
+		<real>-73.67428</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Crockett Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72826</real>
+		<real>-73.67325</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Warren Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72794</real>
+		<real>-73.67542</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Nugent Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72741</real>
+		<real>-73.67502</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Sharp Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72702</real>
+		<real>-73.67462</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Davison Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72726</real>
+		<real>-73.67403</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Nason Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.72762</real>
+		<real>-73.67337999999999</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Burdett Avenue Residence Hall</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.73102</real>
+		<real>-73.67122999999999</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>2144  Burdett Avenue</string>
+		<string></string>
+		<real>42.73214</real>
+		<real>-73.67142</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Field House</string>
+		<string></string>
+		<real>42.73207</real>
+		<real>-73.66955</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>RAHP A Site</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.73068</real>
+		<real>-73.66945</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>RAHP A Site</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.73084</real>
+		<real>-73.66815</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>133 Sunset Terrace</string>
+		<string></string>
+		<real>42.72905</real>
+		<real>-73.66866</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Greenhouses and Grounds Barn</string>
+		<string></string>
+		<real>42.72848</real>
+		<real>-73.66802</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>200 Sunset Terrace</string>
+		<string></string>
+		<real>42.73061</real>
+		<real>-73.66689</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>LINAC Facility</string>
+		<string></string>
+		<real>42.73261</real>
+		<real>-73.66203</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>Seismograph Laboratory</string>
+		<string></string>
+		<real>42.731148</real>
+		<real>-73.66613099999999</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>ECAV</string>
+		<string></string>
+		<real>42.73224</real>
+		<real>-73.66754</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
-		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<string>East Campus Athletic Village Stadium</string>
+		<string></string>
+		<real>42.73318</real>
+		<real>-73.66767</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Colonie Apartments</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.73706</real>
+		<real>-73.66981</real>
 	</array>
 	<array>
-		<string>E-Complex</string>
+		<string>Bryckwyck</string>
 		<string>On Campus Residence Hall</string>
-		<real>42.731384</real>
-		<real>-73.67921</real>
+		<real>42.73511</real>
+		<real>-73.66379999999999</real>
+	</array>
+	<array>
+		<string>RAHP B Site</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73475</real>
+		<real>-73.66491000000001</real>
+	</array>
+	<array>
+		<string>Rousseau Apartments</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73432</real>
+		<real>-73.66431</real>
+	</array>
+	<array>
+		<string>Williams Apartments</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73395</real>
+		<real>-73.66458</real>
+	</array>
+	<array>
+		<string>Wiltsie Apartments</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73352</real>
+		<real>-73.66486999999999</real>
+	</array>
+	<array>
+		<string>McGiffert Apartments</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.73314</real>
+		<real>-73.66516</real>
+	</array>
+	<array>
+		<string>Thompson Apartments</string>
+		<string>On Campus Residence Hall</string>
+		<real>42.7336</real>
+		<real>-73.66562999999999</real>
+	</array>
+	<array>
+		<string>Radio Club W2SZ</string>
+		<string></string>
+		<real>42.73425</real>
+		<real>-73.66314</real>
 	</array>
 </array>
 </plist>
