@@ -49,7 +49,6 @@ Team members:
 **Current:**
   - Stephen Silber     (iOS)
   - Stephen Perkins    (iOS)
-  - Michael Napolitano (iOS) 
 
 **Previous:**
   - Colin Steifel      (Android)
