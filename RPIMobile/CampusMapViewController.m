@@ -55,7 +55,7 @@
     
 
     [self loadPlaces];
-    mapView = [[MKMapView alloc] initWithFrame:self.view.frame];
+    mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
     mapView.region = region;
     mapView.showsUserLocation = TRUE;
     mapView.mapType = MKMapTypeHybrid;
