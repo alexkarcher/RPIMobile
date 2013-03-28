@@ -24,7 +24,7 @@
 #import "STMapViewController.h"
 #import "AthleticsMainViewController.h"
 #import "CampusMapViewController.h"
-#import "EventsMainViewController.h"
+//#import "EventsMainViewController.h"
 
 //Temporary for presentation
 #include "PresentationNotReadyViewController.h"
@@ -47,11 +47,10 @@
 
 @synthesize _imageName, _name, _viewControllerName;
 
-- (id) initWithName:(NSString *)name image:(NSString *)image viewController:(NSString *)viewName {
+- (id) initWithName:(NSString *)name image:(NSString *)image {
     if(self = [super init]) {
         self._name = name;
         self._imageName = image;
-        self._viewControllerName = viewName;
     }
     
     return self;
@@ -68,35 +67,27 @@
 }
 
 - (void) viewDidLoad {
-//    CGRect oldSize = self.view.frame;
-//    [self.view setFrame:CGRectMake(0, 0, oldSize.size.width/2, oldSize.size.height)];
+
     [super viewDidLoad];
-    
-//    player = [[ORGMEngine alloc] init];
-//    NSURL *playerURL = [NSURL URLWithString:@"http://icecast1.wrpi.org:8000/mp3-128.mp3.m3u"];
-//    [player playUrl:playerURL];
-    
+
     self.tableView.rowHeight = 50;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     self.tableView.separatorColor = [UIColor colorWithHex:0x222222];
+    
+    // Menu item allocation
+    menuItems *menuNews = [[menuItems alloc] initWithName:@"News" image:@"announcement_icon"];
+    menuItems *menuLaundry = [[menuItems alloc] initWithName:@"Laundry" image:@"laundry_icon" ];
+    menuItems *menuMap = [[menuItems alloc] initWithName:@"Map" image:@"map_icon"];
+    menuItems *menuTwitter = [[menuItems alloc] initWithName:@"Twitter" image:@"twitter_icon"];
+    menuItems *menuAthletics = [[menuItems alloc] initWithName:@"Athletics" image:@"athletics_icon"];
+    menuItems *menuEvents = [[menuItems alloc] initWithName:@"Events" image:@"event_icon"];
+    menuItems *menuShuttles = [[menuItems alloc] initWithName:@"Shuttles" image:@"shuttle_icon"];
+    menuItems *menuDirectory = [[menuItems alloc] initWithName:@"Directory" image:@"directory_icon"];
+    menuItems *menuVideos = [[menuItems alloc] initWithName:@"Videos" image:@"video_icon"];
 
-    
-    menuItems *menuNews = [[menuItems alloc] initWithName:@"News" image:@"announcement_icon" viewController:@"NewsViewController"];
-    menuItems *menuWeather = [[menuItems alloc] initWithName:@"Weather" image:@"weather_icon" viewController:@"WeatherViewController"];
-    menuItems *menuLaundry = [[menuItems alloc] initWithName:@"Laundry" image:@"laundry_icon" viewController:@"none"];
-    menuItems *menuTwitter = [[menuItems alloc] initWithName:@"Twitter" image:@"twitter_icon" viewController:@"TwitterTimelineViewController"];
-    menuItems *menuAthletics = [[menuItems alloc] initWithName:@"Athletics" image:@"athletics_icon" viewController:@"AthleticsMainViewController"];
-    menuItems *menuEvents = [[menuItems alloc] initWithName:@"Events" image:@"event_icon" viewController:@"EventsViewController"];
-    menuItems *menuShuttles = [[menuItems alloc] initWithName:@"Shuttles" image:@"shuttle_icon" viewController:@"STMapViewController"];
-    menuItems *menuDirectory = [[menuItems alloc] initWithName:@"Directory" image:@"directory_icon" viewController:@"DirectoryMasterViewController"];
-    menuItems *menuTV = [[menuItems alloc] initWithName:@"TV Listings" image:@"tv_icon" viewController:@"none"];
-    menuItems *menuBuilding = [[menuItems alloc] initWithName:@"Building Hours" image:@"map_icon" viewController:@"none"];
-    menuItems *menuVideos = [[menuItems alloc] initWithName:@"Videos" image:@"video_icon" viewController:@"none"];
-    menuItems *menuMap = [[menuItems alloc] initWithName:@"Map" image:@"map_icon" viewController:@"CampusMapViewController"];
-    
-    //Initialize menu array and link with views above
-    _menuItems = [[NSArray alloc] initWithObjects:menuNews, menuWeather, menuLaundry, menuTwitter, menuAthletics, menuEvents, menuShuttles, menuDirectory, menuTV, menuBuilding, menuVideos, menuMap, nil];
+    // Controls the order of the menu items along with #define statements below **looking for better alternative
+    _menuItems = [[NSArray alloc] initWithObjects:menuNews, menuLaundry, menuMap, menuTwitter, menuAthletics, menuEvents, menuShuttles, menuDirectory, menuVideos, nil];
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -139,86 +130,57 @@
 
 #pragma mark - UITableViewDelegate
 
+// Controls which view controller to push when menu item selected
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-
-    if(indexPath.row == 0) {
+    
+    /* Menu Order  -- Must also restructure 
+     array allocation with objects order */
+    #define menuNews        0
+    #define menuLaundry     1
+    #define menuMap         2
+    #define menuTwitter     3
+    #define menuAthletics   4
+    #define menuEvents      5
+    #define menuShuttles    6
+    #define menuDirectory   7
+    #define menuVideos      8
+    
+    
+    int indexRow = indexPath.row;
+    NSArray *controllers;
+    
+    if(indexRow == menuNews) {
         NewsViewController *nextView = [[NewsViewController alloc] initWithNibName:@"NewsViewController" bundle:nil];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-
-    } else if(indexPath.row == 1) {
-//        WeatherViewController *nextView = [[WeatherViewController alloc] initWithNibName:@"WeatherViewController" bundle:nil];
-        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] initWithNibName:@"PresentationNotReadyViewController" bundle:nil];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-
-    } else if(indexPath.row == 2) {
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuLaundry) {
         LaundryViewController *nextView = [[LaundryViewController alloc] initWithStyle:UITableViewStyleGrouped];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-
-    }  else if(indexPath.row == 3) {
-        TwitterTimelineViewController *nextView = [[TwitterTimelineViewController alloc] initWithStyle:UITableViewStylePlain];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    } else if(indexPath.row == 4) {
-        AthleticsMainViewController *nextView = [[AthleticsMainViewController alloc] initWithStyle:UITableViewStylePlain];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    } else if(indexPath.row == 5) {
-//        MapViewController *nextView = [[MapViewController alloc] init]; //EVENTS
-        EventsMainViewController *nextView = [[EventsMainViewController alloc] init];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    }else if(indexPath.row == 6) {
-        STMapViewController *nextView = [[STMapViewController alloc] init];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    } else if(indexPath.row == 7) {
-        DirectoryMasterViewController *nextView = [[DirectoryMasterViewController alloc] initWithNibName:@"DirectoryMasterViewController" bundle:nil];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    } else if(indexPath.row == 8) {
-//        MapViewController *nextView = [[MapViewController alloc] init]; //EVENTS
-        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] initWithNibName:@"PresentationNotReadyViewController" bundle:nil];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    }else if(indexPath.row == 9) {
-//        MapViewController *nextView = [[MapViewController alloc] init];
-        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] initWithNibName:@"PresentationNotReadyViewController" bundle:nil];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-        
-    } else if(indexPath.row == 10) {
-        VideoFeedViewController *nextView = [[VideoFeedViewController alloc] init];
-//        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] initWithNibName:@"PresentationNotReadyViewController" bundle:nil];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
-    } else if(indexPath.row == 11) {
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuMap) {
         CampusMapViewController *nextView = [[CampusMapViewController alloc] init];
-        NSArray *controllers = [NSArray arrayWithObject:nextView];
-        [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
-        [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuTwitter) {
+        TwitterTimelineViewController *nextView = [[TwitterTimelineViewController alloc] initWithStyle:UITableViewStylePlain];
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuAthletics) {
+        AthleticsMainViewController *nextView = [[AthleticsMainViewController alloc] initWithStyle:UITableViewStylePlain];
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuEvents) {
+        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] init];
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuShuttles) {
+        STMapViewController *nextView = [[STMapViewController alloc] init];
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuDirectory) {
+        DirectoryMasterViewController *nextView = [[DirectoryMasterViewController alloc] initWithNibName:@"DirectoryMasterViewController" bundle:nil];
+        controllers = [NSArray arrayWithObject:nextView];
+    } else if(indexRow == menuVideos) {
+        VideoFeedViewController *nextView = [[VideoFeedViewController alloc] init];
+        controllers = [NSArray arrayWithObject:nextView];
     }
 
+    [MFSideMenuManager sharedManager].navigationController.viewControllers = controllers;
+    [MFSideMenuManager sharedManager].navigationController.menuState = MFSideMenuStateHidden;
 }
 
 @end

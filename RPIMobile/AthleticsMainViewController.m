@@ -58,21 +58,21 @@
 -(void) setupGenderControl {
     
     //Build SVSegmentedControl as header view for table view
-    __weak id weakSelf = self;
     genderControl = [[SVSegmentedControl alloc] initWithSectionTitles:[NSArray arrayWithObjects:@"Men", @"Women", nil]];
     [genderControl setFrame:CGRectMake(0, 0, self.view.frame.size.width, 40)];
     [genderControl setCornerRadius:0];
     genderControl.thumb.tintColor = [UIColor darkGrayColor];
     genderControl.changeHandler = ^(NSUInteger newIndex) {
+        __weak AthleticsMainViewController *self_ = self; // that's enough
         // respond to index change
         if(newIndex == 0) {
-            _currentGender = @"Male";
+            self_._currentGender = @"Male";
         } else {
-            _currentGender = @"Female";
+            self_._currentGender = @"Female";
         }
         NSLog(@"Filtering sports with gender: %@", self._currentGender);
         
-        [weakSelf filterSports:newIndex];
+        [self_ filterSports:newIndex];
     };
     
     [genderControl setCrossFadeLabelsOnDrag:YES];

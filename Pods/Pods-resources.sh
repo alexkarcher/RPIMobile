@@ -21,6 +21,13 @@ install_resource()
       ;;
   esac
 }
+install_resource 'ABCalendarPicker/ABCalendarPicker/GradientBar.png'
+install_resource 'ABCalendarPicker/ABCalendarPicker/TileDisabledSelected.png'
+install_resource 'ABCalendarPicker/ABCalendarPicker/TileNormal.png'
+install_resource 'ABCalendarPicker/ABCalendarPicker/TilePattern.png'
+install_resource 'ABCalendarPicker/ABCalendarPicker/TileSelected.png'
+install_resource 'ABCalendarPicker/ABCalendarPicker/TileToday.png'
+install_resource 'ABCalendarPicker/ABCalendarPicker/TileTodaySelected.png'
 install_resource 'MFSideMenu/MFSideMenuDemo/MFSideMenu/back-arrow.png'
 install_resource 'MFSideMenu/MFSideMenuDemo/MFSideMenu/back-arrow@2x.png'
 install_resource 'MFSideMenu/MFSideMenuDemo/MFSideMenu/menu-icon.png'
