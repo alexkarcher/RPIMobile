@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKAppDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKAppDelegate</TokenIdentifier>
+			<Abstract type="html">This class allocates a TKWindow instance and provides a convience method for application launching.</Abstract>
+			<DeclaredIn>TKAppDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKAppDelegate/applicationDidStartup:</TokenIdentifier>
+			<Abstract type="html">This is a convience method for placing any functionality that might be called upon initial launch of the application and any subsequent relaunch from a background state. Default implementation does nothing.</Abstract>
+			<DeclaredIn>TKAppDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)applicationDidStartup:(UIApplication *)application</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The application instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applicationDidStartup:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

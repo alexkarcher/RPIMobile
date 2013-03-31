@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKImageCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKImageCache</TokenIdentifier>
+			<Abstract type="html">An TKImageCache object provides a way to manage images between the network, disk and NSCache.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/init</TokenIdentifier>
+			<Abstract type="html">Initialize a new image cache object.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">A new created TKImageCache object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/initWithCacheDirectoryName:</TokenIdentifier>
+			<Abstract type="html">Initialize a new image cache object.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCacheDirectoryName:(NSString *)cacheDirectoryName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cacheDirectoryName</Name>
+					<Abstract type="html">The name of the folder to place cached images to disk.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new created TKImageCache object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithCacheDirectoryName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/setShouldNetworkActivity:</TokenIdentifier>
+			<Abstract type="html">Shows network activity monitor in status bar when network requests are created.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL shouldNetworkActivity</Declaration>
+			
+			
+			<Anchor>//api/name/shouldNetworkActivity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageCache/shouldNetworkActivity</TokenIdentifier>
+			<Abstract type="html">Shows network activity monitor in status bar when network requests are created.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL shouldNetworkActivity</Declaration>
+			
+			
+			<Anchor>//api/name/shouldNetworkActivity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/setImagesQueue:</TokenIdentifier>
+			<Abstract type="html">The queue that manages all network requests for images</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKNetworkQueue *imagesQueue</Declaration>
+			
+			
+			<Anchor>//api/name/imagesQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageCache/imagesQueue</TokenIdentifier>
+			<Abstract type="html">The queue that manages all network requests for images</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKNetworkQueue *imagesQueue</Declaration>
+			
+			
+			<Anchor>//api/name/imagesQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/setCacheDirectoryName:</TokenIdentifier>
+			<Abstract type="html">The directory where images are stored on disk</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *cacheDirectoryName</Declaration>
+			
+			
+			<Anchor>//api/name/cacheDirectoryName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageCache/cacheDirectoryName</TokenIdentifier>
+			<Abstract type="html">The directory where images are stored on disk</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *cacheDirectoryName</Declaration>
+			
+			
+			<Anchor>//api/name/cacheDirectoryName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/setNotificationName:</TokenIdentifier>
+			<Abstract type="html">The notification name posted to NSNotificationCenter</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageCache/notificationName</TokenIdentifier>
+			<Abstract type="html">The notification name posted to NSNotificationCenter</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/setTimeTillRefreshCache:</TokenIdentifier>
+			<Abstract type="html">The threshold of time images on disk need to be created before to be read from disk. Otherwise the images will be requested from the network again. The time needs to be greater than zero to for the creation date to be check. Default is -1.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) NSTimeInterval timeTillRefreshCache</Declaration>
+			
+			
+			<Anchor>//api/name/timeTillRefreshCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageCache/timeTillRefreshCache</TokenIdentifier>
+			<Abstract type="html">The threshold of time images on disk need to be created before to be read from disk. Otherwise the images will be requested from the network again. The time needs to be greater than zero to for the creation date to be check. Default is -1.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) NSTimeInterval timeTillRefreshCache</Declaration>
+			
+			
+			<Anchor>//api/name/timeTillRefreshCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/imageForKey:url:queueIfNeeded:</TokenIdentifier>
+			<Abstract type="html">Returns an image if cached or properly routes requests to grab the image from disk or network.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)imageForKey:(NSString *)key url:(NSURL *)url queueIfNeeded:(BOOL)queueIfNeeded</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key corresponding to a specific image.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The URL to grab the image data from the network.</Abstract>
+				</Parameter><Parameter>
+					<Name>queueIfNeeded</Name>
+					<Abstract type="html">If the image is not on disk or in cache, a network request will be create to grab the image data.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an UIImage object if the image is in NSCache.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageForKey:url:queueIfNeeded:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/imageForKey:url:queueIfNeeded:tag:</TokenIdentifier>
+			<Abstract type="html">Returns an image if cached or properly routes requests to grab the image from disk or network.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)imageForKey:(NSString *)key url:(NSURL *)url queueIfNeeded:(BOOL)queueIfNeeded tag:(NSUInteger)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key corresponding to a specific image.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The URL to grab the image data from the network.</Abstract>
+				</Parameter><Parameter>
+					<Name>queueIfNeeded</Name>
+					<Abstract type="html">If the image is not on disk or in cache, a network request will be create to grab the image data.</Abstract>
+				</Parameter><Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">A tag to associate the image with the rest of your application.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an UIImage object if the image is in NSCache.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageForKey:url:queueIfNeeded:tag:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/cachedImageForKey:</TokenIdentifier>
+			<Abstract type="html">Grabs an image object directly from disk.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)cachedImageForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key corresponding to a specific image..</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an unadjusted UIImage object direct from disk.</Abstract></ReturnValue>
+			<Anchor>//api/name/cachedImageForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/imageExistsWithKey:</TokenIdentifier>
+			<Abstract type="html">Checks to see if an image exists in cache or on disk for the given key.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)imageExistsWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key corresponding to a specific image.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns YES is the image corresponding to the key exists on disk or in NSCache, otherwise NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageExistsWithKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/cancelOperations</TokenIdentifier>
+			<Abstract type="html">Cancel all image requests</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancelOperations</Declaration>
+			
+			
+			<Anchor>//api/name/cancelOperations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/clearCachedImages</TokenIdentifier>
+			<Abstract type="html">Clears local cache and remove all images from disk</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (void)clearCachedImages</Declaration>
+			
+			
+			<Anchor>//api/name/clearCachedImages</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/removeCachedImagesFromDiskOlderThanTime:</TokenIdentifier>
+			<Abstract type="html">Remove all images from disk that we&apos;re create earlier than a certain time</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeCachedImagesFromDiskOlderThanTime:(NSTimeInterval)time</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>time</Name>
+					<Abstract type="html">The time for which all images files must be created before to remain on disk.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeCachedImagesFromDiskOlderThanTime:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/cacheDirectoryPath</TokenIdentifier>
+			<Abstract type="html">The directory where images are stored on disk.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)cacheDirectoryPath</Declaration>
+			
+			<ReturnValue><Abstract type="html">A NSString with the location to store images.</Abstract></ReturnValue>
+			<Anchor>//api/name/cacheDirectoryPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageCache/adjustImageRecieved:</TokenIdentifier>
+			<Abstract type="html">Perform image adjustments before storing it in local cache.</Abstract>
+			<DeclaredIn>TKImageCache.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)adjustImageRecieved:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image received from disk or the network.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The adjusted image.</Abstract></ReturnValue>
+			<Anchor>//api/name/adjustImageRecieved:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

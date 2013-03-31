@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIColor.</Abstract>
+			<DeclaredIn>UIColor+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(TKCategory)/colorWithHex:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the specific hex value.</Abstract>
+			<DeclaredIn>UIColor+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithHex:(unsigned int)hex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hex</Name>
+					<Abstract type="html">The hex value that will decide the color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The UIColor object.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(TKCategory)/colorWithHex:alpha:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the specific hex value.</Abstract>
+			<DeclaredIn>UIColor+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithHex:(unsigned int)hex alpha:(CGFloat)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hex</Name>
+					<Abstract type="html">The hex value that will decide the color.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">The opacity of the color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The UIColor object.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHex:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(TKCategory)/randomColor</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object with a random color value. The alpha property is 1.0.</Abstract>
+			<DeclaredIn>UIColor+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)randomColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The UIColor object.</Abstract></ReturnValue>
+			<Anchor>//api/name/randomColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

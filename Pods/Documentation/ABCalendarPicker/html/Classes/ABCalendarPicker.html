@@ -1,0 +1,1154 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ABCalendarPicker Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">ABCalendarPicker 1.0.2 </a></h1>
+				<a id="developerHome" href="../index.html">Anton Bukov</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ABCalendarPicker Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/bottomExpanding">&nbsp;&nbsp;&nbsp;&nbsp;bottomExpanding</option>
+	
+	<option value="//api/name/calendar">&nbsp;&nbsp;&nbsp;&nbsp;calendar</option>
+	
+	<option value="//api/name/currentState">&nbsp;&nbsp;&nbsp;&nbsp;currentState</option>
+	
+	<option value="//api/name/dataSource">&nbsp;&nbsp;&nbsp;&nbsp;dataSource</option>
+	
+	<option value="//api/name/daysProvider">&nbsp;&nbsp;&nbsp;&nbsp;daysProvider</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/erasProvider">&nbsp;&nbsp;&nbsp;&nbsp;erasProvider</option>
+	
+	<option value="//api/name/highlightedDate">&nbsp;&nbsp;&nbsp;&nbsp;highlightedDate</option>
+	
+	<option value="//api/name/monthsProvider">&nbsp;&nbsp;&nbsp;&nbsp;monthsProvider</option>
+	
+	<option value="//api/name/selectedDate">&nbsp;&nbsp;&nbsp;&nbsp;selectedDate</option>
+	
+	<option value="//api/name/styleProvider">&nbsp;&nbsp;&nbsp;&nbsp;styleProvider</option>
+	
+	<option value="//api/name/swipeNavigationEnabled">&nbsp;&nbsp;&nbsp;&nbsp;swipeNavigationEnabled</option>
+	
+	<option value="//api/name/weekdaysProvider">&nbsp;&nbsp;&nbsp;&nbsp;weekdaysProvider</option>
+	
+	<option value="//api/name/yearsProvider">&nbsp;&nbsp;&nbsp;&nbsp;yearsProvider</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/setDate:andState:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- setDate:andState:animated:</option>
+	
+	<option value="//api/name/setHighlightedAndSectedDate:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- setHighlightedAndSectedDate:animated:</option>
+	
+	<option value="//api/name/setSelectedDate:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- setSelectedDate:animated:</option>
+	
+	<option value="//api/name/setState:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- setState:animated:</option>
+	
+	<option value="//api/name/updateStateAnimated:">&nbsp;&nbsp;&nbsp;&nbsp;- updateStateAnimated:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring behavior and displaying user data">Configuring behavior and displaying user data</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Customization">Customization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Accessing current state">Accessing current state</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bottomExpanding">bottomExpanding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/calendar">calendar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentState">currentState</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSource">dataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/daysProvider">daysProvider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/erasProvider">erasProvider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/highlightedDate">highlightedDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/monthsProvider">monthsProvider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDate">selectedDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/styleProvider">styleProvider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swipeNavigationEnabled">swipeNavigationEnabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/weekdaysProvider">weekdaysProvider</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/yearsProvider">yearsProvider</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDate:andState:animated:">setDate:andState:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHighlightedAndSectedDate:animated:">setHighlightedAndSectedDate:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSelectedDate:animated:">setSelectedDate:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setState:animated:">setState:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateStateAnimated:">updateStateAnimated:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ABCalendarPicker Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ABCalendarPicker Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/ABCalendarPickerDateOwner.html">ABCalendarPickerDateOwner</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ABCalendarPicker.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This class implements <a href="#//api/name/calendar">calendar</a> picker view, witch can be used several ways:</p>
+
+<ul>
+<li>Asking user to choose concrete day/month/year</li>
+<li>Allow user to navigate throw days/months/years hierarchy</li>
+</ul>
+
+
+<p>Hierarchy elements are represented by date providers, whitch are implementations of
+protocol <a href="../Protocols/ABCalendarPickerDateProviderProtocol.html"><code>ABCalendarPickerDateProviderProtocol</code></a>. Calendar owns 5 date providers:
+weekdays, days, months, years, eras providers.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Configuring behavior and displaying user data" name="task_Configuring behavior and displaying user data"></a>
+						<h3 class="subsubtitle task-title">Configuring behavior and displaying user data</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		<span class="tooltip"><p>Delegate is needed for configuring and noticing calendars behavior.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSource">&nbsp;&nbsp;dataSource</a></code>
+		<span class="tooltip"><p>Delegate is needed for displaying user information on <a href="#//api/name/calendar">calendar</a>.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bottomExpanding">&nbsp;&nbsp;bottomExpanding</a></code>
+		<span class="tooltip"><p>Flag means wich side of the view should grow: bottom or top.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swipeNavigationEnabled">&nbsp;&nbsp;swipeNavigationEnabled</a></code>
+		<span class="tooltip"><p>Flag means is swipe enabled for navigation.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Customization" name="task_Customization"></a>
+						<h3 class="subsubtitle task-title">Customization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/styleProvider">&nbsp;&nbsp;styleProvider</a></code>
+		<span class="tooltip"><p>Provides styling, for subviews</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/weekdaysProvider">&nbsp;&nbsp;weekdaysProvider</a></code>
+		<span class="tooltip"><p>Provides button layout, animations and other options for days in week view</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/daysProvider">&nbsp;&nbsp;daysProvider</a></code>
+		<span class="tooltip"><p>Provides button layout, animations and other options for days in month view</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/monthsProvider">&nbsp;&nbsp;monthsProvider</a></code>
+		<span class="tooltip"><p>Provides button layout, animations and other options for months in year view</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/yearsProvider">&nbsp;&nbsp;yearsProvider</a></code>
+		<span class="tooltip"><p>Provides button layout, animations and other options for years in eras view</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/erasProvider">&nbsp;&nbsp;erasProvider</a></code>
+		<span class="tooltip"><p>Provides button layout, animations and other options for eras in xxx view</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/calendar">&nbsp;&nbsp;calendar</a></code>
+		<span class="tooltip"><p>Is used for all dates calculations during calendar navigation. Default value for
+calendar is <code>[NSCalendar currentCalendar]</code>, but you can assign any.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Accessing current state" name="task_Accessing current state"></a>
+						<h3 class="subsubtitle task-title">Accessing current state</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentState">&nbsp;&nbsp;currentState</a></code>
+		<span class="tooltip"><p>Retrieving current <a href="#//api/name/calendar">calendar</a> state</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDate">&nbsp;&nbsp;selectedDate</a></code>
+		<span class="tooltip"><p>Retrieving and setting selected date, looks like today date.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/highlightedDate">&nbsp;&nbsp;highlightedDate</a></code>
+		<span class="tooltip"><p>Retrieving and setting highlighted date, looks like user-tapped date.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateStateAnimated:">&ndash;&nbsp;updateStateAnimated:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDate:andState:animated:">&ndash;&nbsp;setDate:andState:animated:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setState:animated:">&ndash;&nbsp;setState:animated:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSelectedDate:animated:">&ndash;&nbsp;setSelectedDate:animated:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHighlightedAndSectedDate:animated:">&ndash;&nbsp;setHighlightedAndSectedDate:animated:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bottomExpanding" title="bottomExpanding"></a>
+	<h3 class="subsubtitle method-title">bottomExpanding</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Flag means wich side of the view should grow: bottom or top.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL bottomExpanding</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Flag means wich side of the view should grow: bottom or top.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/calendar" title="calendar"></a>
+	<h3 class="subsubtitle method-title">calendar</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Is used for all dates calculations during calendar navigation. Default value for
+calendar is <code>[NSCalendar currentCalendar]</code>, but you can assign any.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) NSCalendar *calendar</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Is used for all dates calculations during calendar navigation. Default value for
+calendar is <code>[NSCalendar currentCalendar]</code>, but you can assign any.</p>
+
+<p>For example, you can set first weekday to <em>monday</em> this way:</p>
+
+<pre><code>NSCalendar * calendar = [NSCalendar currentCalendar];
+[calendar setFirstWeekday:2];
+calendarPicker.calendar = calendar;
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentState" title="currentState"></a>
+	<h3 class="subsubtitle method-title">currentState</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieving current <a href="#//api/name/calendar">calendar</a> state</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) ABCalendarPickerState currentState</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieving current <a href="#//api/name/calendar">calendar</a> state</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSource" title="dataSource"></a>
+	<h3 class="subsubtitle method-title">dataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delegate is needed for displaying user information on <a href="#//api/name/calendar">calendar</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDataSourceProtocol&gt; dataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Delegate is needed for displaying user information on <a href="#//api/name/calendar">calendar</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/daysProvider" title="daysProvider"></a>
+	<h3 class="subsubtitle method-title">daysProvider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides button layout, animations and other options for days in month view</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; daysProvider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Provides button layout, animations and other options for days in month view</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delegate is needed for configuring and noticing calendars behavior.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDelegateProtocol&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Delegate is needed for configuring and noticing calendars behavior.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/erasProvider" title="erasProvider"></a>
+	<h3 class="subsubtitle method-title">erasProvider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides button layout, animations and other options for eras in xxx view</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; erasProvider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Provides button layout, animations and other options for eras in xxx view</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/highlightedDate" title="highlightedDate"></a>
+	<h3 class="subsubtitle method-title">highlightedDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieving and setting highlighted date, looks like user-tapped date.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, strong, nonatomic) NSDate *highlightedDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieving and setting highlighted date, looks like user-tapped date.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/monthsProvider" title="monthsProvider"></a>
+	<h3 class="subsubtitle method-title">monthsProvider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides button layout, animations and other options for months in year view</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; monthsProvider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Provides button layout, animations and other options for months in year view</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDate" title="selectedDate"></a>
+	<h3 class="subsubtitle method-title">selectedDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieving and setting selected date, looks like today date.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, strong, nonatomic) NSDate *selectedDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieving and setting selected date, looks like today date.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/styleProvider" title="styleProvider"></a>
+	<h3 class="subsubtitle method-title">styleProvider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides styling, for subviews</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerStyleProviderProtocol&gt; styleProvider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Provides styling, for subviews</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swipeNavigationEnabled" title="swipeNavigationEnabled"></a>
+	<h3 class="subsubtitle method-title">swipeNavigationEnabled</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Flag means is swipe enabled for navigation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL swipeNavigationEnabled</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Flag means is swipe enabled for navigation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/weekdaysProvider" title="weekdaysProvider"></a>
+	<h3 class="subsubtitle method-title">weekdaysProvider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides button layout, animations and other options for days in week view</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; weekdaysProvider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Provides button layout, animations and other options for days in week view</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/yearsProvider" title="yearsProvider"></a>
+	<h3 class="subsubtitle method-title">yearsProvider</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides button layout, animations and other options for years in eras view</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; yearsProvider</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Provides button layout, animations and other options for years in eras view</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ABCalendarPicker.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/setDate:andState:animated:" title="setDate:andState:animated:"></a>
+	<h3 class="subsubtitle method-title">setDate:andState:animated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDate:(NSDate *)<em>date</em> andState:(ABCalendarPickerState)<em>state</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHighlightedAndSectedDate:animated:" title="setHighlightedAndSectedDate:animated:"></a>
+	<h3 class="subsubtitle method-title">setHighlightedAndSectedDate:animated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHighlightedAndSectedDate:(NSDate *)<em>date</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSelectedDate:animated:" title="setSelectedDate:animated:"></a>
+	<h3 class="subsubtitle method-title">setSelectedDate:animated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSelectedDate:(NSDate *)<em>date</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setState:animated:" title="setState:animated:"></a>
+	<h3 class="subsubtitle method-title">setState:animated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setState:(ABCalendarPickerState)<em>state</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateStateAnimated:" title="updateStateAnimated:"></a>
+	<h3 class="subsubtitle method-title">updateStateAnimated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateStateAnimated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Anton Bukov. All rights reserved. (Last updated: 2013-03-05)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

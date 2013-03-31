@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>TapkuLibrary 2.1</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>TKAlertCenter</Name>
+			<Path>Classes/TKAlertCenter.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>TKAppDelegate</Name>
+			<Path>Classes/TKAppDelegate.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>TKButtonCell</Name>
+			<Path>Classes/TKButtonCell.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>TKCalendarDayEventView</Name>
+			<Path>Classes/TKCalendarDayEventView.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>TKCalendarDayTimelineView</Name>
+			<Path>Classes/TKCalendarDayTimelineView.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>TKCalendarDayViewController</Name>
+			<Path>Classes/TKCalendarDayViewController.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>TKCalendarMonthTableViewController</Name>
+			<Path>Classes/TKCalendarMonthTableViewController.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>TKCalendarMonthView</Name>
+			<Path>Classes/TKCalendarMonthView.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>TKCalendarMonthViewController</Name>
+			<Path>Classes/TKCalendarMonthViewController.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>TKCoverflowCoverView</Name>
+			<Path>Classes/TKCoverflowCoverView.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>TKCoverflowView</Name>
+			<Path>Classes/TKCoverflowView.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>TKEmptyView</Name>
+			<Path>Classes/TKEmptyView.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>TKGlobal</Name>
+			<Path>Classes/TKGlobal.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>TKGradientView</Name>
+			<Path>Classes/TKGradientView.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>TKHTTPRequest</Name>
+			<Path>Classes/TKHTTPRequest.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>TKImageCache</Name>
+			<Path>Classes/TKImageCache.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>TKLabelCell</Name>
+			<Path>Classes/TKLabelCell.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>TKLabelFieldCell</Name>
+			<Path>Classes/TKLabelFieldCell.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>TKLabelSwitchCell</Name>
+			<Path>Classes/TKLabelSwitchCell.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>TKLabelTextFieldCell</Name>
+			<Path>Classes/TKLabelTextFieldCell.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>TKLabelTextViewCell</Name>
+			<Path>Classes/TKLabelTextViewCell.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>TKMapPlace</Name>
+			<Path>Classes/TKMapPlace.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>TKMapView</Name>
+			<Path>Classes/TKMapView.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>TKNetworkQueue</Name>
+			<Path>Classes/TKNetworkQueue.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>TKProgressAlertView</Name>
+			<Path>Classes/TKProgressAlertView.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>TKProgressBarView</Name>
+			<Path>Classes/TKProgressBarView.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>TKProgressCircleView</Name>
+			<Path>Classes/TKProgressCircleView.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>TKShapeView</Name>
+			<Path>Classes/TKShapeView.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>TKSwitchCell</Name>
+			<Path>Classes/TKSwitchCell.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>TKTableViewCell</Name>
+			<Path>Classes/TKTableViewCell.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>TKTableViewController</Name>
+			<Path>Classes/TKTableViewController.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>TKTextViewCell</Name>
+			<Path>Classes/TKTextViewCell.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>TKTimelineView</Name>
+			<Path>Classes/TKTimelineView.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>TKViewController</Name>
+			<Path>Classes/TKViewController.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>TKWindow</Name>
+			<Path>Classes/TKWindow.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>TapDetectingView</Name>
+			<Path>Classes/TapDetectingView.html</Path>
+		</Node>
+		
+		<Node id="37">
+			<Name>NSArray(TKCategory)</Name>
+			<Path>Categories/NSArray+TKCategory.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>NSDate(TKCategory)</Name>
+			<Path>Categories/NSDate+TKCategory.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>NSString(TKCategory)</Name>
+			<Path>Categories/NSString+TKCategory.html</Path>
+		</Node>
+		<Node id="40">
+			<Name>UIBarButtonItem(TKCategory)</Name>
+			<Path>Categories/UIBarButtonItem+TKCategory.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>UIButton(TKCategory)</Name>
+			<Path>Categories/UIButton+TKCategory.html</Path>
+		</Node>
+		<Node id="42">
+			<Name>UIColor(TKCategory)</Name>
+			<Path>Categories/UIColor+TKCategory.html</Path>
+		</Node>
+		<Node id="43">
+			<Name>UIImage(TKCategory)</Name>
+			<Path>Categories/UIImage+TKCategory.html</Path>
+		</Node>
+		<Node id="44">
+			<Name>UIImageView(TKCategory)</Name>
+			<Path>Categories/UIImageView+TKCategory.html</Path>
+		</Node>
+		<Node id="45">
+			<Name>UIScrollView(TKCategory)</Name>
+			<Path>Categories/UIScrollView+TKCategory.html</Path>
+		</Node>
+		<Node id="46">
+			<Name>UIView(TKCategory)</Name>
+			<Path>Categories/UIView+TKCategory.html</Path>
+		</Node>
+		<Node id="47">
+			<Name>UIViewController(TKCategory)</Name>
+			<Path>Categories/UIViewController+TKCategory.html</Path>
+		</Node>
+		
+		<Node id="48">
+			<Name>TKCalendarDayTimelineViewDelegate</Name>
+			<Path>Protocols/TKCalendarDayTimelineViewDelegate.html</Path>
+		</Node>
+		<Node id="49">
+			<Name>TKCalendarMonthViewDataSource</Name>
+			<Path>Protocols/TKCalendarMonthViewDataSource.html</Path>
+		</Node>
+		<Node id="50">
+			<Name>TKCalendarMonthViewDelegate</Name>
+			<Path>Protocols/TKCalendarMonthViewDelegate.html</Path>
+		</Node>
+		<Node id="51">
+			<Name>TKCoverflowViewDataSource</Name>
+			<Path>Protocols/TKCoverflowViewDataSource.html</Path>
+		</Node>
+		<Node id="52">
+			<Name>TKCoverflowViewDelegate</Name>
+			<Path>Protocols/TKCoverflowViewDelegate.html</Path>
+		</Node>
+		<Node id="53">
+			<Name>TKHTTPRequestProgressDelegate</Name>
+			<Path>Protocols/TKHTTPRequestProgressDelegate.html</Path>
+		</Node>
+		<Node id="54">
+			<Name>TKMapViewDelegate</Name>
+			<Path>Protocols/TKMapViewDelegate.html</Path>
+		</Node>
+		<Node id="55">
+			<Name>TapDetectingViewDelegate</Name>
+			<Path>Protocols/TapDetectingViewDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

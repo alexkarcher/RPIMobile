@@ -1,0 +1,658 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ABCalendarPickerDefaultYearsProvider Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">ABCalendarPicker 1.0.2 </a></h1>
+				<a id="developerHome" href="../index.html">Anton Bukov</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ABCalendarPickerDefaultYearsProvider Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/calendar">&nbsp;&nbsp;&nbsp;&nbsp;calendar</option>
+	
+	<option value="//api/name/dateOwner">&nbsp;&nbsp;&nbsp;&nbsp;dateOwner</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/animationForNext">&nbsp;&nbsp;&nbsp;&nbsp;- animationForNext</option>
+	
+	<option value="//api/name/animationForPrev">&nbsp;&nbsp;&nbsp;&nbsp;- animationForPrev</option>
+	
+	<option value="//api/name/animationForZoomInToProvider:">&nbsp;&nbsp;&nbsp;&nbsp;- animationForZoomInToProvider:</option>
+	
+	<option value="//api/name/animationForZoomOutToProvider:">&nbsp;&nbsp;&nbsp;&nbsp;- animationForZoomOutToProvider:</option>
+	
+	<option value="//api/name/canDiffuse">&nbsp;&nbsp;&nbsp;&nbsp;- canDiffuse</option>
+	
+	<option value="//api/name/columnName:">&nbsp;&nbsp;&nbsp;&nbsp;- columnName:</option>
+	
+	<option value="//api/name/columnsCount">&nbsp;&nbsp;&nbsp;&nbsp;- columnsCount</option>
+	
+	<option value="//api/name/controlStateForDate:">&nbsp;&nbsp;&nbsp;&nbsp;- controlStateForDate:</option>
+	
+	<option value="//api/name/controlStateForRow:andColumn:">&nbsp;&nbsp;&nbsp;&nbsp;- controlStateForRow:andColumn:</option>
+	
+	<option value="//api/name/dateForNextAnimation">&nbsp;&nbsp;&nbsp;&nbsp;- dateForNextAnimation</option>
+	
+	<option value="//api/name/dateForPrevAnimation">&nbsp;&nbsp;&nbsp;&nbsp;- dateForPrevAnimation</option>
+	
+	<option value="//api/name/dateForRow:andColumn:">&nbsp;&nbsp;&nbsp;&nbsp;- dateForRow:andColumn:</option>
+	
+	<option value="//api/name/labelForDate:">&nbsp;&nbsp;&nbsp;&nbsp;- labelForDate:</option>
+	
+	<option value="//api/name/labelForRow:andColumn:">&nbsp;&nbsp;&nbsp;&nbsp;- labelForRow:andColumn:</option>
+	
+	<option value="//api/name/rowsCount">&nbsp;&nbsp;&nbsp;&nbsp;- rowsCount</option>
+	
+	<option value="//api/name/titleText">&nbsp;&nbsp;&nbsp;&nbsp;- titleText</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/calendar">calendar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateOwner">dateOwner</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationForNext">animationForNext</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationForPrev">animationForPrev</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationForZoomInToProvider:">animationForZoomInToProvider:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationForZoomOutToProvider:">animationForZoomOutToProvider:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canDiffuse">canDiffuse</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/columnName:">columnName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/columnsCount">columnsCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/controlStateForDate:">controlStateForDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/controlStateForRow:andColumn:">controlStateForRow:andColumn:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateForNextAnimation">dateForNextAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateForPrevAnimation">dateForPrevAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateForRow:andColumn:">dateForRow:andColumn:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelForDate:">labelForDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelForRow:andColumn:">labelForRow:andColumn:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rowsCount">rowsCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleText">titleText</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ABCalendarPickerDefaultYearsProvider Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ABCalendarPickerDefaultYearsProvider Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/ABCalendarPickerDateProviderProtocol.html">ABCalendarPickerDateProviderProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ABCalendarPickerDefaultYearsProvider.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateOwner">&nbsp;&nbsp;dateOwner</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canDiffuse">&ndash;&nbsp;canDiffuse</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationForPrev">&ndash;&nbsp;animationForPrev</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationForNext">&ndash;&nbsp;animationForNext</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationForZoomInToProvider:">&ndash;&nbsp;animationForZoomInToProvider:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationForZoomOutToProvider:">&ndash;&nbsp;animationForZoomOutToProvider:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateForPrevAnimation">&ndash;&nbsp;dateForPrevAnimation</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateForNextAnimation">&ndash;&nbsp;dateForNextAnimation</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rowsCount">&ndash;&nbsp;rowsCount</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/columnsCount">&ndash;&nbsp;columnsCount</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/columnName:">&ndash;&nbsp;columnName:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleText">&ndash;&nbsp;titleText</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateForRow:andColumn:">&ndash;&nbsp;dateForRow:andColumn:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelForDate:">&ndash;&nbsp;labelForDate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/controlStateForDate:">&ndash;&nbsp;controlStateForDate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelForRow:andColumn:">&ndash;&nbsp;labelForRow:andColumn:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/controlStateForRow:andColumn:">&ndash;&nbsp;controlStateForRow:andColumn:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/calendar">&nbsp;&nbsp;calendar</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/calendar" title="calendar"></a>
+	<h3 class="subsubtitle method-title">calendar</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) NSCalendar *calendar</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateOwner" title="dateOwner"></a>
+	<h3 class="subsubtitle method-title">dateOwner</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic) id&lt;ABCalendarPickerDateOwner&gt; dateOwner</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/animationForNext" title="animationForNext"></a>
+	<h3 class="subsubtitle method-title">animationForNext</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (ABCalendarPickerAnimation)animationForNext</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animationForPrev" title="animationForPrev"></a>
+	<h3 class="subsubtitle method-title">animationForPrev</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (ABCalendarPickerAnimation)animationForPrev</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animationForZoomInToProvider:" title="animationForZoomInToProvider:"></a>
+	<h3 class="subsubtitle method-title">animationForZoomInToProvider:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (ABCalendarPickerAnimation)animationForZoomInToProvider:(id&lt;ABCalendarPickerDateProviderProtocol&gt;)<em>provider</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animationForZoomOutToProvider:" title="animationForZoomOutToProvider:"></a>
+	<h3 class="subsubtitle method-title">animationForZoomOutToProvider:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (ABCalendarPickerAnimation)animationForZoomOutToProvider:(id&lt;ABCalendarPickerDateProviderProtocol&gt;)<em>provider</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/canDiffuse" title="canDiffuse"></a>
+	<h3 class="subsubtitle method-title">canDiffuse</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)canDiffuse</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/columnName:" title="columnName:"></a>
+	<h3 class="subsubtitle method-title">columnName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)columnName:(NSInteger)<em>column</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/columnsCount" title="columnsCount"></a>
+	<h3 class="subsubtitle method-title">columnsCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)columnsCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/controlStateForDate:" title="controlStateForDate:"></a>
+	<h3 class="subsubtitle method-title">controlStateForDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIControlState)controlStateForDate:(NSDate *)<em>date</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/controlStateForRow:andColumn:" title="controlStateForRow:andColumn:"></a>
+	<h3 class="subsubtitle method-title">controlStateForRow:andColumn:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIControlState)controlStateForRow:(NSInteger)<em>row</em> andColumn:(NSInteger)<em>column</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateForNextAnimation" title="dateForNextAnimation"></a>
+	<h3 class="subsubtitle method-title">dateForNextAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)dateForNextAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateForPrevAnimation" title="dateForPrevAnimation"></a>
+	<h3 class="subsubtitle method-title">dateForPrevAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)dateForPrevAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateForRow:andColumn:" title="dateForRow:andColumn:"></a>
+	<h3 class="subsubtitle method-title">dateForRow:andColumn:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)dateForRow:(NSInteger)<em>row</em> andColumn:(NSInteger)<em>column</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelForDate:" title="labelForDate:"></a>
+	<h3 class="subsubtitle method-title">labelForDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)labelForDate:(NSDate *)<em>date</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelForRow:andColumn:" title="labelForRow:andColumn:"></a>
+	<h3 class="subsubtitle method-title">labelForRow:andColumn:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)labelForRow:(NSInteger)<em>row</em> andColumn:(NSInteger)<em>column</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rowsCount" title="rowsCount"></a>
+	<h3 class="subsubtitle method-title">rowsCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)rowsCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleText" title="titleText"></a>
+	<h3 class="subsubtitle method-title">titleText</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)titleText</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Anton Bukov. All rights reserved. (Last updated: 2013-03-05)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKMapPlace.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKMapPlace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMapPlace/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKMapPlace/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMapPlace/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) CLLocationCoordinate2D coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKMapPlace/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) CLLocationCoordinate2D coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMapPlace/setColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) MKPinAnnotationColor color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKMapPlace/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKMapPlace.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) MKPinAnnotationColor color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

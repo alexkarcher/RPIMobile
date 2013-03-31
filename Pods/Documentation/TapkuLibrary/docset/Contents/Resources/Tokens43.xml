@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImage+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImage(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIImage.</Abstract>
+			<DeclaredIn>UIImage+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(TKCategory)/imageNamedTK:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)imageNamedTK:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/imageNamedTK:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(TKCategory)/imageCroppedToRect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)imageCroppedToRect:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/imageCroppedToRect:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(TKCategory)/squareImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)squareImage</Declaration>
+			
+			
+			<Anchor>//api/name/squareImage</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

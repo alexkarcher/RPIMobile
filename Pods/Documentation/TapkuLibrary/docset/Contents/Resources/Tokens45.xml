@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIScrollView+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIScrollView(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIScrollView.</Abstract>
+			<DeclaredIn>UIScrollview+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIScrollView(TKCategory)/scrollToTop</TokenIdentifier>
+			<Abstract type="html">Sets the content offset of the scrollview to zero (0,0).</Abstract>
+			<DeclaredIn>UIScrollview+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)scrollToTop</Declaration>
+			
+			
+			<Anchor>//api/name/scrollToTop</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

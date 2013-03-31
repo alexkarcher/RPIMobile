@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>ABCalendarPicker 1.0.2</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>ABCalendarPicker</Name>
+			<Path>Classes/ABCalendarPicker.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>ABCalendarPickerDefaultDaysProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultDaysProvider.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>ABCalendarPickerDefaultErasProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultErasProvider.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>ABCalendarPickerDefaultMonthsProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultMonthsProvider.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>ABCalendarPickerDefaultSeasonedMonthsProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultSeasonedMonthsProvider.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>ABCalendarPickerDefaultStyleProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultStyleProvider.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>ABCalendarPickerDefaultTripleWeekdaysProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultTripleWeekdaysProvider.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>ABCalendarPickerDefaultWeekdaysProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultWeekdaysProvider.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>ABCalendarPickerDefaultYearsProvider</Name>
+			<Path>Classes/ABCalendarPickerDefaultYearsProvider.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>ABViewPool</Name>
+			<Path>Classes/ABViewPool.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>UIMyButton</Name>
+			<Path>Classes/UIMyButton.html</Path>
+		</Node>
+		
+		
+		<Node id="12">
+			<Name>ABCalendarPickerDataSourceProtocol</Name>
+			<Path>Protocols/ABCalendarPickerDataSourceProtocol.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>ABCalendarPickerDateOwner</Name>
+			<Path>Protocols/ABCalendarPickerDateOwner.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>ABCalendarPickerDateProviderProtocol</Name>
+			<Path>Protocols/ABCalendarPickerDateProviderProtocol.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>ABCalendarPickerDelegateProtocol</Name>
+			<Path>Protocols/ABCalendarPickerDelegateProtocol.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>ABCalendarPickerStyleProviderProtocol</Name>
+			<Path>Protocols/ABCalendarPickerStyleProviderProtocol.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

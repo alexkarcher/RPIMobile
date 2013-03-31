@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKProgressCircleView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKProgressCircleView</TokenIdentifier>
+			<Abstract type="html">A progress circle view</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressCircleView/init</TokenIdentifier>
+			<Abstract type="html">Initialized a new progress circle view.</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressCircleView/setProgress:</TokenIdentifier>
+			<Abstract type="html">The progress displayed. Value between 0.0 and 1.0</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKProgressCircleView/progress</TokenIdentifier>
+			<Abstract type="html">The progress displayed. Value between 0.0 and 1.0</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressCircleView/setTwirlMode:</TokenIdentifier>
+			<Abstract type="html">Have the progress circle twirl instead of displaying the current progress.</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic, getter=isTwirling) BOOL twirlMode</Declaration>
+			
+			
+			<Anchor>//api/name/twirlMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKProgressCircleView/twirlMode</TokenIdentifier>
+			<Abstract type="html">Have the progress circle twirl instead of displaying the current progress.</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic, getter=isTwirling) BOOL twirlMode</Declaration>
+			
+			
+			<Anchor>//api/name/twirlMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressCircleView/setProgress:animated:</TokenIdentifier>
+			<Abstract type="html">Set the progress with the circle animating to the progress.</Abstract>
+			<DeclaredIn>TKProgressCircleView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setProgress:(float)progress animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>progress</Name>
+					<Abstract type="html">The current progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Flag to animate to the current progress.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setProgress:animated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

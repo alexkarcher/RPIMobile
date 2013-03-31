@@ -1,0 +1,725 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>NSDate(TKCategory) Category Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TapkuLibrary 2.1 </a></h1>
+				<a id="developerHome" href="../index.html">Devin Ross</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">NSDate(TKCategory) Category Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/dateFromDateInformation:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateFromDateInformation:</option>
+	
+	<option value="//api/name/dateFromDateInformation:timeZone:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateFromDateInformation:timeZone:</option>
+	
+	<option value="//api/name/dateInformationDescriptionWithInformation:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateInformationDescriptionWithInformation:</option>
+	
+	<option value="//api/name/dateWithDatePart:andTimePart:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateWithDatePart:andTimePart:</option>
+	
+	<option value="//api/name/month">&nbsp;&nbsp;&nbsp;&nbsp;+ month</option>
+	
+	<option value="//api/name/yesterday">&nbsp;&nbsp;&nbsp;&nbsp;+ yesterday</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/dateByAddingDays:">&nbsp;&nbsp;&nbsp;&nbsp;- dateByAddingDays:</option>
+	
+	<option value="//api/name/dateInformation">&nbsp;&nbsp;&nbsp;&nbsp;- dateInformation</option>
+	
+	<option value="//api/name/dateInformationWithTimeZone:">&nbsp;&nbsp;&nbsp;&nbsp;- dateInformationWithTimeZone:</option>
+	
+	<option value="//api/name/daysBetweenDate:">&nbsp;&nbsp;&nbsp;&nbsp;- daysBetweenDate:</option>
+	
+	<option value="//api/name/isSameDay:">&nbsp;&nbsp;&nbsp;&nbsp;- isSameDay:</option>
+	
+	<option value="//api/name/isToday">&nbsp;&nbsp;&nbsp;&nbsp;- isToday</option>
+	
+	<option value="//api/name/monthDate">&nbsp;&nbsp;&nbsp;&nbsp;- monthDate</option>
+	
+	<option value="//api/name/monthString">&nbsp;&nbsp;&nbsp;&nbsp;- monthString</option>
+	
+	<option value="//api/name/monthsBetweenDate:">&nbsp;&nbsp;&nbsp;&nbsp;- monthsBetweenDate:</option>
+	
+	<option value="//api/name/yearString">&nbsp;&nbsp;&nbsp;&nbsp;- yearString</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateFromDateInformation:">dateFromDateInformation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateFromDateInformation:timeZone:">dateFromDateInformation:timeZone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateInformationDescriptionWithInformation:">dateInformationDescriptionWithInformation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateWithDatePart:andTimePart:">dateWithDatePart:andTimePart:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/month">month</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/yesterday">yesterday</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateByAddingDays:">dateByAddingDays:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateInformation">dateInformation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateInformationWithTimeZone:">dateInformationWithTimeZone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/daysBetweenDate:">daysBetweenDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isSameDay:">isSameDay:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isToday">isToday</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/monthDate">monthDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/monthString">monthString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/monthsBetweenDate:">monthsBetweenDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/yearString">yearString</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="NSDate(TKCategory) Category Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">NSDate(TKCategory) Category Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">NSDate+TKCategory.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Additional functionality for <code>NSDate</code>.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/yesterday">+&nbsp;yesterday</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/month">+&nbsp;month</a></code>
+		<span class="tooltip"><p>Creates and returns a new date set to the current month.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/monthDate">&ndash;&nbsp;monthDate</a></code>
+		<span class="tooltip"><p>Creates and returns a new date set to the first day of the <a href="#//api/name/month">month</a> from the date object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isSameDay:">&ndash;&nbsp;isSameDay:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/monthsBetweenDate:">&ndash;&nbsp;monthsBetweenDate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/daysBetweenDate:">&ndash;&nbsp;daysBetweenDate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isToday">&ndash;&nbsp;isToday</a></code>
+		<span class="tooltip"><p>Returns a Boolean value that indicates whether the date object is that same date information as the current day.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateByAddingDays:">&ndash;&nbsp;dateByAddingDays:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateWithDatePart:andTimePart:">+&nbsp;dateWithDatePart:andTimePart:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/monthString">&ndash;&nbsp;monthString</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/yearString">&ndash;&nbsp;yearString</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateInformation">&ndash;&nbsp;dateInformation</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateInformationWithTimeZone:">&ndash;&nbsp;dateInformationWithTimeZone:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateFromDateInformation:">+&nbsp;dateFromDateInformation:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateFromDateInformation:timeZone:">+&nbsp;dateFromDateInformation:timeZone:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateInformationDescriptionWithInformation:">+&nbsp;dateInformationDescriptionWithInformation:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/dateFromDateInformation:" title="dateFromDateInformation:"></a>
+	<h3 class="subsubtitle method-title">dateFromDateInformation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)dateFromDateInformation:(TKDateInformation)<em>info</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateFromDateInformation:timeZone:" title="dateFromDateInformation:timeZone:"></a>
+	<h3 class="subsubtitle method-title">dateFromDateInformation:timeZone:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)dateFromDateInformation:(TKDateInformation)<em>info</em> timeZone:(NSTimeZone *)<em>tz</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateInformationDescriptionWithInformation:" title="dateInformationDescriptionWithInformation:"></a>
+	<h3 class="subsubtitle method-title">dateInformationDescriptionWithInformation:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)dateInformationDescriptionWithInformation:(TKDateInformation)<em>info</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateWithDatePart:andTimePart:" title="dateWithDatePart:andTimePart:"></a>
+	<h3 class="subsubtitle method-title">dateWithDatePart:andTimePart:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)dateWithDatePart:(NSDate *)<em>aDate</em> andTimePart:(NSDate *)<em>aTime</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/month" title="month"></a>
+	<h3 class="subsubtitle method-title">month</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates and returns a new date set to the current month.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)month</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A <code>NSDate</code> object set to the current month.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates and returns a new date set to the current month.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSDate+TKCategory.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/yesterday" title="yesterday"></a>
+	<h3 class="subsubtitle method-title">yesterday</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)yesterday</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/dateByAddingDays:" title="dateByAddingDays:"></a>
+	<h3 class="subsubtitle method-title">dateByAddingDays:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)dateByAddingDays:(NSUInteger)<em>days</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateInformation" title="dateInformation"></a>
+	<h3 class="subsubtitle method-title">dateInformation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (TKDateInformation)dateInformation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateInformationWithTimeZone:" title="dateInformationWithTimeZone:"></a>
+	<h3 class="subsubtitle method-title">dateInformationWithTimeZone:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (TKDateInformation)dateInformationWithTimeZone:(NSTimeZone *)<em>tz</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/daysBetweenDate:" title="daysBetweenDate:"></a>
+	<h3 class="subsubtitle method-title">daysBetweenDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)daysBetweenDate:(NSDate *)<em>date</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isSameDay:" title="isSameDay:"></a>
+	<h3 class="subsubtitle method-title">isSameDay:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isSameDay:(NSDate *)<em>anotherDate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isToday" title="isToday"></a>
+	<h3 class="subsubtitle method-title">isToday</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a Boolean value that indicates whether the date object is that same date information as the current day.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isToday</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the date object represents the current date, otherwise NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns a Boolean value that indicates whether the date object is that same date information as the current day.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSDate+TKCategory.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/monthDate" title="monthDate"></a>
+	<h3 class="subsubtitle method-title">monthDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates and returns a new date set to the first day of the <a href="#//api/name/month">month</a> from the date object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)monthDate</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A <code>NSDate</code> object set to the same <a href="#//api/name/month">month</a> as the date object. The day will be the first of the <a href="#//api/name/month">month</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Creates and returns a new date set to the first day of the <a href="#//api/name/month">month</a> from the date object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">NSDate+TKCategory.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/monthString" title="monthString"></a>
+	<h3 class="subsubtitle method-title">monthString</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)monthString</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/monthsBetweenDate:" title="monthsBetweenDate:"></a>
+	<h3 class="subsubtitle method-title">monthsBetweenDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (int)monthsBetweenDate:(NSDate *)<em>toDate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/yearString" title="yearString"></a>
+	<h3 class="subsubtitle method-title">yearString</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)yearString</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Devin Ross. All rights reserved. (Last updated: 2013-02-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

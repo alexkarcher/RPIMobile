@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/ABCalendarPickerDelegateProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/ABCalendarPickerDelegateProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDelegateProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerDelegateProtocol/calendarPicker:animateNewHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker animateNewHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:animateNewHeight:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerDelegateProtocol/calendarPicker:shouldSetState:fromState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)calendarPicker:(ABCalendarPicker *)calendarPicker shouldSetState:(ABCalendarPickerState)state fromState:(ABCalendarPickerState)fromState</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:shouldSetState:fromState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerDelegateProtocol/calendarPicker:willSetState:fromState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker willSetState:(ABCalendarPickerState)state fromState:(ABCalendarPickerState)fromState</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:willSetState:fromState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerDelegateProtocol/calendarPicker:didSetState:fromState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker didSetState:(ABCalendarPickerState)state fromState:(ABCalendarPickerState)fromState</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:didSetState:fromState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerDelegateProtocol/calendarPicker:dateSelected:withState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker dateSelected:(NSDate *)date withState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:dateSelected:withState:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKAlertCenter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKAlertCenter</TokenIdentifier>
+			<Abstract type="html">A notification center for displaying quick bursts of alert information to the user.</Abstract>
+			<DeclaredIn>TKAlertCenter.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKAlertCenter/defaultCenter</TokenIdentifier>
+			<Abstract type="html">Returns the process’s default notification center.</Abstract>
+			<DeclaredIn>TKAlertCenter.h</DeclaredIn>			
+			
+			<Declaration>+ (TKAlertCenter *)defaultCenter</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current process’s default notification center, which is used for alert notifications.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultCenter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKAlertCenter/postAlertWithMessage:image:</TokenIdentifier>
+			<Abstract type="html">Posts a given alert message to the user.</Abstract>
+			<DeclaredIn>TKAlertCenter.h</DeclaredIn>			
+			
+			<Declaration>- (void)postAlertWithMessage:(NSString *)message image:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message shown under an image.</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image displayed to the user. If image is nil, the message will only be shown.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postAlertWithMessage:image:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKAlertCenter/postAlertWithMessage:</TokenIdentifier>
+			<Abstract type="html">Posts a given alert message to the user.</Abstract>
+			<DeclaredIn>TKAlertCenter.h</DeclaredIn>			
+			
+			<Declaration>- (void)postAlertWithMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The message shown under an image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postAlertWithMessage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

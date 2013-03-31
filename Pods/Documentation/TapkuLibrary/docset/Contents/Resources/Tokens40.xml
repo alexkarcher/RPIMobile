@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIBarButtonItem+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIBarButtonItem(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIBarButtonItem.</Abstract>
+			<DeclaredIn>UIBarButtonItem+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIBarButtonItem(TKCategory)/barButtonItemWithImage:highlightedImage:target:selector:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a bar button item object using witha button with the specified properties.</Abstract>
+			<DeclaredIn>UIBarButtonItem+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIBarButtonItem *)barButtonItemWithImage:(UIImage *)image highlightedImage:(UIImage *)highlighedImage target:(id)target selector:(SEL)selector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The normal state image.</Abstract>
+				</Parameter><Parameter>
+					<Name>highlighedImage</Name>
+					<Abstract type="html">The highlighted state image.</Abstract>
+				</Parameter><Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The object that receives the action message.</Abstract>
+				</Parameter><Parameter>
+					<Name>selector</Name>
+					<Abstract type="html">The action to send to target when this item is selected.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The UIBarButtonItem object.</Abstract></ReturnValue>
+			<Anchor>//api/name/barButtonItemWithImage:highlightedImage:target:selector:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

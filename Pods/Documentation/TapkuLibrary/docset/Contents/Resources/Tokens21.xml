@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKLabelTextViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKLabelTextViewCell</TokenIdentifier>
+			<Abstract type="html">A TKLabelCell with a UITextView field.</Abstract>
+			<DeclaredIn>TKLabelTextViewCell.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLabelTextViewCell/setTextView:</TokenIdentifier>
+			<Abstract type="html">A UITextView field.</Abstract>
+			<DeclaredIn>TKLabelTextViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UITextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLabelTextViewCell/textView</TokenIdentifier>
+			<Abstract type="html">A UITextView field.</Abstract>
+			<DeclaredIn>TKLabelTextViewCell.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UITextView *textView</Declaration>
+			
+			
+			<Anchor>//api/name/textView</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

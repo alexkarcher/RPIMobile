@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ABViewPool.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ABViewPool</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABViewPool.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABViewPool/giveExistingOrCreateNewWith:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABViewPool.h</DeclaredIn>			
+			
+			<Declaration>- (UIView *)giveExistingOrCreateNewWith:(ObjectInitBlock)block</Declaration>
+			
+			
+			<Anchor>//api/name/giveExistingOrCreateNewWith:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABViewPool/clear</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABViewPool.h</DeclaredIn>			
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

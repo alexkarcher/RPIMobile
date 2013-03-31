@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>ABCalendarPicker 1.0.2 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">ABCalendarPicker 1.0.2 </a></h1>
+				<a id="developerHome" href="index.html">Anton Bukov</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ABCalendarPicker 1.0.2 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ABCalendarPicker 1.0.2 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>ABCalendarPicker</h1>
+
+<p>Fully configurable iOS calendar UI component with multiple layouts and smooth animations.</p>
+
+<h2>Screenshots of grid layouts</h2>
+
+<p>Month, year, 20-years views:</p>
+
+<p><img src="[https://raw.github.com/k06a/ABCalendarPicker/master/month-grid-screenshot.png](https://raw.github.com/k06a/ABCalendarPicker/master/month-grid-screenshot.png)" width="30%" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="[https://raw.github.com/k06a/ABCalendarPicker/master/year2-grid-screenshot.png](https://raw.github.com/k06a/ABCalendarPicker/master/year2-grid-screenshot.png)" width="30%" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="[https://raw.github.com/k06a/ABCalendarPicker/master/20years-grid-screenshot.png](https://raw.github.com/k06a/ABCalendarPicker/master/20years-grid-screenshot.png)" width="30%" /></p>
+
+<p>Week view:</p>
+
+<p><img src="[https://raw.github.com/k06a/ABCalendarPicker/master/week-grid-screenshot.png](https://raw.github.com/k06a/ABCalendarPicker/master/week-grid-screenshot.png)" width="30%" /></p>
+
+<p>Three weeks view (thanks @ChrisJCraft for idea):</p>
+
+<p><img src="[https://raw.github.com/k06a/ABCalendarPicker/master/3weeks-grid-screenshot.png](https://raw.github.com/k06a/ABCalendarPicker/master/3weeks-grid-screenshot.png)" width="30%" /></p>
+
+<p>Seasoned month view:</p>
+
+<p><img src="[https://raw.github.com/k06a/ABCalendarPicker/master/year-grid-screenshot.png](https://raw.github.com/k06a/ABCalendarPicker/master/year-grid-screenshot.png)" width="30%" /></p>
+
+<h2>Include framework in your project</h2>
+
+<p>This library project is &ldquo;iOS Static Library&rdquo; and made with this instruction: <a href="http://code.google.com/p/ios-static-framework/">http://code.google.com/p/ios-static-framework/</a></p>
+
+<h3>Get compiled framework and bundle</h3>
+
+<ol>
+<li><p>Compile project <em><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a>.xcodeproj</em></p></li>
+<li><p>Open <code>~/Library/Developer/Xcode/DerivedData</code> in Finder by pressing ⇧⌘G</p></li>
+<li><p>Find <em><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a>.framework</em> and <em><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a>.bundle</em> in <code>.../ABCalendarPicker-xxxxxxxxxxx/Build/Products/</code></p></li>
+</ol>
+
+
+<h3>Add framework and bundle to your project</h3>
+
+<ol>
+<li><p>Add <em><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a>.framework</em> to your project frameworks</p></li>
+<li><p>Add <em><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a>.bundle</em> to your project resources</p></li>
+</ol>
+
+
+<h3>Using <a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a> class to XIB file</h3>
+
+<ol>
+<li><p>Create UIView object in your XIB</p></li>
+<li><p>Change UIView class to <a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a> using Identity Inspector</p></li>
+<li><p>Add this first line to main.m: <code>[ABCalendarPicker class];</code></p></li>
+<li><p><code>#import &lt;ABCalendarPicker/ABCalendarPicker.h&gt;</code> anywhere you need.</p></li>
+</ol>
+
+
+<h2>Demo video</h2>
+
+<p>Here are two videos, short and long. Short video shows component features. Long video shows commertial app features on iPhone 4 (really the slowest iPhone for animations).</p>
+
+<p>ABCalendarPicker short demo: <a href="[http://youtu.be/d2PGFiO](http://youtu.be/d2PGFiO">~!@[http://youtu.be/d2PGFiO](http://youtu.be/d2PGFiO)_jk4</a>@!~_jk4)</p>
+
+<p><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a> 3 weeks mode: ~!@<a href="http://youtu.be/1B0X4Zqy8QY">http://youtu.be/1B0X4Zqy8QY
+</a>@!~</p>
+
+<p>Mr.Calendario long demo: <a href="http://youtu.be/Hz3D4Q5CDuQ">http://youtu.be/Hz3D4Q5CDuQ</a></p>
+
+<h2>App to try</h2>
+
+<p><a href="http://appstore.com/mr.calendario">Mr.Calendario in AppStore</a> (not free)</p>
+
+<hr />
+
+<p>Written with <a href="http://mouapp.com">Mou</a> &ndash; The missing Markdown editor for web developers</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/ABCalendarPicker.html">ABCalendarPicker</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultDaysProvider.html">ABCalendarPickerDefaultDaysProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultErasProvider.html">ABCalendarPickerDefaultErasProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultMonthsProvider.html">ABCalendarPickerDefaultMonthsProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultSeasonedMonthsProvider.html">ABCalendarPickerDefaultSeasonedMonthsProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultStyleProvider.html">ABCalendarPickerDefaultStyleProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultTripleWeekdaysProvider.html">ABCalendarPickerDefaultTripleWeekdaysProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultWeekdaysProvider.html">ABCalendarPickerDefaultWeekdaysProvider</a></li>
+							
+							<li><a href="Classes/ABCalendarPickerDefaultYearsProvider.html">ABCalendarPickerDefaultYearsProvider</a></li>
+							
+							<li><a href="Classes/ABViewPool.html">ABViewPool</a></li>
+							
+							<li><a href="Classes/UIMyButton.html">UIMyButton</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/ABCalendarPickerDataSourceProtocol.html">ABCalendarPickerDataSourceProtocol</a></li>
+							
+							<li><a href="Protocols/ABCalendarPickerDateOwner.html">ABCalendarPickerDateOwner</a></li>
+							
+							<li><a href="Protocols/ABCalendarPickerDateProviderProtocol.html">ABCalendarPickerDateProviderProtocol</a></li>
+							
+							<li><a href="Protocols/ABCalendarPickerDelegateProtocol.html">ABCalendarPickerDelegateProtocol</a></li>
+							
+							<li><a href="Protocols/ABCalendarPickerStyleProviderProtocol.html">ABCalendarPickerStyleProviderProtocol</a></li>
+							
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Anton Bukov. All rights reserved. (Last updated: 2013-03-05)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

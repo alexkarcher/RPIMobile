@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarMonthView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarMonthView</TokenIdentifier>
+			<Abstract type="html">TKCalendarMonthView imitates the month grid in the Calendar app on iPhone.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/initWithSundayAsFirst:</TokenIdentifier>
+			<Abstract type="html">Initialize a Calendar Month Grid.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSundayAsFirst:(BOOL)sunday</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sunday</Name>
+					<Abstract type="html">Flag to setup the grid with Monday or Sunday as the leftmost day.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A TKCalendarMonthView object or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSundayAsFirst:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate must adopt the TKCalendarMonthViewDelegate protocol. The delegate is not retained.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCalendarMonthViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthView/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate must adopt the TKCalendarMonthViewDelegate protocol. The delegate is not retained.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCalendarMonthViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/setDataSource:</TokenIdentifier>
+			<Abstract type="html">The data soruce must adopt the TKCalendarMonthViewDataSource protocol. The data source is not retained.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCalendarMonthViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthView/dataSource</TokenIdentifier>
+			<Abstract type="html">The data soruce must adopt the TKCalendarMonthViewDataSource protocol. The data source is not retained.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCalendarMonthViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/dateSelected</TokenIdentifier>
+			<Abstract type="html">The current date highlighted on the month grid.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)dateSelected</Declaration>
+			
+			<ReturnValue><Abstract type="html">An NSDate object set to the month, year and day of the current selection.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/monthDate</TokenIdentifier>
+			<Abstract type="html">The current month date being displayed.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)monthDate</Declaration>
+			
+			<ReturnValue><Abstract type="html">An NSDate object set to the month and year of the current month grid.</Abstract></ReturnValue>
+			<Anchor>//api/name/monthDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/selectDate:</TokenIdentifier>
+			<Abstract type="html">Selects a specific date in the month grid.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (void)selectDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date that will be highlighed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/selectDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthView/reload</TokenIdentifier>
+			<Abstract type="html">Reloads the current month grid.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (void)reload</Declaration>
+			
+			
+			<Anchor>//api/name/reload</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKEmptyView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKEmptyView</TokenIdentifier>
+			<Abstract type="html">A simple view for showing no content available.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/initWithFrame:mask:title:subtitle:</TokenIdentifier>
+			<Abstract type="html">Initializes an empty view with an image that will be stylized.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame mask:(UIImage *)image title:(NSString *)titleString subtitle:(NSString *)subtitleString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">The frame of the UIView.</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image that will appear central in the view.</Abstract>
+				</Parameter><Parameter>
+					<Name>titleString</Name>
+					<Abstract type="html">The title of the empty view.</Abstract>
+				</Parameter><Parameter>
+					<Name>subtitleString</Name>
+					<Abstract type="html">The subtitle of the empty view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized TKEmptyView object or nil if the object couldn’t be created.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithFrame:mask:title:subtitle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/initWithFrame:emptyViewImage:title:subtitle:</TokenIdentifier>
+			<Abstract type="html">Initializes an empty view with the given TKEmptyViewImage.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame emptyViewImage:(TKEmptyViewImage)image title:(NSString *)titleString subtitle:(NSString *)subtitleString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">The frame of the UIView.</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The bundled image that will be the central image.</Abstract>
+				</Parameter><Parameter>
+					<Name>titleString</Name>
+					<Abstract type="html">The title of the empty view.</Abstract>
+				</Parameter><Parameter>
+					<Name>subtitleString</Name>
+					<Abstract type="html">The subtitle of the empty view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized TKEmptyView object or nil if the object couldn’t be created.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithFrame:emptyViewImage:title:subtitle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/setImageView:</TokenIdentifier>
+			<Abstract type="html">The image view for the empty content.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKEmptyView/imageView</TokenIdentifier>
+			<Abstract type="html">The image view for the empty content.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/setTitleLabel:</TokenIdentifier>
+			<Abstract type="html">The title message.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKEmptyView/titleLabel</TokenIdentifier>
+			<Abstract type="html">The title message.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/setSubtitleLabel:</TokenIdentifier>
+			<Abstract type="html">The secondary message.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *subtitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/subtitleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKEmptyView/subtitleLabel</TokenIdentifier>
+			<Abstract type="html">The secondary message.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *subtitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/subtitleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/setImage:</TokenIdentifier>
+			<Abstract type="html">The image that be used to mask the glyph that will be displayed  above the title message. This image needs to be a transparent png image.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Set the image as the empty image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKEmptyView/setEmptyImage:</TokenIdentifier>
+			<Abstract type="html">Set the empty view to a bundled image.</Abstract>
+			<DeclaredIn>TKEmptyView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setEmptyImage:(TKEmptyViewImage)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">Set the image to a preset image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEmptyImage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

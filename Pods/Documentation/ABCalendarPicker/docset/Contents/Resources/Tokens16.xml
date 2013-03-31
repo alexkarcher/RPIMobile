@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/ABCalendarPickerStyleProviderProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/ABCalendarPickerStyleProviderProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/textColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/textShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/textShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/textShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setPatternImageForGradientBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIImage *patternImageForGradientBar</Declaration>
+			
+			
+			<Anchor>//api/name/patternImageForGradientBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/patternImageForGradientBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIImage *patternImageForGradientBar</Declaration>
+			
+			
+			<Anchor>//api/name/patternImageForGradientBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/calendarPicker:cellViewForTitle:andState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (UIControl *)calendarPicker:(ABCalendarPicker *)calendarPicker cellViewForTitle:(NSString *)cellTitle andState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:cellViewForTitle:andState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker postUpdateForCellView:(UIControl *)control onControlState:(UIControlState)controlState withEvents:(NSInteger)eventsCount andState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

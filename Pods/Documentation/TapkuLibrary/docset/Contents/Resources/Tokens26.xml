@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKProgressBarView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKProgressBarView</TokenIdentifier>
+			<Abstract type="html">A progress bar view.</Abstract>
+			<DeclaredIn>TKProgressBarView.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressBarView/initWithStyle:</TokenIdentifier>
+			<Abstract type="html">Initialize a progress bar.</Abstract>
+			<DeclaredIn>TKProgressBarView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStyle:(TKProgressBarViewStyle)style</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>style</Name>
+					<Abstract type="html">The style of the progress bar.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A progress bar or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithStyle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressBarView/setProgress:</TokenIdentifier>
+			<Abstract type="html">The progress.</Abstract>
+			<DeclaredIn>TKProgressBarView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKProgressBarView/progress</TokenIdentifier>
+			<Abstract type="html">The progress.</Abstract>
+			<DeclaredIn>TKProgressBarView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) float progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressBarView/setProgress:animated:</TokenIdentifier>
+			<Abstract type="html">Sets the progress. Allows for animation of the progress meter.</Abstract>
+			<DeclaredIn>TKProgressBarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setProgress:(float)progress animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>progress</Name>
+					<Abstract type="html">The progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Flag for animating the increase of the progress.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setProgress:animated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

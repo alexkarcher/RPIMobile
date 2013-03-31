@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKButtonCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKButtonCell</TokenIdentifier>
+			<Abstract type="html">A UITableViewCell with a centered text label.</Abstract>
+			<DeclaredIn>TKButtonCell.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

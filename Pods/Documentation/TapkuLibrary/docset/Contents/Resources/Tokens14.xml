@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKGradientView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKGradientView</TokenIdentifier>
+			<Abstract type="html">This class implements UIView backed by a CAGradientLayer.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKGradientView/setColors:</TokenIdentifier>
+			<Abstract type="html">An array of UIColor objects defining the color of each gradient stop.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSArray *colors</Declaration>
+			
+			
+			<Anchor>//api/name/colors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKGradientView/colors</TokenIdentifier>
+			<Abstract type="html">An array of UIColor objects defining the color of each gradient stop.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSArray *colors</Declaration>
+			
+			
+			<Anchor>//api/name/colors</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKGradientView/setLocations:</TokenIdentifier>
+			<Abstract type="html">An optional array of NSNumber objects defining the location of each gradient stop.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSArray *locations</Declaration>
+			
+			
+			<Anchor>//api/name/locations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKGradientView/locations</TokenIdentifier>
+			<Abstract type="html">An optional array of NSNumber objects defining the location of each gradient stop.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSArray *locations</Declaration>
+			
+			
+			<Anchor>//api/name/locations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKGradientView/setStartPoint:</TokenIdentifier>
+			<Abstract type="html">The start point corresponds to the first stop of the gradient. The point is defined in the unit coordinate space and is then mapped to the layer’s bounds rectangle when drawn.
+Default value is (0.5,0.0).</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKGradientView/startPoint</TokenIdentifier>
+			<Abstract type="html">The start point corresponds to the first stop of the gradient. The point is defined in the unit coordinate space and is then mapped to the layer’s bounds rectangle when drawn.
+Default value is (0.5,0.0).</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKGradientView/setEndPoint:</TokenIdentifier>
+			<Abstract type="html">The end point of the gradient when drawn in the layer’s coordinate space.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKGradientView/endPoint</TokenIdentifier>
+			<Abstract type="html">The end point of the gradient when drawn in the layer’s coordinate space.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKGradientView/setType:</TokenIdentifier>
+			<Abstract type="html">Style of gradient drawn by the layer.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKGradientView/type</TokenIdentifier>
+			<Abstract type="html">Style of gradient drawn by the layer.</Abstract>
+			<DeclaredIn>TKGradientView.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

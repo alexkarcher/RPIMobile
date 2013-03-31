@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIViewController+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIViewController(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIViewController.</Abstract>
+			<DeclaredIn>UIViewController+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIViewController(TKCategory)/processJSONDataInBackground:withCallbackSelector:</TokenIdentifier>
+			<Abstract type="html">Process JSON data in the background with a callback selector.</Abstract>
+			<DeclaredIn>UIViewController+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)processJSONDataInBackground:(NSData *)data withCallbackSelector:(SEL)callback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The JSON data.</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The selector that will be performed upon the parsing of the json data. The process data will be included as an object with the selector.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processJSONDataInBackground:withCallbackSelector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIViewController(TKCategory)/processJSONDataInBackground:withCallbackSelector:readingOptions:</TokenIdentifier>
+			<Abstract type="html">Process JSON data in the background with a callback selector.</Abstract>
+			<DeclaredIn>UIViewController+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)processJSONDataInBackground:(NSData *)data withCallbackSelector:(SEL)callback readingOptions:(NSJSONReadingOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The JSON data.</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The selector that will be performed upon the parsing of the json data. The process data will be included as an object with the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">An json parsing options to be included will parsing the JSON data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processJSONDataInBackground:withCallbackSelector:readingOptions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIViewController(TKCategory)/processJSONDataInBackground:withCallbackSelector:backgroundSelector:readingOptions:</TokenIdentifier>
+			<Abstract type="html">Process JSON data in the background with a callback selector.</Abstract>
+			<DeclaredIn>UIViewController+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)processJSONDataInBackground:(NSData *)data withCallbackSelector:(SEL)callback backgroundSelector:(SEL)backgroundProcessor readingOptions:(NSJSONReadingOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The JSON data.</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The selector that will be performed upon the parsing of the json data. The process data will be included as an object with the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>backgroundProcessor</Name>
+					<Abstract type="html">The selector that will be performed in the background upon the parsing of the json data. The process data will be included as an object with the selector. This selector must return some type of object to be passed to the callback selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">An json parsing options to be included will parsing the JSON data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processJSONDataInBackground:withCallbackSelector:backgroundSelector:readingOptions:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIViewController(TKCategory)/processJSONDataInBackground:withCallbackSelector:backgroundSelector:errorSelector:</TokenIdentifier>
+			<Abstract type="html">Process JSON data in the background with a callback selector.</Abstract>
+			<DeclaredIn>UIViewController+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)processJSONDataInBackground:(NSData *)data withCallbackSelector:(SEL)callback backgroundSelector:(SEL)backgroundProcessor errorSelector:(SEL)errroSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The JSON data.</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The selector that will be performed upon the parsing of the json data. The process data will be included as an object with the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>backgroundProcessor</Name>
+					<Abstract type="html">The selector that will be performed in the background upon the parsing of the json data. The process data will be included as an object with the selector. This selector must return some type of object to be passed to the callback selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>errroSelector</Name>
+					<Abstract type="html">The selector that will be called upon if there is an error parsing the data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processJSONDataInBackground:withCallbackSelector:backgroundSelector:errorSelector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIViewController(TKCategory)/processJSONDataInBackground:withCallbackSelector:backgroundSelector:errorSelector:readingOptions:</TokenIdentifier>
+			<Abstract type="html">Process JSON data in the background with a callback selector.</Abstract>
+			<DeclaredIn>UIViewController+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)processJSONDataInBackground:(NSData *)data withCallbackSelector:(SEL)callback backgroundSelector:(SEL)backgroundProcessor errorSelector:(SEL)errroSelector readingOptions:(NSJSONReadingOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The JSON data.</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The selector that will be performed upon the parsing of the json data. The process data will be included as an object with the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>backgroundProcessor</Name>
+					<Abstract type="html">The selector that will be performed in the background upon the parsing of the json data. The process data will be included as an object with the selector. This selector must return some type of object to be passed to the callback selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>errroSelector</Name>
+					<Abstract type="html">The selector that will be called upon if there is an error parsing the data.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">An json parsing options to be included will parsing the JSON data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processJSONDataInBackground:withCallbackSelector:backgroundSelector:errorSelector:readingOptions:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ABCalendarPicker.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ABCalendarPicker</TokenIdentifier>
+			<Abstract type="html">This class implements calendar picker view, witch can be used several ways:</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Delegate is needed for configuring and noticing calendars behavior.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDelegateProtocol&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate is needed for configuring and noticing calendars behavior.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDelegateProtocol&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setDataSource:</TokenIdentifier>
+			<Abstract type="html">Delegate is needed for displaying user information on calendar.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDataSourceProtocol&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/dataSource</TokenIdentifier>
+			<Abstract type="html">Delegate is needed for displaying user information on calendar.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDataSourceProtocol&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setBottomExpanding:</TokenIdentifier>
+			<Abstract type="html">Flag means wich side of the view should grow: bottom or top.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL bottomExpanding</Declaration>
+			
+			
+			<Anchor>//api/name/bottomExpanding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/bottomExpanding</TokenIdentifier>
+			<Abstract type="html">Flag means wich side of the view should grow: bottom or top.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL bottomExpanding</Declaration>
+			
+			
+			<Anchor>//api/name/bottomExpanding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setSwipeNavigationEnabled:</TokenIdentifier>
+			<Abstract type="html">Flag means is swipe enabled for navigation.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL swipeNavigationEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/swipeNavigationEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/swipeNavigationEnabled</TokenIdentifier>
+			<Abstract type="html">Flag means is swipe enabled for navigation.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL swipeNavigationEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/swipeNavigationEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setStyleProvider:</TokenIdentifier>
+			<Abstract type="html">Provides styling, for subviews</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerStyleProviderProtocol&gt; styleProvider</Declaration>
+			
+			
+			<Anchor>//api/name/styleProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/styleProvider</TokenIdentifier>
+			<Abstract type="html">Provides styling, for subviews</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerStyleProviderProtocol&gt; styleProvider</Declaration>
+			
+			
+			<Anchor>//api/name/styleProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setWeekdaysProvider:</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for days in week view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; weekdaysProvider</Declaration>
+			
+			
+			<Anchor>//api/name/weekdaysProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/weekdaysProvider</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for days in week view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; weekdaysProvider</Declaration>
+			
+			
+			<Anchor>//api/name/weekdaysProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setDaysProvider:</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for days in month view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; daysProvider</Declaration>
+			
+			
+			<Anchor>//api/name/daysProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/daysProvider</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for days in month view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; daysProvider</Declaration>
+			
+			
+			<Anchor>//api/name/daysProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setMonthsProvider:</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for months in year view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; monthsProvider</Declaration>
+			
+			
+			<Anchor>//api/name/monthsProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/monthsProvider</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for months in year view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; monthsProvider</Declaration>
+			
+			
+			<Anchor>//api/name/monthsProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setYearsProvider:</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for years in eras view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; yearsProvider</Declaration>
+			
+			
+			<Anchor>//api/name/yearsProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/yearsProvider</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for years in eras view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; yearsProvider</Declaration>
+			
+			
+			<Anchor>//api/name/yearsProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setErasProvider:</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for eras in xxx view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; erasProvider</Declaration>
+			
+			
+			<Anchor>//api/name/erasProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/erasProvider</TokenIdentifier>
+			<Abstract type="html">Provides button layout, animations and other options for eras in xxx view</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) id&lt;ABCalendarPickerDateProviderProtocol&gt; erasProvider</Declaration>
+			
+			
+			<Anchor>//api/name/erasProvider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setCalendar:</TokenIdentifier>
+			<Abstract type="html">Is used for all dates calculations during calendar navigation. Default value for
+calendar is [NSCalendar currentCalendar], but you can assign any.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/calendar</TokenIdentifier>
+			<Abstract type="html">Is used for all dates calculations during calendar navigation. Default value for
+calendar is [NSCalendar currentCalendar], but you can assign any.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setCurrentState:</TokenIdentifier>
+			<Abstract type="html">Retrieving current calendar state</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) ABCalendarPickerState currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/currentState</TokenIdentifier>
+			<Abstract type="html">Retrieving current calendar state</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) ABCalendarPickerState currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setSelectedDate:</TokenIdentifier>
+			<Abstract type="html">Retrieving and setting selected date, looks like today date.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, strong, nonatomic) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/selectedDate</TokenIdentifier>
+			<Abstract type="html">Retrieving and setting selected date, looks like today date.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, strong, nonatomic) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setHighlightedDate:</TokenIdentifier>
+			<Abstract type="html">Retrieving and setting highlighted date, looks like user-tapped date.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, strong, nonatomic) NSDate *highlightedDate</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPicker/highlightedDate</TokenIdentifier>
+			<Abstract type="html">Retrieving and setting highlighted date, looks like user-tapped date.</Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, strong, nonatomic) NSDate *highlightedDate</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/updateStateAnimated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateStateAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/updateStateAnimated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setDate:andState:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDate:(NSDate *)date andState:(ABCalendarPickerState)state animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setDate:andState:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setState:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>- (void)setState:(ABCalendarPickerState)state animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setState:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setSelectedDate:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>- (void)setSelectedDate:(NSDate *)date animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setSelectedDate:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPicker/setHighlightedAndSectedDate:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPicker.h</DeclaredIn>			
+			
+			<Declaration>- (void)setHighlightedAndSectedDate:(NSDate *)date animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setHighlightedAndSectedDate:animated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
