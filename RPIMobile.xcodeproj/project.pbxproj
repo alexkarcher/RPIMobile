@@ -205,6 +205,13 @@
 		DCC2956116423C050023E195 /* ImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2956016423C050023E195 /* ImageManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DCC4641C15D8E1BB0048FB0E /* VideoWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4641B15D8E1BB0048FB0E /* VideoWebviewViewController.m */; };
 		DCC4642915D8E47F0048FB0E /* VideoWebviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC4642815D8E47F0048FB0E /* VideoWebviewViewController.xib */; };
+		DCC4AF63170C715F008D2528 /* 2-red-back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF5F170C715F008D2528 /* 2-red-back-button.png */; };
+		DCC4AF64170C715F008D2528 /* 2-red-back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */; };
+		DCC4AF65170C715F008D2528 /* 2-red-bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */; };
+		DCC4AF66170C715F008D2528 /* 2-red-bar-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */; };
+		DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */; };
+		DCC4AF6C170C7C8C008D2528 /* event_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF6A170C7C8C008D2528 /* event_background.png */; };
+		DCC4AF6D170C7C8C008D2528 /* event_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */; };
 		DCC8087C15BF89450060390F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087B15BF89450060390F /* UIKit.framework */; };
 		DCC8087E15BF89450060390F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087D15BF89450060390F /* Foundation.framework */; };
 		DCC8088015BF89450060390F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087F15BF89450060390F /* CoreGraphics.framework */; };
@@ -505,6 +512,14 @@
 		DCC4641A15D8E1BB0048FB0E /* VideoWebviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWebviewViewController.h; sourceTree = "<group>"; };
 		DCC4641B15D8E1BB0048FB0E /* VideoWebviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWebviewViewController.m; sourceTree = "<group>"; };
 		DCC4642815D8E47F0048FB0E /* VideoWebviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoWebviewViewController.xib; sourceTree = "<group>"; };
+		DCC4AF5F170C715F008D2528 /* 2-red-back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-back-button.png"; sourceTree = "<group>"; };
+		DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-back-button@2x.png"; sourceTree = "<group>"; };
+		DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-bar-button.png"; sourceTree = "<group>"; };
+		DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-bar-button@2x.png"; sourceTree = "<group>"; };
+		DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarEvent.h; path = RPIMobile/RMCalendarEvent.h; sourceTree = "<group>"; };
+		DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEvent.m; path = RPIMobile/RMCalendarEvent.m; sourceTree = "<group>"; };
+		DCC4AF6A170C7C8C008D2528 /* event_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_background.png; sourceTree = "<group>"; };
+		DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "event_background@2x.png"; sourceTree = "<group>"; };
 		DCC8087715BF89450060390F /* RPIMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPIMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC8087B15BF89450060390F /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCC8087D15BF89450060390F /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -790,6 +805,10 @@
 		DC6A111815BF94C100B2F462 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				DCC4AF5F170C715F008D2528 /* 2-red-back-button.png */,
+				DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */,
+				DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */,
+				DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */,
 				DC3DAE82165BF84700F50CCD /* Icons */,
 				DC51CCD915C64B6300AE2D23 /* Menu Icons */,
 				DC71B887160C184400C79342 /* Default-568h@2x.png */,
@@ -933,8 +952,12 @@
 		DCC8086C15BF89450060390F = {
 			isa = PBXGroup;
 			children = (
+				DCC4AF6A170C7C8C008D2528 /* event_background.png */,
+				DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */,
 				DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */,
 				DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */,
+				DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */,
+				DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */,
 				DCC8088315BF89450060390F /* RPIMobile */,
 				DCC8087815BF89450060390F /* Products */,
 				E2AF5E0EAFF54340B2666527 /* Pods.xcconfig */,
@@ -1335,6 +1358,12 @@
 				DC06B7F116D54C0500DE799A /* CalendarSelectedDate@2x.png in Resources */,
 				DC06B7F216D54C0500DE799A /* CalendarTodaysDate.png in Resources */,
 				DC06B7F316D54C0500DE799A /* CalendarTodaysDate@2x.png in Resources */,
+				DCC4AF63170C715F008D2528 /* 2-red-back-button.png in Resources */,
+				DCC4AF64170C715F008D2528 /* 2-red-back-button@2x.png in Resources */,
+				DCC4AF65170C715F008D2528 /* 2-red-bar-button.png in Resources */,
+				DCC4AF66170C715F008D2528 /* 2-red-bar-button@2x.png in Resources */,
+				DCC4AF6C170C7C8C008D2528 /* event_background.png in Resources */,
+				DCC4AF6D170C7C8C008D2528 /* event_background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1432,6 +1461,7 @@
 				DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */,
 				DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */,
 				DC72C25C16E68E4800F463A2 /* RMCalendarViewController.m in Sources */,
+				DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

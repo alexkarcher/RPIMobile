@@ -118,7 +118,6 @@
     [self.window makeKeyAndVisible];
     
     [MFSideMenuManager configureWithNavigationController:self.navigationController sideMenuController:sideView];
-    
 
     
     [self setupShuttleTracker];

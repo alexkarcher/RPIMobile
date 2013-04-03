@@ -24,7 +24,7 @@
 #import "STMapViewController.h"
 #import "AthleticsMainViewController.h"
 #import "CampusMapViewController.h"
-//#import "EventsMainViewController.h"
+#import "RMCalendarViewController.h"
 
 //Temporary for presentation
 #include "PresentationNotReadyViewController.h"
@@ -166,7 +166,7 @@
         AthleticsMainViewController *nextView = [[AthleticsMainViewController alloc] initWithStyle:UITableViewStylePlain];
         controllers = [NSArray arrayWithObject:nextView];
     } else if(indexRow == menuEvents) {
-        PresentationNotReadyViewController *nextView = [[PresentationNotReadyViewController alloc] init];
+        RMCalendarViewController *nextView = [[RMCalendarViewController alloc] init];
         controllers = [NSArray arrayWithObject:nextView];
     } else if(indexRow == menuShuttles) {
         STMapViewController *nextView = [[STMapViewController alloc] init];

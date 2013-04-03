@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ABCalendarPicker.h"
+#import "CKCalendarView.h"
 
-@interface RMCalendarViewController : UIViewController <ABCalendarPickerDataSourceProtocol, ABCalendarPickerDelegateProtocol, UITableViewDataSource, UITableViewDelegate> {
-    
+@interface RMCalendarViewController : UIViewController <CKCalendarDelegate, UITableViewDataSource, UITableViewDelegate, UIGestureRecognizerDelegate> {
+//    UITableView *tableView;
 }
 
 @end
