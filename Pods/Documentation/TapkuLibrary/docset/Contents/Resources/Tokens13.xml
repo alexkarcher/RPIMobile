@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKGlobal.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKGlobal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKGlobal.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKGlobal/fullBundlePath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKGlobal.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)fullBundlePath:(NSString *)bundlePath</Declaration>
+			
+			
+			<Anchor>//api/name/fullBundlePath:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

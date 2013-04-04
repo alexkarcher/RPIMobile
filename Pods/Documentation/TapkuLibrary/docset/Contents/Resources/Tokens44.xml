@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImageView+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImageView(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIImageView.</Abstract>
+			<DeclaredIn>UIImageView+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImageView(TKCategory)/imageViewWithImageNamed:</TokenIdentifier>
+			<Abstract type="html">Returns a image view with an image of the given image name.</Abstract>
+			<DeclaredIn>UIImageView+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImageView *)imageViewWithImageNamed:(NSString *)imageName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>imageName</Name>
+					<Abstract type="html">The name of the image to create the imagename with.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns UIImageView object.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageViewWithImageNamed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImageView(TKCategory)/imageViewWithFrame:</TokenIdentifier>
+			<Abstract type="html">Returns a image view with the given frame.</Abstract>
+			<DeclaredIn>UIImageView+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImageView *)imageViewWithFrame:(CGRect)frame</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">The frame of the view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns UIImageView object.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageViewWithFrame:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

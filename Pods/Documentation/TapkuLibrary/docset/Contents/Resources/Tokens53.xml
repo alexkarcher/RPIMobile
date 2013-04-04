@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKHTTPRequestProgressDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKHTTPRequestProgressDelegate</TokenIdentifier>
+			<Abstract type="html">The progress delegate can adopt the TKHTTPRequestProgressDelegate protocol. The progress delegate is not retained.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKHTTPRequestProgressDelegate/request:didReceiveTotalBytes:ofExpectedBytes:</TokenIdentifier>
+			<Abstract type="html">The progress of received bytes for the response of the TKHTTPRequest.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)request:(TKHTTPRequest *)request didReceiveTotalBytes:(NSInteger)received ofExpectedBytes:(NSInteger)total</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request.</Abstract>
+				</Parameter><Parameter>
+					<Name>received</Name>
+					<Abstract type="html">The total bytes received from the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>total</Name>
+					<Abstract type="html">The total expected btyes that will be received from the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:didReceiveTotalBytes:ofExpectedBytes:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

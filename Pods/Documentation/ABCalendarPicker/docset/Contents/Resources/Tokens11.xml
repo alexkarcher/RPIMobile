@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UIMyButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UIMyButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setNumberOfDots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger numberOfDots</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfDots</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIMyButton/numberOfDots</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger numberOfDots</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfDots</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/titleForState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)titleForState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/titleForState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/titleColorForState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)titleColorForState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/titleColorForState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/titleShadowColorForState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)titleShadowColorForState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/titleShadowColorForState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/titleShadowOffsetForState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (CGSize)titleShadowOffsetForState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/titleShadowOffsetForState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/backgroundImageForState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)backgroundImageForState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundImageForState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setTitle:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTitle:(NSString *)title forState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:forState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setTitleColor:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTitleColor:(UIColor *)color forState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleColor:forState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setTitleShadowColor:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTitleShadowColor:(UIColor *)color forState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleShadowColor:forState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setTitleShadowOffset:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTitleShadowOffset:(CGSize)size forState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleShadowOffset:forState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setBackgroundImage:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>- (void)setBackgroundImage:(UIImage *)image forState:(UIControlState)state</Declaration>
+			
+			
+			<Anchor>//api/name/setBackgroundImage:forState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UIMyButton/stateSizeImageDict</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>+ (NSMutableDictionary *)stateSizeImageDict</Declaration>
+			
+			
+			<Anchor>//api/name/stateSizeImageDict</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

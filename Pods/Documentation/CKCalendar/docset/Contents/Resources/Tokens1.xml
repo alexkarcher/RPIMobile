@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CKCalendarView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CKCalendarView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setMinimumDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minimumDate</Declaration>
+			
+			
+			<Anchor>//api/name/minimumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/minimumDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minimumDate</Declaration>
+			
+			
+			<Anchor>//api/name/minimumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setMaximumDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maximumDate</Declaration>
+			
+			
+			<Anchor>//api/name/maximumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/maximumDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maximumDate</Declaration>
+			
+			
+			<Anchor>//api/name/maximumDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setSelectedDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/selectedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setShouldFillCalendar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL shouldFillCalendar</Declaration>
+			
+			
+			<Anchor>//api/name/shouldFillCalendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/shouldFillCalendar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL shouldFillCalendar</Declaration>
+			
+			
+			<Anchor>//api/name/shouldFillCalendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CKCalendarDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CKCalendarDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/initWithStartDay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStartDay:(startDay)firstDay</Declaration>
+			
+			
+			<Anchor>//api/name/initWithStartDay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/initWithStartDay:frame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStartDay:(startDay)firstDay frame:(CGRect)frame</Declaration>
+			
+			
+			<Anchor>//api/name/initWithStartDay:frame:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setTitleFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTitleFont:(UIFont *)font</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleFont:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/titleFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIFont *)titleFont</Declaration>
+			
+			
+			<Anchor>//api/name/titleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setTitleColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTitleColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/titleColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)titleColor</Declaration>
+			
+			
+			<Anchor>//api/name/titleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setButtonColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setInnerBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setInnerBorderColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/setInnerBorderColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDayOfWeekFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDayOfWeekFont:(UIFont *)font</Declaration>
+			
+			
+			<Anchor>//api/name/setDayOfWeekFont:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/dayOfWeekFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIFont *)dayOfWeekFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayOfWeekFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDayOfWeekTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDayOfWeekTextColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/setDayOfWeekTextColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/dayOfWeekTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)dayOfWeekTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayOfWeekTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDayOfWeekBottomColor:topColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDayOfWeekBottomColor:(UIColor *)bottomColor topColor:(UIColor *)topColor</Declaration>
+			
+			
+			<Anchor>//api/name/setDayOfWeekBottomColor:topColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDateFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDateFont:(UIFont *)font</Declaration>
+			
+			
+			<Anchor>//api/name/setDateFont:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/dateFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIFont *)dateFont</Declaration>
+			
+			
+			<Anchor>//api/name/dateFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDateBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDateBackgroundColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/setDateBackgroundColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/dateBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)dateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/dateBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDateBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDateBorderColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/setDateBorderColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/dateBorderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)dateBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/dateBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDateTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/dateTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setSelectedDateTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *selectedDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/selectedDateTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *selectedDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setSelectedDateBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *selectedDateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDateBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/selectedDateBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *selectedDateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDateBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setCurrentDateTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *currentDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/currentDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/currentDateTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *currentDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/currentDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setCurrentDateBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *currentDateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/currentDateBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/currentDateBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *currentDateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/currentDateBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setNonCurrentMonthDateTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *nonCurrentMonthDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/nonCurrentMonthDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/nonCurrentMonthDateTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *nonCurrentMonthDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/nonCurrentMonthDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDisabledDateTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *disabledDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/disabledDateTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *disabledDateTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledDateTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CKCalendarView/setDisabledDateBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *disabledDateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledDateBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CKCalendarView/disabledDateBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CKCalendarView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *disabledDateBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledDateBackgroundColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

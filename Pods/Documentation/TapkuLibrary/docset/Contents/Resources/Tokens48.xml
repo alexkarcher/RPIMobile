@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKCalendarDayTimelineViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKCalendarDayTimelineViewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarDayTimelineViewDelegate/calendarDayTimelineView:eventsForDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)calendarDayTimelineView:(TKCalendarDayTimelineView *)calendarDayTimeline eventsForDate:(NSDate *)eventDate</Declaration>
+			
+			
+			<Anchor>//api/name/calendarDayTimelineView:eventsForDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarDayTimelineViewDelegate/calendarDayTimelineView:eventViewWasSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarDayTimelineView:(TKCalendarDayTimelineView *)calendarDayTimeline eventViewWasSelected:(TKCalendarDayEventView *)eventView</Declaration>
+			
+			
+			<Anchor>//api/name/calendarDayTimelineView:eventViewWasSelected:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarDayTimelineViewDelegate/calendarDayTimelineView:eventDateWasSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarDayTimelineView:(TKCalendarDayTimelineView *)calendarDayTimeline eventDateWasSelected:(NSDate *)eventDate</Declaration>
+			
+			
+			<Anchor>//api/name/calendarDayTimelineView:eventDateWasSelected:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

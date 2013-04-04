@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCoverflowCoverView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCoverflowCoverView</TokenIdentifier>
+			<Abstract type="html">TKCoverflowCoverView objects are the main views for displaying covers in TKCoverflowView.</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/initWithFrame:showReflection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame showReflection:(BOOL)reflection</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:showReflection:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setImage:</TokenIdentifier>
+			<Abstract type="html">The coverflow image.</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/image</TokenIdentifier>
+			<Abstract type="html">The coverflow image.</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setGradientLayer:</TokenIdentifier>
+			<Abstract type="html">The gradient layer the will create the reflection below the coverflow image</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) CAGradientLayer *gradientLayer</Declaration>
+			
+			
+			<Anchor>//api/name/gradientLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/gradientLayer</TokenIdentifier>
+			<Abstract type="html">The gradient layer the will create the reflection below the coverflow image</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) CAGradientLayer *gradientLayer</Declaration>
+			
+			
+			<Anchor>//api/name/gradientLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setBaseline:</TokenIdentifier>
+			<Abstract type="html">The height of the image. This property will help coverflow adjust views to display images with different heights.</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) float baseline</Declaration>
+			
+			
+			<Anchor>//api/name/baseline</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/baseline</TokenIdentifier>
+			<Abstract type="html">The height of the image. This property will help coverflow adjust views to display images with different heights.</Abstract>
+			<DeclaredIn>TKCoverflowCoverView.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) float baseline</Declaration>
+			
+			
+			<Anchor>//api/name/baseline</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

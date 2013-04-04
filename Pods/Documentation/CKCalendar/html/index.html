@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>CKCalendar 0.1.0 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">CKCalendar 0.1.0 </a></h1>
+				<a id="developerHome" href="index.html">Jason Kozemczak</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CKCalendar 0.1.0 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CKCalendar 0.1.0 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>CKCalendar</h1>
+
+<p>CKCalendar is a sleek, easily customizable calendar control for iOS. Simply add the header, implementation, and resource files to your project and link against it&rsquo;s framework dependencies: QuartzCore and CoreGraphics.</p>
+
+<p>!<a href="http://cloud.github.com/downloads/jaykz52/CKCalendar/CKCalendar.png">CKCalendar screenshot</a></p>
+
+<p>The default calendar design is courtesy of <a href="http://twitter.com/jrileyd">John Anderson</a>. Thanks John!</p>
+
+<h2>Interacting with CKCalendar</h2>
+
+<p>CKCalendar provides delegate callbacks to interact with the calendar in the way you would expect:</p>
+
+<p>``` objc
+&ndash; (void)someMethod {
+  <a href="Classes/CKCalendarView.html">CKCalendarView</a> *calendar = [[CKCalendarView alloc] init];
+  [self.view addSubview:calendar];
+  calendar.delegate = self;
+}</p>
+
+<p>// snip&hellip;</p>
+
+<ul>
+<li>(void)calendar:(<a href="Classes/CKCalendarView.html">CKCalendarView</a> <em>)calendar didSelectDate:(NSDate </em>)date {
+// show the user the date they selected<br/>
+self.dateLabel.text = [date description];
+}</li>
+</ul>
+
+
+<p>```</p>
+
+<h2>Customizing</h2>
+
+<p>The calendar was written to be easily styled so that you can make it feel seamless in your app. You can customize the fonts, text colors, and background colors of nearly every element. You can also configure what day of the week the calendar should start on. The calendar allows you to set optional minimum and/or maximum selectable dates (which are also stylable). If you still have a feature not yet met, add it! The code is readable and quite extendable at this point. Enjoy!</p>
+
+<h2>License (MIT)</h2>
+
+<p>Copyright &copy; 2012 Jason Kozemczak</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/CKCalendarView.html">CKCalendarView</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/CKCalendarDelegate.html">CKCalendarDelegate</a></li>
+							
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Jason Kozemczak. All rights reserved. (Last updated: 2013-04-02)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

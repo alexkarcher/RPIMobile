@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarDayTimelineView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarDayTimelineView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setScrollView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) UIScrollView *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/scrollView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) UIScrollView *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setTimelineView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) TKTimelineView *timelineView</Declaration>
+			
+			
+			<Anchor>//api/name/timelineView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/timelineView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) TKTimelineView *timelineView</Declaration>
+			
+			
+			<Anchor>//api/name/timelineView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setEvents:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/events</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setCurrentDay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSDate *currentDay</Declaration>
+			
+			
+			<Anchor>//api/name/currentDay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/currentDay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSDate *currentDay</Declaration>
+			
+			
+			<Anchor>//api/name/currentDay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;TKCalendarDayTimelineViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;TKCalendarDayTimelineViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setTimelineColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *timelineColor</Declaration>
+			
+			
+			<Anchor>//api/name/timelineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/timelineColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *timelineColor</Declaration>
+			
+			
+			<Anchor>//api/name/timelineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setHourColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *hourColor</Declaration>
+			
+			
+			<Anchor>//api/name/hourColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/hourColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *hourColor</Declaration>
+			
+			
+			<Anchor>//api/name/hourColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setIs24hClock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL is24hClock</Declaration>
+			
+			
+			<Anchor>//api/name/is24hClock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayTimelineView/is24hClock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL is24hClock</Declaration>
+			
+			
+			<Anchor>//api/name/is24hClock</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/setupCustomInitialisation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setupCustomInitialisation</Declaration>
+			
+			
+			<Anchor>//api/name/setupCustomInitialisation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayTimelineView/reloadDay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayTimelineView.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadDay</Declaration>
+			
+			
+			<Anchor>//api/name/reloadDay</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

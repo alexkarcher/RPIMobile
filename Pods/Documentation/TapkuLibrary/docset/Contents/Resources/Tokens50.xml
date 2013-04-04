@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKCalendarMonthViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKCalendarMonthViewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate of a TKCalendarMonthView object must adopt the TKCalendarMonthViewDelegate protocol.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarMonthViewDelegate/calendarMonthView:didSelectDate:</TokenIdentifier>
+			<Abstract type="html">The highlighed date changed.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarMonthView:(TKCalendarMonthView *)monthView didSelectDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>monthView</Name>
+					<Abstract type="html">The calendar month view.</Abstract>
+				</Parameter><Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The highlighted date.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/calendarMonthView:didSelectDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarMonthViewDelegate/calendarMonthView:monthShouldChange:animated:</TokenIdentifier>
+			<Abstract type="html">The calendar should change the current month to grid shown.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)calendarMonthView:(TKCalendarMonthView *)monthView monthShouldChange:(NSDate *)month animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>monthView</Name>
+					<Abstract type="html">The calendar month view.</Abstract>
+				</Parameter><Parameter>
+					<Name>month</Name>
+					<Abstract type="html">The month date.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Animation flag</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the month should change. NO otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/calendarMonthView:monthShouldChange:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarMonthViewDelegate/calendarMonthView:monthWillChange:animated:</TokenIdentifier>
+			<Abstract type="html">The calendar will change the current month to grid shown.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarMonthView:(TKCalendarMonthView *)monthView monthWillChange:(NSDate *)month animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>monthView</Name>
+					<Abstract type="html">The calendar month view.</Abstract>
+				</Parameter><Parameter>
+					<Name>month</Name>
+					<Abstract type="html">The month date.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Animation flag</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/calendarMonthView:monthWillChange:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarMonthViewDelegate/calendarMonthView:monthDidChange:animated:</TokenIdentifier>
+			<Abstract type="html">The calendar did change the current month to grid shown.</Abstract>
+			<DeclaredIn>TKCalendarMonthView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarMonthView:(TKCalendarMonthView *)monthView monthDidChange:(NSDate *)month animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>monthView</Name>
+					<Abstract type="html">The calendar month view.</Abstract>
+				</Parameter><Parameter>
+					<Name>month</Name>
+					<Abstract type="html">The month date.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Animation flag</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/calendarMonthView:monthDidChange:animated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

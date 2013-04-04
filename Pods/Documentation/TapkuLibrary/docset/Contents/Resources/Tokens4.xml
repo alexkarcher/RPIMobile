@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarDayEventView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarDayEventView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSNumber *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSNumber *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setStartDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/startDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setEndDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/endDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setBalloonColorTop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *balloonColorTop</Declaration>
+			
+			
+			<Anchor>//api/name/balloonColorTop</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/balloonColorTop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *balloonColorTop</Declaration>
+			
+			
+			<Anchor>//api/name/balloonColorTop</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setBalloonColorBottom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *balloonColorBottom</Declaration>
+			
+			
+			<Anchor>//api/name/balloonColorBottom</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/balloonColorBottom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *balloonColorBottom</Declaration>
+			
+			
+			<Anchor>//api/name/balloonColorBottom</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayEventView/textColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayEventView/setupCustomInitialisation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setupCustomInitialisation</Declaration>
+			
+			
+			<Anchor>//api/name/setupCustomInitialisation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKCalendarDayEventView/eventViewWithFrame:id:startDate:endDate:title:location:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarDayEventView.h</DeclaredIn>			
+			
+			<Declaration>+ (id)eventViewWithFrame:(CGRect)frame id:(NSNumber *)id startDate:(NSDate *)startDate endDate:(NSDate *)endDate title:(NSString *)title location:(NSString *)location</Declaration>
+			
+			
+			<Anchor>//api/name/eventViewWithFrame:id:startDate:endDate:title:location:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

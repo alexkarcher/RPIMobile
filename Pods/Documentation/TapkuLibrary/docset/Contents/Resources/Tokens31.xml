@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKTableViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKTableViewController</TokenIdentifier>
+			<Abstract type="html">This class provides basic UITableViewController functionality under the TKViewController class.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKTableViewController/initWithStyle:</TokenIdentifier>
+			<Abstract type="html">Initializes a table-view controller to manage a table view of a given style.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithStyle:(UITableViewStyle)style</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>style</Name>
+					<Abstract type="html">A constant that specifies the style of table view that the controller object is to manage (UITableViewStylePlain or UITableViewStyleGrouped).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized TKTableViewController object or nil if the object couldn’t be created.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithStyle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKTableViewController/setTableView:</TokenIdentifier>
+			<Abstract type="html">Returns the table view managed by the controller object.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKTableViewController/tableView</TokenIdentifier>
+			<Abstract type="html">Returns the table view managed by the controller object.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKTableViewController/setEmptyView:</TokenIdentifier>
+			<Abstract type="html">Returns the empty view. Good for displaying when the content of the table view is empty.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKEmptyView *emptyView</Declaration>
+			
+			
+			<Anchor>//api/name/emptyView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKTableViewController/emptyView</TokenIdentifier>
+			<Abstract type="html">Returns the empty view. Good for displaying when the content of the table view is empty.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKEmptyView *emptyView</Declaration>
+			
+			
+			<Anchor>//api/name/emptyView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKTableViewController/setSearchBar:</TokenIdentifier>
+			<Abstract type="html">Returns a UISearchBar view.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UISearchBar *searchBar</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKTableViewController/searchBar</TokenIdentifier>
+			<Abstract type="html">Returns a UISearchBar view.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UISearchBar *searchBar</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKTableViewController/setSearchBarDisplayController:</TokenIdentifier>
+			<Abstract type="html">Returns a UISearchDisplayController for the search bar and table view.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UISearchDisplayController *searchBarDisplayController</Declaration>
+			
+			
+			<Anchor>//api/name/searchBarDisplayController</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKTableViewController/searchBarDisplayController</TokenIdentifier>
+			<Abstract type="html">Returns a UISearchDisplayController for the search bar and table view.</Abstract>
+			<DeclaredIn>TKTableViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UISearchDisplayController *searchBarDisplayController</Declaration>
+			
+			
+			<Anchor>//api/name/searchBarDisplayController</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

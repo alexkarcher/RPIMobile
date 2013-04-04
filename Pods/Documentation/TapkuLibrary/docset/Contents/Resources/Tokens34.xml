@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKViewController</TokenIdentifier>
+			<Abstract type="html">This class provides basic lazy loading views and easy network request management for a UIViewController.</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKViewController/setLoadingView:</TokenIdentifier>
+			<Abstract type="html">Returns a loading view with an UIActivityIndicatorView center on the view</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIView *loadingView</Declaration>
+			
+			
+			<Anchor>//api/name/loadingView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKViewController/loadingView</TokenIdentifier>
+			<Abstract type="html">Returns a loading view with an UIActivityIndicatorView center on the view</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIView *loadingView</Declaration>
+			
+			
+			<Anchor>//api/name/loadingView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKViewController/addActiveRequest:</TokenIdentifier>
+			<Abstract type="html">Associate active network requests with a specific view controller for easy management.</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>			
+			
+			<Declaration>- (void)addActiveRequest:(TKHTTPRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The network request which you want to have the view controller manage.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addActiveRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKViewController/activeRequestCount</TokenIdentifier>
+			<Abstract type="html">Returns the current number of request managed by the view controller.</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TKViewController/addActiveRequest:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSInteger)activeRequestCount</Declaration>
+			
+			
+			<Anchor>//api/name/activeRequestCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKViewController/removeActiveRequest:</TokenIdentifier>
+			<Abstract type="html">Remove an active request.</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TKViewController/addActiveRequest:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeActiveRequest:(TKHTTPRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The request that will be removed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeActiveRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKViewController/cancelActiveRequests</TokenIdentifier>
+			<Abstract type="html">Cancel all active network requests managed by the view controller.</Abstract>
+			<DeclaredIn>TKViewController.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TKViewController/addActiveRequest:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)cancelActiveRequests</Declaration>
+			
+			
+			<Anchor>//api/name/cancelActiveRequests</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarMonthViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarMonthViewController</TokenIdentifier>
+			<Abstract type="html">The TKCalendarMonthViewController class creates a controller object that manages a calendar month grid.</Abstract>
+			<DeclaredIn>TKCalendarMonthViewController.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthViewController/init</TokenIdentifier>
+			<Abstract type="html">Initializes a month view controller to manage a month grid. Sunday will be the left-most day.</Abstract>
+			<DeclaredIn>TKCalendarMonthViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">A newly create month view controller.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthViewController/initWithSunday:</TokenIdentifier>
+			<Abstract type="html">Initializes a month view controller to manage a month grid.</Abstract>
+			<DeclaredIn>TKCalendarMonthViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSunday:(BOOL)sundayFirst</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sundayFirst</Name>
+					<Abstract type="html">If YES, Sunday will be the left most day in the month grid, otherwise Monday.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A newly create month view controller.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSunday:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthViewController/setMonthView:</TokenIdentifier>
+			<Abstract type="html">Returns the month view managed by the controller object.</Abstract>
+			<DeclaredIn>TKCalendarMonthViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKCalendarMonthView *monthView</Declaration>
+			
+			
+			<Anchor>//api/name/monthView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthViewController/monthView</TokenIdentifier>
+			<Abstract type="html">Returns the month view managed by the controller object.</Abstract>
+			<DeclaredIn>TKCalendarMonthViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKCalendarMonthView *monthView</Declaration>
+			
+			
+			<Anchor>//api/name/monthView</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

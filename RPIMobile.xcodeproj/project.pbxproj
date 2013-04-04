@@ -11,7 +11,6 @@
 		DC03ED55161E973E0083C503 /* PresentationNotReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */; };
 		DC03ED56161E973E0083C503 /* PresentationNotReadyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */; };
 		DC03ED59161E97D80083C503 /* 11769225_HiRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */; };
-		DC06B7DD16D5494400DE799A /* EventsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC06B7DC16D5494400DE799A /* EventsMainViewController.m */; };
 		DC06B7EA16D54C0500DE799A /* CalendarPreviousMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E016D54C0500DE799A /* CalendarPreviousMonth.png */; };
 		DC06B7EB16D54C0500DE799A /* CalendarPreviousMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E116D54C0500DE799A /* CalendarPreviousMonth@2x.png */; };
 		DC06B7EC16D54C0500DE799A /* CalendarRow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC06B7E216D54C0500DE799A /* CalendarRow.png */; };
@@ -37,6 +36,7 @@
 		DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */; };
 		DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */; };
 		DC2D67D3160CEF35007DEFD0 /* RPIAthletics.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC2D67D2160CEF35007DEFD0 /* RPIAthletics.plist */; };
+		DC30EFB5160FE97A00CB4B3E /* MainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */; };
 		DC3DAE80165BF45900F50CCD /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DAE7C165BF45900F50CCD /* UIImage+ProportionalFill.m */; };
 		DC3DAE81165BF45900F50CCD /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DAE7E165BF45900F50CCD /* UIImage+Tint.m */; };
 		DC3DAE9F165BF88100F50CCD /* announcement_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DAE83165BF88100F50CCD /* announcement_icon.png */; };
@@ -105,7 +105,6 @@
 		DC51CD2415C707E300AE2D23 /* DirectoryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC51CD2215C707E300AE2D23 /* DirectoryDetailViewController.xib */; };
 		DC51CD2515C707E300AE2D23 /* DirectoryMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC51CD2315C707E300AE2D23 /* DirectoryMasterViewController.xib */; };
 		DC546E7015FCF7CF00EB5315 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC546E6F15FCF7CF00EB5315 /* QuartzCore.framework */; };
-		DC5B708C16D67A0D00E28D23 /* RPIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5B708B16D67A0D00E28D23 /* RPIEvent.m */; };
 		DC6A111615BF903600B2F462 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6A111415BF903600B2F462 /* RSSParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC6A111715BF90A800B2F462 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6A111215BF903600B2F462 /* RSSItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC6A112115BF94C100B2F462 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6A111915BF94C100B2F462 /* close.png */; };
@@ -119,6 +118,7 @@
 		DC6C272B15C4F293009DB7AC /* TeamPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6C272915C4F293009DB7AC /* TeamPlaceholder.png */; };
 		DC6C272C15C4F293009DB7AC /* TeamPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6C272A15C4F293009DB7AC /* TeamPlaceholder@2x.png */; };
 		DC71B888160C184400C79342 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71B887160C184400C79342 /* Default-568h@2x.png */; };
+		DC72C25C16E68E4800F463A2 /* RMCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */; };
 		DC74B2A315C70E9500FD4A69 /* VideoFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74B2A115C70E9500FD4A69 /* VideoFeedViewController.m */; };
 		DC74B2A415C70E9500FD4A69 /* VideoFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC74B2A215C70E9500FD4A69 /* VideoFeedViewController.xib */; };
 		DC74B2A715C70F1100FD4A69 /* WCXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74B2A615C70F1100FD4A69 /* WCXMLParser.m */; };
@@ -193,6 +193,7 @@
 		DC8BAC1315F068F5002CE3E9 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8BAC1015F068F5002CE3E9 /* HTMLNode.m */; };
 		DC8BAC1415F068F5002CE3E9 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8BAC1215F068F5002CE3E9 /* HTMLParser.m */; };
 		DC8BAC1615F06A33002CE3E9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8BAC1515F06A33002CE3E9 /* libxml2.dylib */; };
+		DC9506BA1610189C0064DF0C /* MainMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9506B91610189C0064DF0C /* MainMapOverlayView.m */; };
 		DC9506BE16101AE80064DF0C /* CampusMap.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9506BD16101AE80064DF0C /* CampusMap.png */; };
 		DC9703761616174C00D0F7EA /* AthleticsRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9703751616174C00D0F7EA /* AthleticsRosterViewController.m */; };
 		DCA3835215DEFB4C00984BA9 /* TweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA3835015DEFB4C00984BA9 /* TweetTableViewCell.m */; };
@@ -200,9 +201,18 @@
 		DCC29551164167400023E195 /* CampusMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC29550164167400023E195 /* CampusMapViewController.m */; };
 		DCC29555164169060023E195 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC29554164169060023E195 /* MapPin.m */; };
 		DCC29557164169AF0023E195 /* MapData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCC29556164169AF0023E195 /* MapData.plist */; };
+		DCC2955A16416D410023E195 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2955916416D410023E195 /* MKMapView+ZoomLevel.m */; };
 		DCC2956116423C050023E195 /* ImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2956016423C050023E195 /* ImageManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DCC4641C15D8E1BB0048FB0E /* VideoWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4641B15D8E1BB0048FB0E /* VideoWebviewViewController.m */; };
 		DCC4642915D8E47F0048FB0E /* VideoWebviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC4642815D8E47F0048FB0E /* VideoWebviewViewController.xib */; };
+		DCC4AF63170C715F008D2528 /* 2-red-back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF5F170C715F008D2528 /* 2-red-back-button.png */; };
+		DCC4AF64170C715F008D2528 /* 2-red-back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */; };
+		DCC4AF65170C715F008D2528 /* 2-red-bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */; };
+		DCC4AF66170C715F008D2528 /* 2-red-bar-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */; };
+		DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */; };
+		DCC4AF6C170C7C8C008D2528 /* event_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF6A170C7C8C008D2528 /* event_background.png */; };
+		DCC4AF6D170C7C8C008D2528 /* event_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */; };
+		DCC4AF70170CA339008D2528 /* RMCalendarEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */; };
 		DCC8087C15BF89450060390F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087B15BF89450060390F /* UIKit.framework */; };
 		DCC8087E15BF89450060390F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087D15BF89450060390F /* Foundation.framework */; };
 		DCC8088015BF89450060390F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087F15BF89450060390F /* CoreGraphics.framework */; };
@@ -252,8 +262,6 @@
 		DC03ED53161E973E0083C503 /* PresentationNotReadyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationNotReadyViewController.m; sourceTree = "<group>"; };
 		DC03ED54161E973E0083C503 /* PresentationNotReadyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentationNotReadyViewController.xib; sourceTree = "<group>"; };
 		DC03ED58161E97D80083C503 /* 11769225_HiRes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11769225_HiRes.jpg; sourceTree = "<group>"; };
-		DC06B7DB16D5494400DE799A /* EventsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsMainViewController.h; sourceTree = "<group>"; };
-		DC06B7DC16D5494400DE799A /* EventsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsMainViewController.m; sourceTree = "<group>"; };
 		DC06B7E016D54C0500DE799A /* CalendarPreviousMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarPreviousMonth.png; sourceTree = "<group>"; };
 		DC06B7E116D54C0500DE799A /* CalendarPreviousMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarPreviousMonth@2x.png"; sourceTree = "<group>"; };
 		DC06B7E216D54C0500DE799A /* CalendarRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarRow.png; sourceTree = "<group>"; };
@@ -292,6 +300,8 @@
 		DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedControl.m; sourceTree = "<group>"; };
 		DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedThumb.m; sourceTree = "<group>"; };
 		DC2D67D2160CEF35007DEFD0 /* RPIAthletics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RPIAthletics.plist; sourceTree = "<group>"; };
+		DC30EFB3160FE97A00CB4B3E /* MainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapViewController.h; sourceTree = "<group>"; };
+		DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapViewController.m; sourceTree = "<group>"; };
 		DC3DAE7B165BF45900F50CCD /* UIImage+ProportionalFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ProportionalFill.h"; sourceTree = "<group>"; };
 		DC3DAE7C165BF45900F50CCD /* UIImage+ProportionalFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ProportionalFill.m"; sourceTree = "<group>"; };
 		DC3DAE7D165BF45900F50CCD /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
@@ -368,8 +378,6 @@
 		DC51CD2215C707E300AE2D23 /* DirectoryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryDetailViewController.xib; sourceTree = "<group>"; };
 		DC51CD2315C707E300AE2D23 /* DirectoryMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryMasterViewController.xib; sourceTree = "<group>"; };
 		DC546E6F15FCF7CF00EB5315 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		DC5B708A16D67A0D00E28D23 /* RPIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPIEvent.h; sourceTree = "<group>"; };
-		DC5B708B16D67A0D00E28D23 /* RPIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPIEvent.m; sourceTree = "<group>"; };
 		DC6A111115BF903600B2F462 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
 		DC6A111215BF903600B2F462 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 		DC6A111315BF903600B2F462 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
@@ -385,6 +393,8 @@
 		DC6C272915C4F293009DB7AC /* TeamPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeamPlaceholder.png; sourceTree = "<group>"; };
 		DC6C272A15C4F293009DB7AC /* TeamPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeamPlaceholder@2x.png"; sourceTree = "<group>"; };
 		DC71B887160C184400C79342 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarViewController.h; path = RPIMobile/RMCalendarViewController.h; sourceTree = "<group>"; };
+		DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarViewController.m; path = RPIMobile/RMCalendarViewController.m; sourceTree = "<group>"; };
 		DC74B2A015C70E9500FD4A69 /* VideoFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFeedViewController.h; sourceTree = "<group>"; };
 		DC74B2A115C70E9500FD4A69 /* VideoFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFeedViewController.m; sourceTree = "<group>"; };
 		DC74B2A215C70E9500FD4A69 /* VideoFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoFeedViewController.xib; sourceTree = "<group>"; };
@@ -483,6 +493,8 @@
 		DC8BAC1115F068F5002CE3E9 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
 		DC8BAC1215F068F5002CE3E9 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 		DC8BAC1515F06A33002CE3E9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DC9506B81610189C0064DF0C /* MainMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapOverlayView.h; sourceTree = "<group>"; };
+		DC9506B91610189C0064DF0C /* MainMapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapOverlayView.m; sourceTree = "<group>"; };
 		DC9506BD16101AE80064DF0C /* CampusMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CampusMap.png; sourceTree = "<group>"; };
 		DC9703741616174C00D0F7EA /* AthleticsRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticsRosterViewController.h; sourceTree = "<group>"; };
 		DC9703751616174C00D0F7EA /* AthleticsRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticsRosterViewController.m; sourceTree = "<group>"; };
@@ -494,11 +506,23 @@
 		DCC29553164169060023E195 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
 		DCC29554164169060023E195 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		DCC29556164169AF0023E195 /* MapData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapData.plist; sourceTree = "<group>"; };
+		DCC2955816416D410023E195 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		DCC2955916416D410023E195 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 		DCC2955F16423C050023E195 /* ImageManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManipulator.h; sourceTree = "<group>"; };
 		DCC2956016423C050023E195 /* ImageManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManipulator.m; sourceTree = "<group>"; };
 		DCC4641A15D8E1BB0048FB0E /* VideoWebviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWebviewViewController.h; sourceTree = "<group>"; };
 		DCC4641B15D8E1BB0048FB0E /* VideoWebviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWebviewViewController.m; sourceTree = "<group>"; };
 		DCC4642815D8E47F0048FB0E /* VideoWebviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoWebviewViewController.xib; sourceTree = "<group>"; };
+		DCC4AF5F170C715F008D2528 /* 2-red-back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-back-button.png"; sourceTree = "<group>"; };
+		DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-back-button@2x.png"; sourceTree = "<group>"; };
+		DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-bar-button.png"; sourceTree = "<group>"; };
+		DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-bar-button@2x.png"; sourceTree = "<group>"; };
+		DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarEvent.h; path = RPIMobile/RMCalendarEvent.h; sourceTree = "<group>"; };
+		DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEvent.m; path = RPIMobile/RMCalendarEvent.m; sourceTree = "<group>"; };
+		DCC4AF6A170C7C8C008D2528 /* event_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_background.png; sourceTree = "<group>"; };
+		DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "event_background@2x.png"; sourceTree = "<group>"; };
+		DCC4AF6E170CA338008D2528 /* RMCalendarEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarEventViewController.h; path = RPIMobile/RMCalendarEventViewController.h; sourceTree = "<group>"; };
+		DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEventViewController.m; path = RPIMobile/RMCalendarEventViewController.m; sourceTree = "<group>"; };
 		DCC8087715BF89450060390F /* RPIMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPIMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC8087B15BF89450060390F /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCC8087D15BF89450060390F /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -660,8 +684,14 @@
 			isa = PBXGroup;
 			children = (
 				DC9506BD16101AE80064DF0C /* CampusMap.png */,
+				DC30EFB3160FE97A00CB4B3E /* MainMapViewController.h */,
+				DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */,
+				DC9506B81610189C0064DF0C /* MainMapOverlayView.h */,
+				DC9506B91610189C0064DF0C /* MainMapOverlayView.m */,
 				DCC2954F164167400023E195 /* CampusMapViewController.h */,
 				DCC29550164167400023E195 /* CampusMapViewController.m */,
+				DCC2955816416D410023E195 /* MKMapView+ZoomLevel.h */,
+				DCC2955916416D410023E195 /* MKMapView+ZoomLevel.m */,
 				DCC29553164169060023E195 /* MapPin.h */,
 				DCC29554164169060023E195 /* MapPin.m */,
 			);
@@ -778,6 +808,10 @@
 		DC6A111815BF94C100B2F462 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				DCC4AF5F170C715F008D2528 /* 2-red-back-button.png */,
+				DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */,
+				DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */,
+				DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */,
 				DC3DAE82165BF84700F50CCD /* Icons */,
 				DC51CCD915C64B6300AE2D23 /* Menu Icons */,
 				DC71B887160C184400C79342 /* Default-568h@2x.png */,
@@ -921,6 +955,14 @@
 		DCC8086C15BF89450060390F = {
 			isa = PBXGroup;
 			children = (
+				DCC4AF6A170C7C8C008D2528 /* event_background.png */,
+				DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */,
+				DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */,
+				DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */,
+				DCC4AF6E170CA338008D2528 /* RMCalendarEventViewController.h */,
+				DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */,
+				DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */,
+				DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */,
 				DCC8088315BF89450060390F /* RPIMobile */,
 				DCC8087815BF89450060390F /* Products */,
 				E2AF5E0EAFF54340B2666527 /* Pods.xcconfig */,
@@ -979,10 +1021,6 @@
 				DC6A111815BF94C100B2F462 /* imgs */,
 				DC6A111015BF903600B2F462 /* RSSParser */,
 				DCC808C815BF8AF90060390F /* News */,
-				DC06B7DB16D5494400DE799A /* EventsMainViewController.h */,
-				DC06B7DC16D5494400DE799A /* EventsMainViewController.m */,
-				DC5B708A16D67A0D00E28D23 /* RPIEvent.h */,
-				DC5B708B16D67A0D00E28D23 /* RPIEvent.m */,
 				DC7868DF160FA245000E9B35 /* LaundryViewController.h */,
 				DC7868E0160FA245000E9B35 /* LaundryViewController.m */,
 				DC74B2A515C70F1100FD4A69 /* WCXMLParser.h */,
@@ -1325,6 +1363,12 @@
 				DC06B7F116D54C0500DE799A /* CalendarSelectedDate@2x.png in Resources */,
 				DC06B7F216D54C0500DE799A /* CalendarTodaysDate.png in Resources */,
 				DC06B7F316D54C0500DE799A /* CalendarTodaysDate@2x.png in Resources */,
+				DCC4AF63170C715F008D2528 /* 2-red-back-button.png in Resources */,
+				DCC4AF64170C715F008D2528 /* 2-red-back-button@2x.png in Resources */,
+				DCC4AF65170C715F008D2528 /* 2-red-bar-button.png in Resources */,
+				DCC4AF66170C715F008D2528 /* 2-red-bar-button@2x.png in Resources */,
+				DCC4AF6C170C7C8C008D2528 /* event_background.png in Resources */,
+				DCC4AF6D170C7C8C008D2528 /* event_background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1384,6 +1428,8 @@
 				DC8BAC1415F068F5002CE3E9 /* HTMLParser.m in Sources */,
 				DCD5839B15FD0257001D6DCA /* SideMenuViewController.m in Sources */,
 				DC7868E1160FA245000E9B35 /* LaundryViewController.m in Sources */,
+				DC30EFB5160FE97A00CB4B3E /* MainMapViewController.m in Sources */,
+				DC9506BA1610189C0064DF0C /* MainMapOverlayView.m in Sources */,
 				DCC96EC91614968F00556D39 /* AthleticsMainViewController.m in Sources */,
 				DCC96ED51614A53A00556D39 /* AthleticsSportViewController.m in Sources */,
 				DC9703761616174C00D0F7EA /* AthleticsRosterViewController.m in Sources */,
@@ -1392,6 +1438,7 @@
 				DC84CAA11626181400AE44E6 /* ScheduleEntry.m in Sources */,
 				DCC29551164167400023E195 /* CampusMapViewController.m in Sources */,
 				DCC29555164169060023E195 /* MapPin.m in Sources */,
+				DCC2955A16416D410023E195 /* MKMapView+ZoomLevel.m in Sources */,
 				DCC2956116423C050023E195 /* ImageManipulator.m in Sources */,
 				DCE718F91642B7D4003D6B38 /* STDataManager.m in Sources */,
 				DCE719101642B7DF003D6B38 /* STETA.m in Sources */,
@@ -1418,8 +1465,9 @@
 				DC1F517216C0C87100002C46 /* PrettyToolbar.m in Sources */,
 				DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */,
 				DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */,
-				DC06B7DD16D5494400DE799A /* EventsMainViewController.m in Sources */,
-				DC5B708C16D67A0D00E28D23 /* RPIEvent.m in Sources */,
+				DC72C25C16E68E4800F463A2 /* RMCalendarViewController.m in Sources */,
+				DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */,
+				DCC4AF70170CA339008D2528 /* RMCalendarEventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,7 +1577,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5E0C9D37-2B7E-44C5-95B5-998044F1209E";
-				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1573,7 +1620,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "D8B3D99F-3815-4CE6-9789-006DDAF04B62";
-				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

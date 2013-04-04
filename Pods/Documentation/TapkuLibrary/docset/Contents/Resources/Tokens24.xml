@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKNetworkQueue.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKNetworkQueue</TokenIdentifier>
+			<Abstract type="html">A network queue to manage TKHTTPReuest objects.</Abstract>
+			<DeclaredIn>TKNetworkQueue.h</DeclaredIn>
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKNetworkQueue/sharedNetworkQueue</TokenIdentifier>
+			<Abstract type="html">A shared network queue object.</Abstract>
+			<DeclaredIn>TKNetworkQueue.h</DeclaredIn>			
+			
+			<Declaration>+ (TKNetworkQueue *)sharedNetworkQueue</Declaration>
+			
+			<ReturnValue><Abstract type="html">The shared TKNetworkQueue object.</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedNetworkQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKNetworkQueue/networkQueue</TokenIdentifier>
+			<Abstract type="html">Initialize a network queue.</Abstract>
+			<DeclaredIn>TKNetworkQueue.h</DeclaredIn>			
+			
+			<Declaration>+ (TKNetworkQueue *)networkQueue</Declaration>
+			
+			<ReturnValue><Abstract type="html">A freshly initialized TKNetworkQueue object.</Abstract></ReturnValue>
+			<Anchor>//api/name/networkQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKNetworkQueue/reset</TokenIdentifier>
+			<Abstract type="html">Cancels all network requests</Abstract>
+			<DeclaredIn>TKNetworkQueue.h</DeclaredIn>			
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

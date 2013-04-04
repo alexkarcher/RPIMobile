@@ -26,7 +26,7 @@
 
 #define red_start_color [UIColor colorWithHex:0x595959]
 #define red_end_color [UIColor colorWithHex:0x303030]
-#define kTeamPicURL @"http://silb.es/rpi/teampic.php?url="
+#define kTeamPicURL @"http://srsilber.com/rpi/teampic.php?url="
 
 
 #pragma mark -

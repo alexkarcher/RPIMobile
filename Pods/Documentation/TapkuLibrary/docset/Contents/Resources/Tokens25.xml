@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKProgressAlertView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKProgressAlertView</TokenIdentifier>
+			<Abstract type="html">A simple alert view with a progress view.</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressAlertView/initWithProgressTitle:</TokenIdentifier>
+			<Abstract type="html">Initializes a progress alert view with a title.</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithProgressTitle:(NSString *)title</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the progress alert.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A newly create progress alert view.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithProgressTitle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressAlertView/setProgressBar:</TokenIdentifier>
+			<Abstract type="html">The progress bar view</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKProgressBarView *progressBar</Declaration>
+			
+			
+			<Anchor>//api/name/progressBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKProgressAlertView/progressBar</TokenIdentifier>
+			<Abstract type="html">The progress bar view</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) TKProgressBarView *progressBar</Declaration>
+			
+			
+			<Anchor>//api/name/progressBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressAlertView/setLabel:</TokenIdentifier>
+			<Abstract type="html">The title label for the alert.</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKProgressAlertView/label</TokenIdentifier>
+			<Abstract type="html">The title label for the alert.</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressAlertView/show</TokenIdentifier>
+			<Abstract type="html">Show the alert</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)show</Declaration>
+			
+			
+			<Anchor>//api/name/show</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKProgressAlertView/hide</TokenIdentifier>
+			<Abstract type="html">Hide the alert</Abstract>
+			<DeclaredIn>TKProgressAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)hide</Declaration>
+			
+			
+			<Anchor>//api/name/hide</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

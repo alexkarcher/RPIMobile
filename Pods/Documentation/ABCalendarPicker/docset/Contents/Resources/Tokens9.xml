@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ABCalendarPickerDefaultYearsProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ABCalendarPickerDefaultYearsProvider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/setDateOwner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) id&lt;ABCalendarPickerDateOwner&gt; dateOwner</Declaration>
+			
+			
+			<Anchor>//api/name/dateOwner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultYearsProvider/dateOwner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) id&lt;ABCalendarPickerDateOwner&gt; dateOwner</Declaration>
+			
+			
+			<Anchor>//api/name/dateOwner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/canDiffuse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)canDiffuse</Declaration>
+			
+			
+			<Anchor>//api/name/canDiffuse</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/animationForPrev</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (ABCalendarPickerAnimation)animationForPrev</Declaration>
+			
+			
+			<Anchor>//api/name/animationForPrev</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/animationForNext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (ABCalendarPickerAnimation)animationForNext</Declaration>
+			
+			
+			<Anchor>//api/name/animationForNext</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/animationForZoomInToProvider:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (ABCalendarPickerAnimation)animationForZoomInToProvider:(id&lt;ABCalendarPickerDateProviderProtocol&gt;)provider</Declaration>
+			
+			
+			<Anchor>//api/name/animationForZoomInToProvider:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/animationForZoomOutToProvider:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (ABCalendarPickerAnimation)animationForZoomOutToProvider:(id&lt;ABCalendarPickerDateProviderProtocol&gt;)provider</Declaration>
+			
+			
+			<Anchor>//api/name/animationForZoomOutToProvider:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/dateForPrevAnimation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)dateForPrevAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/dateForPrevAnimation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/dateForNextAnimation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)dateForNextAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/dateForNextAnimation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/rowsCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)rowsCount</Declaration>
+			
+			
+			<Anchor>//api/name/rowsCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/columnsCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)columnsCount</Declaration>
+			
+			
+			<Anchor>//api/name/columnsCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/columnName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)columnName:(NSInteger)column</Declaration>
+			
+			
+			<Anchor>//api/name/columnName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/titleText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)titleText</Declaration>
+			
+			
+			<Anchor>//api/name/titleText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/dateForRow:andColumn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)dateForRow:(NSInteger)row andColumn:(NSInteger)column</Declaration>
+			
+			
+			<Anchor>//api/name/dateForRow:andColumn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/labelForDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)labelForDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/labelForDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/controlStateForDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (UIControlState)controlStateForDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/controlStateForDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/labelForRow:andColumn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)labelForRow:(NSInteger)row andColumn:(NSInteger)column</Declaration>
+			
+			
+			<Anchor>//api/name/labelForRow:andColumn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/controlStateForRow:andColumn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>- (UIControlState)controlStateForRow:(NSInteger)row andColumn:(NSInteger)column</Declaration>
+			
+			
+			<Anchor>//api/name/controlStateForRow:andColumn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultYearsProvider/setCalendar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultYearsProvider/calendar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultYearsProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

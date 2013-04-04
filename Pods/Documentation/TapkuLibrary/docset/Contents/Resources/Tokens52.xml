@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKCoverflowViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKCoverflowViewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate of a TKCoverflowView object must adopt the TKCoverflowViewDelegate protocol.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCoverflowViewDelegate/coverflowView:coverAtIndexWasBroughtToFront:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that a specified cover is now the foremost cover.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (void)coverflowView:(TKCoverflowView *)coverflowView coverAtIndexWasBroughtToFront:(int)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coverflowView</Name>
+					<Abstract type="html">The coverflow view.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the foremost cover.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/coverflowView:coverAtIndexWasBroughtToFront:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCoverflowViewDelegate/coverflowView:coverAtIndexWasTappedInFront:tapCount:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that a specified cover was tapped.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (void)coverflowView:(TKCoverflowView *)coverflowView coverAtIndexWasTappedInFront:(int)index tapCount:(NSInteger)tapCount</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coverflowView</Name>
+					<Abstract type="html">The coverflow view.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the double tapped cover.</Abstract>
+				</Parameter><Parameter>
+					<Name>tapCount</Name>
+					<Abstract type="html">The number of times the front cover was tapped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/coverflowView:coverAtIndexWasTappedInFront:tapCount:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKLabelCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKLabelCell</TokenIdentifier>
+			<Abstract type="html">This class is the base class for displaying a UITableViewCell with a label to the left of a main view element. Good for forms and entering lots of data.</Abstract>
+			<DeclaredIn>TKLabelCell.h</DeclaredIn>
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLabelCell/setLabel:</TokenIdentifier>
+			<Abstract type="html">A UILabel that will be a title for the core view.</Abstract>
+			<DeclaredIn>TKLabelCell.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLabelCell/label</TokenIdentifier>
+			<Abstract type="html">A UILabel that will be a title for the core view.</Abstract>
+			<DeclaredIn>TKLabelCell.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

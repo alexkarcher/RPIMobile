@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKHTTPRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKHTTPRequest</TokenIdentifier>
+			<Abstract type="html">An TKHTTPRequest object provides support to perform the loading of a URL request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKHTTPRequest/requestWithURL:</TokenIdentifier>
+			<Abstract type="html">Returns a newly created request with a URL.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>+ (TKHTTPRequest *)requestWithURL:(NSURL *)URL</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>URL</Name>
+					<Abstract type="html">The URL for the new request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The newly created request object.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestWithURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/initWithURL:</TokenIdentifier>
+			<Abstract type="html">Returns a newly initialized request with a URL.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithURL:(NSURL *)URL</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>URL</Name>
+					<Abstract type="html">The URL for the new request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The newly created request object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKHTTPRequest/requestWithURLRequest:</TokenIdentifier>
+			<Abstract type="html">Returns a newly created request with a NSURLRequest object.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>+ (TKHTTPRequest *)requestWithURLRequest:(NSURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The NSURLRequest for the new request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The newly created request object.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestWithURLRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/initWithURLRequest:</TokenIdentifier>
+			<Abstract type="html">Returns a newly initialized request with a NSURLRequest object.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithURLRequest:(NSURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The NSURLRequest for the new request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The newly created request object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithURLRequest:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setURL:</TokenIdentifier>
+			<Abstract type="html">The request&apos;s URL.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSURL *URL</Declaration>
+			
+			
+			<Anchor>//api/name/URL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/URL</TokenIdentifier>
+			<Abstract type="html">The request&apos;s URL.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSURL *URL</Declaration>
+			
+			
+			<Anchor>//api/name/URL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setURLRequest:</TokenIdentifier>
+			<Abstract type="html">The request&apos;s URL Request object.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSURLRequest *URLRequest</Declaration>
+			
+			
+			<Anchor>//api/name/URLRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/URLRequest</TokenIdentifier>
+			<Abstract type="html">The request&apos;s URL Request object.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSURLRequest *URLRequest</Declaration>
+			
+			
+			<Anchor>//api/name/URLRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setTag:</TokenIdentifier>
+			<Abstract type="html">An integer that you can use to identify request objects in your application.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) NSUInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/tag</TokenIdentifier>
+			<Abstract type="html">An integer that you can use to identify request objects in your application.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) NSUInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setShowNetworkActivity:</TokenIdentifier>
+			<Abstract type="html">The request will show the network indicator in the status bar when set to YES. Default is YES.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) BOOL showNetworkActivity</Declaration>
+			
+			
+			<Anchor>//api/name/showNetworkActivity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/showNetworkActivity</TokenIdentifier>
+			<Abstract type="html">The request will show the network indicator in the status bar when set to YES. Default is YES.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) BOOL showNetworkActivity</Declaration>
+			
+			
+			<Anchor>//api/name/showNetworkActivity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setProgressDelegate:</TokenIdentifier>
+			<Abstract type="html">The progress delegate must adopt the TKHTTPRequestProgressDelegate protocol. The data source is not retained.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) id&lt;TKHTTPRequestProgressDelegate&gt; progressDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/progressDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/progressDelegate</TokenIdentifier>
+			<Abstract type="html">The progress delegate must adopt the TKHTTPRequestProgressDelegate protocol. The data source is not retained.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) id&lt;TKHTTPRequestProgressDelegate&gt; progressDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/progressDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate to receive start, finish and fail callback selectors.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) id delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate to receive start, finish and fail callback selectors.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) id delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setDidStartSelector:</TokenIdentifier>
+			<Abstract type="html">The selector called upon the start of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL didStartSelector</Declaration>
+			
+			
+			<Anchor>//api/name/didStartSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/didStartSelector</TokenIdentifier>
+			<Abstract type="html">The selector called upon the start of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL didStartSelector</Declaration>
+			
+			
+			<Anchor>//api/name/didStartSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setDidFinishSelector:</TokenIdentifier>
+			<Abstract type="html">The selector called upon the finishing of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL didFinishSelector</Declaration>
+			
+			
+			<Anchor>//api/name/didFinishSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/didFinishSelector</TokenIdentifier>
+			<Abstract type="html">The selector called upon the finishing of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL didFinishSelector</Declaration>
+			
+			
+			<Anchor>//api/name/didFinishSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setDidFailSelector:</TokenIdentifier>
+			<Abstract type="html">The selector called upon the failure of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL didFailSelector</Declaration>
+			
+			
+			<Anchor>//api/name/didFailSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/didFailSelector</TokenIdentifier>
+			<Abstract type="html">The selector called upon the failure of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) SEL didFailSelector</Declaration>
+			
+			
+			<Anchor>//api/name/didFailSelector</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setDownloadDestinationPath:</TokenIdentifier>
+			<Abstract type="html">The final destination for the response data file. Default is nil.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *downloadDestinationPath</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDestinationPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/downloadDestinationPath</TokenIdentifier>
+			<Abstract type="html">The final destination for the response data file. Default is nil.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *downloadDestinationPath</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDestinationPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setTemporaryFileDownloadPath:</TokenIdentifier>
+			<Abstract type="html">The destination for the response data to be written to during the request connection. Default is nil.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *temporaryFileDownloadPath</Declaration>
+			
+			
+			<Anchor>//api/name/temporaryFileDownloadPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/temporaryFileDownloadPath</TokenIdentifier>
+			<Abstract type="html">The destination for the response data to be written to during the request connection. Default is nil.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSString *temporaryFileDownloadPath</Declaration>
+			
+			
+			<Anchor>//api/name/temporaryFileDownloadPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setError:</TokenIdentifier>
+			<Abstract type="html">The error object if the requests ends in failure.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/error</TokenIdentifier>
+			<Abstract type="html">The error object if the requests ends in failure.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, nonatomic) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setStatusCode:</TokenIdentifier>
+			<Abstract type="html">The status code of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) NSInteger statusCode</Declaration>
+			
+			
+			<Anchor>//api/name/statusCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/statusCode</TokenIdentifier>
+			<Abstract type="html">The status code of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, nonatomic) NSInteger statusCode</Declaration>
+			
+			
+			<Anchor>//api/name/statusCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setResponseHeaders:</TokenIdentifier>
+			<Abstract type="html">The response headers of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSDictionary *responseHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/responseHeaders</TokenIdentifier>
+			<Abstract type="html">The response headers of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) NSDictionary *responseHeaders</Declaration>
+			
+			
+			<Anchor>//api/name/responseHeaders</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setResponseData:</TokenIdentifier>
+			<Abstract type="html">The response data of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) NSData *responseData</Declaration>
+			
+			
+			<Anchor>//api/name/responseData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKHTTPRequest/responseData</TokenIdentifier>
+			<Abstract type="html">The response data of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) NSData *responseData</Declaration>
+			
+			
+			<Anchor>//api/name/responseData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setStartedBlock:</TokenIdentifier>
+			<Abstract type="html">The block called upon the start of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setStartedBlock:(TKBasicBlock)aStartedBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aStartedBlock</Name>
+					<Abstract type="html">The block that will be executed upon the start of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setStartedBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setCompletionBlock:</TokenIdentifier>
+			<Abstract type="html">The block called up the finishing of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setCompletionBlock:(TKBasicBlock)aCompletionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aCompletionBlock</Name>
+					<Abstract type="html">The block that will be executed upon completion of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setCompletionBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/setFailedBlock:</TokenIdentifier>
+			<Abstract type="html">The block called up the failure of the request.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)setFailedBlock:(TKBasicBlock)aFailedBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aFailedBlock</Name>
+					<Abstract type="html">The block that will be executed upon failure of the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setFailedBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKHTTPRequest/startAsynchronous</TokenIdentifier>
+			<Abstract type="html">Causes the request to begin loading data, if it has not already.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>- (void)startAsynchronous</Declaration>
+			
+			
+			<Anchor>//api/name/startAsynchronous</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKHTTPRequest/isNetworkInUse</TokenIdentifier>
+			<Abstract type="html">Returns YES if there are any active requests, otherwise NO.</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isNetworkInUse</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if there are any active requests, otherwise NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isNetworkInUse</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKHTTPRequest/setShouldUpdateNetworkActivityIndicator:</TokenIdentifier>
+			<Abstract type="html">Sets the rule that future requests will change the Network Indicator in the status bar</Abstract>
+			<DeclaredIn>TKHTTPRequest.h</DeclaredIn>			
+			
+			<Declaration>+ (void)setShouldUpdateNetworkActivityIndicator:(BOOL)shouldUpdate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>shouldUpdate</Name>
+					<Abstract type="html">YES if the network indicator should change upon new requests, otherwise NO.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setShouldUpdateNetworkActivityIndicator:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

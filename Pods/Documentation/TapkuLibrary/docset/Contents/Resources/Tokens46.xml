@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+TKCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(TKCategory)</TokenIdentifier>
+			<Abstract type="html">Additional functionality for UIView.</Abstract>
+			<DeclaredIn>UIView+TKCategory.h</DeclaredIn>
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(TKCategory)/addSubviewToBack:</TokenIdentifier>
+			<Abstract type="html">Adds a view to the beginning of the receiver’s list of subviews.</Abstract>
+			<DeclaredIn>UIView+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSubviewToBack:(UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view to be added. This view is retained by the receiver. After being added, this view appears below of any other subviews.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSubviewToBack:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(TKCategory)/roundOffFrame</TokenIdentifier>
+			<Abstract type="html">Rounds of views frame coordinates to the nearest integer.</Abstract>
+			<DeclaredIn>UIView+TKCategory.h</DeclaredIn>			
+			
+			<Declaration>- (void)roundOffFrame</Declaration>
+			
+			
+			<Anchor>//api/name/roundOffFrame</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

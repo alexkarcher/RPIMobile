@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKLabelFieldCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKLabelFieldCell</TokenIdentifier>
+			<Abstract type="html">A TKLabelCell with a UILabel field.</Abstract>
+			<DeclaredIn>TKLabelFieldCell.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLabelFieldCell/setField:</TokenIdentifier>
+			<Abstract type="html">A UILabel field.</Abstract>
+			<DeclaredIn>TKLabelFieldCell.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *field</Declaration>
+			
+			
+			<Anchor>//api/name/field</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLabelFieldCell/field</TokenIdentifier>
+			<Abstract type="html">A UILabel field.</Abstract>
+			<DeclaredIn>TKLabelFieldCell.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UILabel *field</Declaration>
+			
+			
+			<Anchor>//api/name/field</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

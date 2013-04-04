@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ABCalendarPickerDefaultStyleProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ABCalendarPickerDefaultStyleProvider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/textColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/textShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/textShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIColor *textShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/textShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/calendarPicker:cellViewForTitle:andState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (UIControl *)calendarPicker:(ABCalendarPicker *)calendarPicker cellViewForTitle:(NSString *)cellTitle andState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:cellViewForTitle:andState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker postUpdateForCellView:(UIControl *)control onControlState:(UIControlState)controlState withEvents:(NSInteger)eventsCount andState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setPatternImageForGradientBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *patternImageForGradientBar</Declaration>
+			
+			
+			<Anchor>//api/name/patternImageForGradientBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/patternImageForGradientBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *patternImageForGradientBar</Declaration>
+			
+			
+			<Anchor>//api/name/patternImageForGradientBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setNormalImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *normalImage</Declaration>
+			
+			
+			<Anchor>//api/name/normalImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/normalImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *normalImage</Declaration>
+			
+			
+			<Anchor>//api/name/normalImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setSelectedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *selectedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/selectedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *selectedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setHighlightedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *highlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/highlightedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *highlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setSelectedHighlightedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *selectedHighlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedHighlightedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/selectedHighlightedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIImage *selectedHighlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedHighlightedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setNormalTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *normalTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/normalTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/normalTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *normalTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/normalTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setDisabledTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *disabledTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/disabledTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *disabledTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setSelectedTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *selectedTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/selectedTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *selectedTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setNormalTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *normalTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/normalTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/normalTextShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *normalTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/normalTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setDisabledTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *disabledTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/disabledTextShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *disabledTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/disabledTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setSelectedTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *selectedTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/selectedTextShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIColor *selectedTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/selectedTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setNormalTextShadowPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize normalTextShadowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/normalTextShadowPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/normalTextShadowPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize normalTextShadowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/normalTextShadowPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setDisabledTextShadowPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize disabledTextShadowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/disabledTextShadowPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/disabledTextShadowPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize disabledTextShadowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/disabledTextShadowPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setSelectedTextShadowPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize selectedTextShadowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/selectedTextShadowPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/selectedTextShadowPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize selectedTextShadowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/selectedTextShadowPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setMaxNumberOfDots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger maxNumberOfDots</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfDots</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/maxNumberOfDots</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger maxNumberOfDots</Declaration>
+			
+			
+			<Anchor>//api/name/maxNumberOfDots</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

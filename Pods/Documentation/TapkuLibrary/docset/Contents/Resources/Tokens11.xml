@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCoverflowView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCoverflowView</TokenIdentifier>
+			<Abstract type="html">TKCoverflowView imitates the coverflow you’d find in the iPod/Music app on the iPhone OS. Coverflow displays TKCoverflowView objects. This view functions similar to the UITableView where covers that are off screen aren’t loaded until need. Thus, similar to the tableview, you can dequeue a cover view and hand it back to Coverflow View using the data source.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setCoverflowDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate must adopt the TKCoverflowViewDelegate protocol. The delegate is not retained.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCoverflowViewDelegate&gt; coverflowDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/coverflowDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/coverflowDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate must adopt the TKCoverflowViewDelegate protocol. The delegate is not retained.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCoverflowViewDelegate&gt; coverflowDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/coverflowDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setDataSource:</TokenIdentifier>
+			<Abstract type="html">The data source must adopt the TKCoverflowViewDataSource protocol. The data source is not retained.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCoverflowViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/dataSource</TokenIdentifier>
+			<Abstract type="html">The data source must adopt the TKCoverflowViewDataSource protocol. The data source is not retained.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;TKCoverflowViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setCoverSize:</TokenIdentifier>
+			<Abstract type="html">Coversize is used to center the cover view in the view. This doesn’t have to be the exact size of the TKCoverflowView objects hand through the data source. The default is (224,224).</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize coverSize</Declaration>
+			
+			
+			<Anchor>//api/name/coverSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/coverSize</TokenIdentifier>
+			<Abstract type="html">Coversize is used to center the cover view in the view. This doesn’t have to be the exact size of the TKCoverflowView objects hand through the data source. The default is (224,224).</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize coverSize</Declaration>
+			
+			
+			<Anchor>//api/name/coverSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setNumberOfCovers:</TokenIdentifier>
+			<Abstract type="html">The total number cover views in the coverflow view. Changing this property will cause the coverflow to reload data.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int numberOfCovers</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfCovers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/numberOfCovers</TokenIdentifier>
+			<Abstract type="html">The total number cover views in the coverflow view. Changing this property will cause the coverflow to reload data.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int numberOfCovers</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfCovers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setCoverSpacing:</TokenIdentifier>
+			<Abstract type="html">The spacing between cover views</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float coverSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/coverSpacing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/coverSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between cover views</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float coverSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/coverSpacing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setCoverAngle:</TokenIdentifier>
+			<Abstract type="html">The angle which covers will be display at when they are not on the center.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float coverAngle</Declaration>
+			
+			
+			<Anchor>//api/name/coverAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/coverAngle</TokenIdentifier>
+			<Abstract type="html">The angle which covers will be display at when they are not on the center.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float coverAngle</Declaration>
+			
+			
+			<Anchor>//api/name/coverAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setSpaceInFront:</TokenIdentifier>
+			<Abstract type="html">The amount of space the center cover is infront of the rest of the other covers. Default is 300.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float spaceInFront</Declaration>
+			
+			
+			<Anchor>//api/name/spaceInFront</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/spaceInFront</TokenIdentifier>
+			<Abstract type="html">The amount of space the center cover is infront of the rest of the other covers. Default is 300.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float spaceInFront</Declaration>
+			
+			
+			<Anchor>//api/name/spaceInFront</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/dequeueReusableCoverView</TokenIdentifier>
+			<Abstract type="html">Returns an usued coverflow view. If there are no reusable views, it will return nil.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (TKCoverflowCoverView *)dequeueReusableCoverView</Declaration>
+			
+			
+			<Anchor>//api/name/dequeueReusableCoverView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/coverAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns the cover object corresponding to that index.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (TKCoverflowCoverView *)coverAtIndex:(int)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the cover object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The cover object at the index. If the cover is outside the visible range, it will return nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/coverAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/indexOfFrontCoverView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (int)indexOfFrontCoverView</Declaration>
+			
+			
+			<Anchor>//api/name/indexOfFrontCoverView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/bringCoverAtIndexToFront:animated:</TokenIdentifier>
+			<Abstract type="html">Sets the foremost cover.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (void)bringCoverAtIndexToFront:(int)index animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the cover that will become the foremost cover.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Boolean flag to animate the change.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/bringCoverAtIndexToFront:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowView/setCurrentIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the foremost cover</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger currentIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowView/currentIndex</TokenIdentifier>
+			<Abstract type="html">The index of the foremost cover</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger currentIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentIndex</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

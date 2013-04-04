@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/stephen/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.CKCalendar-0.1.0.docset
+Time: 2013-04-02 19:37:03 +0000
