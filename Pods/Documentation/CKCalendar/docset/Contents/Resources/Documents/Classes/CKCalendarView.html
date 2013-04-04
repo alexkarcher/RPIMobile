@@ -1,0 +1,963 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CKCalendarView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CKCalendar 0.1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Jason Kozemczak</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CKCalendarView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/currentDateBackgroundColor">&nbsp;&nbsp;&nbsp;&nbsp;currentDateBackgroundColor</option>
+	
+	<option value="//api/name/currentDateTextColor">&nbsp;&nbsp;&nbsp;&nbsp;currentDateTextColor</option>
+	
+	<option value="//api/name/dateTextColor">&nbsp;&nbsp;&nbsp;&nbsp;dateTextColor</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/disabledDateBackgroundColor">&nbsp;&nbsp;&nbsp;&nbsp;disabledDateBackgroundColor</option>
+	
+	<option value="//api/name/disabledDateTextColor">&nbsp;&nbsp;&nbsp;&nbsp;disabledDateTextColor</option>
+	
+	<option value="//api/name/maximumDate">&nbsp;&nbsp;&nbsp;&nbsp;maximumDate</option>
+	
+	<option value="//api/name/minimumDate">&nbsp;&nbsp;&nbsp;&nbsp;minimumDate</option>
+	
+	<option value="//api/name/nonCurrentMonthDateTextColor">&nbsp;&nbsp;&nbsp;&nbsp;nonCurrentMonthDateTextColor</option>
+	
+	<option value="//api/name/selectedDate">&nbsp;&nbsp;&nbsp;&nbsp;selectedDate</option>
+	
+	<option value="//api/name/selectedDateBackgroundColor">&nbsp;&nbsp;&nbsp;&nbsp;selectedDateBackgroundColor</option>
+	
+	<option value="//api/name/selectedDateTextColor">&nbsp;&nbsp;&nbsp;&nbsp;selectedDateTextColor</option>
+	
+	<option value="//api/name/shouldFillCalendar">&nbsp;&nbsp;&nbsp;&nbsp;shouldFillCalendar</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/dateBackgroundColor">&nbsp;&nbsp;&nbsp;&nbsp;- dateBackgroundColor</option>
+	
+	<option value="//api/name/dateBorderColor">&nbsp;&nbsp;&nbsp;&nbsp;- dateBorderColor</option>
+	
+	<option value="//api/name/dateFont">&nbsp;&nbsp;&nbsp;&nbsp;- dateFont</option>
+	
+	<option value="//api/name/dayOfWeekFont">&nbsp;&nbsp;&nbsp;&nbsp;- dayOfWeekFont</option>
+	
+	<option value="//api/name/dayOfWeekTextColor">&nbsp;&nbsp;&nbsp;&nbsp;- dayOfWeekTextColor</option>
+	
+	<option value="//api/name/initWithStartDay:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithStartDay:</option>
+	
+	<option value="//api/name/initWithStartDay:frame:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithStartDay:frame:</option>
+	
+	<option value="//api/name/setButtonColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setButtonColor:</option>
+	
+	<option value="//api/name/setDateBackgroundColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setDateBackgroundColor:</option>
+	
+	<option value="//api/name/setDateBorderColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setDateBorderColor:</option>
+	
+	<option value="//api/name/setDateFont:">&nbsp;&nbsp;&nbsp;&nbsp;- setDateFont:</option>
+	
+	<option value="//api/name/setDayOfWeekBottomColor:topColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setDayOfWeekBottomColor:topColor:</option>
+	
+	<option value="//api/name/setDayOfWeekFont:">&nbsp;&nbsp;&nbsp;&nbsp;- setDayOfWeekFont:</option>
+	
+	<option value="//api/name/setDayOfWeekTextColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setDayOfWeekTextColor:</option>
+	
+	<option value="//api/name/setInnerBorderColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setInnerBorderColor:</option>
+	
+	<option value="//api/name/setTitleColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setTitleColor:</option>
+	
+	<option value="//api/name/setTitleFont:">&nbsp;&nbsp;&nbsp;&nbsp;- setTitleFont:</option>
+	
+	<option value="//api/name/titleColor">&nbsp;&nbsp;&nbsp;&nbsp;- titleColor</option>
+	
+	<option value="//api/name/titleFont">&nbsp;&nbsp;&nbsp;&nbsp;- titleFont</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentDateBackgroundColor">currentDateBackgroundColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentDateTextColor">currentDateTextColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateTextColor">dateTextColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disabledDateBackgroundColor">disabledDateBackgroundColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/disabledDateTextColor">disabledDateTextColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maximumDate">maximumDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minimumDate">minimumDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/nonCurrentMonthDateTextColor">nonCurrentMonthDateTextColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDate">selectedDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDateBackgroundColor">selectedDateBackgroundColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDateTextColor">selectedDateTextColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldFillCalendar">shouldFillCalendar</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateBackgroundColor">dateBackgroundColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateBorderColor">dateBorderColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateFont">dateFont</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dayOfWeekFont">dayOfWeekFont</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dayOfWeekTextColor">dayOfWeekTextColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithStartDay:">initWithStartDay:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithStartDay:frame:">initWithStartDay:frame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setButtonColor:">setButtonColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDateBackgroundColor:">setDateBackgroundColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDateBorderColor:">setDateBorderColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDateFont:">setDateFont:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDayOfWeekBottomColor:topColor:">setDayOfWeekBottomColor:topColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDayOfWeekFont:">setDayOfWeekFont:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDayOfWeekTextColor:">setDayOfWeekTextColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setInnerBorderColor:">setInnerBorderColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTitleColor:">setTitleColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTitleFont:">setTitleFont:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleColor">titleColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleFont">titleFont</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CKCalendarView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CKCalendarView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CKCalendarView.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minimumDate">&nbsp;&nbsp;minimumDate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maximumDate">&nbsp;&nbsp;maximumDate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDate">&nbsp;&nbsp;selectedDate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldFillCalendar">&nbsp;&nbsp;shouldFillCalendar</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithStartDay:">&ndash;&nbsp;initWithStartDay:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithStartDay:frame:">&ndash;&nbsp;initWithStartDay:frame:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTitleFont:">&ndash;&nbsp;setTitleFont:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleFont">&ndash;&nbsp;titleFont</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTitleColor:">&ndash;&nbsp;setTitleColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleColor">&ndash;&nbsp;titleColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setButtonColor:">&ndash;&nbsp;setButtonColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setInnerBorderColor:">&ndash;&nbsp;setInnerBorderColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDayOfWeekFont:">&ndash;&nbsp;setDayOfWeekFont:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dayOfWeekFont">&ndash;&nbsp;dayOfWeekFont</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDayOfWeekTextColor:">&ndash;&nbsp;setDayOfWeekTextColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dayOfWeekTextColor">&ndash;&nbsp;dayOfWeekTextColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDayOfWeekBottomColor:topColor:">&ndash;&nbsp;setDayOfWeekBottomColor:topColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDateFont:">&ndash;&nbsp;setDateFont:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateFont">&ndash;&nbsp;dateFont</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDateBackgroundColor:">&ndash;&nbsp;setDateBackgroundColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateBackgroundColor">&ndash;&nbsp;dateBackgroundColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDateBorderColor:">&ndash;&nbsp;setDateBorderColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateBorderColor">&ndash;&nbsp;dateBorderColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateTextColor">&nbsp;&nbsp;dateTextColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDateTextColor">&nbsp;&nbsp;selectedDateTextColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDateBackgroundColor">&nbsp;&nbsp;selectedDateBackgroundColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentDateTextColor">&nbsp;&nbsp;currentDateTextColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentDateBackgroundColor">&nbsp;&nbsp;currentDateBackgroundColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/nonCurrentMonthDateTextColor">&nbsp;&nbsp;nonCurrentMonthDateTextColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disabledDateTextColor">&nbsp;&nbsp;disabledDateTextColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/disabledDateBackgroundColor">&nbsp;&nbsp;disabledDateBackgroundColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/currentDateBackgroundColor" title="currentDateBackgroundColor"></a>
+	<h3 class="subsubtitle method-title">currentDateBackgroundColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *currentDateBackgroundColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentDateTextColor" title="currentDateTextColor"></a>
+	<h3 class="subsubtitle method-title">currentDateTextColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *currentDateTextColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateTextColor" title="dateTextColor"></a>
+	<h3 class="subsubtitle method-title">dateTextColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *dateTextColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;CKCalendarDelegate&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disabledDateBackgroundColor" title="disabledDateBackgroundColor"></a>
+	<h3 class="subsubtitle method-title">disabledDateBackgroundColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *disabledDateBackgroundColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/disabledDateTextColor" title="disabledDateTextColor"></a>
+	<h3 class="subsubtitle method-title">disabledDateTextColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *disabledDateTextColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maximumDate" title="maximumDate"></a>
+	<h3 class="subsubtitle method-title">maximumDate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *maximumDate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minimumDate" title="minimumDate"></a>
+	<h3 class="subsubtitle method-title">minimumDate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *minimumDate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/nonCurrentMonthDateTextColor" title="nonCurrentMonthDateTextColor"></a>
+	<h3 class="subsubtitle method-title">nonCurrentMonthDateTextColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *nonCurrentMonthDateTextColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDate" title="selectedDate"></a>
+	<h3 class="subsubtitle method-title">selectedDate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *selectedDate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDateBackgroundColor" title="selectedDateBackgroundColor"></a>
+	<h3 class="subsubtitle method-title">selectedDateBackgroundColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *selectedDateBackgroundColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDateTextColor" title="selectedDateTextColor"></a>
+	<h3 class="subsubtitle method-title">selectedDateTextColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *selectedDateTextColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldFillCalendar" title="shouldFillCalendar"></a>
+	<h3 class="subsubtitle method-title">shouldFillCalendar</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL shouldFillCalendar</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/dateBackgroundColor" title="dateBackgroundColor"></a>
+	<h3 class="subsubtitle method-title">dateBackgroundColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)dateBackgroundColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateBorderColor" title="dateBorderColor"></a>
+	<h3 class="subsubtitle method-title">dateBorderColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)dateBorderColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateFont" title="dateFont"></a>
+	<h3 class="subsubtitle method-title">dateFont</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIFont *)dateFont</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dayOfWeekFont" title="dayOfWeekFont"></a>
+	<h3 class="subsubtitle method-title">dayOfWeekFont</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIFont *)dayOfWeekFont</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dayOfWeekTextColor" title="dayOfWeekTextColor"></a>
+	<h3 class="subsubtitle method-title">dayOfWeekTextColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)dayOfWeekTextColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithStartDay:" title="initWithStartDay:"></a>
+	<h3 class="subsubtitle method-title">initWithStartDay:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithStartDay:(startDay)<em>firstDay</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithStartDay:frame:" title="initWithStartDay:frame:"></a>
+	<h3 class="subsubtitle method-title">initWithStartDay:frame:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithStartDay:(startDay)<em>firstDay</em> frame:(CGRect)<em>frame</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setButtonColor:" title="setButtonColor:"></a>
+	<h3 class="subsubtitle method-title">setButtonColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setButtonColor:(UIColor *)<em>color</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDateBackgroundColor:" title="setDateBackgroundColor:"></a>
+	<h3 class="subsubtitle method-title">setDateBackgroundColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDateBackgroundColor:(UIColor *)<em>color</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDateBorderColor:" title="setDateBorderColor:"></a>
+	<h3 class="subsubtitle method-title">setDateBorderColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDateBorderColor:(UIColor *)<em>color</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDateFont:" title="setDateFont:"></a>
+	<h3 class="subsubtitle method-title">setDateFont:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDateFont:(UIFont *)<em>font</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDayOfWeekBottomColor:topColor:" title="setDayOfWeekBottomColor:topColor:"></a>
+	<h3 class="subsubtitle method-title">setDayOfWeekBottomColor:topColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDayOfWeekBottomColor:(UIColor *)<em>bottomColor</em> topColor:(UIColor *)<em>topColor</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDayOfWeekFont:" title="setDayOfWeekFont:"></a>
+	<h3 class="subsubtitle method-title">setDayOfWeekFont:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDayOfWeekFont:(UIFont *)<em>font</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDayOfWeekTextColor:" title="setDayOfWeekTextColor:"></a>
+	<h3 class="subsubtitle method-title">setDayOfWeekTextColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDayOfWeekTextColor:(UIColor *)<em>color</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setInnerBorderColor:" title="setInnerBorderColor:"></a>
+	<h3 class="subsubtitle method-title">setInnerBorderColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setInnerBorderColor:(UIColor *)<em>color</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTitleColor:" title="setTitleColor:"></a>
+	<h3 class="subsubtitle method-title">setTitleColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setTitleColor:(UIColor *)<em>color</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTitleFont:" title="setTitleFont:"></a>
+	<h3 class="subsubtitle method-title">setTitleFont:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setTitleFont:(UIFont *)<em>font</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleColor" title="titleColor"></a>
+	<h3 class="subsubtitle method-title">titleColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)titleColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleFont" title="titleFont"></a>
+	<h3 class="subsubtitle method-title">titleFont</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIFont *)titleFont</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Jason Kozemczak. All rights reserved. (Last updated: 2013-04-02)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
