@@ -2,8 +2,8 @@
 //  MapPin.h
 //  RPIMobile
 //
-//  Created by Stephen Silber on 10/31/12.
-//  Copyright (c) 2012 Rensselaer Polytechnic Institute. All rights reserved.
+//  Created by Steve on 2/25/13.
+//  Copyright (c) 2013 Rensselaer Polytechnic Institute. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,19 +2,16 @@
 //  CampusMapViewController.m
 //  RPIMobile
 //
-//  Created by Stephen Silber on 10/31/12.
-//  Copyright (c) 2012 Rensselaer Polytechnic Institute. All rights reserved.
+//  Created by Steve on 2/25/13.
+//  Copyright (c) 2013 Rensselaer Polytechnic Institute. All rights reserved.
 //
 
 #import "CampusMapViewController.h"
-#import "MKMapView+ZoomLevel.h"
 #import "MapPin.h"
-@interface CampusMapViewController ()
-
-@end
 
 @implementation CampusMapViewController
 
+/*Initilization*/
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -24,6 +21,7 @@
     return self;
 }
 
+/*Places*/
 -(void) loadPlaces {
     mapPoints = [NSArray array];
     NSString *mapData = [[NSBundle mainBundle] pathForResource:@"MapData" ofType:@"plist"];
@@ -31,6 +29,7 @@
     NSLog(@"MapPoints: %@", mapPoints);
 }
 
+/*Build the map with pins*/
 -(void) buildMap {    
     pins = [NSMutableArray array];
     for(id marker in mapPoints) {
@@ -42,10 +41,12 @@
     [mapView addAnnotations:pins];
 }
 
+/*Load View*/
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
+    /*The RPI student union is at 42.729970,-73.676649*/
     MKCoordinateRegion region;
     region.center.latitude = 42.7312;
     region.center.longitude = -73.6753125;
@@ -56,16 +57,12 @@
     [self loadPlaces];
     mapView = [[MKMapView alloc] initWithFrame:self.view.frame];
     mapView.region = region;
+    mapView.showsUserLocation = TRUE;
+    mapView.mapType = MKMapTypeHybrid;
+    
     [self buildMap];
     [self.view addSubview:mapView];
-    [mapView setCenterCoordinate:CLLocationCoordinate2DMake(42.746632, -75.770041) zoomLevel:13 animated:YES];
-	// Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
