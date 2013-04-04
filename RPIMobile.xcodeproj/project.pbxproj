@@ -212,6 +212,7 @@
 		DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */; };
 		DCC4AF6C170C7C8C008D2528 /* event_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF6A170C7C8C008D2528 /* event_background.png */; };
 		DCC4AF6D170C7C8C008D2528 /* event_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */; };
+		DCC4AF70170CA339008D2528 /* RMCalendarEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */; };
 		DCC8087C15BF89450060390F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087B15BF89450060390F /* UIKit.framework */; };
 		DCC8087E15BF89450060390F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087D15BF89450060390F /* Foundation.framework */; };
 		DCC8088015BF89450060390F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8087F15BF89450060390F /* CoreGraphics.framework */; };
@@ -520,6 +521,8 @@
 		DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEvent.m; path = RPIMobile/RMCalendarEvent.m; sourceTree = "<group>"; };
 		DCC4AF6A170C7C8C008D2528 /* event_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_background.png; sourceTree = "<group>"; };
 		DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "event_background@2x.png"; sourceTree = "<group>"; };
+		DCC4AF6E170CA338008D2528 /* RMCalendarEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarEventViewController.h; path = RPIMobile/RMCalendarEventViewController.h; sourceTree = "<group>"; };
+		DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEventViewController.m; path = RPIMobile/RMCalendarEventViewController.m; sourceTree = "<group>"; };
 		DCC8087715BF89450060390F /* RPIMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPIMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC8087B15BF89450060390F /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCC8087D15BF89450060390F /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -956,6 +959,8 @@
 				DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */,
 				DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */,
 				DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */,
+				DCC4AF6E170CA338008D2528 /* RMCalendarEventViewController.h */,
+				DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */,
 				DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */,
 				DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */,
 				DCC8088315BF89450060390F /* RPIMobile */,
@@ -1462,6 +1467,7 @@
 				DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */,
 				DC72C25C16E68E4800F463A2 /* RMCalendarViewController.m in Sources */,
 				DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */,
+				DCC4AF70170CA339008D2528 /* RMCalendarEventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,3655 +1,808 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0057284F4C6C411FBDBB4EE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSpecifierValuesViewController.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>00719E2C61004478B360E2D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7E6C1DAAFF8A4E258631986A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>01C4D3A90C7247B586DF0A7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFPropertyListRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFPropertyListRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>025EB39D1D0042A885AD555F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79A7BDA0452F4756AE4EDFBC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>031EBC510BA34B22BC8CF298</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultErasProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>03E71BC1049B495F9F68D0AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/UIImageView+AFNetworking.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>044E4B6D18474227B9C12248</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+WebCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/UIImageView+WebCache.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>04E9A78D3DB443CCA024D626</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D9CFC679EB24C249E13B418</string>
-				<string>025EB39D1D0042A885AD555F</string>
-				<string>6DFA14B1ECC542BABD744E7A</string>
-				<string>6FFCB497EC4D4ECF9DD692BB</string>
-				<string>2D6E897C5F724A0793B965F3</string>
-				<string>7ECB9B37F6A941ACA337EFF1</string>
-				<string>28A13928632046E99B3A5E1B</string>
-				<string>D3BACB72314E40E8857BE8A4</string>
-				<string>690E8EB282C34CA1959B8AF9</string>
-				<string>DD0B6541A7A44251BC126C8B</string>
-				<string>D16D819687B7415DBEB5BCF9</string>
-				<string>08C42DDADF6B42B580C0CB5F</string>
-				<string>C60C8A70540146BD9ADB6401</string>
-				<string>E13F2319C9F84CD49818ECC1</string>
-				<string>CB65E36FBEBD4556B8D4C19A</string>
-				<string>C4AA525AA4244441A56D2558</string>
-				<string>5EB2CEC815F04E6889BFD7E9</string>
-				<string>617B557BB74942BAB2D83B67</string>
-				<string>99E3240949C845818E48D3A8</string>
-				<string>F121E8050386486B8A8788EC</string>
-				<string>00719E2C61004478B360E2D1</string>
-				<string>74BE561EEEB947CBA5F97B3A</string>
-				<string>2D6AE61FB5F74EC69DD89C95</string>
-				<string>3955A8F4B7FF4A36A2995D98</string>
-				<string>F8E1815DCB914521B2245C79</string>
-				<string>5985F1D870A5432B876F9399</string>
-				<string>599362D1702A4641A26319F2</string>
-				<string>67AAF3C161A04E8F98707902</string>
-				<string>618C13E4E6934A24B4297E0C</string>
-				<string>BEFB9F39D0854DD9A4670E6D</string>
-				<string>D1A930020BDC4D3E8811DBDC</string>
-				<string>D36AF66D6424414A9FEDFD32</string>
-				<string>CC065C98548A49EAA832C6E8</string>
-				<string>8C3B00AC152D4583B01CB5D7</string>
-				<string>F9C06F9257BC40F8BD300D5B</string>
-				<string>3B6D366AA4764F6BB8940B7B</string>
-				<string>AA2EED4F7B6646808707D8EB</string>
-				<string>EB46C49422BB4729ABEC8DBB</string>
-				<string>671C072ED208435EA5FDE50C</string>
-				<string>95B5AF2B72EE416FB6A9C1DF</string>
-				<string>926664E3F3C24FF893B58F0E</string>
-				<string>753CF15843EA4CF88616D839</string>
-				<string>07FD84581ECA46B1A55446C8</string>
-				<string>8E873D37D9DC4EDA9719D4F0</string>
-				<string>FF5CB22D730644EF8C770441</string>
-				<string>EDCB34C5157349B7A66EBAFD</string>
-				<string>8E541314827C4392B5730C55</string>
-				<string>82998CD35E7B40F980E199DD</string>
-				<string>58F0C1BBAD254F329DDBF280</string>
-				<string>993779E4F97F41BF98805E0F</string>
-				<string>AECC0178EF1A452B936A645C</string>
-				<string>B050B447594941978B1BAE44</string>
-				<string>C16CDAA5461348DF8B59427A</string>
-				<string>830BAA9CEB3E4E03B9426B6D</string>
-				<string>7D50D03F3F12435A8E3C52C5</string>
-				<string>7F2D65BDDCCE4B85B817705C</string>
-				<string>1F7B65724A794B458485B6E6</string>
-				<string>084EF02007FD468A9D94BBC7</string>
-				<string>9413A200F26A4E95AA759D49</string>
-				<string>63B8513D20FA43F4BEB83CDF</string>
-				<string>1C0DD900CF8147FC987CEE83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0596CA0385784B9E98B887DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultYearsProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>06CEAB68BF994898948DFCE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSlider.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKSlider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>06D686EDBD0244F7895FB95B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SVModalWebViewController.m</string>
-			<key>path</key>
-			<string>SVWebViewController/SVWebViewController/SVModalWebViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>07FD84581ECA46B1A55446C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69A7DECD24FE48568EB24062</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>084EF02007FD468A9D94BBC7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>044E4B6D18474227B9C12248</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>088468BE7F104462B537FD7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>746E51ABBF1B46FF9B8BB3E4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>08C42DDADF6B42B580C0CB5F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1936D51B62654F8AACDD1FD1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>090715D84AF44B0FACEB48F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34CE4E6B73B44D21B513DFEC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0AD76951E1AA429E828649BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>47A6BD4E7CFB4269B035A390</string>
-				<string>641E5AEE274B41219A379D84</string>
-				<string>4E69A05F377543CF91DBF9C7</string>
-				<string>E69818F258C14FDE8088333B</string>
-				<string>46658096902044F9A4CC311D</string>
-				<string>AF9F4546C9D445F2962E1074</string>
-				<string>5CC6F14549844DB6B0A9F0CD</string>
-				<string>0C961AB4D462462B99BE58DA</string>
-				<string>7E3BE73E15034CF78ED956C7</string>
-				<string>090715D84AF44B0FACEB48F5</string>
-				<string>E0B816BAD1EA4BF2B638D6AA</string>
-				<string>DE360B4485DD4A6FA92B1795</string>
-				<string>2F1796714FC64C34B597ED53</string>
-				<string>D34A7967F0084F5A995ED202</string>
-				<string>40521AE6E8494534A0E72B44</string>
-				<string>C90B77283914496EB7B3A1C3</string>
-				<string>2B86D6405B88498EA98CF07A</string>
-				<string>DFED24B43EA84B71A53E6CBA</string>
-				<string>24D1DED3B65742068D3D87C4</string>
-				<string>32FE2472C8B84B5586F79179</string>
-				<string>54E29516BC5347D984F06132</string>
-				<string>9218234476E24710A75B6036</string>
-				<string>396F2952DB694664970598E4</string>
-				<string>A66E82EA86EC40ED8EB629C2</string>
-				<string>B84A352984384C55947FA389</string>
-				<string>11EDB5D94CCC4C379BEA758A</string>
-				<string>C97775EF3A8D4888AC2CA17B</string>
-				<string>90DDA9D5F14C487F93372208</string>
-				<string>088468BE7F104462B537FD7A</string>
-				<string>3A2F7AA0942D416E9171A298</string>
-				<string>B07D176E01B44B30AC0F1E67</string>
-				<string>F23B45CDF8A448F09D63DD02</string>
-				<string>554460203AD747449BAAAEE4</string>
-				<string>9576613138D64E6F9E161DFE</string>
-				<string>165E7439687F4A2090DC9714</string>
-				<string>EA6895E3AF6D4B34B363CB24</string>
-				<string>A243F0E764854D3296309E38</string>
-				<string>6CD0A4C81D9143308ACB4955</string>
-				<string>2BD8DC0B8E4B40999EEC23B6</string>
-				<string>6B4E5AC1C3D44F2387E5D2F6</string>
-				<string>91EE3AB952F94814AAC749F9</string>
-				<string>F77296AE4BF446AFBDC082FC</string>
-				<string>F9F48BBEE6FF479CB87250F3</string>
-				<string>6B4C2974F0094D608D9AD7AC</string>
-				<string>E2E57C8BFA3146AF8E82C795</string>
-				<string>A3AD91567E0246DFB9DB03B0</string>
-				<string>78B46C0BF9364D478B89A53C</string>
-				<string>7488C122CC6249CB9D32458D</string>
-				<string>8205979B40AD41A3BF0B161C</string>
-				<string>DD919A67FC70438FB47E0DBB</string>
-				<string>E91E1F2D8C30444CB8A3AB01</string>
-				<string>11A4BCE17F884971BFB7EC57</string>
-				<string>3C9C6B559A73403DB44D9CA1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0BB3C8F6D0C442CA966AC9B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+WebCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/UIImageView+WebCache.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0C961AB4D462462B99BE58DA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BFDBCC4F6A4111A91FD697</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0F0A5702C4A144F698A84342</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultDaysProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultDaysProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>11A4BCE17F884971BFB7EC57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DFB8155EB1A42619016506A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>11EDB5D94CCC4C379BEA758A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54E8C9D2F41541EE9006EFC6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>14862E10DE2F42E087ADCCAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKPSTextFieldSpecifierViewCell.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>165E7439687F4A2090DC9714</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D5BE1FA673D4E0EA8815B7F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>174CB28259904A7AA3B5254C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFXMLRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>17B576A7F9DC48A28FD5B11A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MBProgressHUD.m</string>
-			<key>path</key>
-			<string>MBProgressHUD/MBProgressHUD.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>18DCAF0B9DDC4C3ABD905ACF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDateProviderProtocol.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDateProviderProtocol.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1936D51B62654F8AACDD1FD1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDelegateProtocol.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDelegateProtocol.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1C0DD900CF8147FC987CEE83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F898224C6AE49E391A0A1A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>1CFC0120F24042DFB45432C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JSONKit.h</string>
-			<key>path</key>
-			<string>JSONKit/JSONKit.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1DFB8155EB1A42619016506A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SVWebViewController.m</string>
-			<key>path</key>
-			<string>SVWebViewController/SVWebViewController/SVWebViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1E1C93E4F9E046DE93342F72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1F634897458542B5950278AA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1F7B65724A794B458485B6E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47F34727E5504DA9999EB17D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2057CA2EF8EC42CDA3EA4D2D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKPSSliderSpecifierViewCell.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>224ACBCCF79C42C385C752F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSlider.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKSlider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>236481E774B7474DB9AD728B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>24440218496F441599B00347</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageDownloader.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageDownloader.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>24D1DED3B65742068D3D87C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70F437D085FB4DC9ABE8781A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>28A13928632046E99B3A5E1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BB101A69B474C0E922EB98E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>296E597D573848D5B7718BD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultErasProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>29B16B21D1F9488296623F5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MKHorizMenu.m</string>
-			<key>path</key>
-			<string>MKHorizMenu/MKHorizMenu/MKHorizMenu.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2B6D44B972D747AE9833F479</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5785F18AEE354996A73B19D6</string>
-				<string>514DB33351124DD0858D7CC2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B86D6405B88498EA98CF07A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C66E2F4C00034C2186C2080A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2BD8DC0B8E4B40999EEC23B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D04564BB574479B9FA8B963</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2C57DC3F2C2E470581920DC3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>53BE091ECB244BC584B14A71</string>
-				<string>594AD8EE999C4EF4A60FA385</string>
-				<string>06D686EDBD0244F7895FB95B</string>
-				<string>1DFB8155EB1A42619016506A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SVWebViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D6AE61FB5F74EC69DD89C95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2A2CDA7BA4847ABBBC19BA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2D6E897C5F724A0793B965F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>296E597D573848D5B7718BD0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>2D7DA1B636494B9D8896B2DA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5823DB30F96E4FAF8DEA7642</string>
-				<string>358C67D032DD4380835A64F2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CKCalendar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2DE2A7C02C8643F69421363A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageCompat.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageCompat.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2E183EDAD25B4526AEC733ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKAppSettingsWebViewController.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2F1796714FC64C34B597ED53</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F45A4CFD92D94C76AFBC2C7F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>32FE2472C8B84B5586F79179</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03E71BC1049B495F9F68D0AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>33496B07F1C548759C242315</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPicker.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPicker.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>34CE4E6B73B44D21B513DFEC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABViewPool.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABViewPool.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>358C67D032DD4380835A64F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CKCalendarView.m</string>
-			<key>path</key>
-			<string>CKCalendar/Source/CKCalendarView.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>362720B916D04448935E13E2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>388AE988B8F042FAA57AD75A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageDownloaderOperation.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3955A8F4B7FF4A36A2995D98</key>
-		<dict>
-			<key>fileRef</key>
-			<string>174CB28259904A7AA3B5254C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>396F2952DB694664970598E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>397FA495A65A455484DE6D49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>397FA495A65A455484DE6D49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKAppSettingsWebViewController.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3A2F7AA0942D416E9171A298</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5909ED902B9457CA7E12D6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>3B6D366AA4764F6BB8940B7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2057CA2EF8EC42CDA3EA4D2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>3BC6076116E24DE98D5DCD13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImagePrefetcher.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImagePrefetcher.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3C9C6B559A73403DB44D9CA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>514DB33351124DD0858D7CC2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>3E17EA74D2CE4EE4A6EE8E11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDImageCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDImageCache.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>40521AE6E8494534A0E72B44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ACE0F6FE3C8A4AB6A7CB7728</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>4052F73847EB4910A9BD8971</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSpecifierValuesViewController.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>41B47D89114843F8A80A75F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageOperation.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4500243A50EA4804AEBC1F68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKTextField.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKTextField.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>46658096902044F9A4CC311D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A291E77D59B041EC86EC0D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>4786175961F54814A91A1421</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIButton+WebCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/UIButton+WebCache.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>47A6BD4E7CFB4269B035A390</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E011430188B84751BBD5C2FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>47F34727E5504DA9999EB17D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIButton+WebCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/UIButton+WebCache.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4865211ABBBA458EBCFEBEF2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDURLCache.h</string>
-			<key>path</key>
-			<string>SDURLCache/SDURLCache.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4C60FC34FE1147B187DAF28A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSettingsStoreFile.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreFile.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4DD852200CB3477EA5D44987</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKAppSettingsViewController.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4E69A05F377543CF91DBF9C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>031EBC510BA34B22BC8CF298</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>514DB33351124DD0858D7CC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>path</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>51D6B2B1C2E44E92AA1B0F61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DA28B5CC0A2542E8BA404411</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SDWebImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53BE091ECB244BC584B14A71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SVModalWebViewController.h</string>
-			<key>path</key>
-			<string>SVWebViewController/SVWebViewController/SVModalWebViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>54E29516BC5347D984F06132</key>
-		<dict>
-			<key>fileRef</key>
-			<string>358C67D032DD4380835A64F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>54E8C9D2F41541EE9006EFC6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSettingsStore.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStore.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>554460203AD747449BAAAEE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06CEAB68BF994898948DFCE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5785F18AEE354996A73B19D6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7EF20B2FB16B44E993AD3A4E</string>
-				<string>E61F79BA226044A5BBC4C20D</string>
-				<string>236481E774B7474DB9AD728B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57B3669E74E64FBDB5656D5C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FCF88818E4984A44BAD01E91</string>
-				<string>9889A5C9A2A049DABE7281D5</string>
-				<string>DA0C72BF97C7494AAC345E03</string>
-				<string>6D48FF7A24F04C5389D400CA</string>
-				<string>7D04564BB574479B9FA8B963</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MFSideMenu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5823DB30F96E4FAF8DEA7642</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CKCalendarView.h</string>
-			<key>path</key>
-			<string>CKCalendar/Source/CKCalendarView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>58A98EC073A04EE388B453CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>752BCB8A0F7147D39FF61183</string>
-				<string>2E183EDAD25B4526AEC733ED</string>
-				<string>4052F73847EB4910A9BD8971</string>
-				<string>BFC50FD9EC9644FEA127C0E7</string>
-				<string>E182477E185C416D8A5FAC39</string>
-				<string>717FCEDCC1B84C54AB8EA28B</string>
-				<string>62AB48761E6D4C9EB1B94DFD</string>
-				<string>EF9E4CC29E454335B748FF09</string>
-				<string>F612CCC7B6904EBABD5AD674</string>
-				<string>2057CA2EF8EC42CDA3EA4D2D</string>
-				<string>710A5F9817C644F8BD5C42EE</string>
-				<string>C7E1F9BFDA1244D48893E387</string>
-				<string>224ACBCCF79C42C385C752F8</string>
-				<string>A69E6483E9534922A6390615</string>
-				<string>4500243A50EA4804AEBC1F68</string>
-				<string>4DD852200CB3477EA5D44987</string>
-				<string>397FA495A65A455484DE6D49</string>
-				<string>0057284F4C6C411FBDBB4EE4</string>
-				<string>D091133A270E41C09DBFCD65</string>
-				<string>54E8C9D2F41541EE9006EFC6</string>
-				<string>4C60FC34FE1147B187DAF28A</string>
-				<string>97765E370D5946B89B032070</string>
-				<string>746E51ABBF1B46FF9B8BB3E4</string>
-				<string>C5909ED902B9457CA7E12D6B</string>
-				<string>14862E10DE2F42E087ADCCAC</string>
-				<string>808CB08698674B7E82C26195</string>
-				<string>06CEAB68BF994898948DFCE3</string>
-				<string>A503DCD006FF403FB60F708E</string>
-				<string>7D5BE1FA673D4E0EA8815B7F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>InAppSettingsKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58B3D8A476874125A1078C67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFNetworkActivityIndicatorManager.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>58F0C1BBAD254F329DDBF280</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6974D460F76C44B4B56B5050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>594AD8EE999C4EF4A60FA385</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SVWebViewController.h</string>
-			<key>path</key>
-			<string>SVWebViewController/SVWebViewController/SVWebViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5985F1D870A5432B876F9399</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5823DB30F96E4FAF8DEA7642</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>599362D1702A4641A26319F2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>752BCB8A0F7147D39FF61183</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5AC272AAD9B04BDD852CEB62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageDecoder.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageDecoder.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5CC6F14549844DB6B0A9F0CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D92648DD0A7C47748AD9C445</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>5EB2CEC815F04E6889BFD7E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9087251D8B214B169F39D49F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5F0991FE73D64BED9D72EF8C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerStyleProviderProtocol.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerStyleProviderProtocol.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>617B557BB74942BAB2D83B67</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EADFEA5CA17743E497C3A0DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>618C13E4E6934A24B4297E0C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4052F73847EB4910A9BD8971</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>62AB48761E6D4C9EB1B94DFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSettingsStoreFile.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreFile.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6339AE47102845DD970F8A2C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>69A7DECD24FE48568EB24062</string>
-				<string>17B576A7F9DC48A28FD5B11A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MBProgressHUD</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63B8513D20FA43F4BEB83CDF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>594AD8EE999C4EF4A60FA385</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>641E5AEE274B41219A379D84</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85DA230B153549498BAF3968</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>671C072ED208435EA5FDE50C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>224ACBCCF79C42C385C752F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>67AAF3C161A04E8F98707902</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2E183EDAD25B4526AEC733ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>690E8EB282C34CA1959B8AF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B30B21EC05BA4318A9D73499</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>6974D460F76C44B4B56B5050</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDImageCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDImageCache.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>69A7DECD24FE48568EB24062</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MBProgressHUD.h</string>
-			<key>path</key>
-			<string>MBProgressHUD/MBProgressHUD.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6B4C2974F0094D608D9AD7AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5AC272AAD9B04BDD852CEB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6B4E5AC1C3D44F2387E5D2F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29B16B21D1F9488296623F5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>6BB101A69B474C0E922EB98E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultSeasonedMonthsProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultSeasonedMonthsProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6CD0A4C81D9143308ACB4955</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D48FF7A24F04C5389D400CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>6D48FF7A24F04C5389D400CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MFSideMenuManager.m</string>
-			<key>path</key>
-			<string>MFSideMenu/MFSideMenuDemo/MFSideMenu/MFSideMenuManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6D7DE4A85DB84B3D85C5C0D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImagePrefetcher.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImagePrefetcher.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6DFA14B1ECC542BABD744E7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18DCAF0B9DDC4C3ABD905ACF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>6FFCB497EC4D4ECF9DD692BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F0A5702C4A144F698A84342</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>70F437D085FB4DC9ABE8781A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFXMLRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>710A5F9817C644F8BD5C42EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKPSTextFieldSpecifierViewCell.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>717FCEDCC1B84C54AB8EA28B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSettingsStore.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStore.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>736EEDD53F81419CB73DCC1F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>746E51ABBF1B46FF9B8BB3E4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSpecifier.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSpecifier.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7488C122CC6249CB9D32458D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3BC6076116E24DE98D5DCD13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>74BE561EEEB947CBA5F97B3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01C4D3A90C7247B586DF0A7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>752BCB8A0F7147D39FF61183</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKAppSettingsViewController.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>753CF15843EA4CF88616D839</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CFC0120F24042DFB45432C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>771A8A7E33C54D888D430547</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultWeekdaysProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultWeekdaysProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7889047FAC9A4C25AC858E86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageManager.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageManager.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>78B46C0BF9364D478B89A53C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7889047FAC9A4C25AC858E86</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>79A7BDA0452F4756AE4EDFBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDataSourceProtocol.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDataSourceProtocol.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7C86D5EB29A142F5A4658AFF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MKHorizMenu.h</string>
-			<key>path</key>
-			<string>MKHorizMenu/MKHorizMenu/MKHorizMenu.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7D04564BB574479B9FA8B963</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIViewController+MFSideMenu.m</string>
-			<key>path</key>
-			<string>MFSideMenu/MFSideMenuDemo/MFSideMenu/UIViewController+MFSideMenu.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7D50D03F3F12435A8E3C52C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41B47D89114843F8A80A75F0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7D5BE1FA673D4E0EA8815B7F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKTextField.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKTextField.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7E3BE73E15034CF78ED956C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D56EE7BA15C642119ABB26DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>7E6C1DAAFF8A4E258631986A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7ECB9B37F6A941ACA337EFF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE62FD82616C41DBB6BFF91B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7EECA7E62251481B93195BE5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHTTPClient.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPClient.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7EF20B2FB16B44E993AD3A4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-resources.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7F2D65BDDCCE4B85B817705C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D7DE4A85DB84B3D85C5C0D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>808CB08698674B7E82C26195</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKPSTitleValueSpecifierViewCell.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8205979B40AD41A3BF0B161C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4786175961F54814A91A1421</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>822D2DB90C80465C9A847470</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>236481E774B7474DB9AD728B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>82998CD35E7B40F980E199DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4865211ABBBA458EBCFEBEF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>830BAA9CEB3E4E03B9426B6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5A9669445AD42179531BF29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8327026BB960468AB5F296BC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D61A493CA9454BBAB68337AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BFDBCC4F6A4111A91FD697</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultWeekdaysProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultWeekdaysProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>85DA230B153549498BAF3968</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultDaysProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultDaysProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>864A7655EC054A23A1837D8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+AFNetworking.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/UIImageView+AFNetworking.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>88C12B05CFD64174901F881B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D7595188A20B4EB3A97F447A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>C7D75F84F3674A10897327C7</string>
-			<key>productRefGroup</key>
-			<string>D51DA0C2D04D45A9BB7892C4</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>9D8870B1A6A246428D29D445</string>
-			</array>
-		</dict>
-		<key>8B358430CFC84CC08FE34AA1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9E9ABFD564F14AAD83BECC1E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8C3B00AC152D4583B01CB5D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF9E4CC29E454335B748FF09</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8D9CFC679EB24C249E13B418</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33496B07F1C548759C242315</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8E541314827C4392B5730C55</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C86D5EB29A142F5A4658AFF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8E873D37D9DC4EDA9719D4F0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FCF88818E4984A44BAD01E91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8F030DBE820D4C4DBB353F46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFImageRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFImageRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9087251D8B214B169F39D49F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>90DDA9D5F14C487F93372208</key>
-		<dict>
-			<key>fileRef</key>
-			<string>97765E370D5946B89B032070</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>91EE3AB952F94814AAC749F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F48AD9D0699846B2A4C2FA90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9218234476E24710A75B6036</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DD852200CB3477EA5D44987</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>926664E3F3C24FF893B58F0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4500243A50EA4804AEBC1F68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9413A200F26A4E95AA759D49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53BE091ECB244BC584B14A71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9576613138D64E6F9E161DFE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A503DCD006FF403FB60F708E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>95B5AF2B72EE416FB6A9C1DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A69E6483E9534922A6390615</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>97765E370D5946B89B032070</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSettingsStoreUserDefaults.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9889A5C9A2A049DABE7281D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MFSideMenuManager.h</string>
-			<key>path</key>
-			<string>MFSideMenu/MFSideMenuDemo/MFSideMenu/MFSideMenuManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>98F9EEC1CC07444C89707C30</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageDownloader.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageDownloader.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>993779E4F97F41BF98805E0F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5C28D42E364468C90323CD2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>99E3240949C845818E48D3A8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B0604BE9B25642C790B5018C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9D8870B1A6A246428D29D445</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FBB4050515A040C9B92BA0DF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0AD76951E1AA429E828649BA</string>
-				<string>8B358430CFC84CC08FE34AA1</string>
-				<string>04E9A78D3DB443CCA024D626</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>362720B916D04448935E13E2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9E9ABFD564F14AAD83BECC1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D61A493CA9454BBAB68337AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>9F898224C6AE49E391A0A1A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TestFlight.h</string>
-			<key>path</key>
-			<string>TestFlightSDK/TestFlight.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A243F0E764854D3296309E38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>17B576A7F9DC48A28FD5B11A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A291E77D59B041EC86EC0D40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultSeasonedMonthsProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultSeasonedMonthsProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A34CEA1CB45B45F1A1F303E0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageDownloaderOperation.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A36DA399FE4D4E859EB51536</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C10B4A73CF444B879A740B64</string>
-				<string>9087251D8B214B169F39D49F</string>
-				<string>EADFEA5CA17743E497C3A0DC</string>
-				<string>B0604BE9B25642C790B5018C</string>
-				<string>1E1C93E4F9E046DE93342F72</string>
-				<string>7E6C1DAAFF8A4E258631986A</string>
-				<string>01C4D3A90C7247B586DF0A7D</string>
-				<string>E2A2CDA7BA4847ABBBC19BA1</string>
-				<string>174CB28259904A7AA3B5254C</string>
-				<string>864A7655EC054A23A1837D8D</string>
-				<string>7EECA7E62251481B93195BE5</string>
-				<string>F45A4CFD92D94C76AFBC2C7F</string>
-				<string>8F030DBE820D4C4DBB353F46</string>
-				<string>ACE0F6FE3C8A4AB6A7CB7728</string>
-				<string>58B3D8A476874125A1078C67</string>
-				<string>C66E2F4C00034C2186C2080A</string>
-				<string>E20F1A737A274D8CA5CEF598</string>
-				<string>70F437D085FB4DC9ABE8781A</string>
-				<string>03E71BC1049B495F9F68D0AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AFNetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3AD91567E0246DFB9DB03B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>388AE988B8F042FAA57AD75A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A503DCD006FF403FB60F708E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSwitch.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKSwitch.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A648CCAF2FCB4135BACB4EC8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultStyleProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultStyleProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A66E82EA86EC40ED8EB629C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0057284F4C6C411FBDBB4EE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A69E6483E9534922A6390615</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSwitch.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKSwitch.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AA2EED4F7B6646808707D8EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>710A5F9817C644F8BD5C42EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>AB5D335D184748908D533B42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageDecoder.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageDecoder.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>ACE0F6FE3C8A4AB6A7CB7728</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFJSONRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFJSONRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AECC0178EF1A452B936A645C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB5D335D184748908D533B42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>AF9F4546C9D445F2962E1074</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A648CCAF2FCB4135BACB4EC8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B050B447594941978B1BAE44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24440218496F441599B00347</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B0604BE9B25642C790B5018C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFJSONRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFJSONRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B07D176E01B44B30AC0F1E67</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14862E10DE2F42E087ADCCAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B30B21EC05BA4318A9D73499</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultTripleWeekdaysProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B84A352984384C55947FA389</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D091133A270E41C09DBFCD65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>BBE79B10D836444680CC2127</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JSONKit.m</string>
-			<key>path</key>
-			<string>JSONKit/JSONKit.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BEFB9F39D0854DD9A4670E6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BFC50FD9EC9644FEA127C0E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>BF37782C802F4ED98C66F7F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4865211ABBBA458EBCFEBEF2</string>
-				<string>F48AD9D0699846B2A4C2FA90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SDURLCache</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFC50FD9EC9644FEA127C0E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKViewController.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Controllers/IASKViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C10B4A73CF444B879A740B64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHTTPClient.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPClient.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C16CDAA5461348DF8B59427A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A34CEA1CB45B45F1A1F303E0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C29AD34470654794B8058D47</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>236481E774B7474DB9AD728B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C4AA525AA4244441A56D2558</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C10B4A73CF444B879A740B64</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C5909ED902B9457CA7E12D6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKPSSliderSpecifierViewCell.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C60C8A70540146BD9ADB6401</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F0991FE73D64BED9D72EF8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C66E2F4C00034C2186C2080A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFPropertyListRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFPropertyListRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C7D75F84F3674A10897327C7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D51DA0C2D04D45A9BB7892C4</string>
-				<string>8327026BB960468AB5F296BC</string>
-				<string>E9E01C5D6E444C0B937F51A7</string>
-				<string>2B6D44B972D747AE9833F479</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7E1F9BFDA1244D48893E387</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKPSTitleValueSpecifierViewCell.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C90B77283914496EB7B3A1C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>58B3D8A476874125A1078C67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C97775EF3A8D4888AC2CA17B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C60FC34FE1147B187DAF28A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CB65E36FBEBD4556B8D4C19A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5B25D3F67B24AE9907A0D94</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CC065C98548A49EAA832C6E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62AB48761E6D4C9EB1B94DFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>CE62FD82616C41DBB6BFF91B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultMonthsProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultMonthsProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CFBE23501C2445B88938B2D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABViewPool.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABViewPool.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D091133A270E41C09DBFCD65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>IASKSettingsReader.m</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsReader.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D16D819687B7415DBEB5BCF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0596CA0385784B9E98B887DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D1A930020BDC4D3E8811DBDC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E182477E185C416D8A5FAC39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D34A7967F0084F5A995ED202</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F030DBE820D4C4DBB353F46</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D36AF66D6424414A9FEDFD32</key>
-		<dict>
-			<key>fileRef</key>
-			<string>717FCEDCC1B84C54AB8EA28B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D3BACB72314E40E8857BE8A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F14C6DA82AD849078696B4DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D51DA0C2D04D45A9BB7892C4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>362720B916D04448935E13E2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D56EE7BA15C642119ABB26DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultYearsProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D61A493CA9454BBAB68337AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D7595188A20B4EB3A97F447A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1F634897458542B5950278AA</string>
-				<string>736EEDD53F81419CB73DCC1F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D92648DD0A7C47748AD9C445</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultTripleWeekdaysProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D9D3A82D2CF54908A0339D70</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C86D5EB29A142F5A4658AFF</string>
-				<string>29B16B21D1F9488296623F5F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MKHorizMenu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA0C72BF97C7494AAC345E03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIViewController+MFSideMenu.h</string>
-			<key>path</key>
-			<string>MFSideMenu/MFSideMenuDemo/MFSideMenu/UIViewController+MFSideMenu.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DA28B5CC0A2542E8BA404411</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6974D460F76C44B4B56B5050</string>
-				<string>E5C28D42E364468C90323CD2</string>
-				<string>AB5D335D184748908D533B42</string>
-				<string>24440218496F441599B00347</string>
-				<string>A34CEA1CB45B45F1A1F303E0</string>
-				<string>E5A9669445AD42179531BF29</string>
-				<string>41B47D89114843F8A80A75F0</string>
-				<string>6D7DE4A85DB84B3D85C5C0D3</string>
-				<string>3E17EA74D2CE4EE4A6EE8E11</string>
-				<string>2DE2A7C02C8643F69421363A</string>
-				<string>5AC272AAD9B04BDD852CEB62</string>
-				<string>98F9EEC1CC07444C89707C30</string>
-				<string>388AE988B8F042FAA57AD75A</string>
-				<string>7889047FAC9A4C25AC858E86</string>
-				<string>3BC6076116E24DE98D5DCD13</string>
-				<string>47F34727E5504DA9999EB17D</string>
-				<string>044E4B6D18474227B9C12248</string>
-				<string>4786175961F54814A91A1421</string>
-				<string>0BB3C8F6D0C442CA966AC9B4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD0B6541A7A44251BC126C8B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>771A8A7E33C54D888D430547</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>DD919A67FC70438FB47E0DBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0BB3C8F6D0C442CA966AC9B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DE360B4485DD4A6FA92B1795</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7EECA7E62251481B93195BE5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DE846853AE7F44D9A9A5C9C5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1CFC0120F24042DFB45432C5</string>
-				<string>BBE79B10D836444680CC2127</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JSONKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF03FF6A63DE47998457473B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F898224C6AE49E391A0A1A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TestFlightSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFEB135E893D4C55927F66D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIMyButton.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/UIMyButton.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DFED24B43EA84B71A53E6CBA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E20F1A737A274D8CA5CEF598</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E011430188B84751BBD5C2FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPicker.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPicker.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E0B816BAD1EA4BF2B638D6AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DFEB135E893D4C55927F66D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E13F2319C9F84CD49818ECC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CFBE23501C2445B88938B2D9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E182477E185C416D8A5FAC39</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSettingsReader.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsReader.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E20F1A737A274D8CA5CEF598</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFURLConnectionOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E2A2CDA7BA4847ABBBC19BA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFURLConnectionOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFURLConnectionOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E2E57C8BFA3146AF8E82C795</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98F9EEC1CC07444C89707C30</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E5A9669445AD42179531BF29</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageManager.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageManager.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E5B25D3F67B24AE9907A0D94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIMyButton.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/UIMyButton.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E5C28D42E364468C90323CD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageCompat.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImage/SDWebImageCompat.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E61F79BA226044A5BBC4C20D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E670031FC3874082B3923D69</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>33496B07F1C548759C242315</string>
-				<string>79A7BDA0452F4756AE4EDFBC</string>
-				<string>18DCAF0B9DDC4C3ABD905ACF</string>
-				<string>0F0A5702C4A144F698A84342</string>
-				<string>296E597D573848D5B7718BD0</string>
-				<string>CE62FD82616C41DBB6BFF91B</string>
-				<string>6BB101A69B474C0E922EB98E</string>
-				<string>F14C6DA82AD849078696B4DE</string>
-				<string>B30B21EC05BA4318A9D73499</string>
-				<string>771A8A7E33C54D888D430547</string>
-				<string>0596CA0385784B9E98B887DF</string>
-				<string>1936D51B62654F8AACDD1FD1</string>
-				<string>5F0991FE73D64BED9D72EF8C</string>
-				<string>CFBE23501C2445B88938B2D9</string>
-				<string>E5B25D3F67B24AE9907A0D94</string>
-				<string>E011430188B84751BBD5C2FF</string>
-				<string>85DA230B153549498BAF3968</string>
-				<string>031EBC510BA34B22BC8CF298</string>
-				<string>E6CE634C39CD4CF6969F0086</string>
-				<string>A291E77D59B041EC86EC0D40</string>
-				<string>A648CCAF2FCB4135BACB4EC8</string>
-				<string>D92648DD0A7C47748AD9C445</string>
-				<string>84BFDBCC4F6A4111A91FD697</string>
-				<string>D56EE7BA15C642119ABB26DD</string>
-				<string>34CE4E6B73B44D21B513DFEC</string>
-				<string>DFEB135E893D4C55927F66D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ABCalendarPicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E69818F258C14FDE8088333B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E6CE634C39CD4CF6969F0086</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E6CE634C39CD4CF6969F0086</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultMonthsProvider.m</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultMonthsProvider.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E91E1F2D8C30444CB8A3AB01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06D686EDBD0244F7895FB95B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E9E01C5D6E444C0B937F51A7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E670031FC3874082B3923D69</string>
-				<string>A36DA399FE4D4E859EB51536</string>
-				<string>2D7DA1B636494B9D8896B2DA</string>
-				<string>58A98EC073A04EE388B453CD</string>
-				<string>DE846853AE7F44D9A9A5C9C5</string>
-				<string>6339AE47102845DD970F8A2C</string>
-				<string>57B3669E74E64FBDB5656D5C</string>
-				<string>D9D3A82D2CF54908A0339D70</string>
-				<string>BF37782C802F4ED98C66F7F9</string>
-				<string>51D6B2B1C2E44E92AA1B0F61</string>
-				<string>2C57DC3F2C2E470581920DC3</string>
-				<string>DF03FF6A63DE47998457473B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA6895E3AF6D4B34B363CB24</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBE79B10D836444680CC2127</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EADFEA5CA17743E497C3A0DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFImageRequestOperation.h</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFImageRequestOperation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>EB46C49422BB4729ABEC8DBB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7E1F9BFDA1244D48893E387</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EDCB34C5157349B7A66EBAFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA0C72BF97C7494AAC345E03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EF9E4CC29E454335B748FF09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSettingsStoreUserDefaults.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F121E8050386486B8A8788EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E1C93E4F9E046DE93342F72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F14C6DA82AD849078696B4DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDefaultStyleProvider.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultStyleProvider.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F23B45CDF8A448F09D63DD02</key>
-		<dict>
-			<key>fileRef</key>
-			<string>808CB08698674B7E82C26195</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F45A4CFD92D94C76AFBC2C7F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHTTPRequestOperation.m</string>
-			<key>path</key>
-			<string>AFNetworking/AFNetworking/AFHTTPRequestOperation.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F48AD9D0699846B2A4C2FA90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDURLCache.m</string>
-			<key>path</key>
-			<string>SDURLCache/SDURLCache.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F612CCC7B6904EBABD5AD674</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IASKSpecifier.h</string>
-			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSpecifier.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F77296AE4BF446AFBDC082FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E17EA74D2CE4EE4A6EE8E11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F8E1815DCB914521B2245C79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>864A7655EC054A23A1837D8D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F9C06F9257BC40F8BD300D5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F612CCC7B6904EBABD5AD674</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F9F48BBEE6FF479CB87250F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2DE2A7C02C8643F69421363A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>FBB4050515A040C9B92BA0DF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C29AD34470654794B8058D47</string>
-				<string>822D2DB90C80465C9A847470</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FCF88818E4984A44BAD01E91</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MFSideMenu.h</string>
-			<key>path</key>
-			<string>MFSideMenu/MFSideMenuDemo/MFSideMenu/MFSideMenu.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FF5CB22D730644EF8C770441</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9889A5C9A2A049DABE7281D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>88C12B05CFD64174901F881B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00719E2C61004478B360E2D1 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6C1DAAFF8A4E258631986A /* AFNetworking.h */; };
+		025EB39D1D0042A885AD555F /* ABCalendarPickerDataSourceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A7BDA0452F4756AE4EDFBC /* ABCalendarPickerDataSourceProtocol.h */; };
+		07FD84581ECA46B1A55446C8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A7DECD24FE48568EB24062 /* MBProgressHUD.h */; };
+		084EF02007FD468A9D94BBC7 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 044E4B6D18474227B9C12248 /* UIImageView+WebCache.h */; };
+		088468BE7F104462B537FD7A /* IASKSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 746E51ABBF1B46FF9B8BB3E4 /* IASKSpecifier.m */; };
+		08C42DDADF6B42B580C0CB5F /* ABCalendarPickerDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1936D51B62654F8AACDD1FD1 /* ABCalendarPickerDelegateProtocol.h */; };
+		090715D84AF44B0FACEB48F5 /* ABViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CE4E6B73B44D21B513DFEC /* ABViewPool.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0C961AB4D462462B99BE58DA /* ABCalendarPickerDefaultWeekdaysProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFDBCC4F6A4111A91FD697 /* ABCalendarPickerDefaultWeekdaysProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		11A4BCE17F884971BFB7EC57 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB8155EB1A42619016506A /* SVWebViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		11EDB5D94CCC4C379BEA758A /* IASKSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8C9D2F41541EE9006EFC6 /* IASKSettingsStore.m */; };
+		165E7439687F4A2090DC9714 /* IASKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5BE1FA673D4E0EA8815B7F /* IASKTextField.m */; };
+		1C0DD900CF8147FC987CEE83 /* TestFlight.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F898224C6AE49E391A0A1A9 /* TestFlight.h */; };
+		1F7B65724A794B458485B6E6 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F34727E5504DA9999EB17D /* UIButton+WebCache.h */; };
+		24D1DED3B65742068D3D87C4 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F437D085FB4DC9ABE8781A /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		28A13928632046E99B3A5E1B /* ABCalendarPickerDefaultSeasonedMonthsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB101A69B474C0E922EB98E /* ABCalendarPickerDefaultSeasonedMonthsProvider.h */; };
+		2B86D6405B88498EA98CF07A /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E2F4C00034C2186C2080A /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2BD8DC0B8E4B40999EEC23B6 /* UIViewController+MFSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04564BB574479B9FA8B963 /* UIViewController+MFSideMenu.m */; };
+		2D6AE61FB5F74EC69DD89C95 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A2CDA7BA4847ABBBC19BA1 /* AFURLConnectionOperation.h */; };
+		2D6E897C5F724A0793B965F3 /* ABCalendarPickerDefaultErasProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E597D573848D5B7718BD0 /* ABCalendarPickerDefaultErasProvider.h */; };
+		2F1796714FC64C34B597ED53 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A4CFD92D94C76AFBC2C7F /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		32FE2472C8B84B5586F79179 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E71BC1049B495F9F68D0AC /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3955A8F4B7FF4A36A2995D98 /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 174CB28259904A7AA3B5254C /* AFXMLRequestOperation.h */; };
+		396F2952DB694664970598E4 /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FA495A65A455484DE6D49 /* IASKAppSettingsWebViewController.m */; };
+		3A2F7AA0942D416E9171A298 /* IASKPSSliderSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5909ED902B9457CA7E12D6B /* IASKPSSliderSpecifierViewCell.m */; };
+		3B6D366AA4764F6BB8940B7B /* IASKPSSliderSpecifierViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2057CA2EF8EC42CDA3EA4D2D /* IASKPSSliderSpecifierViewCell.h */; };
+		3C9C6B559A73403DB44D9CA1 /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 514DB33351124DD0858D7CC2 /* PodsDummy_Pods.m */; };
+		40521AE6E8494534A0E72B44 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE0F6FE3C8A4AB6A7CB7728 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		46658096902044F9A4CC311D /* ABCalendarPickerDefaultSeasonedMonthsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A291E77D59B041EC86EC0D40 /* ABCalendarPickerDefaultSeasonedMonthsProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		47A6BD4E7CFB4269B035A390 /* ABCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E011430188B84751BBD5C2FF /* ABCalendarPicker.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4E69A05F377543CF91DBF9C7 /* ABCalendarPickerDefaultErasProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EBC510BA34B22BC8CF298 /* ABCalendarPickerDefaultErasProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		54E29516BC5347D984F06132 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C67D032DD4380835A64F2 /* CKCalendarView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		554460203AD747449BAAAEE4 /* IASKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CEAB68BF994898948DFCE3 /* IASKSlider.m */; };
+		58F0C1BBAD254F329DDBF280 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6974D460F76C44B4B56B5050 /* SDImageCache.h */; };
+		5985F1D870A5432B876F9399 /* CKCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5823DB30F96E4FAF8DEA7642 /* CKCalendarView.h */; };
+		599362D1702A4641A26319F2 /* IASKAppSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 752BCB8A0F7147D39FF61183 /* IASKAppSettingsViewController.h */; };
+		5CC6F14549844DB6B0A9F0CD /* ABCalendarPickerDefaultTripleWeekdaysProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D92648DD0A7C47748AD9C445 /* ABCalendarPickerDefaultTripleWeekdaysProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5EB2CEC815F04E6889BFD7E9 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9087251D8B214B169F39D49F /* AFHTTPRequestOperation.h */; };
+		617B557BB74942BAB2D83B67 /* AFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EADFEA5CA17743E497C3A0DC /* AFImageRequestOperation.h */; };
+		618C13E4E6934A24B4297E0C /* IASKSpecifierValuesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4052F73847EB4910A9BD8971 /* IASKSpecifierValuesViewController.h */; };
+		63B8513D20FA43F4BEB83CDF /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 594AD8EE999C4EF4A60FA385 /* SVWebViewController.h */; };
+		641E5AEE274B41219A379D84 /* ABCalendarPickerDefaultDaysProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA230B153549498BAF3968 /* ABCalendarPickerDefaultDaysProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		671C072ED208435EA5FDE50C /* IASKSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 224ACBCCF79C42C385C752F8 /* IASKSlider.h */; };
+		67AAF3C161A04E8F98707902 /* IASKAppSettingsWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E183EDAD25B4526AEC733ED /* IASKAppSettingsWebViewController.h */; };
+		690E8EB282C34CA1959B8AF9 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B30B21EC05BA4318A9D73499 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h */; };
+		6B4C2974F0094D608D9AD7AC /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC272AAD9B04BDD852CEB62 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6B4E5AC1C3D44F2387E5D2F6 /* MKHorizMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B16B21D1F9488296623F5F /* MKHorizMenu.m */; };
+		6CD0A4C81D9143308ACB4955 /* MFSideMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D48FF7A24F04C5389D400CA /* MFSideMenuManager.m */; };
+		6DFA14B1ECC542BABD744E7A /* ABCalendarPickerDateProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DCAF0B9DDC4C3ABD905ACF /* ABCalendarPickerDateProviderProtocol.h */; };
+		6FFCB497EC4D4ECF9DD692BB /* ABCalendarPickerDefaultDaysProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0A5702C4A144F698A84342 /* ABCalendarPickerDefaultDaysProvider.h */; };
+		7488C122CC6249CB9D32458D /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6076116E24DE98D5DCD13 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		74BE561EEEB947CBA5F97B3A /* AFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C4D3A90C7247B586DF0A7D /* AFPropertyListRequestOperation.h */; };
+		753CF15843EA4CF88616D839 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFC0120F24042DFB45432C5 /* JSONKit.h */; };
+		78B46C0BF9364D478B89A53C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7889047FAC9A4C25AC858E86 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7D50D03F3F12435A8E3C52C5 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B47D89114843F8A80A75F0 /* SDWebImageOperation.h */; };
+		7E3BE73E15034CF78ED956C7 /* ABCalendarPickerDefaultYearsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D56EE7BA15C642119ABB26DD /* ABCalendarPickerDefaultYearsProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7ECB9B37F6A941ACA337EFF1 /* ABCalendarPickerDefaultMonthsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE62FD82616C41DBB6BFF91B /* ABCalendarPickerDefaultMonthsProvider.h */; };
+		7F2D65BDDCCE4B85B817705C /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7DE4A85DB84B3D85C5C0D3 /* SDWebImagePrefetcher.h */; };
+		8205979B40AD41A3BF0B161C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4786175961F54814A91A1421 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		82998CD35E7B40F980E199DD /* SDURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4865211ABBBA458EBCFEBEF2 /* SDURLCache.h */; };
+		830BAA9CEB3E4E03B9426B6D /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9669445AD42179531BF29 /* SDWebImageManager.h */; };
+		8C3B00AC152D4583B01CB5D7 /* IASKSettingsStoreUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9E4CC29E454335B748FF09 /* IASKSettingsStoreUserDefaults.h */; };
+		8D9CFC679EB24C249E13B418 /* ABCalendarPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 33496B07F1C548759C242315 /* ABCalendarPicker.h */; };
+		8E541314827C4392B5730C55 /* MKHorizMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C86D5EB29A142F5A4658AFF /* MKHorizMenu.h */; };
+		8E873D37D9DC4EDA9719D4F0 /* MFSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF88818E4984A44BAD01E91 /* MFSideMenu.h */; };
+		90DDA9D5F14C487F93372208 /* IASKSettingsStoreUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 97765E370D5946B89B032070 /* IASKSettingsStoreUserDefaults.m */; };
+		91EE3AB952F94814AAC749F9 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AD9D0699846B2A4C2FA90 /* SDURLCache.m */; };
+		9218234476E24710A75B6036 /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD852200CB3477EA5D44987 /* IASKAppSettingsViewController.m */; };
+		926664E3F3C24FF893B58F0E /* IASKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4500243A50EA4804AEBC1F68 /* IASKTextField.h */; };
+		9413A200F26A4E95AA759D49 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BE091ECB244BC584B14A71 /* SVModalWebViewController.h */; };
+		9576613138D64E6F9E161DFE /* IASKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A503DCD006FF403FB60F708E /* IASKSwitch.m */; };
+		95B5AF2B72EE416FB6A9C1DF /* IASKSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = A69E6483E9534922A6390615 /* IASKSwitch.h */; };
+		993779E4F97F41BF98805E0F /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C28D42E364468C90323CD2 /* SDWebImageCompat.h */; };
+		99E3240949C845818E48D3A8 /* AFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B0604BE9B25642C790B5018C /* AFJSONRequestOperation.h */; };
+		9E9ABFD564F14AAD83BECC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61A493CA9454BBAB68337AD /* Foundation.framework */; };
+		A243F0E764854D3296309E38 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B576A7F9DC48A28FD5B11A /* MBProgressHUD.m */; };
+		A3AD91567E0246DFB9DB03B0 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 388AE988B8F042FAA57AD75A /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A66E82EA86EC40ED8EB629C2 /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057284F4C6C411FBDBB4EE4 /* IASKSpecifierValuesViewController.m */; };
+		AA2EED4F7B6646808707D8EB /* IASKPSTextFieldSpecifierViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 710A5F9817C644F8BD5C42EE /* IASKPSTextFieldSpecifierViewCell.h */; };
+		AECC0178EF1A452B936A645C /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5D335D184748908D533B42 /* SDWebImageDecoder.h */; };
+		AF9F4546C9D445F2962E1074 /* ABCalendarPickerDefaultStyleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A648CCAF2FCB4135BACB4EC8 /* ABCalendarPickerDefaultStyleProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B050B447594941978B1BAE44 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 24440218496F441599B00347 /* SDWebImageDownloader.h */; };
+		B07D176E01B44B30AC0F1E67 /* IASKPSTextFieldSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14862E10DE2F42E087ADCCAC /* IASKPSTextFieldSpecifierViewCell.m */; };
+		B84A352984384C55947FA389 /* IASKSettingsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D091133A270E41C09DBFCD65 /* IASKSettingsReader.m */; };
+		BEFB9F39D0854DD9A4670E6D /* IASKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC50FD9EC9644FEA127C0E7 /* IASKViewController.h */; };
+		C16CDAA5461348DF8B59427A /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A34CEA1CB45B45F1A1F303E0 /* SDWebImageDownloaderOperation.h */; };
+		C4AA525AA4244441A56D2558 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C10B4A73CF444B879A740B64 /* AFHTTPClient.h */; };
+		C60C8A70540146BD9ADB6401 /* ABCalendarPickerStyleProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0991FE73D64BED9D72EF8C /* ABCalendarPickerStyleProviderProtocol.h */; };
+		C90B77283914496EB7B3A1C3 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B3D8A476874125A1078C67 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C97775EF3A8D4888AC2CA17B /* IASKSettingsStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C60FC34FE1147B187DAF28A /* IASKSettingsStoreFile.m */; };
+		CB65E36FBEBD4556B8D4C19A /* UIMyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B25D3F67B24AE9907A0D94 /* UIMyButton.h */; };
+		CC065C98548A49EAA832C6E8 /* IASKSettingsStoreFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AB48761E6D4C9EB1B94DFD /* IASKSettingsStoreFile.h */; };
+		D16D819687B7415DBEB5BCF9 /* ABCalendarPickerDefaultYearsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0596CA0385784B9E98B887DF /* ABCalendarPickerDefaultYearsProvider.h */; };
+		D1A930020BDC4D3E8811DBDC /* IASKSettingsReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E182477E185C416D8A5FAC39 /* IASKSettingsReader.h */; };
+		D34A7967F0084F5A995ED202 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F030DBE820D4C4DBB353F46 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D36AF66D6424414A9FEDFD32 /* IASKSettingsStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 717FCEDCC1B84C54AB8EA28B /* IASKSettingsStore.h */; };
+		D3BACB72314E40E8857BE8A4 /* ABCalendarPickerDefaultStyleProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F14C6DA82AD849078696B4DE /* ABCalendarPickerDefaultStyleProvider.h */; };
+		DD0B6541A7A44251BC126C8B /* ABCalendarPickerDefaultWeekdaysProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 771A8A7E33C54D888D430547 /* ABCalendarPickerDefaultWeekdaysProvider.h */; };
+		DD919A67FC70438FB47E0DBB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3C8F6D0C442CA966AC9B4 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DE360B4485DD4A6FA92B1795 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EECA7E62251481B93195BE5 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DFED24B43EA84B71A53E6CBA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E20F1A737A274D8CA5CEF598 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E0B816BAD1EA4BF2B638D6AA /* UIMyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEB135E893D4C55927F66D2 /* UIMyButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E13F2319C9F84CD49818ECC1 /* ABViewPool.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBE23501C2445B88938B2D9 /* ABViewPool.h */; };
+		E2E57C8BFA3146AF8E82C795 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F9EEC1CC07444C89707C30 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E69818F258C14FDE8088333B /* ABCalendarPickerDefaultMonthsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CE634C39CD4CF6969F0086 /* ABCalendarPickerDefaultMonthsProvider.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E91E1F2D8C30444CB8A3AB01 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D686EDBD0244F7895FB95B /* SVModalWebViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EA6895E3AF6D4B34B363CB24 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE79B10D836444680CC2127 /* JSONKit.m */; };
+		EB46C49422BB4729ABEC8DBB /* IASKPSTitleValueSpecifierViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E1F9BFDA1244D48893E387 /* IASKPSTitleValueSpecifierViewCell.h */; };
+		EDCB34C5157349B7A66EBAFD /* UIViewController+MFSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0C72BF97C7494AAC345E03 /* UIViewController+MFSideMenu.h */; };
+		F121E8050386486B8A8788EC /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1C93E4F9E046DE93342F72 /* AFNetworkActivityIndicatorManager.h */; };
+		F23B45CDF8A448F09D63DD02 /* IASKPSTitleValueSpecifierViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 808CB08698674B7E82C26195 /* IASKPSTitleValueSpecifierViewCell.m */; };
+		F77296AE4BF446AFBDC082FC /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E17EA74D2CE4EE4A6EE8E11 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F8E1815DCB914521B2245C79 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 864A7655EC054A23A1837D8D /* UIImageView+AFNetworking.h */; };
+		F9C06F9257BC40F8BD300D5B /* IASKSpecifier.h in Headers */ = {isa = PBXBuildFile; fileRef = F612CCC7B6904EBABD5AD674 /* IASKSpecifier.h */; };
+		F9F48BBEE6FF479CB87250F3 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2A7C02C8643F69421363A /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FF5CB22D730644EF8C770441 /* MFSideMenuManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889A5C9A2A049DABE7281D5 /* MFSideMenuManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0057284F4C6C411FBDBB4EE4 /* IASKSpecifierValuesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSpecifierValuesViewController.m; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.m; sourceTree = SOURCE_ROOT; };
+		01C4D3A90C7247B586DF0A7D /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		031EBC510BA34B22BC8CF298 /* ABCalendarPickerDefaultErasProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultErasProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.m; sourceTree = SOURCE_ROOT; };
+		03E71BC1049B495F9F68D0AC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		044E4B6D18474227B9C12248 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/SDWebImage/UIImageView+WebCache.h"; sourceTree = SOURCE_ROOT; };
+		0596CA0385784B9E98B887DF /* ABCalendarPickerDefaultYearsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultYearsProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.h; sourceTree = SOURCE_ROOT; };
+		06CEAB68BF994898948DFCE3 /* IASKSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSlider.m; path = InAppSettingsKit/InAppSettingsKit/Views/IASKSlider.m; sourceTree = SOURCE_ROOT; };
+		06D686EDBD0244F7895FB95B /* SVModalWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVModalWebViewController.m; path = SVWebViewController/SVWebViewController/SVModalWebViewController.m; sourceTree = SOURCE_ROOT; };
+		0BB3C8F6D0C442CA966AC9B4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/SDWebImage/UIImageView+WebCache.m"; sourceTree = SOURCE_ROOT; };
+		0F0A5702C4A144F698A84342 /* ABCalendarPickerDefaultDaysProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultDaysProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultDaysProvider.h; sourceTree = SOURCE_ROOT; };
+		14862E10DE2F42E087ADCCAC /* IASKPSTextFieldSpecifierViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKPSTextFieldSpecifierViewCell.m; path = InAppSettingsKit/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.m; sourceTree = SOURCE_ROOT; };
+		174CB28259904A7AA3B5254C /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		17B576A7F9DC48A28FD5B11A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		18DCAF0B9DDC4C3ABD905ACF /* ABCalendarPickerDateProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDateProviderProtocol.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDateProviderProtocol.h; sourceTree = SOURCE_ROOT; };
+		1936D51B62654F8AACDD1FD1 /* ABCalendarPickerDelegateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDelegateProtocol.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDelegateProtocol.h; sourceTree = SOURCE_ROOT; };
+		1CFC0120F24042DFB45432C5 /* JSONKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = SOURCE_ROOT; };
+		1DFB8155EB1A42619016506A /* SVWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewController.m; path = SVWebViewController/SVWebViewController/SVWebViewController.m; sourceTree = SOURCE_ROOT; };
+		1E1C93E4F9E046DE93342F72 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		2057CA2EF8EC42CDA3EA4D2D /* IASKPSSliderSpecifierViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKPSSliderSpecifierViewCell.h; path = InAppSettingsKit/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.h; sourceTree = SOURCE_ROOT; };
+		224ACBCCF79C42C385C752F8 /* IASKSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSlider.h; path = InAppSettingsKit/InAppSettingsKit/Views/IASKSlider.h; sourceTree = SOURCE_ROOT; };
+		236481E774B7474DB9AD728B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		24440218496F441599B00347 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImage/SDWebImageDownloader.h; sourceTree = SOURCE_ROOT; };
+		296E597D573848D5B7718BD0 /* ABCalendarPickerDefaultErasProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultErasProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.h; sourceTree = SOURCE_ROOT; };
+		29B16B21D1F9488296623F5F /* MKHorizMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKHorizMenu.m; path = MKHorizMenu/MKHorizMenu/MKHorizMenu.m; sourceTree = SOURCE_ROOT; };
+		2DE2A7C02C8643F69421363A /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImage/SDWebImageCompat.m; sourceTree = SOURCE_ROOT; };
+		2E183EDAD25B4526AEC733ED /* IASKAppSettingsWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKAppSettingsWebViewController.h; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.h; sourceTree = SOURCE_ROOT; };
+		33496B07F1C548759C242315 /* ABCalendarPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPicker.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPicker.h; sourceTree = SOURCE_ROOT; };
+		34CE4E6B73B44D21B513DFEC /* ABViewPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABViewPool.m; path = ABCalendarPicker/ABCalendarPicker/ABViewPool.m; sourceTree = SOURCE_ROOT; };
+		358C67D032DD4380835A64F2 /* CKCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CKCalendarView.m; path = CKCalendar/Source/CKCalendarView.m; sourceTree = SOURCE_ROOT; };
+		362720B916D04448935E13E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		388AE988B8F042FAA57AD75A /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = SOURCE_ROOT; };
+		397FA495A65A455484DE6D49 /* IASKAppSettingsWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKAppSettingsWebViewController.m; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsWebViewController.m; sourceTree = SOURCE_ROOT; };
+		3BC6076116E24DE98D5DCD13 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImage/SDWebImagePrefetcher.m; sourceTree = SOURCE_ROOT; };
+		3E17EA74D2CE4EE4A6EE8E11 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDWebImage/SDImageCache.m; sourceTree = SOURCE_ROOT; };
+		4052F73847EB4910A9BD8971 /* IASKSpecifierValuesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSpecifierValuesViewController.h; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.h; sourceTree = SOURCE_ROOT; };
+		41B47D89114843F8A80A75F0 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImage/SDWebImageOperation.h; sourceTree = SOURCE_ROOT; };
+		4500243A50EA4804AEBC1F68 /* IASKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKTextField.h; path = InAppSettingsKit/InAppSettingsKit/Views/IASKTextField.h; sourceTree = SOURCE_ROOT; };
+		4786175961F54814A91A1421 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/SDWebImage/UIButton+WebCache.m"; sourceTree = SOURCE_ROOT; };
+		47F34727E5504DA9999EB17D /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/SDWebImage/UIButton+WebCache.h"; sourceTree = SOURCE_ROOT; };
+		4865211ABBBA458EBCFEBEF2 /* SDURLCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDURLCache.h; path = SDURLCache/SDURLCache.h; sourceTree = SOURCE_ROOT; };
+		4C60FC34FE1147B187DAF28A /* IASKSettingsStoreFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSettingsStoreFile.m; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreFile.m; sourceTree = SOURCE_ROOT; };
+		4DD852200CB3477EA5D44987 /* IASKAppSettingsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKAppSettingsViewController.m; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsViewController.m; sourceTree = SOURCE_ROOT; };
+		514DB33351124DD0858D7CC2 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		53BE091ECB244BC584B14A71 /* SVModalWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVModalWebViewController.h; path = SVWebViewController/SVWebViewController/SVModalWebViewController.h; sourceTree = SOURCE_ROOT; };
+		54E8C9D2F41541EE9006EFC6 /* IASKSettingsStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSettingsStore.m; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStore.m; sourceTree = SOURCE_ROOT; };
+		5823DB30F96E4FAF8DEA7642 /* CKCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CKCalendarView.h; path = CKCalendar/Source/CKCalendarView.h; sourceTree = SOURCE_ROOT; };
+		58B3D8A476874125A1078C67 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		594AD8EE999C4EF4A60FA385 /* SVWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewController.h; path = SVWebViewController/SVWebViewController/SVWebViewController.h; sourceTree = SOURCE_ROOT; };
+		5AC272AAD9B04BDD852CEB62 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImage/SDWebImageDecoder.m; sourceTree = SOURCE_ROOT; };
+		5F0991FE73D64BED9D72EF8C /* ABCalendarPickerStyleProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerStyleProviderProtocol.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerStyleProviderProtocol.h; sourceTree = SOURCE_ROOT; };
+		62AB48761E6D4C9EB1B94DFD /* IASKSettingsStoreFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSettingsStoreFile.h; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreFile.h; sourceTree = SOURCE_ROOT; };
+		6974D460F76C44B4B56B5050 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDWebImage/SDImageCache.h; sourceTree = SOURCE_ROOT; };
+		69A7DECD24FE48568EB24062 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		6BB101A69B474C0E922EB98E /* ABCalendarPickerDefaultSeasonedMonthsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultSeasonedMonthsProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultSeasonedMonthsProvider.h; sourceTree = SOURCE_ROOT; };
+		6D48FF7A24F04C5389D400CA /* MFSideMenuManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFSideMenuManager.m; path = MFSideMenu/MFSideMenuDemo/MFSideMenu/MFSideMenuManager.m; sourceTree = SOURCE_ROOT; };
+		6D7DE4A85DB84B3D85C5C0D3 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImage/SDWebImagePrefetcher.h; sourceTree = SOURCE_ROOT; };
+		70F437D085FB4DC9ABE8781A /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		710A5F9817C644F8BD5C42EE /* IASKPSTextFieldSpecifierViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKPSTextFieldSpecifierViewCell.h; path = InAppSettingsKit/InAppSettingsKit/Views/IASKPSTextFieldSpecifierViewCell.h; sourceTree = SOURCE_ROOT; };
+		717FCEDCC1B84C54AB8EA28B /* IASKSettingsStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSettingsStore.h; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStore.h; sourceTree = SOURCE_ROOT; };
+		746E51ABBF1B46FF9B8BB3E4 /* IASKSpecifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSpecifier.m; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSpecifier.m; sourceTree = SOURCE_ROOT; };
+		752BCB8A0F7147D39FF61183 /* IASKAppSettingsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKAppSettingsViewController.h; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsViewController.h; sourceTree = SOURCE_ROOT; };
+		771A8A7E33C54D888D430547 /* ABCalendarPickerDefaultWeekdaysProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultWeekdaysProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultWeekdaysProvider.h; sourceTree = SOURCE_ROOT; };
+		7889047FAC9A4C25AC858E86 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImage/SDWebImageManager.m; sourceTree = SOURCE_ROOT; };
+		79A7BDA0452F4756AE4EDFBC /* ABCalendarPickerDataSourceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDataSourceProtocol.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDataSourceProtocol.h; sourceTree = SOURCE_ROOT; };
+		7C86D5EB29A142F5A4658AFF /* MKHorizMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKHorizMenu.h; path = MKHorizMenu/MKHorizMenu/MKHorizMenu.h; sourceTree = SOURCE_ROOT; };
+		7D04564BB574479B9FA8B963 /* UIViewController+MFSideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MFSideMenu.m"; path = "MFSideMenu/MFSideMenuDemo/MFSideMenu/UIViewController+MFSideMenu.m"; sourceTree = SOURCE_ROOT; };
+		7D5BE1FA673D4E0EA8815B7F /* IASKTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKTextField.m; path = InAppSettingsKit/InAppSettingsKit/Views/IASKTextField.m; sourceTree = SOURCE_ROOT; };
+		7E6C1DAAFF8A4E258631986A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		7EECA7E62251481B93195BE5 /* AFHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		7EF20B2FB16B44E993AD3A4E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		808CB08698674B7E82C26195 /* IASKPSTitleValueSpecifierViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKPSTitleValueSpecifierViewCell.m; path = InAppSettingsKit/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.m; sourceTree = SOURCE_ROOT; };
+		84BFDBCC4F6A4111A91FD697 /* ABCalendarPickerDefaultWeekdaysProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultWeekdaysProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultWeekdaysProvider.m; sourceTree = SOURCE_ROOT; };
+		85DA230B153549498BAF3968 /* ABCalendarPickerDefaultDaysProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultDaysProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultDaysProvider.m; sourceTree = SOURCE_ROOT; };
+		864A7655EC054A23A1837D8D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		8F030DBE820D4C4DBB353F46 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		9087251D8B214B169F39D49F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		97765E370D5946B89B032070 /* IASKSettingsStoreUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSettingsStoreUserDefaults.m; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.m; sourceTree = SOURCE_ROOT; };
+		9889A5C9A2A049DABE7281D5 /* MFSideMenuManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenuManager.h; path = MFSideMenu/MFSideMenuDemo/MFSideMenu/MFSideMenuManager.h; sourceTree = SOURCE_ROOT; };
+		98F9EEC1CC07444C89707C30 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImage/SDWebImageDownloader.m; sourceTree = SOURCE_ROOT; };
+		9F898224C6AE49E391A0A1A9 /* TestFlight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = TestFlightSDK/TestFlight.h; sourceTree = SOURCE_ROOT; };
+		A291E77D59B041EC86EC0D40 /* ABCalendarPickerDefaultSeasonedMonthsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultSeasonedMonthsProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultSeasonedMonthsProvider.m; sourceTree = SOURCE_ROOT; };
+		A34CEA1CB45B45F1A1F303E0 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = SOURCE_ROOT; };
+		A503DCD006FF403FB60F708E /* IASKSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSwitch.m; path = InAppSettingsKit/InAppSettingsKit/Views/IASKSwitch.m; sourceTree = SOURCE_ROOT; };
+		A648CCAF2FCB4135BACB4EC8 /* ABCalendarPickerDefaultStyleProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultStyleProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultStyleProvider.m; sourceTree = SOURCE_ROOT; };
+		A69E6483E9534922A6390615 /* IASKSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSwitch.h; path = InAppSettingsKit/InAppSettingsKit/Views/IASKSwitch.h; sourceTree = SOURCE_ROOT; };
+		AB5D335D184748908D533B42 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImage/SDWebImageDecoder.h; sourceTree = SOURCE_ROOT; };
+		ACE0F6FE3C8A4AB6A7CB7728 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		B0604BE9B25642C790B5018C /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		B30B21EC05BA4318A9D73499 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultTripleWeekdaysProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.h; sourceTree = SOURCE_ROOT; };
+		BBE79B10D836444680CC2127 /* JSONKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = SOURCE_ROOT; };
+		BFC50FD9EC9644FEA127C0E7 /* IASKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKViewController.h; path = InAppSettingsKit/InAppSettingsKit/Controllers/IASKViewController.h; sourceTree = SOURCE_ROOT; };
+		C10B4A73CF444B879A740B64 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		C5909ED902B9457CA7E12D6B /* IASKPSSliderSpecifierViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKPSSliderSpecifierViewCell.m; path = InAppSettingsKit/InAppSettingsKit/Views/IASKPSSliderSpecifierViewCell.m; sourceTree = SOURCE_ROOT; };
+		C66E2F4C00034C2186C2080A /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		C7E1F9BFDA1244D48893E387 /* IASKPSTitleValueSpecifierViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKPSTitleValueSpecifierViewCell.h; path = InAppSettingsKit/InAppSettingsKit/Views/IASKPSTitleValueSpecifierViewCell.h; sourceTree = SOURCE_ROOT; };
+		CE62FD82616C41DBB6BFF91B /* ABCalendarPickerDefaultMonthsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultMonthsProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultMonthsProvider.h; sourceTree = SOURCE_ROOT; };
+		CFBE23501C2445B88938B2D9 /* ABViewPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABViewPool.h; path = ABCalendarPicker/ABCalendarPicker/ABViewPool.h; sourceTree = SOURCE_ROOT; };
+		D091133A270E41C09DBFCD65 /* IASKSettingsReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IASKSettingsReader.m; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsReader.m; sourceTree = SOURCE_ROOT; };
+		D56EE7BA15C642119ABB26DD /* ABCalendarPickerDefaultYearsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultYearsProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.m; sourceTree = SOURCE_ROOT; };
+		D61A493CA9454BBAB68337AD /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D92648DD0A7C47748AD9C445 /* ABCalendarPickerDefaultTripleWeekdaysProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultTripleWeekdaysProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.m; sourceTree = SOURCE_ROOT; };
+		DA0C72BF97C7494AAC345E03 /* UIViewController+MFSideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MFSideMenu.h"; path = "MFSideMenu/MFSideMenuDemo/MFSideMenu/UIViewController+MFSideMenu.h"; sourceTree = SOURCE_ROOT; };
+		DFEB135E893D4C55927F66D2 /* UIMyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIMyButton.m; path = ABCalendarPicker/ABCalendarPicker/UIMyButton.m; sourceTree = SOURCE_ROOT; };
+		E011430188B84751BBD5C2FF /* ABCalendarPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPicker.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPicker.m; sourceTree = SOURCE_ROOT; };
+		E182477E185C416D8A5FAC39 /* IASKSettingsReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSettingsReader.h; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsReader.h; sourceTree = SOURCE_ROOT; };
+		E20F1A737A274D8CA5CEF598 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		E2A2CDA7BA4847ABBBC19BA1 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		E5A9669445AD42179531BF29 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImage/SDWebImageManager.h; sourceTree = SOURCE_ROOT; };
+		E5B25D3F67B24AE9907A0D94 /* UIMyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIMyButton.h; path = ABCalendarPicker/ABCalendarPicker/UIMyButton.h; sourceTree = SOURCE_ROOT; };
+		E5C28D42E364468C90323CD2 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImage/SDWebImageCompat.h; sourceTree = SOURCE_ROOT; };
+		E61F79BA226044A5BBC4C20D /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E6CE634C39CD4CF6969F0086 /* ABCalendarPickerDefaultMonthsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCalendarPickerDefaultMonthsProvider.m; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultMonthsProvider.m; sourceTree = SOURCE_ROOT; };
+		EADFEA5CA17743E497C3A0DC /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		EF9E4CC29E454335B748FF09 /* IASKSettingsStoreUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSettingsStoreUserDefaults.h; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsStoreUserDefaults.h; sourceTree = SOURCE_ROOT; };
+		F14C6DA82AD849078696B4DE /* ABCalendarPickerDefaultStyleProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCalendarPickerDefaultStyleProvider.h; path = ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultStyleProvider.h; sourceTree = SOURCE_ROOT; };
+		F45A4CFD92D94C76AFBC2C7F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		F48AD9D0699846B2A4C2FA90 /* SDURLCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDURLCache.m; path = SDURLCache/SDURLCache.m; sourceTree = SOURCE_ROOT; };
+		F612CCC7B6904EBABD5AD674 /* IASKSpecifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IASKSpecifier.h; path = InAppSettingsKit/InAppSettingsKit/Models/IASKSpecifier.h; sourceTree = SOURCE_ROOT; };
+		FCF88818E4984A44BAD01E91 /* MFSideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFSideMenu.h; path = MFSideMenu/MFSideMenuDemo/MFSideMenu/MFSideMenu.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B358430CFC84CC08FE34AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9ABFD564F14AAD83BECC1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6D44B972D747AE9833F479 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5785F18AEE354996A73B19D6 /* Pods */,
+				514DB33351124DD0858D7CC2 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C57DC3F2C2E470581920DC3 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53BE091ECB244BC584B14A71 /* SVModalWebViewController.h */,
+				594AD8EE999C4EF4A60FA385 /* SVWebViewController.h */,
+				06D686EDBD0244F7895FB95B /* SVModalWebViewController.m */,
+				1DFB8155EB1A42619016506A /* SVWebViewController.m */,
+			);
+			name = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		2D7DA1B636494B9D8896B2DA /* CKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				5823DB30F96E4FAF8DEA7642 /* CKCalendarView.h */,
+				358C67D032DD4380835A64F2 /* CKCalendarView.m */,
+			);
+			name = CKCalendar;
+			sourceTree = "<group>";
+		};
+		51D6B2B1C2E44E92AA1B0F61 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DA28B5CC0A2542E8BA404411 /* Main */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
+		5785F18AEE354996A73B19D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EF20B2FB16B44E993AD3A4E /* Pods-resources.sh */,
+				E61F79BA226044A5BBC4C20D /* Pods-prefix.pch */,
+				236481E774B7474DB9AD728B /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57B3669E74E64FBDB5656D5C /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FCF88818E4984A44BAD01E91 /* MFSideMenu.h */,
+				9889A5C9A2A049DABE7281D5 /* MFSideMenuManager.h */,
+				DA0C72BF97C7494AAC345E03 /* UIViewController+MFSideMenu.h */,
+				6D48FF7A24F04C5389D400CA /* MFSideMenuManager.m */,
+				7D04564BB574479B9FA8B963 /* UIViewController+MFSideMenu.m */,
+			);
+			name = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		58A98EC073A04EE388B453CD /* InAppSettingsKit */ = {
+			isa = PBXGroup;
+			children = (
+				752BCB8A0F7147D39FF61183 /* IASKAppSettingsViewController.h */,
+				2E183EDAD25B4526AEC733ED /* IASKAppSettingsWebViewController.h */,
+				4052F73847EB4910A9BD8971 /* IASKSpecifierValuesViewController.h */,
+				BFC50FD9EC9644FEA127C0E7 /* IASKViewController.h */,
+				E182477E185C416D8A5FAC39 /* IASKSettingsReader.h */,
+				717FCEDCC1B84C54AB8EA28B /* IASKSettingsStore.h */,
+				62AB48761E6D4C9EB1B94DFD /* IASKSettingsStoreFile.h */,
+				EF9E4CC29E454335B748FF09 /* IASKSettingsStoreUserDefaults.h */,
+				F612CCC7B6904EBABD5AD674 /* IASKSpecifier.h */,
+				2057CA2EF8EC42CDA3EA4D2D /* IASKPSSliderSpecifierViewCell.h */,
+				710A5F9817C644F8BD5C42EE /* IASKPSTextFieldSpecifierViewCell.h */,
+				C7E1F9BFDA1244D48893E387 /* IASKPSTitleValueSpecifierViewCell.h */,
+				224ACBCCF79C42C385C752F8 /* IASKSlider.h */,
+				A69E6483E9534922A6390615 /* IASKSwitch.h */,
+				4500243A50EA4804AEBC1F68 /* IASKTextField.h */,
+				4DD852200CB3477EA5D44987 /* IASKAppSettingsViewController.m */,
+				397FA495A65A455484DE6D49 /* IASKAppSettingsWebViewController.m */,
+				0057284F4C6C411FBDBB4EE4 /* IASKSpecifierValuesViewController.m */,
+				D091133A270E41C09DBFCD65 /* IASKSettingsReader.m */,
+				54E8C9D2F41541EE9006EFC6 /* IASKSettingsStore.m */,
+				4C60FC34FE1147B187DAF28A /* IASKSettingsStoreFile.m */,
+				97765E370D5946B89B032070 /* IASKSettingsStoreUserDefaults.m */,
+				746E51ABBF1B46FF9B8BB3E4 /* IASKSpecifier.m */,
+				C5909ED902B9457CA7E12D6B /* IASKPSSliderSpecifierViewCell.m */,
+				14862E10DE2F42E087ADCCAC /* IASKPSTextFieldSpecifierViewCell.m */,
+				808CB08698674B7E82C26195 /* IASKPSTitleValueSpecifierViewCell.m */,
+				06CEAB68BF994898948DFCE3 /* IASKSlider.m */,
+				A503DCD006FF403FB60F708E /* IASKSwitch.m */,
+				7D5BE1FA673D4E0EA8815B7F /* IASKTextField.m */,
+			);
+			name = InAppSettingsKit;
+			sourceTree = "<group>";
+		};
+		6339AE47102845DD970F8A2C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				69A7DECD24FE48568EB24062 /* MBProgressHUD.h */,
+				17B576A7F9DC48A28FD5B11A /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		8327026BB960468AB5F296BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61A493CA9454BBAB68337AD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A36DA399FE4D4E859EB51536 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C10B4A73CF444B879A740B64 /* AFHTTPClient.h */,
+				9087251D8B214B169F39D49F /* AFHTTPRequestOperation.h */,
+				EADFEA5CA17743E497C3A0DC /* AFImageRequestOperation.h */,
+				B0604BE9B25642C790B5018C /* AFJSONRequestOperation.h */,
+				1E1C93E4F9E046DE93342F72 /* AFNetworkActivityIndicatorManager.h */,
+				7E6C1DAAFF8A4E258631986A /* AFNetworking.h */,
+				01C4D3A90C7247B586DF0A7D /* AFPropertyListRequestOperation.h */,
+				E2A2CDA7BA4847ABBBC19BA1 /* AFURLConnectionOperation.h */,
+				174CB28259904A7AA3B5254C /* AFXMLRequestOperation.h */,
+				864A7655EC054A23A1837D8D /* UIImageView+AFNetworking.h */,
+				7EECA7E62251481B93195BE5 /* AFHTTPClient.m */,
+				F45A4CFD92D94C76AFBC2C7F /* AFHTTPRequestOperation.m */,
+				8F030DBE820D4C4DBB353F46 /* AFImageRequestOperation.m */,
+				ACE0F6FE3C8A4AB6A7CB7728 /* AFJSONRequestOperation.m */,
+				58B3D8A476874125A1078C67 /* AFNetworkActivityIndicatorManager.m */,
+				C66E2F4C00034C2186C2080A /* AFPropertyListRequestOperation.m */,
+				E20F1A737A274D8CA5CEF598 /* AFURLConnectionOperation.m */,
+				70F437D085FB4DC9ABE8781A /* AFXMLRequestOperation.m */,
+				03E71BC1049B495F9F68D0AC /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		BF37782C802F4ED98C66F7F9 /* SDURLCache */ = {
+			isa = PBXGroup;
+			children = (
+				4865211ABBBA458EBCFEBEF2 /* SDURLCache.h */,
+				F48AD9D0699846B2A4C2FA90 /* SDURLCache.m */,
+			);
+			name = SDURLCache;
+			sourceTree = "<group>";
+		};
+		C7D75F84F3674A10897327C7 = {
+			isa = PBXGroup;
+			children = (
+				D51DA0C2D04D45A9BB7892C4 /* Products */,
+				8327026BB960468AB5F296BC /* Frameworks */,
+				E9E01C5D6E444C0B937F51A7 /* Pods */,
+				2B6D44B972D747AE9833F479 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D51DA0C2D04D45A9BB7892C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362720B916D04448935E13E2 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D3A82D2CF54908A0339D70 /* MKHorizMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7C86D5EB29A142F5A4658AFF /* MKHorizMenu.h */,
+				29B16B21D1F9488296623F5F /* MKHorizMenu.m */,
+			);
+			name = MKHorizMenu;
+			sourceTree = "<group>";
+		};
+		DA28B5CC0A2542E8BA404411 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6974D460F76C44B4B56B5050 /* SDImageCache.h */,
+				E5C28D42E364468C90323CD2 /* SDWebImageCompat.h */,
+				AB5D335D184748908D533B42 /* SDWebImageDecoder.h */,
+				24440218496F441599B00347 /* SDWebImageDownloader.h */,
+				A34CEA1CB45B45F1A1F303E0 /* SDWebImageDownloaderOperation.h */,
+				E5A9669445AD42179531BF29 /* SDWebImageManager.h */,
+				41B47D89114843F8A80A75F0 /* SDWebImageOperation.h */,
+				6D7DE4A85DB84B3D85C5C0D3 /* SDWebImagePrefetcher.h */,
+				3E17EA74D2CE4EE4A6EE8E11 /* SDImageCache.m */,
+				2DE2A7C02C8643F69421363A /* SDWebImageCompat.m */,
+				5AC272AAD9B04BDD852CEB62 /* SDWebImageDecoder.m */,
+				98F9EEC1CC07444C89707C30 /* SDWebImageDownloader.m */,
+				388AE988B8F042FAA57AD75A /* SDWebImageDownloaderOperation.m */,
+				7889047FAC9A4C25AC858E86 /* SDWebImageManager.m */,
+				3BC6076116E24DE98D5DCD13 /* SDWebImagePrefetcher.m */,
+				47F34727E5504DA9999EB17D /* UIButton+WebCache.h */,
+				044E4B6D18474227B9C12248 /* UIImageView+WebCache.h */,
+				4786175961F54814A91A1421 /* UIButton+WebCache.m */,
+				0BB3C8F6D0C442CA966AC9B4 /* UIImageView+WebCache.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DE846853AE7F44D9A9A5C9C5 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				1CFC0120F24042DFB45432C5 /* JSONKit.h */,
+				BBE79B10D836444680CC2127 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		DF03FF6A63DE47998457473B /* TestFlightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9F898224C6AE49E391A0A1A9 /* TestFlight.h */,
+			);
+			name = TestFlightSDK;
+			sourceTree = "<group>";
+		};
+		E670031FC3874082B3923D69 /* ABCalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				33496B07F1C548759C242315 /* ABCalendarPicker.h */,
+				79A7BDA0452F4756AE4EDFBC /* ABCalendarPickerDataSourceProtocol.h */,
+				18DCAF0B9DDC4C3ABD905ACF /* ABCalendarPickerDateProviderProtocol.h */,
+				0F0A5702C4A144F698A84342 /* ABCalendarPickerDefaultDaysProvider.h */,
+				296E597D573848D5B7718BD0 /* ABCalendarPickerDefaultErasProvider.h */,
+				CE62FD82616C41DBB6BFF91B /* ABCalendarPickerDefaultMonthsProvider.h */,
+				6BB101A69B474C0E922EB98E /* ABCalendarPickerDefaultSeasonedMonthsProvider.h */,
+				F14C6DA82AD849078696B4DE /* ABCalendarPickerDefaultStyleProvider.h */,
+				B30B21EC05BA4318A9D73499 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h */,
+				771A8A7E33C54D888D430547 /* ABCalendarPickerDefaultWeekdaysProvider.h */,
+				0596CA0385784B9E98B887DF /* ABCalendarPickerDefaultYearsProvider.h */,
+				1936D51B62654F8AACDD1FD1 /* ABCalendarPickerDelegateProtocol.h */,
+				5F0991FE73D64BED9D72EF8C /* ABCalendarPickerStyleProviderProtocol.h */,
+				CFBE23501C2445B88938B2D9 /* ABViewPool.h */,
+				E5B25D3F67B24AE9907A0D94 /* UIMyButton.h */,
+				E011430188B84751BBD5C2FF /* ABCalendarPicker.m */,
+				85DA230B153549498BAF3968 /* ABCalendarPickerDefaultDaysProvider.m */,
+				031EBC510BA34B22BC8CF298 /* ABCalendarPickerDefaultErasProvider.m */,
+				E6CE634C39CD4CF6969F0086 /* ABCalendarPickerDefaultMonthsProvider.m */,
+				A291E77D59B041EC86EC0D40 /* ABCalendarPickerDefaultSeasonedMonthsProvider.m */,
+				A648CCAF2FCB4135BACB4EC8 /* ABCalendarPickerDefaultStyleProvider.m */,
+				D92648DD0A7C47748AD9C445 /* ABCalendarPickerDefaultTripleWeekdaysProvider.m */,
+				84BFDBCC4F6A4111A91FD697 /* ABCalendarPickerDefaultWeekdaysProvider.m */,
+				D56EE7BA15C642119ABB26DD /* ABCalendarPickerDefaultYearsProvider.m */,
+				34CE4E6B73B44D21B513DFEC /* ABViewPool.m */,
+				DFEB135E893D4C55927F66D2 /* UIMyButton.m */,
+			);
+			name = ABCalendarPicker;
+			sourceTree = "<group>";
+		};
+		E9E01C5D6E444C0B937F51A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E670031FC3874082B3923D69 /* ABCalendarPicker */,
+				A36DA399FE4D4E859EB51536 /* AFNetworking */,
+				2D7DA1B636494B9D8896B2DA /* CKCalendar */,
+				58A98EC073A04EE388B453CD /* InAppSettingsKit */,
+				DE846853AE7F44D9A9A5C9C5 /* JSONKit */,
+				6339AE47102845DD970F8A2C /* MBProgressHUD */,
+				57B3669E74E64FBDB5656D5C /* MFSideMenu */,
+				D9D3A82D2CF54908A0339D70 /* MKHorizMenu */,
+				BF37782C802F4ED98C66F7F9 /* SDURLCache */,
+				51D6B2B1C2E44E92AA1B0F61 /* SDWebImage */,
+				2C57DC3F2C2E470581920DC3 /* SVWebViewController */,
+				DF03FF6A63DE47998457473B /* TestFlightSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04E9A78D3DB443CCA024D626 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9CFC679EB24C249E13B418 /* ABCalendarPicker.h in Headers */,
+				025EB39D1D0042A885AD555F /* ABCalendarPickerDataSourceProtocol.h in Headers */,
+				6DFA14B1ECC542BABD744E7A /* ABCalendarPickerDateProviderProtocol.h in Headers */,
+				6FFCB497EC4D4ECF9DD692BB /* ABCalendarPickerDefaultDaysProvider.h in Headers */,
+				2D6E897C5F724A0793B965F3 /* ABCalendarPickerDefaultErasProvider.h in Headers */,
+				7ECB9B37F6A941ACA337EFF1 /* ABCalendarPickerDefaultMonthsProvider.h in Headers */,
+				28A13928632046E99B3A5E1B /* ABCalendarPickerDefaultSeasonedMonthsProvider.h in Headers */,
+				D3BACB72314E40E8857BE8A4 /* ABCalendarPickerDefaultStyleProvider.h in Headers */,
+				690E8EB282C34CA1959B8AF9 /* ABCalendarPickerDefaultTripleWeekdaysProvider.h in Headers */,
+				DD0B6541A7A44251BC126C8B /* ABCalendarPickerDefaultWeekdaysProvider.h in Headers */,
+				D16D819687B7415DBEB5BCF9 /* ABCalendarPickerDefaultYearsProvider.h in Headers */,
+				08C42DDADF6B42B580C0CB5F /* ABCalendarPickerDelegateProtocol.h in Headers */,
+				C60C8A70540146BD9ADB6401 /* ABCalendarPickerStyleProviderProtocol.h in Headers */,
+				E13F2319C9F84CD49818ECC1 /* ABViewPool.h in Headers */,
+				CB65E36FBEBD4556B8D4C19A /* UIMyButton.h in Headers */,
+				C4AA525AA4244441A56D2558 /* AFHTTPClient.h in Headers */,
+				5EB2CEC815F04E6889BFD7E9 /* AFHTTPRequestOperation.h in Headers */,
+				617B557BB74942BAB2D83B67 /* AFImageRequestOperation.h in Headers */,
+				99E3240949C845818E48D3A8 /* AFJSONRequestOperation.h in Headers */,
+				F121E8050386486B8A8788EC /* AFNetworkActivityIndicatorManager.h in Headers */,
+				00719E2C61004478B360E2D1 /* AFNetworking.h in Headers */,
+				74BE561EEEB947CBA5F97B3A /* AFPropertyListRequestOperation.h in Headers */,
+				2D6AE61FB5F74EC69DD89C95 /* AFURLConnectionOperation.h in Headers */,
+				3955A8F4B7FF4A36A2995D98 /* AFXMLRequestOperation.h in Headers */,
+				F8E1815DCB914521B2245C79 /* UIImageView+AFNetworking.h in Headers */,
+				5985F1D870A5432B876F9399 /* CKCalendarView.h in Headers */,
+				599362D1702A4641A26319F2 /* IASKAppSettingsViewController.h in Headers */,
+				67AAF3C161A04E8F98707902 /* IASKAppSettingsWebViewController.h in Headers */,
+				618C13E4E6934A24B4297E0C /* IASKSpecifierValuesViewController.h in Headers */,
+				BEFB9F39D0854DD9A4670E6D /* IASKViewController.h in Headers */,
+				D1A930020BDC4D3E8811DBDC /* IASKSettingsReader.h in Headers */,
+				D36AF66D6424414A9FEDFD32 /* IASKSettingsStore.h in Headers */,
+				CC065C98548A49EAA832C6E8 /* IASKSettingsStoreFile.h in Headers */,
+				8C3B00AC152D4583B01CB5D7 /* IASKSettingsStoreUserDefaults.h in Headers */,
+				F9C06F9257BC40F8BD300D5B /* IASKSpecifier.h in Headers */,
+				3B6D366AA4764F6BB8940B7B /* IASKPSSliderSpecifierViewCell.h in Headers */,
+				AA2EED4F7B6646808707D8EB /* IASKPSTextFieldSpecifierViewCell.h in Headers */,
+				EB46C49422BB4729ABEC8DBB /* IASKPSTitleValueSpecifierViewCell.h in Headers */,
+				671C072ED208435EA5FDE50C /* IASKSlider.h in Headers */,
+				95B5AF2B72EE416FB6A9C1DF /* IASKSwitch.h in Headers */,
+				926664E3F3C24FF893B58F0E /* IASKTextField.h in Headers */,
+				753CF15843EA4CF88616D839 /* JSONKit.h in Headers */,
+				07FD84581ECA46B1A55446C8 /* MBProgressHUD.h in Headers */,
+				8E873D37D9DC4EDA9719D4F0 /* MFSideMenu.h in Headers */,
+				FF5CB22D730644EF8C770441 /* MFSideMenuManager.h in Headers */,
+				EDCB34C5157349B7A66EBAFD /* UIViewController+MFSideMenu.h in Headers */,
+				8E541314827C4392B5730C55 /* MKHorizMenu.h in Headers */,
+				82998CD35E7B40F980E199DD /* SDURLCache.h in Headers */,
+				58F0C1BBAD254F329DDBF280 /* SDImageCache.h in Headers */,
+				993779E4F97F41BF98805E0F /* SDWebImageCompat.h in Headers */,
+				AECC0178EF1A452B936A645C /* SDWebImageDecoder.h in Headers */,
+				B050B447594941978B1BAE44 /* SDWebImageDownloader.h in Headers */,
+				C16CDAA5461348DF8B59427A /* SDWebImageDownloaderOperation.h in Headers */,
+				830BAA9CEB3E4E03B9426B6D /* SDWebImageManager.h in Headers */,
+				7D50D03F3F12435A8E3C52C5 /* SDWebImageOperation.h in Headers */,
+				7F2D65BDDCCE4B85B817705C /* SDWebImagePrefetcher.h in Headers */,
+				1F7B65724A794B458485B6E6 /* UIButton+WebCache.h in Headers */,
+				084EF02007FD468A9D94BBC7 /* UIImageView+WebCache.h in Headers */,
+				9413A200F26A4E95AA759D49 /* SVModalWebViewController.h in Headers */,
+				63B8513D20FA43F4BEB83CDF /* SVWebViewController.h in Headers */,
+				1C0DD900CF8147FC987CEE83 /* TestFlight.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9D8870B1A6A246428D29D445 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB4050515A040C9B92BA0DF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				0AD76951E1AA429E828649BA /* Sources */,
+				8B358430CFC84CC08FE34AA1 /* Frameworks */,
+				04E9A78D3DB443CCA024D626 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 362720B916D04448935E13E2 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C12B05CFD64174901F881B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = D7595188A20B4EB3A97F447A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7D75F84F3674A10897327C7;
+			productRefGroup = D51DA0C2D04D45A9BB7892C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D8870B1A6A246428D29D445 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD76951E1AA429E828649BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6BD4E7CFB4269B035A390 /* ABCalendarPicker.m in Sources */,
+				641E5AEE274B41219A379D84 /* ABCalendarPickerDefaultDaysProvider.m in Sources */,
+				4E69A05F377543CF91DBF9C7 /* ABCalendarPickerDefaultErasProvider.m in Sources */,
+				E69818F258C14FDE8088333B /* ABCalendarPickerDefaultMonthsProvider.m in Sources */,
+				46658096902044F9A4CC311D /* ABCalendarPickerDefaultSeasonedMonthsProvider.m in Sources */,
+				AF9F4546C9D445F2962E1074 /* ABCalendarPickerDefaultStyleProvider.m in Sources */,
+				5CC6F14549844DB6B0A9F0CD /* ABCalendarPickerDefaultTripleWeekdaysProvider.m in Sources */,
+				0C961AB4D462462B99BE58DA /* ABCalendarPickerDefaultWeekdaysProvider.m in Sources */,
+				7E3BE73E15034CF78ED956C7 /* ABCalendarPickerDefaultYearsProvider.m in Sources */,
+				090715D84AF44B0FACEB48F5 /* ABViewPool.m in Sources */,
+				E0B816BAD1EA4BF2B638D6AA /* UIMyButton.m in Sources */,
+				DE360B4485DD4A6FA92B1795 /* AFHTTPClient.m in Sources */,
+				2F1796714FC64C34B597ED53 /* AFHTTPRequestOperation.m in Sources */,
+				D34A7967F0084F5A995ED202 /* AFImageRequestOperation.m in Sources */,
+				40521AE6E8494534A0E72B44 /* AFJSONRequestOperation.m in Sources */,
+				C90B77283914496EB7B3A1C3 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				2B86D6405B88498EA98CF07A /* AFPropertyListRequestOperation.m in Sources */,
+				DFED24B43EA84B71A53E6CBA /* AFURLConnectionOperation.m in Sources */,
+				24D1DED3B65742068D3D87C4 /* AFXMLRequestOperation.m in Sources */,
+				32FE2472C8B84B5586F79179 /* UIImageView+AFNetworking.m in Sources */,
+				54E29516BC5347D984F06132 /* CKCalendarView.m in Sources */,
+				9218234476E24710A75B6036 /* IASKAppSettingsViewController.m in Sources */,
+				396F2952DB694664970598E4 /* IASKAppSettingsWebViewController.m in Sources */,
+				A66E82EA86EC40ED8EB629C2 /* IASKSpecifierValuesViewController.m in Sources */,
+				B84A352984384C55947FA389 /* IASKSettingsReader.m in Sources */,
+				11EDB5D94CCC4C379BEA758A /* IASKSettingsStore.m in Sources */,
+				C97775EF3A8D4888AC2CA17B /* IASKSettingsStoreFile.m in Sources */,
+				90DDA9D5F14C487F93372208 /* IASKSettingsStoreUserDefaults.m in Sources */,
+				088468BE7F104462B537FD7A /* IASKSpecifier.m in Sources */,
+				3A2F7AA0942D416E9171A298 /* IASKPSSliderSpecifierViewCell.m in Sources */,
+				B07D176E01B44B30AC0F1E67 /* IASKPSTextFieldSpecifierViewCell.m in Sources */,
+				F23B45CDF8A448F09D63DD02 /* IASKPSTitleValueSpecifierViewCell.m in Sources */,
+				554460203AD747449BAAAEE4 /* IASKSlider.m in Sources */,
+				9576613138D64E6F9E161DFE /* IASKSwitch.m in Sources */,
+				165E7439687F4A2090DC9714 /* IASKTextField.m in Sources */,
+				EA6895E3AF6D4B34B363CB24 /* JSONKit.m in Sources */,
+				A243F0E764854D3296309E38 /* MBProgressHUD.m in Sources */,
+				6CD0A4C81D9143308ACB4955 /* MFSideMenuManager.m in Sources */,
+				2BD8DC0B8E4B40999EEC23B6 /* UIViewController+MFSideMenu.m in Sources */,
+				6B4E5AC1C3D44F2387E5D2F6 /* MKHorizMenu.m in Sources */,
+				91EE3AB952F94814AAC749F9 /* SDURLCache.m in Sources */,
+				F77296AE4BF446AFBDC082FC /* SDImageCache.m in Sources */,
+				F9F48BBEE6FF479CB87250F3 /* SDWebImageCompat.m in Sources */,
+				6B4C2974F0094D608D9AD7AC /* SDWebImageDecoder.m in Sources */,
+				E2E57C8BFA3146AF8E82C795 /* SDWebImageDownloader.m in Sources */,
+				A3AD91567E0246DFB9DB03B0 /* SDWebImageDownloaderOperation.m in Sources */,
+				78B46C0BF9364D478B89A53C /* SDWebImageManager.m in Sources */,
+				7488C122CC6249CB9D32458D /* SDWebImagePrefetcher.m in Sources */,
+				8205979B40AD41A3BF0B161C /* UIButton+WebCache.m in Sources */,
+				DD919A67FC70438FB47E0DBB /* UIImageView+WebCache.m in Sources */,
+				E91E1F2D8C30444CB8A3AB01 /* SVModalWebViewController.m in Sources */,
+				11A4BCE17F884971BFB7EC57 /* SVWebViewController.m in Sources */,
+				3C9C6B559A73403DB44D9CA1 /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F634897458542B5950278AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		736EEDD53F81419CB73DCC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		822D2DB90C80465C9A847470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236481E774B7474DB9AD728B /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stephen Silber (3AD83A87JJ)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2FF34E78-2A96-4AA8-9F12-FA00BDFAAC47";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C29AD34470654794B8058D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236481E774B7474DB9AD728B /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stephen Silber (3AD83A87JJ)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2FF34E78-2A96-4AA8-9F12-FA00BDFAAC47";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7595188A20B4EB3A97F447A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F634897458542B5950278AA /* Release */,
+				736EEDD53F81419CB73DCC1F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB4050515A040C9B92BA0DF /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29AD34470654794B8058D47 /* Release */,
+				822D2DB90C80465C9A847470 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C12B05CFD64174901F881B /* Project object */;
+}

@@ -5,7 +5,7 @@
 //  Created by Stephen Silber on 3/5/13.
 //  Copyright (c) 2013 Rensselaer Polytechnic Institute. All rights reserved.
 //
-
+#import "RMCalendarEventViewController.h"
 #import "RMCalendarViewController.h"
 #import "RMCalendarEvent.h"
 #import "AFNetworking.h"
@@ -42,8 +42,8 @@
 /* TO-DO LIST:
     * Filters
         * URL builder function
-    * Calendar event view page
-    * Comments
+    * Comment code
+    * Strip strings of unusual characters/convert to regular chars
 */
 
 - (id)init {
@@ -169,7 +169,7 @@
     UIActivityIndicatorView *activityIndicator =
     [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:activityIndicator];
-
+    self.title = @"Downloading...";
     
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *comp = [gregorian components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit) fromDate:date];
@@ -200,6 +200,7 @@
 
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:req];
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        self.title = @"Events";
         // Set up events in a dictionary
         eventData = [NSMutableArray array];
         
@@ -326,13 +327,14 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
-    //    cell.textLabel.font = [UIFont systemFontOfSize:16];
+    //Prettykit call to set up shadows, etc
     [cell prepareForTableView:tableView indexPath:indexPath];
     cell.textLabel.backgroundColor = [UIColor clearColor];
     
     cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     cell.textLabel.numberOfLines = 2;
     
+    // Show empty cell if there are no events on this day
     if(emptyFlag) {
         cell.textLabel.text = @"No events on this day!";
         [cell setAccessoryType:UITableViewCellAccessoryNone];
@@ -357,6 +359,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if(!emptyFlag) {
+        RMCalendarEventViewController *nextview = [[RMCalendarEventViewController alloc] initWithEvent:[dayData objectAtIndex:indexPath.row]];
+        [self.navigationController pushViewController:nextview animated:YES];
+    }
 }
 
 @end

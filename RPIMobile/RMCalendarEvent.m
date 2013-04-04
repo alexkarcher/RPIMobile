@@ -40,6 +40,7 @@
         self.ev_contact = [data objectForKey:@"contact"];
         self.ev_start = [data objectForKey:@"start"];
         self.ev_end = [data objectForKey:@"end"];
+        self.ev_loclink = [[data objectForKey:@"location"] objectForKey:@"link"];
     }
     
     

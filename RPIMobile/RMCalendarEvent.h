@@ -18,7 +18,7 @@
 @property (nonatomic, strong) NSString *ev_link;
 @property (nonatomic, strong) NSString *ev_cost;
 @property (nonatomic, strong) NSString *ev_location;
-
+@property (nonatomic, strong) NSString *ev_loclink;
 @property (nonatomic, strong) NSArray *ev_categories;
 
 @property (nonatomic, strong) NSMutableDictionary *ev_contact;
