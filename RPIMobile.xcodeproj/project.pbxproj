@@ -36,7 +36,6 @@
 		DC2073D416C9A2DC00ED07CE /* SVSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */; };
 		DC2073D516C9A2DC00ED07CE /* SVSegmentedThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */; };
 		DC2D67D3160CEF35007DEFD0 /* RPIAthletics.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC2D67D2160CEF35007DEFD0 /* RPIAthletics.plist */; };
-		DC30EFB5160FE97A00CB4B3E /* MainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */; };
 		DC3DAE80165BF45900F50CCD /* UIImage+ProportionalFill.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DAE7C165BF45900F50CCD /* UIImage+ProportionalFill.m */; };
 		DC3DAE81165BF45900F50CCD /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DAE7E165BF45900F50CCD /* UIImage+Tint.m */; };
 		DC3DAE9F165BF88100F50CCD /* announcement_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DAE83165BF88100F50CCD /* announcement_icon.png */; };
@@ -193,15 +192,18 @@
 		DC8BAC1315F068F5002CE3E9 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8BAC1015F068F5002CE3E9 /* HTMLNode.m */; };
 		DC8BAC1415F068F5002CE3E9 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8BAC1215F068F5002CE3E9 /* HTMLParser.m */; };
 		DC8BAC1615F06A33002CE3E9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8BAC1515F06A33002CE3E9 /* libxml2.dylib */; };
-		DC9506BA1610189C0064DF0C /* MainMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9506B91610189C0064DF0C /* MainMapOverlayView.m */; };
-		DC9506BE16101AE80064DF0C /* CampusMap.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9506BD16101AE80064DF0C /* CampusMap.png */; };
 		DC9703761616174C00D0F7EA /* AthleticsRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9703751616174C00D0F7EA /* AthleticsRosterViewController.m */; };
 		DCA3835215DEFB4C00984BA9 /* TweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA3835015DEFB4C00984BA9 /* TweetTableViewCell.m */; };
 		DCA3835315DEFB4C00984BA9 /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA3835115DEFB4C00984BA9 /* TweetTableViewCell.xib */; };
+		DCBDEE3F170D554A00EB9B2B /* mapkit_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDEE3D170D554A00EB9B2B /* mapkit_pin@2x.png */; };
+		DCBDEE40170D554A00EB9B2B /* mapkit_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDEE3E170D554A00EB9B2B /* mapkit_pin.png */; };
+		DCBDEE43170D56F400EB9B2B /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDEE41170D56F400EB9B2B /* marker.png */; };
+		DCBDEE44170D56F400EB9B2B /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDEE42170D56F400EB9B2B /* marker@2x.png */; };
+		DCBDEE47170D5D5A00EB9B2B /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDEE45170D5D5900EB9B2B /* flag.png */; };
+		DCBDEE48170D5D5A00EB9B2B /* flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDEE46170D5D5900EB9B2B /* flag@2x.png */; };
 		DCC29551164167400023E195 /* CampusMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC29550164167400023E195 /* CampusMapViewController.m */; };
 		DCC29555164169060023E195 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC29554164169060023E195 /* MapPin.m */; };
 		DCC29557164169AF0023E195 /* MapData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCC29556164169AF0023E195 /* MapData.plist */; };
-		DCC2955A16416D410023E195 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2955916416D410023E195 /* MKMapView+ZoomLevel.m */; };
 		DCC2956116423C050023E195 /* ImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2956016423C050023E195 /* ImageManipulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DCC4641C15D8E1BB0048FB0E /* VideoWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC4641B15D8E1BB0048FB0E /* VideoWebviewViewController.m */; };
 		DCC4642915D8E47F0048FB0E /* VideoWebviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC4642815D8E47F0048FB0E /* VideoWebviewViewController.xib */; };
@@ -300,8 +302,6 @@
 		DC2073D216C9A2DC00ED07CE /* SVSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedControl.m; sourceTree = "<group>"; };
 		DC2073D316C9A2DC00ED07CE /* SVSegmentedThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedThumb.m; sourceTree = "<group>"; };
 		DC2D67D2160CEF35007DEFD0 /* RPIAthletics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RPIAthletics.plist; sourceTree = "<group>"; };
-		DC30EFB3160FE97A00CB4B3E /* MainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapViewController.h; sourceTree = "<group>"; };
-		DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapViewController.m; sourceTree = "<group>"; };
 		DC3DAE7B165BF45900F50CCD /* UIImage+ProportionalFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ProportionalFill.h"; sourceTree = "<group>"; };
 		DC3DAE7C165BF45900F50CCD /* UIImage+ProportionalFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ProportionalFill.m"; sourceTree = "<group>"; };
 		DC3DAE7D165BF45900F50CCD /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
@@ -393,8 +393,8 @@
 		DC6C272915C4F293009DB7AC /* TeamPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeamPlaceholder.png; sourceTree = "<group>"; };
 		DC6C272A15C4F293009DB7AC /* TeamPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TeamPlaceholder@2x.png"; sourceTree = "<group>"; };
 		DC71B887160C184400C79342 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
-		DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarViewController.h; path = RPIMobile/RMCalendarViewController.h; sourceTree = "<group>"; };
-		DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarViewController.m; path = RPIMobile/RMCalendarViewController.m; sourceTree = "<group>"; };
+		DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCalendarViewController.h; sourceTree = "<group>"; };
+		DC72C25B16E68E4800F463A2 /* RMCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCalendarViewController.m; sourceTree = "<group>"; };
 		DC74B2A015C70E9500FD4A69 /* VideoFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFeedViewController.h; sourceTree = "<group>"; };
 		DC74B2A115C70E9500FD4A69 /* VideoFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFeedViewController.m; sourceTree = "<group>"; };
 		DC74B2A215C70E9500FD4A69 /* VideoFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoFeedViewController.xib; sourceTree = "<group>"; };
@@ -493,21 +493,22 @@
 		DC8BAC1115F068F5002CE3E9 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
 		DC8BAC1215F068F5002CE3E9 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 		DC8BAC1515F06A33002CE3E9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		DC9506B81610189C0064DF0C /* MainMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMapOverlayView.h; sourceTree = "<group>"; };
-		DC9506B91610189C0064DF0C /* MainMapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMapOverlayView.m; sourceTree = "<group>"; };
-		DC9506BD16101AE80064DF0C /* CampusMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CampusMap.png; sourceTree = "<group>"; };
 		DC9703741616174C00D0F7EA /* AthleticsRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticsRosterViewController.h; sourceTree = "<group>"; };
 		DC9703751616174C00D0F7EA /* AthleticsRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticsRosterViewController.m; sourceTree = "<group>"; };
 		DCA3834F15DEFB4C00984BA9 /* TweetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetTableViewCell.h; sourceTree = "<group>"; };
 		DCA3835015DEFB4C00984BA9 /* TweetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetTableViewCell.m; sourceTree = "<group>"; };
 		DCA3835115DEFB4C00984BA9 /* TweetTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
+		DCBDEE3D170D554A00EB9B2B /* mapkit_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapkit_pin@2x.png"; sourceTree = "<group>"; };
+		DCBDEE3E170D554A00EB9B2B /* mapkit_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapkit_pin.png; sourceTree = "<group>"; };
+		DCBDEE41170D56F400EB9B2B /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		DCBDEE42170D56F400EB9B2B /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		DCBDEE45170D5D5900EB9B2B /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		DCBDEE46170D5D5900EB9B2B /* flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag@2x.png"; sourceTree = "<group>"; };
 		DCC2954F164167400023E195 /* CampusMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusMapViewController.h; sourceTree = "<group>"; };
 		DCC29550164167400023E195 /* CampusMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusMapViewController.m; sourceTree = "<group>"; };
 		DCC29553164169060023E195 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
 		DCC29554164169060023E195 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		DCC29556164169AF0023E195 /* MapData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapData.plist; sourceTree = "<group>"; };
-		DCC2955816416D410023E195 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
-		DCC2955916416D410023E195 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 		DCC2955F16423C050023E195 /* ImageManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManipulator.h; sourceTree = "<group>"; };
 		DCC2956016423C050023E195 /* ImageManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManipulator.m; sourceTree = "<group>"; };
 		DCC4641A15D8E1BB0048FB0E /* VideoWebviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWebviewViewController.h; sourceTree = "<group>"; };
@@ -517,12 +518,12 @@
 		DCC4AF60170C715F008D2528 /* 2-red-back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-back-button@2x.png"; sourceTree = "<group>"; };
 		DCC4AF61170C715F008D2528 /* 2-red-bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-bar-button.png"; sourceTree = "<group>"; };
 		DCC4AF62170C715F008D2528 /* 2-red-bar-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-bar-button@2x.png"; sourceTree = "<group>"; };
-		DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarEvent.h; path = RPIMobile/RMCalendarEvent.h; sourceTree = "<group>"; };
-		DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEvent.m; path = RPIMobile/RMCalendarEvent.m; sourceTree = "<group>"; };
-		DCC4AF6A170C7C8C008D2528 /* event_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_background.png; sourceTree = "<group>"; };
-		DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "event_background@2x.png"; sourceTree = "<group>"; };
-		DCC4AF6E170CA338008D2528 /* RMCalendarEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMCalendarEventViewController.h; path = RPIMobile/RMCalendarEventViewController.h; sourceTree = "<group>"; };
-		DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMCalendarEventViewController.m; path = RPIMobile/RMCalendarEventViewController.m; sourceTree = "<group>"; };
+		DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCalendarEvent.h; sourceTree = "<group>"; };
+		DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCalendarEvent.m; sourceTree = "<group>"; };
+		DCC4AF6A170C7C8C008D2528 /* event_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = event_background.png; path = ../event_background.png; sourceTree = "<group>"; };
+		DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "event_background@2x.png"; path = "../event_background@2x.png"; sourceTree = "<group>"; };
+		DCC4AF6E170CA338008D2528 /* RMCalendarEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCalendarEventViewController.h; sourceTree = "<group>"; };
+		DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCalendarEventViewController.m; sourceTree = "<group>"; };
 		DCC8087715BF89450060390F /* RPIMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPIMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC8087B15BF89450060390F /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCC8087D15BF89450060390F /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -683,15 +684,14 @@
 		DC30EFAB160FE8B900CB4B3E /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				DC9506BD16101AE80064DF0C /* CampusMap.png */,
-				DC30EFB3160FE97A00CB4B3E /* MainMapViewController.h */,
-				DC30EFB4160FE97A00CB4B3E /* MainMapViewController.m */,
-				DC9506B81610189C0064DF0C /* MainMapOverlayView.h */,
-				DC9506B91610189C0064DF0C /* MainMapOverlayView.m */,
 				DCC2954F164167400023E195 /* CampusMapViewController.h */,
 				DCC29550164167400023E195 /* CampusMapViewController.m */,
-				DCC2955816416D410023E195 /* MKMapView+ZoomLevel.h */,
-				DCC2955916416D410023E195 /* MKMapView+ZoomLevel.m */,
+				DCBDEE45170D5D5900EB9B2B /* flag.png */,
+				DCBDEE46170D5D5900EB9B2B /* flag@2x.png */,
+				DCBDEE41170D56F400EB9B2B /* marker.png */,
+				DCBDEE42170D56F400EB9B2B /* marker@2x.png */,
+				DCBDEE3D170D554A00EB9B2B /* mapkit_pin@2x.png */,
+				DCBDEE3E170D554A00EB9B2B /* mapkit_pin.png */,
 				DCC29553164169060023E195 /* MapPin.h */,
 				DCC29554164169060023E195 /* MapPin.m */,
 			);
@@ -947,14 +947,6 @@
 		DCC3AFFF15E3649000DD3648 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				DC06B7DF16D54BFC00DE799A /* images */,
-			);
-			name = Events;
-			sourceTree = "<group>";
-		};
-		DCC8086C15BF89450060390F = {
-			isa = PBXGroup;
-			children = (
 				DCC4AF6A170C7C8C008D2528 /* event_background.png */,
 				DCC4AF6B170C7C8C008D2528 /* event_background@2x.png */,
 				DC72C25A16E68E4800F463A2 /* RMCalendarViewController.h */,
@@ -963,6 +955,14 @@
 				DCC4AF6F170CA338008D2528 /* RMCalendarEventViewController.m */,
 				DCC4AF67170C7290008D2528 /* RMCalendarEvent.h */,
 				DCC4AF68170C7290008D2528 /* RMCalendarEvent.m */,
+				DC06B7DF16D54BFC00DE799A /* images */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		DCC8086C15BF89450060390F = {
+			isa = PBXGroup;
+			children = (
 				DCC8088315BF89450060390F /* RPIMobile */,
 				DCC8087815BF89450060390F /* Products */,
 				E2AF5E0EAFF54340B2666527 /* Pods.xcconfig */,
@@ -1317,7 +1317,6 @@
 				DCD6725215E20F4C00FD1446 /* stop_marker.png in Resources */,
 				DC71B888160C184400C79342 /* Default-568h@2x.png in Resources */,
 				DC2D67D3160CEF35007DEFD0 /* RPIAthletics.plist in Resources */,
-				DC9506BE16101AE80064DF0C /* CampusMap.png in Resources */,
 				DCC96ECC1614989900556D39 /* womenSportsList.plist in Resources */,
 				DCC96ECD1614989900556D39 /* menSportsList.plist in Resources */,
 				DC03ED56161E973E0083C503 /* PresentationNotReadyViewController.xib in Resources */,
@@ -1369,6 +1368,12 @@
 				DCC4AF66170C715F008D2528 /* 2-red-bar-button@2x.png in Resources */,
 				DCC4AF6C170C7C8C008D2528 /* event_background.png in Resources */,
 				DCC4AF6D170C7C8C008D2528 /* event_background@2x.png in Resources */,
+				DCBDEE3F170D554A00EB9B2B /* mapkit_pin@2x.png in Resources */,
+				DCBDEE40170D554A00EB9B2B /* mapkit_pin.png in Resources */,
+				DCBDEE43170D56F400EB9B2B /* marker.png in Resources */,
+				DCBDEE44170D56F400EB9B2B /* marker@2x.png in Resources */,
+				DCBDEE47170D5D5A00EB9B2B /* flag.png in Resources */,
+				DCBDEE48170D5D5A00EB9B2B /* flag@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1428,8 +1433,6 @@
 				DC8BAC1415F068F5002CE3E9 /* HTMLParser.m in Sources */,
 				DCD5839B15FD0257001D6DCA /* SideMenuViewController.m in Sources */,
 				DC7868E1160FA245000E9B35 /* LaundryViewController.m in Sources */,
-				DC30EFB5160FE97A00CB4B3E /* MainMapViewController.m in Sources */,
-				DC9506BA1610189C0064DF0C /* MainMapOverlayView.m in Sources */,
 				DCC96EC91614968F00556D39 /* AthleticsMainViewController.m in Sources */,
 				DCC96ED51614A53A00556D39 /* AthleticsSportViewController.m in Sources */,
 				DC9703761616174C00D0F7EA /* AthleticsRosterViewController.m in Sources */,
@@ -1438,7 +1441,6 @@
 				DC84CAA11626181400AE44E6 /* ScheduleEntry.m in Sources */,
 				DCC29551164167400023E195 /* CampusMapViewController.m in Sources */,
 				DCC29555164169060023E195 /* MapPin.m in Sources */,
-				DCC2955A16416D410023E195 /* MKMapView+ZoomLevel.m in Sources */,
 				DCC2956116423C050023E195 /* ImageManipulator.m in Sources */,
 				DCE718F91642B7D4003D6B38 /* STDataManager.m in Sources */,
 				DCE719101642B7DF003D6B38 /* STETA.m in Sources */,

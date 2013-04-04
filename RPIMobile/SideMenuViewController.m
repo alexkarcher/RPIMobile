@@ -20,7 +20,7 @@
 #import "DirectoryMasterViewController.h"
 #import "TwitterTimelineViewController.h"
 #import "LaundryViewController.h"
-#import "MainMapViewController.h"
+#import "CampusMapViewController.h"
 #import "STMapViewController.h"
 #import "AthleticsMainViewController.h"
 #import "CampusMapViewController.h"

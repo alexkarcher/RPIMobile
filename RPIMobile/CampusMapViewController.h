@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface CampusMapViewController : UIViewController <MKMapViewDelegate> {
-    MKMapView *mapView;
+@interface CampusMapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
+    MKMapView *_mapView;
     NSArray *mapPoints;
     NSMutableArray *pins;
 }
