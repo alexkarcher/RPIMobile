@@ -12,8 +12,15 @@
 
 @interface ABCalendarPickerDefaultStyleProvider : NSObject<ABCalendarPickerStyleProviderProtocol>
 
-@property (readonly,nonatomic) UIColor * textColor;
-@property (readonly,nonatomic) UIColor * textShadowColor;
+@property (nonatomic) UIColor * textColor;
+@property (nonatomic) UIColor * textShadowColor;
+@property (nonatomic) UIImage * patternImageForGradientBar;
+
+@property (nonatomic) UIFont * titleFontForColumnTitlesVisible;
+@property (nonatomic) UIFont * titleFontForColumnTitlesInvisible;
+@property (nonatomic) UIFont * columnFont;
+@property (nonatomic) UIFont * tileTitleFont;
+@property (nonatomic) UIFont * tileDotFont;
 
 - (UIControl*)calendarPicker:(ABCalendarPicker*)calendarPicker
             cellViewForTitle:(NSString*)cellTitle
@@ -24,8 +31,6 @@
         onControlState:(UIControlState)controlState
             withEvents:(NSInteger)eventsCount
               andState:(ABCalendarPickerState)state;
-
-@property (nonatomic) UIImage * patternImageForGradientBar;
 
 @property (nonatomic) UIImage * normalImage;
 @property (nonatomic) UIImage * selectedImage;

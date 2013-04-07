@@ -18,10 +18,16 @@
 @implementation ABCalendarPickerDefaultStyleProvider
 
 @synthesize maxNumberOfDots = _maxNumberOfDots;
-
 @synthesize controlsPool = _controlsPool;
 
+@synthesize textColor = _textColor;
+@synthesize textShadowColor = _textShadowColor;
 @synthesize patternImageForGradientBar = _patternImageForGradientBar;
+
+@synthesize columnFont = _columnFont;
+@synthesize tileTitleFont = _tileTitleFont;
+@synthesize tileDotFont = _tileDotFont;
+
 @synthesize normalImage = _normalImage;
 @synthesize selectedImage = _selectedImage;
 @synthesize highlightedImage = _highlightedImage;
@@ -59,7 +65,7 @@
         return [UIImage imageNamed:name];
 }
 
-- (ABViewPool*)controlsPool
+- (ABViewPool *)controlsPool
 {
     if (_controlsPool == nil)
         _controlsPool = [[ABViewPool alloc] init];
@@ -76,6 +82,41 @@
     return self.normalTextShadowColor;
 }
 
+- (UIFont *)titleFontForColumnTitlesVisible
+{
+    if (_titleFontForColumnTitlesVisible == nil)
+        _titleFontForColumnTitlesVisible = [UIFont boldSystemFontOfSize:23.0f];
+    return _titleFontForColumnTitlesVisible;
+}
+
+- (UIFont *)titleFontForColumnTitlesInvisible
+{
+    if (_titleFontForColumnTitlesInvisible == nil)
+        _titleFontForColumnTitlesInvisible = [UIFont boldSystemFontOfSize:28.0f];
+    return _titleFontForColumnTitlesInvisible;
+}
+
+- (UIFont *)columnFont
+{
+    if (_columnFont == nil)
+        _columnFont = [UIFont boldSystemFontOfSize:10.0f];
+    return _columnFont;
+}
+
+- (UIFont *)tileTitleFont
+{
+    if (_tileTitleFont == nil)
+        _tileTitleFont = [UIFont boldSystemFontOfSize:24.0];
+    return _tileTitleFont;
+}
+
+- (UIFont *)tileDotFont
+{
+    if (_tileDotFont == nil)
+        _tileDotFont = [UIFont boldSystemFontOfSize:20.0];
+    return _tileDotFont;
+}
+
 - (UIImage *)patternImageForGradientBar
 {
     if (_patternImageForGradientBar == nil)
@@ -83,14 +124,7 @@
     return _patternImageForGradientBar;
 }
 
-- (void)setPatternImageForGradientBar:(UIImage *)image
-{
-    _patternImageForGradientBar = image;
-    [self.controlsPool clear];
-    [[UIMyButton stateSizeImageDict] removeAllObjects];
-}
-
-- (UIImage*)normalImage
+- (UIImage *)normalImage
 {
     if (_normalImage == nil)
         _normalImage = [[self imageNamed:@"TileNormal"] resizableImageWithCapInsets:UIEdgeInsetsMake(2,2,2,2)];
@@ -104,7 +138,7 @@
     [[UIMyButton stateSizeImageDict] removeAllObjects];
 }
 
-- (UIImage*)selectedImage
+- (UIImage *)selectedImage
 {
     if (_selectedImage == nil)
         _selectedImage = [[self imageNamed:@"TileToday"] resizableImageWithCapInsets:UIEdgeInsetsMake(13,10,13,10)];
@@ -279,6 +313,8 @@
     UIMyButton * button = (UIMyButton *)[self.controlsPool giveExistingOrCreateNewWith:^
     {
         UIMyButton * button = [[UIMyButton alloc] init];
+        button.tileTitleFont = self.tileTitleFont;
+        button.tileDotFont = self.tileDotFont;
         button.opaque = YES;
         button.userInteractionEnabled = NO;
         button.clipsToBounds = YES;

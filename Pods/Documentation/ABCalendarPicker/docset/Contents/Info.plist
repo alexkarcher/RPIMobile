@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.cocoapods.ABCalendarPicker-1.0.2</string>
+	<string>org.cocoapods.ABCalendarPicker-1.0.5</string>
 	<key>CFBundleName</key>
-	<string>ABCalendarPicker 1.0.2 Documentation</string>
+	<string>ABCalendarPicker 1.0.5 Documentation</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -18,7 +18,7 @@
 	<string>Fully configurable iOS calendar UI component with multiple layouts and smooth animations.</string>
 	
 	<key>DocSetFeedName</key>
-	<string>ABCalendarPicker 1.0.2 Documentation</string>
+	<string>ABCalendarPicker 1.0.5 Documentation</string>
 	
 	<key>DocSetMinimumXcodeVersion</key>
 	<string>3.0</string>

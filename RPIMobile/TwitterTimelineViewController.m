@@ -15,16 +15,18 @@
 #import "AFNetworking.h"
 #import "JSONKit.h"
 #import "PrettyKit.h"
+#import "ISRefreshControl.h"
 #import <QuartzCore/QuartzCore.h>
 
 
 
 /*TO-DO for Twitter: 
 DONE      -Add custom XIB for tweet cells (link detection)
-          -Add separate tweet window?
+IGNORE    -Add separate tweet window?
 DONE      -Dynamic UITableViewCell size
 IGNORE    -Cache?
 DONE      -UIWebView override for clicked links
+          -Better design for UITableViewCell (UGLY)
  */
 
 @interface UITextView (Override)
@@ -138,6 +140,7 @@ DONE      -UIWebView override for clicked links
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         //Success downloading twitter timeline from RPI Mobile list
         // Use when fetching text data
+        [self.refreshControl endRefreshing];
         NSArray *tweetArray = [[operation responseString] objectFromJSONString];
 //        NSLog(@"TweetArray: %i \n\n\n\ %@", tweetArray.count, tweetArray);
         for(int i = tweetArray.count-1; i >= 0; i--) {
@@ -181,6 +184,7 @@ DONE      -UIWebView override for clicked links
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         //Success downloading twitter timeline from RPI Mobile list
         // Use when fetching text data
+
         NSArray *tweetArray = [[operation responseString] objectFromJSONString];
     
         NSLog(@"Tweet Count: %i", [tweetArray count]);
@@ -202,6 +206,7 @@ DONE      -UIWebView override for clicked links
         //Request failed
         NSLog(@"Error with twitter timeline request: %@", error);
         self.title = @"Request Failed";
+        [self.refreshControl endRefreshing];
     }];
     
     [operation start];
@@ -213,8 +218,13 @@ DONE      -UIWebView override for clicked links
     _lastID = 0;
     self._tweets = [NSMutableArray array];
     [self fetchTweets];
+
+    self.refreshControl = (id)[[ISRefreshControl alloc] init];
+    [self.refreshControl addTarget:self
+                            action:@selector(refreshTweets)
+                  forControlEvents:UIControlEventValueChanged];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refreshTweets)];
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refreshTweets)];
     
 }
 

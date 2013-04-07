@@ -20,7 +20,7 @@
 #import "DirectoryMasterViewController.h"
 #import "TwitterTimelineViewController.h"
 #import "LaundryViewController.h"
-#import "MainMapViewController.h"
+#import "CampusMapViewController.h"
 #import "STMapViewController.h"
 #import "AthleticsMainViewController.h"
 #import "CampusMapViewController.h"
@@ -74,6 +74,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     self.tableView.separatorColor = [UIColor colorWithHex:0x222222];
+    self.tableView.rowHeight = 55;
     
     // Menu item allocation
     menuItems *menuNews = [[menuItems alloc] initWithName:@"News" image:@"announcement_icon"];

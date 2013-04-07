@@ -78,6 +78,116 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setTitleFontForColumnTitlesVisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *titleFontForColumnTitlesVisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesVisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/titleFontForColumnTitlesVisible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *titleFontForColumnTitlesVisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesVisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setTitleFontForColumnTitlesInvisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *titleFontForColumnTitlesInvisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesInvisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/titleFontForColumnTitlesInvisible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *titleFontForColumnTitlesInvisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesInvisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setColumnFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *columnFont</Declaration>
+			
+			
+			<Anchor>//api/name/columnFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/columnFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *columnFont</Declaration>
+			
+			
+			<Anchor>//api/name/columnFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setTileTitleFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *tileTitleFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileTitleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/tileTitleFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *tileTitleFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileTitleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/setTileDotFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *tileDotFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileDotFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/ABCalendarPickerStyleProviderProtocol/tileDotFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, nonatomic) UIFont *tileDotFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileDotFont</Anchor>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/ABCalendarPickerStyleProviderProtocol/calendarPicker:cellViewForTitle:andState:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>ABCalendarPickerStyleProviderProtocol.h</DeclaredIn>			

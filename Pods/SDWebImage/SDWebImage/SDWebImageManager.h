@@ -31,12 +31,51 @@ typedef enum
      * This flag enables progressive download, the image is displayed progressively during download as a browser would do.
      * By default, the image is only displayed once completely downloaded.
      */
-    SDWebImageProgressiveDownload = 1 << 3
+    SDWebImageProgressiveDownload = 1 << 3,
+    /**
+     * Even if the image is cached, respect the HTTP response cache control, and refresh the image from remote location if needed.
+     * The disk caching will be handled by NSURLCache instead of SDWebImage leading to slight performance degradation.
+     * This option helps deal with images changing behind the same request URL, e.g. Facebook graph api profile pics.
+     * If a cached image is refreshed, the completion block is called once with the cached image and again with the final image.
+     *
+     * Use this flag only if you can't make your URLs static with embeded cache busting parameter.
+     */
+    SDWebImageRefreshCached = 1 << 4
 } SDWebImageOptions;
 
 typedef void(^SDWebImageCompletedBlock)(UIImage *image, NSError *error, SDImageCacheType cacheType);
 typedef void(^SDWebImageCompletedWithFinishedBlock)(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished);
 
+
+@class SDWebImageManager;
+
+@protocol SDWebImageManagerDelegate <NSObject>
+
+@optional
+
+/**
+ * Controls which image should be downloaded when the image is not found in the cache.
+ *
+ * @param imageManager The current `SDWebImageManager`
+ * @param imageURL The url of the image to be downloaded
+ *
+ * @return Return NO to prevent the downloading of the image on cache misses. If not implemented, YES is implied.
+ */
+- (BOOL)imageManager:(SDWebImageManager *)imageManager shouldDownloadImageForURL:(NSURL *)imageURL;
+
+/**
+ * Allows to transform the image immediately after it has been downloaded and just before to cache it on disk and memory.
+ * NOTE: This method is called from a global queue in order to not to block the main thread.
+ *
+ * @param imageManager The current `SDWebImageManager`
+ * @param image The image to transform
+ * @param imageURL The url of the image to transform
+ *
+ * @return The transformed image object.
+ */
+- (UIImage *)imageManager:(SDWebImageManager *)imageManager transformDownloadedImage:(UIImage *)image withURL:(NSURL *)imageURL;
+
+@end
 
 /**
  * The SDWebImageManager is the class behind the UIImageView+WebCache category and likes.
@@ -60,6 +99,8 @@ typedef void(^SDWebImageCompletedWithFinishedBlock)(UIImage *image, NSError *err
  *                 }];
  */
 @interface SDWebImageManager : NSObject
+
+@property (weak, nonatomic) id<SDWebImageManagerDelegate> delegate;
 
 @property (strong, nonatomic, readonly) SDImageCache *imageCache;
 @property (strong, nonatomic, readonly) SDWebImageDownloader *imageDownloader;

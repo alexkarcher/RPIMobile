@@ -7,120 +7,140 @@
 		<string>On Campus Residence Hall</string>
 		<real>42.731384</real>
 		<real>-73.67921</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>RPI Student Union</string>
 		<string></string>
 		<real>42.72997</real>
 		<real>-73.676649</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Blaw-Knox 1 &amp; 2</string>
 		<string></string>
 		<real>42.73208</real>
 		<real>-73.68078</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Service Building</string>
 		<string></string>
 		<real>42.7328</real>
 		<real>-73.68093</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Boiler House</string>
 		<string></string>
 		<real>42.7326</real>
 		<real>-73.68017999999999</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>J-Building</string>
 		<string></string>
 		<real>42.73327</real>
 		<real>-73.67994</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>H-Building</string>
 		<string></string>
 		<real>42.73265</real>
 		<real>-73.67921</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>North Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73135</real>
 		<real>-73.67986999999999</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Heffner Alumni House</string>
 		<string></string>
 		<real>42.73292</real>
 		<real>-73.67815</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Berman Park Fire House</string>
 		<string></string>
 		<real>42.73287</real>
 		<real>-73.67740999999999</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>2021 Peoples Avenue</string>
 		<string></string>
 		<real>42.73292</real>
 		<real>-73.67695000000001</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Graduate Education</string>
 		<string></string>
 		<real>42.73271</real>
 		<real>-73.67592</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>41 Ninth Street</string>
 		<string></string>
 		<real>42.73241</real>
 		<real>-73.68311</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>West Hall</string>
 		<string></string>
 		<real>42.73167</real>
 		<real>-73.68298</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Blitman Residence Commons</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73112</real>
 		<real>-73.68586000000001</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Louis Rubin Memorial</string>
 		<string></string>
 		<real>42.73065</real>
 		<real>-73.68434000000001</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Winslow Building</string>
 		<string></string>
 		<real>42.73098</real>
 		<real>-73.68416000000001</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Pittsburgh Building</string>
 		<string></string>
 		<real>42.73115</real>
 		<real>-73.68338</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Carnegie Building</string>
 		<string></string>
 		<real>42.73051</real>
 		<real>-73.68311</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Walker Laboratory</string>
 		<string></string>
 		<real>42.73086</real>
 		<real>-73.68248</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Russel Sage Laboratory</string>
@@ -309,7 +329,7 @@
 		<real>-73.67688</real>
 	</array>
 	<array>
-		<string>ALumni Sports and Recreation Center</string>
+		<string>Alumni Sports and Recreation Center</string>
 		<string></string>
 		<real>42.72844</real>
 		<real>-73.67686</real>

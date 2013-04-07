@@ -34,6 +34,50 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setTileTitleFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIFont *tileTitleFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileTitleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIMyButton/tileTitleFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIFont *tileTitleFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileTitleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/setTileDotFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIFont *tileDotFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileDotFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIMyButton/tileDotFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIMyButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIFont *tileDotFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileDotFont</Anchor>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/UIMyButton/titleForState:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>UIMyButton.h</DeclaredIn>			

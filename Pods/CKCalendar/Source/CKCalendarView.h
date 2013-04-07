@@ -33,7 +33,6 @@ typedef int startDay;
 
 - (id)initWithStartDay:(startDay)firstDay;
 - (id)initWithStartDay:(startDay)firstDay frame:(CGRect)frame;
-- (void)setMonthShowing:(NSDate *)aMonthShowing;
 
 // Theming
 - (void)setTitleFont:(UIFont *)font;
@@ -77,4 +76,5 @@ typedef int startDay;
 @protocol CKCalendarDelegate <NSObject>
 
 - (void)calendar:(CKCalendarView *)calendar didSelectDate:(NSDate *)date;
+
 @end

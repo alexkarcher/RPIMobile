@@ -16,7 +16,7 @@
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
 			
-			<Declaration>@property (readonly, nonatomic) UIColor *textColor</Declaration>
+			<Declaration>@property (nonatomic) UIColor *textColor</Declaration>
 			
 			
 			<Anchor>//api/name/textColor</Anchor>
@@ -27,7 +27,7 @@
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
 			
-			<Declaration>@property (readonly, nonatomic) UIColor *textColor</Declaration>
+			<Declaration>@property (nonatomic) UIColor *textColor</Declaration>
 			
 			
 			<Anchor>//api/name/textColor</Anchor>
@@ -38,7 +38,7 @@
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
 			
-			<Declaration>@property (readonly, nonatomic) UIColor *textShadowColor</Declaration>
+			<Declaration>@property (nonatomic) UIColor *textShadowColor</Declaration>
 			
 			
 			<Anchor>//api/name/textShadowColor</Anchor>
@@ -49,32 +49,10 @@
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
 			
-			<Declaration>@property (readonly, nonatomic) UIColor *textShadowColor</Declaration>
+			<Declaration>@property (nonatomic) UIColor *textShadowColor</Declaration>
 			
 			
 			<Anchor>//api/name/textShadowColor</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/calendarPicker:cellViewForTitle:andState:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
-			
-			<Declaration>- (UIControl *)calendarPicker:(ABCalendarPicker *)calendarPicker cellViewForTitle:(NSString *)cellTitle andState:(ABCalendarPickerState)state</Declaration>
-			
-			
-			<Anchor>//api/name/calendarPicker:cellViewForTitle:andState:</Anchor>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
-			
-			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker postUpdateForCellView:(UIControl *)control onControlState:(UIControlState)controlState withEvents:(NSInteger)eventsCount andState:(ABCalendarPickerState)state</Declaration>
-			
-			
-			<Anchor>//api/name/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</Anchor>
 		</Token>
 		
 		<Token>
@@ -97,6 +75,138 @@
 			
 			
 			<Anchor>//api/name/patternImageForGradientBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setTitleFontForColumnTitlesVisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *titleFontForColumnTitlesVisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesVisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/titleFontForColumnTitlesVisible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *titleFontForColumnTitlesVisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesVisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setTitleFontForColumnTitlesInvisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *titleFontForColumnTitlesInvisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesInvisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/titleFontForColumnTitlesInvisible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *titleFontForColumnTitlesInvisible</Declaration>
+			
+			
+			<Anchor>//api/name/titleFontForColumnTitlesInvisible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setColumnFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *columnFont</Declaration>
+			
+			
+			<Anchor>//api/name/columnFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/columnFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *columnFont</Declaration>
+			
+			
+			<Anchor>//api/name/columnFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setTileTitleFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *tileTitleFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileTitleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/tileTitleFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *tileTitleFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileTitleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/setTileDotFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *tileDotFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileDotFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ABCalendarPickerDefaultStyleProvider/tileDotFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) UIFont *tileDotFont</Declaration>
+			
+			
+			<Anchor>//api/name/tileDotFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/calendarPicker:cellViewForTitle:andState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (UIControl *)calendarPicker:(ABCalendarPicker *)calendarPicker cellViewForTitle:(NSString *)cellTitle andState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:cellViewForTitle:andState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ABCalendarPickerDefaultStyleProvider/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ABCalendarPickerDefaultStyleProvider.h</DeclaredIn>			
+			
+			<Declaration>- (void)calendarPicker:(ABCalendarPicker *)calendarPicker postUpdateForCellView:(UIControl *)control onControlState:(UIControlState)controlState withEvents:(NSInteger)eventsCount andState:(ABCalendarPickerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/calendarPicker:postUpdateForCellView:onControlState:withEvents:andState:</Anchor>
 		</Token>
 		
 		<Token>
