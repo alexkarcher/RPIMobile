@@ -13,7 +13,7 @@
 @implementation UIImage (ForceDecode)
 
 + (UIImage *)decodedImageWithImage:(UIImage *)image
-{
+{	
     CGImageRef imageRef = image.CGImage;
     CGSize imageSize = CGSizeMake(CGImageGetWidth(imageRef), CGImageGetHeight(imageRef));
     CGRect imageRect = (CGRect){.origin = CGPointZero, .size = imageSize};
@@ -21,24 +21,26 @@
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     CGBitmapInfo bitmapInfo = CGImageGetBitmapInfo(imageRef);
 
+    int infoMask = (bitmapInfo & kCGBitmapAlphaInfoMask);
+    BOOL anyNonAlpha = (infoMask == kCGImageAlphaNone ||
+                        infoMask == kCGImageAlphaNoneSkipFirst ||
+                        infoMask == kCGImageAlphaNoneSkipLast);
+
     // CGBitmapContextCreate doesn't support kCGImageAlphaNone with RGB.
     // https://developer.apple.com/library/mac/#qa/qa1037/_index.html
-    if ((bitmapInfo & kCGBitmapAlphaInfoMask) == kCGImageAlphaNone && CGColorSpaceGetNumberOfComponents(colorSpace) > 1)
+    if (infoMask == kCGImageAlphaNone && CGColorSpaceGetNumberOfComponents(colorSpace) > 1)
     {
         // Unset the old alpha info.
         bitmapInfo &= ~kCGBitmapAlphaInfoMask;
-        
+       
         // Set noneSkipFirst.
         bitmapInfo |= kCGImageAlphaNoneSkipFirst;
     }
     // Some PNGs tell us they have alpha but only 3 components. Odd.
-    else if (((bitmapInfo & kCGBitmapAlphaInfoMask) & (kCGImageAlphaFirst | kCGImageAlphaLast)) != 0
-             && CGColorSpaceGetNumberOfComponents(colorSpace) == 3)
+    else if (!anyNonAlpha && CGColorSpaceGetNumberOfComponents(colorSpace) == 3)
     {
         // Unset the old alpha info.
         bitmapInfo &= ~kCGBitmapAlphaInfoMask;
-        
-        // Set noneSkipFirst.
         bitmapInfo |= kCGImageAlphaPremultipliedFirst;
     }
 

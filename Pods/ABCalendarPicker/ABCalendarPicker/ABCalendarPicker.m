@@ -209,6 +209,8 @@
 - (void)setCalendar:(NSCalendar *)cal
 {
     _calendar = cal;
+    _calendar.minimumDaysInFirstWeek = 1;
+    
     for (id<ABCalendarPickerDateProviderProtocol> provider in self.providers)
         if (provider != (id)[NSNull null])
             [provider setCalendar:cal];
@@ -267,6 +269,13 @@
     if (self.currentState == ABCalendarPickerStateEras)
         if (self.superview)
             [self updateStateAnimated:YES];
+}
+
+- (void)setStyleProvider:(id<ABCalendarPickerStyleProviderProtocol>)styleProvider
+{
+    _styleProvider = styleProvider;
+    if (self.superview)
+        [self updateStateAnimated:YES];
 }
 
 - (void)configureArrowButton:(UIButton *)button
@@ -364,6 +373,8 @@
     }
     
     BOOL canDiffuse = [self.currentProvider canDiffuse];
+    UIControl * control = self.controls[0][0];
+    canDiffuse = canDiffuse && !control.enabled;
     ABCalendarPickerAnimation animation = [self.currentProvider animationForPrev];
     self.highlightedDate = [self.currentProvider dateForPrevAnimation];
     [self changeStateTo:self.currentState fromState:self.currentState animation:animation canDiffuse:canDiffuse];
@@ -379,6 +390,8 @@
     }
     
     BOOL canDiffuse = [self.currentProvider canDiffuse];
+    UIControl * control = [[self.controls lastObject] lastObject];
+    canDiffuse = canDiffuse && !control.enabled;
     ABCalendarPickerAnimation animation = [self.currentProvider animationForNext];
     self.highlightedDate = [self.currentProvider dateForNextAnimation];
     [self changeStateTo:self.currentState fromState:self.currentState animation:animation canDiffuse:canDiffuse];
@@ -655,10 +668,15 @@
             continue;
         
         UILabel * columnLabel = [[UILabel alloc] initWithFrame:CGRectMake(floor(j*buttonWidth),50-12,buttonWidth,12)];
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 60000
+        columnLabel.textAlignment = NSTextAlignmentCenter;
+#else
         columnLabel.textAlignment = UITextAlignmentCenter;
+#endif
         columnLabel.backgroundColor = [UIColor clearColor];
 		//columnLabel.shadowColor = [UIColor whiteColor];
 		columnLabel.shadowOffset = CGSizeMake(0, 1);
+        columnLabel.font = self.styleProvider.columnFont;
 		columnLabel.font = [UIFont boldSystemFontOfSize:10.0f];
         columnLabel.text = columnName;
         //columnLabel.textColor = [UIColor darkGrayColor];
@@ -676,11 +694,17 @@
     if (self.titleLabel == nil)
     {
         self.titleLabel = [[UILabel alloc] init];
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 60000
+        self.titleLabel.textAlignment = NSTextAlignmentCenter;
+#else
         self.titleLabel.textAlignment = UITextAlignmentCenter;
+#endif
         self.titleLabel.backgroundColor = [UIColor clearColor];
         //self.titleLabel.shadowColor = [UIColor whiteColor];
         self.titleLabel.shadowOffset = CGSizeMake(0, 1);
-        self.titleLabel.font = [UIFont boldSystemFontOfSize:(self.columnLabels.count == 0) ? 28.0f : 23.0f];
+        self.titleLabel.font = (self.columnLabels.count == 0)
+                             ? [self.styleProvider titleFontForColumnTitlesInvisible]
+                             : [self.styleProvider titleFontForColumnTitlesVisible];
         //self.titleLabel.textColor = [UIColor colorWithRed:59/255. green:73/255. blue:88/255. alpha:1];
         //self.titleLabel.adjustsFontSizeToFitWidth = YES;
     }
@@ -1025,17 +1049,23 @@
     if (!self.swipeNavigationEnabled)
         return;
     
+    BOOL canDiffuse = [self.currentProvider canDiffuse];
+    
     ABCalendarPickerAnimation prevAnimation = [self.currentProvider animationForPrev];
     ABCalendarPickerAnimation nextAnimation = [self.currentProvider animationForNext];
     if ([self animationEq:prevAnimation toDirection:gestureRecognizer.direction])
     {
+        UIControl * control = self.controls[0][0];
+        canDiffuse = canDiffuse && !control.enabled;
         self.highlightedDate = [self.currentProvider dateForPrevAnimation];
-        [self changeStateTo:self.currentState fromState:self.currentState animation:prevAnimation canDiffuse:[self.currentProvider canDiffuse]];
+        [self changeStateTo:self.currentState fromState:self.currentState animation:prevAnimation canDiffuse:canDiffuse];
     }
     if ([self animationEq:nextAnimation toDirection:gestureRecognizer.direction])
     {
+        UIControl * control = [[self.controls lastObject] lastObject];
+        canDiffuse = canDiffuse && !control.enabled;
         self.highlightedDate = [self.currentProvider dateForNextAnimation];
-        [self changeStateTo:self.currentState fromState:self.currentState animation:nextAnimation canDiffuse:[self.currentProvider canDiffuse]];
+        [self changeStateTo:self.currentState fromState:self.currentState animation:nextAnimation canDiffuse:canDiffuse];
     }
     
     if (![(id)self.currentProvider respondsToSelector:@selector(dateForLongPrevAnimation)]
@@ -1048,13 +1078,17 @@
     ABCalendarPickerAnimation longNextAnimation = [self.currentProvider animationForLongNext];
     if ([self animationEq:longPrevAnimation toDirection:gestureRecognizer.direction])
     {
+        UIControl * control = self.controls[0][0];
+        canDiffuse = canDiffuse && !control.enabled;
         self.highlightedDate = [self.currentProvider dateForLongPrevAnimation];
-        [self changeStateTo:self.currentState fromState:self.currentState animation:longPrevAnimation canDiffuse:[self.currentProvider canDiffuse]];
+        [self changeStateTo:self.currentState fromState:self.currentState animation:longPrevAnimation canDiffuse:canDiffuse];
     }
     if ([self animationEq:longNextAnimation toDirection:gestureRecognizer.direction])
     {
+        UIControl * control = [[self.controls lastObject] lastObject];
+        canDiffuse = canDiffuse && !control.enabled;   
         self.highlightedDate = [self.currentProvider dateForLongNextAnimation];
-        [self changeStateTo:self.currentState fromState:self.currentState animation:longNextAnimation canDiffuse:[self.currentProvider canDiffuse]];
+        [self changeStateTo:self.currentState fromState:self.currentState animation:longNextAnimation canDiffuse:canDiffuse];
     }
 }
 

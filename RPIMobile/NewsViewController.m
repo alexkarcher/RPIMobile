@@ -13,6 +13,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "NSString+HTML.h"
 #import "MFSideMenu.h"
+#import "ISRefreshControl.h"
 
 #define start_color [UIColor colorWithHex:0xEEEEEE]
 #define end_color [UIColor colorWithHex:0xDEDEDE]

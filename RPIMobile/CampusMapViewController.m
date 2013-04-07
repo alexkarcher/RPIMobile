@@ -7,6 +7,8 @@
 //
 
 #import "CampusMapViewController.h"
+#import "MTLocation.h"
+#import "PrettyKit.h"
 #import <MapKit/MapKit.h>
 #import "UIImage+Tint.h"
 #import "MapPin.h"
@@ -21,8 +23,15 @@
     * Finish marking mapdata with category (colors listed in header file!)
     * Implement user location compass view (which direction user is facing) -- http://www.cocoacontrols.com/controls/mtlocation
     * Implement better callout -- http://www.cocoacontrols.com/controls/gikanimatedcallout
+        ** ^^ NOT iOS 6 READY
 */
+
+@interface CampusMapViewController ()
+@property (nonatomic, retain) MTLocateMeButton *locateMeItem;
+@end
+
 @implementation CampusMapViewController
+@synthesize locateMeItem;
 
 /*Initilization*/
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -59,9 +68,21 @@
     [_mapView addAnnotations:pins];
 }
 
+- (void) locateMe:(id) sender {
+    if(_mapView.showsUserLocation == YES) {
+        _mapView.showsUserLocation = NO;
+    } else {
+        _mapView.showsUserLocation = NO;
+    }
+    
+    [_mapView setUserTrackingMode: MKUserTrackingModeFollowWithHeading
+                         animated: YES];
+}
+
 -(MKAnnotationView *)mapView:(MKMapView *)mV viewForAnnotation:(id <MKAnnotation>)annotation
 {
-    
+    if (annotation==_mapView.userLocation)
+        return nil;
     MapPin *t = annotation;
     MKAnnotationView *pinView = nil;
     if(annotation != _mapView.userLocation)
@@ -73,6 +94,7 @@
                        initWithAnnotation:annotation reuseIdentifier:defaultPinID];
         
         pinView.canShowCallout = YES;
+
         
         if(t.cat == 0) pinView.image = [[UIImage imageNamed:@"marker.png"] imageTintedWithColor:[UIColor colorWithRed:0.049 green:0.743 blue:1.000 alpha:1.000]];
         else if(t.cat == 1) pinView.image = [[UIImage imageNamed:@"flag.png"] imageTintedWithColor:[UIColor colorWithRed:1.000 green:0.920 blue:0.105 alpha:1.000]];
@@ -89,6 +111,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Campus Map";
 
     /*The RPI student union is at 42.729970,-73.676649*/
     MKCoordinateRegion region;
@@ -105,8 +128,32 @@
     _mapView.mapType = MKMapTypeHybrid;
     _mapView.delegate = self;
     
+    // Configure Location Manager
+    [MTLocationManager sharedInstance].locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [MTLocationManager sharedInstance].locationManager.distanceFilter = kCLDistanceFilterNone;
+    [MTLocationManager sharedInstance].locationManager.headingFilter = 5; // 5 Degrees
+    
     [self buildMap];
     [self.view addSubview:_mapView];
+    
+    // create locate-me item, automatically prepare mapView
+    self.locateMeItem = [MTLocateMeBarButtonItem userTrackingBarButtonItemForMapView:_mapView]; // @property (nonatomic, strong) UIBarButtonItem *locationItem;
+    // add target-action
+    [self.locateMeItem addTarget:self action:@selector(locateMe:) forControlEvents:UIControlEventTouchUpInside];
+    // disable heading
+    self.locateMeItem.headingEnabled = YES;
+    PrettyToolbar *toolbar = [[PrettyToolbar alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 88, self.view.frame.size.width, 44)];
+    toolbar.topLineColor = [UIColor colorWithHex:0xFF1000];
+    toolbar.gradientStartColor = [UIColor colorWithHex:0xDD0000];
+    toolbar.gradientEndColor = [UIColor colorWithHex:0xAA0000];
+    toolbar.bottomLineColor = [UIColor colorWithHex:0x990000];
+    [self.view addSubview:toolbar];
+    // create array with ToolbarItems
+    NSArray *toolbarItems = [NSArray arrayWithObject:self.locateMeItem];
+    // set toolbar items
+    [toolbar setItems:toolbarItems animated:NO];
+    [MTLocationManager sharedInstance].mapView = _mapView;
+
 }
 
 

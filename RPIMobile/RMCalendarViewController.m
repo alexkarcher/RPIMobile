@@ -73,7 +73,7 @@
 
 - (void) goToToday:(id)sender {
     [self calendar:self.calendar didSelectDate:[NSDate date]];
-    [self.calendar setMonthShowing:[NSDate date]];
+//    [self.calendar setMonthShowing:[NSDate date]];
 }
 
 - (void) minimizeCalendar {
@@ -219,6 +219,7 @@
         [_tableView reloadData];
         [self calendar:self.calendar didSelectDate:date];
         [self resetMinimizeButton];
+        
 
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         //Show error

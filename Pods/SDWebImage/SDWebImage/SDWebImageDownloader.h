@@ -13,8 +13,24 @@
 typedef enum
 {
     SDWebImageDownloaderLowPriority = 1 << 0,
-    SDWebImageDownloaderProgressiveDownload = 1 << 1
+    SDWebImageDownloaderProgressiveDownload = 1 << 1,
+    /**
+     * By default, request prevent the of NSURLCache. With this flag, NSURLCache
+     * is used with default policies.
+     */
+    SDWebImageDownloaderUseNSURLCache = 1 << 2,
+    /**
+     * Call completion block with nil image/imageData if the image was read from NSURLCache
+     * (to be combined with `SDWebImageDownloaderUseNSURLCache`).
+     */
+    SDWebImageDownloaderIgnoreCachedResponse = 1 << 3
 } SDWebImageDownloaderOptions;
+
+typedef enum
+{
+    SDWebImageDownloaderFILOQueueMode,
+    SDWebImageDownloaderLIFOQueueMode
+} SDWebImageDownloaderQueueMode;
 
 extern NSString *const SDWebImageDownloadStartNotification;
 extern NSString *const SDWebImageDownloadStopNotification;
@@ -29,7 +45,27 @@ typedef void(^SDWebImageDownloaderCompletedBlock)(UIImage *image, NSData *data, 
 
 @property (assign, nonatomic) NSInteger maxConcurrentDownloads;
 
+/**
+ * Changes download operations unqueue mode. Default value is `SDWebImageDownloaderFILOQueueMode`.
+ */
+@property (assign, nonatomic) SDWebImageDownloaderQueueMode queueMode;
+
 + (SDWebImageDownloader *)sharedDownloader;
+
+/**
+ * Set a value for a HTTP header to be appended to each download HTTP request.
+ *
+ * @param value The value for the header field. Use `nil` value to remove the header.
+ * @param field The name of the header field to set.
+ */
+- (void)setValue:(NSString *)value forHTTPHeaderField:(NSString *)field;
+
+/**
+ * Returns the value of the specified HTTP header field.
+ *
+ * @return The value associated with the header field field, or `nil` if there is no corresponding header field.
+ */
+- (NSString *)valueForHTTPHeaderField:(NSString *)field;
 
 /**
  * Creates a SDWebImageDownloader async downloader instance with a given URL

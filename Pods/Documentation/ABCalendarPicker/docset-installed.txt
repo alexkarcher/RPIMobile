@@ -1,4 +1,4 @@
 Documentation set was installed to Xcode!
 
-Path: /Users/stephen/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.ABCalendarPicker-1.0.2.docset
-Time: 2013-03-05 20:33:31 +0000
+Path: /Users/stephen/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.ABCalendarPicker-1.0.5.docset
+Time: 2013-04-04 07:23:48 +0000
