@@ -14,25 +14,75 @@ static NSString *const kSDURLCacheInfoFileName = @"cacheInfo.plist";
 static NSString *const kSDURLCacheInfoDiskUsageKey = @"diskUsage";
 static NSString *const kSDURLCacheInfoAccessesKey = @"accesses";
 static NSString *const kSDURLCacheInfoSizesKey = @"sizes";
+
+// The removal of the NSCachedURLResponse category means that NSKeyedArchiver 
+// will throw an EXC_BAD_ACCESS when attempting to load NSCachedURLResponse 
+// data.
+// This means that this change requires a cache refresh, and a new cache key
+// namespace that will prevent this from happening.
+// Old cache keys will eventually be evicted from the system as new keys are
+// populated.
+static NSString *const kSDURLCacheVersion = @"V2";
+
 static float const kSDURLCacheLastModFraction = 0.1f; // 10% since Last-Modified suggested by RFC2616 section 13.2.4
 static float const kSDURLCacheDefault = 3600; // Default cache expiration delay if none defined (1 hour)
 
-@implementation NSCachedURLResponse(NSCoder)
+static NSDateFormatter* CreateDateFormatter(NSString *format)
+{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setLocale:[[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease]];
+    [dateFormatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"GMT"]];
+    [dateFormatter setDateFormat:format];
+    return [dateFormatter autorelease];
+}
 
+
+@implementation SDCachedURLResponse
+@synthesize cached_response;
+
++ (id)cachedURLResponseWithNSCachedURLResponse:(NSCachedURLResponse *)url_response {
+    SDCachedURLResponse *response = [[SDCachedURLResponse alloc] init];
+    response.cached_response = url_response;
+    
+    return [response autorelease];
+}
+#pragma mark NSCopying Methods
+- (id)copyWithZone:(NSZone *)zone {
+    SDCachedURLResponse *newResponse = [[[self class] allocWithZone:zone] init];
+    if (newResponse) {
+        newResponse.cached_response = [[self.cached_response copyWithZone:zone] autorelease];
+    }
+    
+    return newResponse;
+}
+
+#pragma mark NSCoding Methods
 - (void)encodeWithCoder:(NSCoder *)coder
 {
-    [coder encodeDataObject:self.data];
-    [coder encodeObject:self.response forKey:@"response"];
-    [coder encodeObject:self.userInfo forKey:@"userInfo"];
-    [coder encodeInt:self.storagePolicy forKey:@"storagePolicy"];
+    // force write the data of underlying cached response
+    [coder encodeDataObject:self.cached_response.data];
+    [coder encodeObject:self.cached_response.response forKey:@"response"];
+    [coder encodeObject:self.cached_response.userInfo forKey:@"userInfo"];
+    [coder encodeInt:self.cached_response.storagePolicy forKey:@"storagePolicy"];
 }
 
 - (id)initWithCoder:(NSCoder *)coder
 {
-    return [self initWithResponse:[coder decodeObjectForKey:@"response"]
-                             data:[coder decodeDataObject]
-                         userInfo:[coder decodeObjectForKey:@"userInfo"]
-                    storagePolicy:[coder decodeIntForKey:@"storagePolicy"]];
+    self = [super init];
+    
+    if (self) {
+        self.cached_response = [[[NSCachedURLResponse alloc] initWithResponse:[coder decodeObjectForKey:@"response"]
+                                                                         data:[coder decodeDataObject]
+                                                                     userInfo:[coder decodeObjectForKey:@"userInfo"]
+                                                                storagePolicy:[coder decodeIntForKey:@"storagePolicy"]] autorelease];
+    }
+    
+    return self;
+}
+
+- (void)dealloc {
+    [super dealloc];
+    [cached_response release], cached_response = nil;
 }
 
 @end
@@ -48,18 +98,30 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
 
 @implementation SDURLCache
 
-@synthesize diskCachePath, minCacheInterval, ioQueue, periodicMaintenanceOperation;
+@synthesize diskCachePath, minCacheInterval, ioQueue, periodicMaintenanceOperation, ignoreMemoryOnlyStoragePolicy;
 @dynamic diskCacheInfo;
 
 #pragma mark SDURLCache (tools)
+
++ (NSURLRequest *)canonicalRequestForRequest:(NSURLRequest *)request
+{
+    NSString *string = request.URL.absoluteString;
+    NSRange hash = [string rangeOfString:@"#"];
+    if (hash.location == NSNotFound)
+        return request;
+
+    NSMutableURLRequest *copy = [[request mutableCopy] autorelease];
+    copy.URL = [NSURL URLWithString:[string substringToIndex:hash.location]];
+    return copy;
+}
 
 + (NSString *)cacheKeyForURL:(NSURL *)url
 {
     const char *str = [url.absoluteString UTF8String];
     unsigned char r[CC_MD5_DIGEST_LENGTH];
     CC_MD5(str, strlen(str), r);
-    return [NSString stringWithFormat:@"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
-            r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8], r[9], r[10], r[11], r[12], r[13], r[14], r[15]];
+    return [NSString stringWithFormat:@"%@_%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
+                    kSDURLCacheVersion, r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8], r[9], r[10], r[11], r[12], r[13], r[14], r[15]];
 }
 
 /*
@@ -67,29 +129,29 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
  */
 + (NSDate *)dateFromHttpDateString:(NSString *)httpDate
 {
+    static NSDateFormatter *RFC1123DateFormatter;
+    static NSDateFormatter *ANSICDateFormatter;
+    static NSDateFormatter *RFC850DateFormatter;
     NSDate *date = nil;
 
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setLocale:[[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease]];
-    [dateFormatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"GMT"]];
-
-    // RFC 1123 date format - Sun, 06 Nov 1994 08:49:37 GMT
-    [dateFormatter setDateFormat:@"EEE, dd MMM yyyy HH:mm:ss z"];
-    date = [dateFormatter dateFromString:httpDate];
-    if (!date)
+    @synchronized(self) // NSDateFormatter isn't thread safe
     {
-        // ANSI C date format - Sun Nov  6 08:49:37 1994
-        [dateFormatter setDateFormat:@"EEE MMM d HH:mm:ss yyyy"];
-        date = [dateFormatter dateFromString:httpDate];
+        // RFC 1123 date format - Sun, 06 Nov 1994 08:49:37 GMT
+        if (!RFC1123DateFormatter) RFC1123DateFormatter = [CreateDateFormatter(@"EEE, dd MMM yyyy HH:mm:ss z") retain];
+        date = [RFC1123DateFormatter dateFromString:httpDate];
         if (!date)
         {
-            // RFC 850 date format - Sunday, 06-Nov-94 08:49:37 GMT
-            [dateFormatter setDateFormat:@"EEEE, dd-MMM-yy HH:mm:ss z"];
-            date = [dateFormatter dateFromString:httpDate];
+            // ANSI C date format - Sun Nov  6 08:49:37 1994
+            if (!ANSICDateFormatter) ANSICDateFormatter = [CreateDateFormatter(@"EEE MMM d HH:mm:ss yyyy") retain];
+            date = [ANSICDateFormatter dateFromString:httpDate];
+            if (!date)
+            {
+                // RFC 850 date format - Sunday, 06-Nov-94 08:49:37 GMT
+                if (!RFC850DateFormatter) RFC850DateFormatter = [CreateDateFormatter(@"EEEE, dd-MMM-yy HH:mm:ss z") retain];
+                date = [RFC850DateFormatter dateFromString:httpDate];
+            }
         }
     }
-
-    [dateFormatter release];
 
     return date;
 }
@@ -127,10 +189,10 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
     }
 
     // Look at info from the Cache-Control: max-age=n header
-    NSString *cacheControl = [headers objectForKey:@"Cache-Control"];
+    NSString *cacheControl = [[headers objectForKey:@"Cache-Control"] lowercaseString];
     if (cacheControl)
     {
-        NSRange foundRange = [cacheControl rangeOfString:@"no-cache"];
+        NSRange foundRange = [cacheControl rangeOfString:@"no-store"];
         if (foundRange.length > 0)
         {
             // Can't be cached
@@ -147,7 +209,7 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
             {
                 if (maxAge > 0)
                 {
-                    return [NSDate dateWithTimeIntervalSinceNow:maxAge];
+                    return [[[NSDate alloc] initWithTimeInterval:maxAge sinceDate:now] autorelease];
                 }
                 else
                 {
@@ -232,6 +294,8 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
                 }
                 diskCacheInfoDirty = NO;
 
+                diskCacheUsage = [[diskCacheInfo objectForKey:kSDURLCacheInfoDiskUsageKey] unsignedIntValue];
+
                 periodicMaintenanceTimer = [[NSTimer scheduledTimerWithTimeInterval:5
                                                                              target:self
                                                                            selector:@selector(periodicMaintenance)
@@ -262,7 +326,12 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
     [self createDiskCachePath];
     @synchronized(self.diskCacheInfo)
     {
-        [self.diskCacheInfo writeToFile:[diskCachePath stringByAppendingPathComponent:kSDURLCacheInfoFileName] atomically:YES];
+        NSData *data = [NSPropertyListSerialization dataFromPropertyList:self.diskCacheInfo format:NSPropertyListBinaryFormat_v1_0 errorDescription:NULL];
+        if (data)
+        {
+            [data writeToFile:[diskCachePath stringByAppendingPathComponent:kSDURLCacheInfoFileName] atomically:YES];
+        }
+
         diskCacheInfoDirty = NO;
     }
 }
@@ -286,11 +355,9 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
             [accesses removeObjectForKey:cacheKey];
             [sizes removeObjectForKey:cacheKey];
             [fileManager removeItemAtPath:[diskCachePath stringByAppendingPathComponent:cacheKey] error:NULL];
+
             diskCacheUsage -= cacheItemSize;
-            @synchronized(self.diskCacheInfo)
-            {
-                [self.diskCacheInfo setObject:[NSNumber numberWithUnsignedInteger:diskCacheUsage] forKey:kSDURLCacheInfoDiskUsageKey];
-            }
+            [self.diskCacheInfo setObject:[NSNumber numberWithUnsignedInteger:diskCacheUsage] forKey:kSDURLCacheInfoDiskUsageKey];
         }
     }
 
@@ -332,7 +399,10 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
 - (void)storeToDisk:(NSDictionary *)context
 {
     NSURLRequest *request = [context objectForKey:@"request"];
-    NSCachedURLResponse *cachedResponse = [context objectForKey:@"cachedResponse"];
+    
+    // use wrapper to ensure we save appropriate fields..
+    SDCachedURLResponse *cachedResponse = [SDCachedURLResponse 
+                                                cachedURLResponseWithNSCachedURLResponse:[context objectForKey:@"cachedResponse"]];
 
     NSString *cacheKey = [SDURLCache cacheKeyForURL:request.URL];
     NSString *cacheFilePath = [diskCachePath stringByAppendingPathComponent:cacheKey];
@@ -350,9 +420,9 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
     NSFileManager *fileManager = [[NSFileManager alloc] init];
     NSNumber *cacheItemSize = [[fileManager attributesOfItemAtPath:cacheFilePath error:NULL] objectForKey:NSFileSize];
     [fileManager release];
-    diskCacheUsage += [cacheItemSize unsignedIntegerValue];
     @synchronized(self.diskCacheInfo)
     {
+        diskCacheUsage += [cacheItemSize unsignedIntegerValue];
         [self.diskCacheInfo setObject:[NSNumber numberWithUnsignedInteger:diskCacheUsage] forKey:kSDURLCacheInfoDiskUsageKey];
 
 
@@ -366,7 +436,7 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
 
 - (void)periodicMaintenance
 {
-    // If another same maintenance operation is already sceduled, cancel it so this new operation will be executed after other
+    // If another same maintenance operation is already scheduled, cancel it so this new operation will be executed after other
     // operations of the queue, so we can group more work together
     [periodicMaintenanceOperation cancel];
     self.periodicMaintenanceOperation = nil;
@@ -404,13 +474,17 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
         // Init the operation queue
         self.ioQueue = [[[NSOperationQueue alloc] init] autorelease];
         ioQueue.maxConcurrentOperationCount = 1; // used to streamline operations in a separate thread
-    }
+
+        self.ignoreMemoryOnlyStoragePolicy = YES;
+	}
 
     return self;
 }
 
 - (void)storeCachedResponse:(NSCachedURLResponse *)cachedResponse forRequest:(NSURLRequest *)request
 {
+    request = [SDURLCache canonicalRequestForRequest:request];
+
     if (request.cachePolicy == NSURLRequestReloadIgnoringLocalCacheData
         || request.cachePolicy == NSURLRequestReloadIgnoringLocalAndRemoteCacheData
         || request.cachePolicy == NSURLRequestReloadIgnoringCacheData)
@@ -423,35 +497,38 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
 
     [super storeCachedResponse:cachedResponse forRequest:request];
 
-    if (cachedResponse.storagePolicy == NSURLCacheStorageAllowed
+    NSURLCacheStoragePolicy storagePolicy = cachedResponse.storagePolicy;
+    if ((storagePolicy == NSURLCacheStorageAllowed || (storagePolicy == NSURLCacheStorageAllowedInMemoryOnly && ignoreMemoryOnlyStoragePolicy))
         && [cachedResponse.response isKindOfClass:[NSHTTPURLResponse self]]
         && cachedResponse.data.length < self.diskCapacity)
     {
-        NSDate *expirationDate = [SDURLCache expirationDateFromHeaders:[(NSHTTPURLResponse *)cachedResponse.response allHeaderFields]
-                                                        withStatusCode:((NSHTTPURLResponse *)cachedResponse.response).statusCode];
-        if (!expirationDate || [expirationDate timeIntervalSinceNow] - minCacheInterval <= 0)
+        NSDictionary *headers = [(NSHTTPURLResponse *)cachedResponse.response allHeaderFields];
+        // RFC 2616 section 13.3.4 says clients MUST use Etag in any cache-conditional request if provided by server
+        if (![headers objectForKey:@"Etag"])
         {
-            // This response is not cacheable, headers said
-            return;
+            NSDate *expirationDate = [SDURLCache expirationDateFromHeaders:headers
+                                                            withStatusCode:((NSHTTPURLResponse *)cachedResponse.response).statusCode];
+            if (!expirationDate || [expirationDate timeIntervalSinceNow] - minCacheInterval <= 0)
+            {
+                // This response is not cacheable, headers said
+                return;
+            }
         }
 
-        [ioQueue addOperation:[[[NSInvocationOperation alloc] initWithTarget:self
-                                                                    selector:@selector(storeToDisk:)
+        [ioQueue addOperation:[[[NSInvocationOperation alloc] initWithTarget:self selector:@selector(storeToDisk:)
                                                                       object:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                                              cachedResponse, @"cachedResponse",
-                                                                              request, @"request",
-                                                                              expirationDate, @"expirationDate",
-                                                                              nil]] autorelease]];
+                                                                            cachedResponse, @"cachedResponse",
+                                                                            request, @"request", nil]] autorelease]];
     }
 }
 
 - (NSCachedURLResponse *)cachedResponseForRequest:(NSURLRequest *)request
 {
+    request = [SDURLCache canonicalRequestForRequest:request];
+
     NSCachedURLResponse *memoryResponse = [super cachedResponseForRequest:request];
     if (memoryResponse)
-    {
         return memoryResponse;
-    }
 
     NSString *cacheKey = [SDURLCache cacheKeyForURL:request.URL];
 
@@ -462,7 +539,13 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
         NSMutableDictionary *accesses = [self.diskCacheInfo objectForKey:kSDURLCacheInfoAccessesKey];
         if ([accesses objectForKey:cacheKey]) // OPTI: Check for cache-hit in a in-memory dictionnary before to hit the FS
         {
-            NSCachedURLResponse *diskResponse = [NSKeyedUnarchiver unarchiveObjectWithFile:[diskCachePath stringByAppendingPathComponent:cacheKey]];
+            
+            // load wrapper
+            SDCachedURLResponse *diskResponseWrapper = [NSKeyedUnarchiver unarchiveObjectWithFile:
+                                                        [diskCachePath stringByAppendingPathComponent:cacheKey]];
+            
+            NSCachedURLResponse *diskResponse = diskResponseWrapper.cached_response;
+            
             if (diskResponse)
             {
                 // OPTI: Log the entry last access time for LRU cache eviction algorithm but don't save the dictionary
@@ -472,21 +555,38 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
 
                 // OPTI: Store the response to memory cache for potential future requests
                 [super storeCachedResponse:diskResponse forRequest:request];
-                return diskResponse;
+                
+                
+                // SRK: Work around an interesting retainCount bug in CFNetwork on iOS << 3.2.
+                if (kCFCoreFoundationVersionNumber < kCFCoreFoundationVersionNumber_iPhoneOS_3_2)
+                {
+                    diskResponse = [super cachedResponseForRequest:request];
+                }
+
+                if (diskResponse)
+                {
+                    return diskResponse;
+                }
             }
         }
     }
-
+    
     return nil;
 }
 
 - (NSUInteger)currentDiskUsage
 {
+    if (!diskCacheInfo)
+    {
+        [self diskCacheInfo];
+    }
     return diskCacheUsage;
 }
 
 - (void)removeCachedResponseForRequest:(NSURLRequest *)request
 {
+    request = [SDURLCache canonicalRequestForRequest:request];
+
     [super removeCachedResponseForRequest:request];
     [self removeCachedResponseForCachedKeys:[NSArray arrayWithObject:[SDURLCache cacheKeyForURL:request.URL]]];
     [self saveCacheInfo];
@@ -495,6 +595,30 @@ static float const kSDURLCacheDefault = 3600; // Default cache expiration delay 
 - (void)removeAllCachedResponses
 {
     [super removeAllCachedResponses];
+    NSFileManager *fileManager = [[[NSFileManager alloc] init] autorelease];
+    [fileManager removeItemAtPath:diskCachePath error:NULL];
+    @synchronized(self)
+    {
+        [diskCacheInfo release], diskCacheInfo = nil;
+    }
+}
+
+- (BOOL)isCached:(NSURL *)url
+{
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    request = [SDURLCache canonicalRequestForRequest:request];
+
+    if ([super cachedResponseForRequest:request])
+    {
+        return YES;
+    }
+    NSString *cacheKey = [SDURLCache cacheKeyForURL:url];
+    NSString *cacheFile = [diskCachePath stringByAppendingPathComponent:cacheKey];
+    if ([[[[NSFileManager alloc] init] autorelease] fileExistsAtPath:cacheFile])
+    {
+        return YES;
+    }
+    return NO;
 }
 
 #pragma mark NSObject

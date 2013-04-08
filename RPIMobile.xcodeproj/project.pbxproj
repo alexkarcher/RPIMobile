@@ -136,6 +136,7 @@
 		DC79E65B17124679006DAEC5 /* marker_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E65917124679006DAEC5 /* marker_green@2x.png */; };
 		DC79E65C17124679006DAEC5 /* marker_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E65A17124679006DAEC5 /* marker_green.png */; };
 		DC79E66017124922006DAEC5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC79E65F17124922006DAEC5 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DC79E66417124A09006DAEC5 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DC79E66317124A09006DAEC5 /* SDURLCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DC7CAE8815BFD15C00ED728F /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7CAE8615BFD15C00ED728F /* WeatherViewController.m */; };
 		DC7CAE8915BFD15C00ED728F /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7CAE8715BFD15C00ED728F /* WeatherViewController.xib */; };
 		DC7CAEBE15BFD1B200ED728F /* calendar_hdpi.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7CAE8A15BFD1B200ED728F /* calendar_hdpi.png */; };
@@ -428,6 +429,8 @@
 		DC79E65A17124679006DAEC5 /* marker_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_green.png; sourceTree = "<group>"; };
 		DC79E65E17124922006DAEC5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		DC79E65F17124922006DAEC5 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		DC79E66217124A09006DAEC5 /* SDURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDURLCache.h; sourceTree = "<group>"; };
+		DC79E66317124A09006DAEC5 /* SDURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDURLCache.m; sourceTree = "<group>"; };
 		DC7CAE8515BFD15C00ED728F /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
 		DC7CAE8615BFD15C00ED728F /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		DC7CAE8715BFD15C00ED728F /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
@@ -939,6 +942,15 @@
 			name = JSONKit;
 			sourceTree = "<group>";
 		};
+		DC79E661171249FE006DAEC5 /* SDURLCache */ = {
+			isa = PBXGroup;
+			children = (
+				DC79E66217124A09006DAEC5 /* SDURLCache.h */,
+				DC79E66317124A09006DAEC5 /* SDURLCache.m */,
+			);
+			name = SDURLCache;
+			sourceTree = "<group>";
+		};
 		DC7CAE8415BFD15000ED728F /* Weather */ = {
 			isa = PBXGroup;
 			children = (
@@ -1047,6 +1059,7 @@
 		DCC8088315BF89450060390F /* RPIMobile */ = {
 			isa = PBXGroup;
 			children = (
+				DC79E661171249FE006DAEC5 /* SDURLCache */,
 				DC79E65D1712491A006DAEC5 /* JSONKit */,
 				DC2073CF16C9A2D100ED07CE /* SVSegmentedControl */,
 				DC1F515516C0C87100002C46 /* PrettyKit */,
@@ -1524,6 +1537,7 @@
 				DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */,
 				DCC4AF70170CA339008D2528 /* RMCalendarEventViewController.m in Sources */,
 				DC79E66017124922006DAEC5 /* JSONKit.m in Sources */,
+				DC79E66417124A09006DAEC5 /* SDURLCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
