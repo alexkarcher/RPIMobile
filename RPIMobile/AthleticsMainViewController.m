@@ -14,6 +14,10 @@
 #define start_color [UIColor colorWithHex:0xEEEEEE]
 #define end_color [UIColor colorWithHex:0xDEDEDE]
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-retain-cycles"
+
+
 #define kInsetFloat 50
 
 @interface AthleticsMainViewController ()
