@@ -1,7 +1,6 @@
 platform :ios, '5.0'
 pod 'AFNetworking'
 pod 'SDWebImage'
-pod 'JSONKit'
 pod 'MKHorizMenu'
 pod 'SDURLCache', '1.2'
 pod 'MBProgressHUD'
