@@ -15,9 +15,15 @@
 			<key>fileRef</key>
 			<string>ACBDBFA1D9DC47F08A024BE1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIButton+WebCache.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImage/UIButton+WebCache.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>0210647513254DC0AD9D9FE4</key>
 		<dict>
@@ -26,7 +32,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>AFHTTPClient.m</string>
 			<key>path</key>
@@ -111,9 +117,11 @@
 			<key>fileRef</key>
 			<string>B41CEEF789AB4AADBBA3698A</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MapKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>042E2F944CB84311A4831771</key>
 		<dict>
@@ -152,7 +160,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>IASKAppSettingsWebViewController.m</string>
 			<key>path</key>
@@ -273,12 +281,51 @@
 		</dict>
 		<key>0D276C70A2F54D7793C32699</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>0EB63FC1B838453FA8BBC21B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PODS_HEADERS_SEARCH_PATHS</key>
+				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
+				<key>PODS_ROOT</key>
+				<string>${SRCROOT}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>SDWebImageCompat.m</string>
 			<key>path</key>
@@ -292,8 +339,6 @@
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>AFPropertyListRequestOperation.m</string>
 			<key>path</key>
@@ -434,18 +479,18 @@
 		</dict>
 		<key>18CFEBB418434CF59FB8C586</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MTLocationFunctions.m</string>
 			<key>path</key>
 			<string>MTLocation/MTLocationFunctions.m</string>
 			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>195A2CE342B04190BC4DE11A</key>
 		<dict>
@@ -599,7 +644,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>IASKPSTextFieldSpecifierViewCell.m</string>
 			<key>path</key>
@@ -637,8 +682,8 @@
 		</dict>
 		<key>243D3259AA324C9586EDDF9C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>F2A47F5F084541CB93418CEF</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
@@ -655,7 +700,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>SDImageCache.h</string>
 			<key>path</key>
@@ -680,8 +725,8 @@
 		</dict>
 		<key>27A82AF086A7446BBE8C9ACB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>6961330069BD4AB0B3F1C15B</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
@@ -698,10 +743,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<dict/>
 		</dict>
 		<key>2907FF70004140B08232D0EB</key>
 		<dict>
@@ -904,9 +946,15 @@
 			<key>fileRef</key>
 			<string>C20591756EF84AFBA396180D</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIBarButtonItem+MTLocation.h</string>
+			<key>path</key>
+			<string>MTLocation/UIBarButtonItem+MTLocation.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>325755884EB1473A8150A5A7</key>
 		<dict>
@@ -915,7 +963,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
 		</dict>
 		<key>3361B7D70B474F15B292AA73</key>
 		<dict>
@@ -953,7 +1004,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MKAnnotationView+MTLocation.h</string>
 			<key>path</key>
@@ -1011,7 +1062,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>ABCalendarPickerDelegateProtocol.h</string>
 			<key>path</key>
@@ -1158,7 +1209,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MTLocationDefines.h</string>
 			<key>path</key>
@@ -1195,10 +1246,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<dict/>
 		</dict>
 		<key>424DC7E832A54AF3ADF1D42B</key>
 		<dict>
@@ -1483,7 +1531,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>SDWebImageManager.h</string>
 			<key>path</key>
@@ -1513,10 +1561,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<dict/>
 		</dict>
 		<key>51755456B35E452AAD303C72</key>
 		<dict>
@@ -1948,8 +1993,8 @@
 		</dict>
 		<key>640C7BF9758E4F85BB669F96</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>E91A5CD9A47046F1819C18E5</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1968,7 +2013,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>SDWebImageDownloaderOperation.m</string>
 			<key>path</key>
@@ -1978,8 +2023,8 @@
 		</dict>
 		<key>64B57D7EE2F44E4AB9C24251</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>BC8EE286DD7D4148AA7F2D2F</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -1992,6 +2037,78 @@
 			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>678C4996FED542FCAD792089</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0EB63FC1B838453FA8BBC21B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>GCC_WARN_INHIBIT_ALL_WARNINGS</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PODS_HEADERS_SEARCH_PATHS</key>
+				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
+				<key>PODS_ROOT</key>
+				<string>${SRCROOT}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5F1EC9FE01E346C2AA4B8FFA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AD5DA5C262214B58A929F20F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>605067D0C7A345C691EC99DD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2198,8 +2315,8 @@
 		</dict>
 		<key>7050BEFBB8A34E4D9397B4AF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>E51C1A83412549BDAAC39F92</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -2227,11 +2344,11 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IASKSettingsReader.m</string>
+			<string>TestFlight.h</string>
 			<key>path</key>
-			<string>InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsReader.m</string>
+			<string>TestFlightSDK/TestFlight.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
@@ -2276,7 +2393,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>IASKSettingsStoreUserDefaults.h</string>
 			<key>path</key>
@@ -2328,7 +2445,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIImageView+AFNetworking.h</string>
 			<key>path</key>
@@ -2355,12 +2472,83 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
 		</dict>
 		<key>76AF2BE7EB274B769EA614E4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BE83EFC6BD784245ACC2B7D6</string>
+				<string>8BE0920FFB7C4CF6B15EC8EE</string>
+				<string>AABD3BC2D86543A288C19994</string>
+				<string>533B005252E64D67BD6E2001</string>
+				<string>6A3A091B4CB74AE3983763EA</string>
+				<string>B057AC26D51D495F96D663D9</string>
+				<string>E5A7162C8F58444ABCF76D37</string>
+				<string>9CD13A4B460D479C98CA4081</string>
+				<string>B3B9274497314D7EBE172CFE</string>
+				<string>443E2380CCC648B29AC019F6</string>
+				<string>7AEC5828459748168ACED89C</string>
+				<string>191B7949EFDF49C38C6E884C</string>
+				<string>2B6314C64788493D80BD6E28</string>
+				<string>3334C8885F6E49BDB2EE37A1</string>
+				<string>FEF8130F62DC47CE83A6CF33</string>
+				<string>21D2291DB8DC4125B95D52DC</string>
+				<string>1F9981F28AD84E1F9D0BD351</string>
+				<string>820C5B63B28F402EA434CDA7</string>
+				<string>63240F0B616F474DB024C709</string>
+				<string>E839CDE2C4114C0D8DB5D0B1</string>
+				<string>36CFCB06A0DF43678F496A8C</string>
+				<string>8AAE774D69794495BFDBD573</string>
+				<string>FA801E1C422549A8B7A923A3</string>
+				<string>84CC88A653144A10A5935200</string>
+				<string>13D0F374217E40519250A3A7</string>
+				<string>609796F1943D467B94E73E4A</string>
+				<string>6E5DE84B79454AE2B66BC9DA</string>
+				<string>45CCC5A9FD554FEB9977ADB9</string>
+				<string>A3B2F0BBBEBD4117AACED1BD</string>
+				<string>ABD116285415448E81336977</string>
+				<string>895738F051204DD3A67FAE0C</string>
+				<string>59D6D26F60B44FEFA8AE466C</string>
+				<string>4050559BBFE54888A212B5E9</string>
+				<string>8DACDD9A8AB6455CA24CD7CB</string>
+				<string>D17AC72CD1D2431AA3414B38</string>
+				<string>BDEC6CB2991649A78C05BAD1</string>
+				<string>03031CF29B754099B0F317E8</string>
+				<string>ED9AFB547A2A453E89A524A5</string>
+				<string>C8B580B8487B4636A0C7776B</string>
+				<string>CBA23CD92C34432BB8B93533</string>
+				<string>68CEE470004947959249D3EC</string>
+				<string>1608FFFD7E014240AE836D1F</string>
+				<string>2B4A02DC79A8404EB33D389D</string>
+				<string>E91A5191B7454EDAAC74D174</string>
+				<string>9598AD2856D549C68F9AB071</string>
+				<string>C62E9533FE384E31B25F2F4C</string>
+				<string>EB3BD5387533480AB0BE0EE7</string>
+				<string>637F9D3396FE4D03A7BF4070</string>
+				<string>951009107A0C435ABF8950E6</string>
+				<string>614166C82910412585F26F56</string>
+				<string>25CF398BC5FF40118B65D8EF</string>
+				<string>2D9714B4D49D4035BA2B05B3</string>
+				<string>8E9731A8964F495B9B1405A9</string>
+				<string>5CC49F8EBD284E35A0A47388</string>
+				<string>503BF2E9AA994860856F1BDC</string>
+				<string>E4A2718276FA4A249E98DE0E</string>
+				<string>A380B024332A4380BA023F42</string>
+				<string>E0536C9655E74B688A1D7196</string>
+				<string>7EC2E9CB950D445C97E78FA1</string>
+				<string>B256A37CBFD844DD8CE5B269</string>
+				<string>B4996710F21E4D3A92064BBB</string>
+				<string>749242C27A514BF28DCCF0DC</string>
+				<string>9D2127886A0D45FDBD1A2ED6</string>
+				<string>83BB915E6FA24BBB8E292628</string>
+				<string>B5C8C5085D8448A08F66FBC5</string>
+			</array>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -2379,7 +2567,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>IASKSwitch.m</string>
 			<key>path</key>
@@ -2472,9 +2660,7 @@
 			<key>fileRef</key>
 			<string>EBF53A0FDD5C4EB48DDB8E0B</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>7A40EEEE3C024BA9B4C1D4A4</key>
 		<dict>
@@ -2484,11 +2670,13 @@
 				<string>5487B68A88F549EF916952C4</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MapKit</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>7ABDFCF733EA40248C1B1EB8</key>
 		<dict>
@@ -2506,7 +2694,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>ABCalendarPickerStyleProviderProtocol.h</string>
 			<key>path</key>
@@ -2571,7 +2759,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIViewController+MFSideMenu.m</string>
 			<key>path</key>
@@ -2584,9 +2772,15 @@
 			<key>fileRef</key>
 			<string>23B105524E094C4DB0636FF6</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ABCalendarPickerDefaultTripleWeekdaysProvider.h</string>
+			<key>path</key>
+			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultTripleWeekdaysProvider.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>8446D63FAFD146A8A164A56C</key>
 		<dict>
@@ -2602,12 +2796,11 @@
 			<key>fileRef</key>
 			<string>5C5CB1B60AE8411A8702067D</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>85B037F72D274BCEBB5C6B86</key>
 		<dict>
@@ -2793,8 +2986,6 @@
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>SDWebImageOperation.h</string>
 			<key>path</key>
@@ -2809,13 +3000,13 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>CoreLocation.framework</string>
 			<key>path</key>
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreLocation.framework</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>90D9F35781D24BAF8CCB2681</key>
 		<dict>
@@ -2920,7 +3111,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>TestFlight.h</string>
 			<key>path</key>
@@ -2930,18 +3121,12 @@
 		</dict>
 		<key>93833CD31EF64711AA47754B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>BAB76D078F314780BE2FA543</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCalendarPickerDateProviderProtocol.h</string>
-			<key>path</key>
-			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDateProviderProtocol.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
 		</dict>
 		<key>94B11624C24B45D187FE6630</key>
 		<dict>
@@ -3285,8 +3470,15 @@
 		</dict>
 		<key>9EDC178DA42245E281E5CA7F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7AD70FEDEBEC4E829BBF648B</string>
+				<string>E1A46855986647C8B82C48E5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -3434,7 +3626,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>ABCalendarPickerDefaultTripleWeekdaysProvider.m</string>
 			<key>path</key>
@@ -3449,10 +3641,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<dict/>
 		</dict>
 		<key>A7216C951F9641A2A7C62774</key>
 		<dict>
@@ -3483,7 +3672,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>IASKTextField.m</string>
 			<key>path</key>
@@ -3513,7 +3702,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>AFURLConnectionOperation.h</string>
 			<key>path</key>
@@ -3594,8 +3783,8 @@
 		</dict>
 		<key>ABF16BAE033D441299760C0F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>32A43EF00EBA4E38BBFC817F</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -3624,8 +3813,8 @@
 		</dict>
 		<key>AEE330B522EC4B1AB626A390</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildSettings</key>
+			<dict/>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
@@ -3642,7 +3831,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>AFHTTPRequestOperation.m</string>
 			<key>path</key>
@@ -3750,7 +3939,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MTLocationManager.m</string>
 			<key>path</key>
@@ -3763,9 +3952,15 @@
 			<key>fileRef</key>
 			<string>23F8815FDD2C45DFB867F6D6</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AFXMLRequestOperation.m</string>
+			<key>path</key>
+			<string>AFNetworking/AFNetworking/AFXMLRequestOperation.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>B6435EF3ED0D4DF287F43EC5</key>
 		<dict>
@@ -3861,10 +4056,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<dict/>
 		</dict>
 		<key>BCB7FBF207E64FE08164695B</key>
 		<dict>
@@ -4773,9 +4965,15 @@
 			<key>fileRef</key>
 			<string>BAAE70EABF7644299044CE1D</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ABCalendarPickerDefaultYearsProvider.h</string>
+			<key>path</key>
+			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultYearsProvider.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>E9E7AAF70F6C4ADF8CC9DC2E</key>
 		<dict>
@@ -4857,10 +5055,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
+			<dict/>
 		</dict>
 		<key>ED96B44D12E7476F8451A405</key>
 		<dict>
@@ -4876,9 +5071,45 @@
 			<key>fileRef</key>
 			<string>F3933585FD034C00893229DB</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ABCalendarPickerDefaultErasProvider.h</string>
+			<key>path</key>
+			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerDefaultErasProvider.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F9D1C4057BA1448FAB303BB3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MTLocationManager.m</string>
+			<key>path</key>
+			<string>MTLocation/MTLocationManager.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F9E730417B2D45B28D275047</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ABCalendarPickerStyleProviderProtocol.h</string>
+			<key>path</key>
+			<string>ABCalendarPicker/ABCalendarPicker/ABCalendarPickerStyleProviderProtocol.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>EE70F0154C994B01994E0677</key>
 		<dict>
@@ -5065,7 +5296,7 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>ABCalendarPickerDefaultStyleProvider.h</string>
 			<key>path</key>
@@ -5210,7 +5441,24 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>FFB12B5FBDBF4F348107478D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>51804F72703744898C2558C7</string>
+				<string>DF841C10B850479E8B547475</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MBProgressHUD</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FFB93E9C59574F108556DA7F</key>
 		<dict>

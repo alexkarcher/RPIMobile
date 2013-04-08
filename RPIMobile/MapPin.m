@@ -15,17 +15,6 @@
 @synthesize subtitle;
 @synthesize cat;
 
-- (id)initWithCoordinates:(CLLocationCoordinate2D)location placeName:placeName description:description {
-    self = [super init];
-    if (self != nil) {
-        coordinate = location;
-        title = placeName;
-        subtitle = description;
-        cat = -1;
-    }
-    return self;
-}
-
 - (id)initWithCoordinates:(CLLocationCoordinate2D)location placeName:(NSString *)placeName description:(NSString *)description category:(int)category {
     self = [super init];
     if (self != nil) {

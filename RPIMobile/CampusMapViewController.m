@@ -56,11 +56,9 @@
     pins = [NSMutableArray array];
     for(id marker in mapPoints) {
         MapPin *pin;
-        if([marker count] == 5) {
-            pin = [[MapPin alloc] initWithCoordinates:CLLocationCoordinate2DMake([[marker objectAtIndex:2] doubleValue], [[marker objectAtIndex:3] doubleValue]) placeName:[marker objectAtIndex:0] description:[marker objectAtIndex:1] category:[[marker objectAtIndex:4] intValue]];
-        } else {
-            pin = [[MapPin alloc] initWithCoordinates:CLLocationCoordinate2DMake([[marker objectAtIndex:2] doubleValue], [[marker objectAtIndex:3] doubleValue]) placeName:[marker objectAtIndex:0] description:[marker objectAtIndex:1]];
-        }
+
+        pin = [[MapPin alloc] initWithCoordinates:CLLocationCoordinate2DMake([[marker objectAtIndex:2] doubleValue], [[marker objectAtIndex:3] doubleValue]) placeName:[marker objectAtIndex:0] description:[marker objectAtIndex:1] category:[[marker objectAtIndex:4] intValue]];
+        
         [pins addObject:pin];
     }
     NSLog(@"Pins: %@", pins);

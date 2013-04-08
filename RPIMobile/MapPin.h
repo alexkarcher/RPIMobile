@@ -30,6 +30,5 @@
 @property (nonatomic, readonly) NSString *subtitle;
 @property (nonatomic) int cat;
 
-- (id)initWithCoordinates:(CLLocationCoordinate2D)location placeName:(NSString *)placeName description:(NSString *)description;
 - (id)initWithCoordinates:(CLLocationCoordinate2D)location placeName:(NSString *)placeName description:(NSString *)description category:(int)cat;
 @end
