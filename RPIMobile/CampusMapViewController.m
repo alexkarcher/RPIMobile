@@ -93,12 +93,14 @@
         
         pinView.canShowCallout = YES;
 
+        if(t.cat == 0) pinView.image = [UIImage imageNamed:@"marker_blue.png"];
+        else if(t.cat == 1) pinView.image = [UIImage imageNamed:@"marker_yellow.png"];
+        else if(t.cat == 2) pinView.image = [UIImage imageNamed:@"marker_green.png"];
+        else if(t.cat == 3) pinView.image = [UIImage imageNamed:@"marker_orange.png"];
+        else pinView.image = [UIImage imageNamed:@"marker_red.png"];
         
-        if(t.cat == 0) pinView.image = [[UIImage imageNamed:@"marker.png"] imageTintedWithColor:[UIColor colorWithRed:0.049 green:0.743 blue:1.000 alpha:1.000]];
-        else if(t.cat == 1) pinView.image = [[UIImage imageNamed:@"flag.png"] imageTintedWithColor:[UIColor colorWithRed:1.000 green:0.920 blue:0.105 alpha:1.000]];
-        else if(t.cat == 2) pinView.image = [[UIImage imageNamed:@"flat.png"] imageTintedWithColor:[UIColor colorWithRed:0.255 green:0.866 blue:0.095 alpha:1.000]];
-        else if(t.cat == 3) pinView.image = [[UIImage imageNamed:@"flag.png"] imageTintedWithColor:[UIColor colorWithRed:0.908 green:0.477 blue:0.184 alpha:1.000]];
-        else pinView.image = [[UIImage imageNamed:@"marker.png"] imageTintedWithColor:[UIColor colorWithRed:0.892 green:0.000 blue:0.000 alpha:1.000]];
+        CGRect pinFrame = pinView.frame;
+        pinView.frame = CGRectMake(pinFrame.origin.x, pinFrame.origin.y, pinFrame.size.width/2, pinFrame.size.width/2);
     }
     else {
         [_mapView.userLocation setTitle:@"I am here"];

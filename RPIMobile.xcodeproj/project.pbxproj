@@ -125,6 +125,16 @@
 		DC7868DC160F9D69000E9B35 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7868DB160F9D69000E9B35 /* ImageIO.framework */; };
 		DC7868DE160F9D70000E9B35 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7868DD160F9D70000E9B35 /* CoreImage.framework */; };
 		DC7868E1160FA245000E9B35 /* LaundryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7868E0160FA245000E9B35 /* LaundryViewController.m */; };
+		DC79E651171245C6006DAEC5 /* marker_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E649171245C6006DAEC5 /* marker_blue.png */; };
+		DC79E652171245C6006DAEC5 /* marker_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E64A171245C6006DAEC5 /* marker_blue@2x.png */; };
+		DC79E653171245C6006DAEC5 /* marker_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E64B171245C6006DAEC5 /* marker_orange.png */; };
+		DC79E654171245C6006DAEC5 /* marker_orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E64C171245C6006DAEC5 /* marker_orange@2x.png */; };
+		DC79E655171245C6006DAEC5 /* marker_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E64D171245C6006DAEC5 /* marker_yellow.png */; };
+		DC79E656171245C6006DAEC5 /* marker_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E64E171245C6006DAEC5 /* marker_red.png */; };
+		DC79E657171245C6006DAEC5 /* marker_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E64F171245C6006DAEC5 /* marker_red@2x.png */; };
+		DC79E658171245C6006DAEC5 /* marker_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E650171245C6006DAEC5 /* marker_yellow@2x.png */; };
+		DC79E65B17124679006DAEC5 /* marker_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E65917124679006DAEC5 /* marker_green@2x.png */; };
+		DC79E65C17124679006DAEC5 /* marker_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DC79E65A17124679006DAEC5 /* marker_green.png */; };
 		DC7CAE8815BFD15C00ED728F /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7CAE8615BFD15C00ED728F /* WeatherViewController.m */; };
 		DC7CAE8915BFD15C00ED728F /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7CAE8715BFD15C00ED728F /* WeatherViewController.xib */; };
 		DC7CAEBE15BFD1B200ED728F /* calendar_hdpi.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7CAE8A15BFD1B200ED728F /* calendar_hdpi.png */; };
@@ -405,6 +415,16 @@
 		DC7868DD160F9D70000E9B35 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		DC7868DF160FA245000E9B35 /* LaundryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaundryViewController.h; sourceTree = "<group>"; };
 		DC7868E0160FA245000E9B35 /* LaundryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaundryViewController.m; sourceTree = "<group>"; };
+		DC79E649171245C6006DAEC5 /* marker_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_blue.png; sourceTree = "<group>"; };
+		DC79E64A171245C6006DAEC5 /* marker_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_blue@2x.png"; sourceTree = "<group>"; };
+		DC79E64B171245C6006DAEC5 /* marker_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_orange.png; sourceTree = "<group>"; };
+		DC79E64C171245C6006DAEC5 /* marker_orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_orange@2x.png"; sourceTree = "<group>"; };
+		DC79E64D171245C6006DAEC5 /* marker_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_yellow.png; sourceTree = "<group>"; };
+		DC79E64E171245C6006DAEC5 /* marker_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_red.png; sourceTree = "<group>"; };
+		DC79E64F171245C6006DAEC5 /* marker_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_red@2x.png"; sourceTree = "<group>"; };
+		DC79E650171245C6006DAEC5 /* marker_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_yellow@2x.png"; sourceTree = "<group>"; };
+		DC79E65917124679006DAEC5 /* marker_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_green@2x.png"; sourceTree = "<group>"; };
+		DC79E65A17124679006DAEC5 /* marker_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_green.png; sourceTree = "<group>"; };
 		DC7CAE8515BFD15C00ED728F /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
 		DC7CAE8615BFD15C00ED728F /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 		DC7CAE8715BFD15C00ED728F /* WeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
@@ -686,6 +706,16 @@
 			children = (
 				DCC2954F164167400023E195 /* CampusMapViewController.h */,
 				DCC29550164167400023E195 /* CampusMapViewController.m */,
+				DC79E65917124679006DAEC5 /* marker_green@2x.png */,
+				DC79E65A17124679006DAEC5 /* marker_green.png */,
+				DC79E649171245C6006DAEC5 /* marker_blue.png */,
+				DC79E64A171245C6006DAEC5 /* marker_blue@2x.png */,
+				DC79E64B171245C6006DAEC5 /* marker_orange.png */,
+				DC79E64C171245C6006DAEC5 /* marker_orange@2x.png */,
+				DC79E64D171245C6006DAEC5 /* marker_yellow.png */,
+				DC79E64E171245C6006DAEC5 /* marker_red.png */,
+				DC79E64F171245C6006DAEC5 /* marker_red@2x.png */,
+				DC79E650171245C6006DAEC5 /* marker_yellow@2x.png */,
 				DCBDEE45170D5D5900EB9B2B /* flag.png */,
 				DCBDEE46170D5D5900EB9B2B /* flag@2x.png */,
 				DCBDEE41170D56F400EB9B2B /* marker.png */,
@@ -1374,6 +1404,16 @@
 				DCBDEE44170D56F400EB9B2B /* marker@2x.png in Resources */,
 				DCBDEE47170D5D5A00EB9B2B /* flag.png in Resources */,
 				DCBDEE48170D5D5A00EB9B2B /* flag@2x.png in Resources */,
+				DC79E651171245C6006DAEC5 /* marker_blue.png in Resources */,
+				DC79E652171245C6006DAEC5 /* marker_blue@2x.png in Resources */,
+				DC79E653171245C6006DAEC5 /* marker_orange.png in Resources */,
+				DC79E654171245C6006DAEC5 /* marker_orange@2x.png in Resources */,
+				DC79E655171245C6006DAEC5 /* marker_yellow.png in Resources */,
+				DC79E656171245C6006DAEC5 /* marker_red.png in Resources */,
+				DC79E657171245C6006DAEC5 /* marker_red@2x.png in Resources */,
+				DC79E658171245C6006DAEC5 /* marker_yellow@2x.png in Resources */,
+				DC79E65B17124679006DAEC5 /* marker_green@2x.png in Resources */,
+				DC79E65C17124679006DAEC5 /* marker_green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
