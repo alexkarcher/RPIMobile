@@ -147,390 +147,455 @@
 		<string></string>
 		<real>42.73085</real>
 		<real>-73.68163</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Boiler House</string>
 		<string></string>
 		<real>42.73125</real>
 		<real>-73.68165999999999</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Troy Building</string>
 		<string></string>
 		<real>42.73102</real>
 		<real>-73.68049999999999</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Ricketts Building</string>
 		<string></string>
 		<real>42.7309</real>
 		<real>-73.67968999999999</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>&apos;87 Gymnasium</string>
 		<string></string>
 		<real>42.73072</real>
 		<real>-73.67878</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Quadrangle Complex</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73057</real>
 		<real>-73.67758000000001</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Russel Sage Dining Hall</string>
 		<string>On Campus Dining Hall</string>
 		<real>42.72978</real>
 		<real>-73.67822</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>RPI Playhouse</string>
 		<string></string>
 		<real>42.72921</real>
 		<real>-73.67816999999999</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>CII</string>
 		<string>Center for Industrial Innovation</string>
 		<real>42.72931</real>
 		<real>-73.67868</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>DCC</string>
 		<string>Darrin Communications Center</string>
 		<real>42.72938</real>
 		<real>-73.6793</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>JEC</string>
 		<string>J. Erik Johnson Engineering Center</string>
 		<real>42.72961</real>
 		<real>-73.68026</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Greene Building</string>
 		<string></string>
 		<real>42.73002</real>
 		<real>-73.68113</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Lally Hall</string>
 		<string></string>
 		<real>42.73005</real>
 		<real>-73.68185</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Amos Eaton Hall</string>
 		<string></string>
 		<real>42.73019</real>
 		<real>-73.68252</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Folsom Library</string>
 		<string></string>
 		<real>42.72941</real>
 		<real>-73.68261</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>VCC</string>
 		<string>Voorhees Computing Center</string>
 		<real>42.72923</real>
 		<real>-73.68174999999999</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>JSC</string>
 		<string>Johnson-Rowland Science Center</string>
 		<real>42.72883</real>
 		<real>-73.68037</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>CBIS</string>
 		<string>Center for Biotechnical and Interdisciplinary Studies</string>
 		<real>42.72828</real>
 		<real>-73.67841</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>EMPAC</string>
 		<string>Experimental Media &amp; Performing Arts Center</string>
 		<real>42.72886</real>
 		<real>-73.68375</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>MRC</string>
 		<string>Materials Research Center</string>
 		<real>42.72841</real>
 		<real>-73.68245</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Empire State Hall</string>
 		<string></string>
 		<real>42.72829</real>
 		<real>-73.68177</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Cogswell Laboratory</string>
 		<string></string>
 		<real>42.72819</real>
 		<real>-73.68125999999999</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Parking Garage</string>
 		<string></string>
 		<real>42.72773</real>
 		<real>-73.6814</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Academy Hall</string>
 		<string>Fin. Aid, Student Life, Services, Health Center</string>
 		<real>42.72746</real>
 		<real>-73.67868</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>RPI Ambulance</string>
 		<string></string>
 		<real>42.72724</real>
 		<real>-73.68083</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Java++ Cafe</string>
 		<string></string>
 		<real>42.72675</real>
 		<real>-73.67827</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Polytechnic Residence Commons</string>
 		<string></string>
 		<real>42.72217</real>
 		<real>-73.67944</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Admissions</string>
 		<string></string>
 		<real>42.73065</real>
 		<real>-73.67549</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Chapel + Cultural Center</string>
 		<string></string>
 		<real>42.73182</real>
 		<real>-73.67221000000001</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Public Safety</string>
 		<string></string>
 		<real>42.72926</real>
 		<real>-73.67700000000001</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Mueller Center</string>
 		<string></string>
 		<real>42.72881</real>
 		<real>-73.67688</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Alumni Sports and Recreation Center</string>
 		<string></string>
 		<real>42.72844</real>
 		<real>-73.67686</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Robison Swimming Pool</string>
 		<string></string>
 		<real>42.728</real>
 		<real>-73.67753</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Barton Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72911</real>
 		<real>-73.67404000000001</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Cary Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72888</real>
 		<real>-73.67479</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Bray Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72868</real>
 		<real>-73.67346000000001</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Hall Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72858</real>
 		<real>-73.67531</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Commons Dining Hall</string>
 		<string>On Campus Dining</string>
 		<real>42.72827</real>
 		<real>-73.67428</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Crockett Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72826</real>
 		<real>-73.67325</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Warren Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72794</real>
 		<real>-73.67542</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Nugent Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72741</real>
 		<real>-73.67502</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Sharp Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72702</real>
 		<real>-73.67462</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Davison Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72726</real>
 		<real>-73.67403</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Nason Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.72762</real>
 		<real>-73.67337999999999</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Burdett Avenue Residence Hall</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73102</real>
 		<real>-73.67122999999999</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>2144  Burdett Avenue</string>
 		<string></string>
 		<real>42.73214</real>
 		<real>-73.67142</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>Field House</string>
 		<string></string>
 		<real>42.73207</real>
 		<real>-73.66955</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>RAHP A Site</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73068</real>
 		<real>-73.66945</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>RAHP A Site</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73084</real>
 		<real>-73.66815</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>133 Sunset Terrace</string>
 		<string></string>
 		<real>42.72905</real>
 		<real>-73.66866</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Greenhouses and Grounds Barn</string>
 		<string></string>
 		<real>42.72848</real>
 		<real>-73.66802</real>
+		<integer>2</integer>
 	</array>
 	<array>
 		<string>200 Sunset Terrace</string>
 		<string></string>
 		<real>42.73061</real>
 		<real>-73.66689</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>LINAC Facility</string>
 		<string></string>
 		<real>42.73261</real>
 		<real>-73.66203</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>Seismograph Laboratory</string>
 		<string></string>
 		<real>42.731148</real>
 		<real>-73.66613099999999</real>
+		<integer>3</integer>
 	</array>
 	<array>
 		<string>ECAV</string>
 		<string></string>
 		<real>42.73224</real>
 		<real>-73.66754</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>East Campus Athletic Village Stadium</string>
 		<string></string>
 		<real>42.73318</real>
 		<real>-73.66767</real>
+		<integer>1</integer>
 	</array>
 	<array>
 		<string>Colonie Apartments</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73706</real>
 		<real>-73.66981</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Bryckwyck</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73511</real>
 		<real>-73.66379999999999</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>RAHP B Site</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73475</real>
 		<real>-73.66491000000001</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Rousseau Apartments</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73432</real>
 		<real>-73.66431</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Williams Apartments</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73395</real>
 		<real>-73.66458</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Wiltsie Apartments</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73352</real>
 		<real>-73.66486999999999</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>McGiffert Apartments</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.73314</real>
 		<real>-73.66516</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Thompson Apartments</string>
 		<string>On Campus Residence Hall</string>
 		<real>42.7336</real>
 		<real>-73.66562999999999</real>
+		<integer>0</integer>
 	</array>
 	<array>
 		<string>Radio Club W2SZ</string>
 		<string></string>
 		<real>42.73425</real>
 		<real>-73.66314</real>
+		<integer>1</integer>
 	</array>
 </array>
 </plist>
