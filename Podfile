@@ -1,6 +1,7 @@
 platform :ios, '5.0'
 pod 'AFNetworking'
 pod 'SDWebImage'
+pod 'SDURLCache', '~> 1.2'
 pod 'MKHorizMenu'
 pod 'MBProgressHUD'
 pod 'InAppSettingsKit'

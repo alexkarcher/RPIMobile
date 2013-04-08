@@ -10,6 +10,23 @@
 #import "PrettyKit.h"
 
 @implementation PrettyNavigationController
+
+
+-(BOOL)shouldAutorotate
+{
+    return [[self.viewControllers lastObject] shouldAutorotate];
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return [[self.viewControllers lastObject] supportedInterfaceOrientations];
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return [[self.viewControllers lastObject] preferredInterfaceOrientationForPresentation];
+}
+
 - (id)initWithRootViewController:(UIViewController *)rootViewController
 {
     if ((self = [super initWithRootViewController:rootViewController])) {
