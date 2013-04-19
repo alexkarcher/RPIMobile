@@ -11,7 +11,7 @@
 #import "AFNetworking.h"
 #import "PrettyKit.h"
 #import "JSONKit.h"
-
+#include "ServerURLFile.h"
 
 @interface RMCalendarViewController ()
 @property (nonatomic, weak)   CKCalendarView *calendar;
@@ -29,9 +29,6 @@
 @synthesize dateFormatter = _dateFormatter;
 @synthesize tableView = _tableView;
 @synthesize currentDate, eventData, dayData, emptyFlag;
-
-#define kEventURLp1 @"http://events.rpi.edu/webcache/v1.0/jsonRange/"
-#define kEventURLp2 @"/list-json/no--filter/no--object.json"
 
 /* BUG LIST:
     * Resizing table only called when date is selected, not when month is changed
@@ -169,7 +166,7 @@
     UIActivityIndicatorView *activityIndicator =
     [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithCustomView:activityIndicator];
-    self.title = @"Downloading...`";
+    self.title = @"Downloading...";
     
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *comp = [gregorian components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit) fromDate:date];
@@ -343,7 +340,6 @@
         [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
         NSString *labelString = [[dayData objectAtIndex:indexPath.row] ev_summary];
         labelString = [labelString stringByReplacingOccurrencesOfString:@"&amp;" withString:@"&"];
-
         cell.textLabel.text = labelString;
     }
     

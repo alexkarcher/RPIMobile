@@ -12,8 +12,8 @@
 #import "UIImageView+WebCache.h"
 #import "VideoWebviewViewController.h"
 #import "WCXMLParser.h"
+#include "ServerURLFile.h"
 
-#define kVideoFeedURL @"http://gdata.youtube.com/feeds/api/users/rpirensselaer/uploads"
 #define start_color [UIColor colorWithHex:0xEEEEEE]
 #define end_color [UIColor colorWithHex:0xDEDEDE]
 

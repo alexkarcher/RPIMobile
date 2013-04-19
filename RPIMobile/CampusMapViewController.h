@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface CampusMapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
+@interface CampusMapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate, UISearchBarDelegate, UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate> {
     MKMapView *_mapView;
     NSArray *mapPoints;
     NSMutableArray *pins;
+    UISearchDisplayController *searchController;
+    UITableView *tableView;
 }
 
 @end

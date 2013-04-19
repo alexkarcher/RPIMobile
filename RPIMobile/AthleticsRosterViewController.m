@@ -16,8 +16,9 @@
 #import "AthleticsRosterViewController.h"
 
 #import <QuartzCore/QuartzCore.h>
+#include "ServerURLFile.h"
 
-#define kRosterURL @"http://mobilerpi.jcmcmillan.com/v1/roster/"
+
 
 @implementation AthleticsRosterViewController
 @synthesize _shortSportName;;

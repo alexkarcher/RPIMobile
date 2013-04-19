@@ -10,8 +10,9 @@
 #import "AFNetworking.h"
 #import "PrettyKit.h"
 #import "JSONKit.h"
+#include "ServerURLFile.h"
 
-#define kLaundryFeedUrl @"http://mobilerpi.jcmcmillan.com/v1/laundry"
+
 #define start_color [UIColor colorWithHex:0xEEEEEE]
 #define end_color [UIColor colorWithHex:0xDEDEDE]
 

@@ -17,7 +17,8 @@
 #define kCustomRowHeight  60.0
 #define kAppIconHeight    48
 
-#define kRosterURL @"http://mobilerpi.jcmcmillan.com/v1/roster/"
+//#define kRosterURL @"http://mobilerpi.jcmcmillan.com/v1/roster/"
+#define kRosterURL @"http://123.213.32.10:16219/v1/roster/"
 
 @implementation RosterViewController
 @synthesize sportName;

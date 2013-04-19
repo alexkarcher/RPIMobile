@@ -266,6 +266,7 @@
 		DCE719181642B7DF003D6B38 /* STShuttle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE7190B1642B7DF003D6B38 /* STShuttle.m */; };
 		DCE719191642B7DF003D6B38 /* STSimpleShuttle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE7190D1642B7DF003D6B38 /* STSimpleShuttle.m */; };
 		DCE7191A1642B7DF003D6B38 /* STStop.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE7190F1642B7DF003D6B38 /* STStop.m */; };
+		DCF04EAC1716054100ABEB6A /* NSString+Score.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF04EAB1716054100ABEB6A /* NSString+Score.m */; };
 		DCFE519215DC20F700F38D63 /* TwitterTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE519115DC20F700F38D63 /* TwitterTimelineViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -559,8 +560,8 @@
 		DCC8088C15BF89450060390F /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
 		DCC8088D15BF89450060390F /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
 		DCC8089015BF89450060390F /* RPIMobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RPIMobile.xcdatamodel; sourceTree = "<group>"; };
-		DCC808AE15BF8A1E0060390F /* PrettyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrettyNavigationController.h; path = "Library Extras/PrettyNavigationController.h"; sourceTree = "<group>"; };
-		DCC808AF15BF8A1E0060390F /* PrettyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrettyNavigationController.m; path = "Library Extras/PrettyNavigationController.m"; sourceTree = "<group>"; };
+		DCC808AE15BF8A1E0060390F /* PrettyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrettyNavigationController.h; path = "../Library Extras/PrettyNavigationController.h"; sourceTree = "<group>"; };
+		DCC808AF15BF8A1E0060390F /* PrettyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrettyNavigationController.m; path = "../Library Extras/PrettyNavigationController.m"; sourceTree = "<group>"; };
 		DCC808D315BF8B440060390F /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
 		DCC808D415BF8B440060390F /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
 		DCC808D515BF8B440060390F /* NewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailViewController.xib; sourceTree = "<group>"; };
@@ -610,6 +611,9 @@
 		DCE7190D1642B7DF003D6B38 /* STSimpleShuttle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSimpleShuttle.m; sourceTree = "<group>"; };
 		DCE7190E1642B7DF003D6B38 /* STStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStop.h; sourceTree = "<group>"; };
 		DCE7190F1642B7DF003D6B38 /* STStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStop.m; sourceTree = "<group>"; };
+		DCF04EAA1716054100ABEB6A /* NSString+Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Score.h"; sourceTree = "<group>"; };
+		DCF04EAB1716054100ABEB6A /* NSString+Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Score.m"; sourceTree = "<group>"; };
+		DCFBAA871720EDB2009FA7F0 /* ServerURLFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerURLFile.h; sourceTree = "<group>"; };
 		DCFE519015DC20F700F38D63 /* TwitterTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTimelineViewController.h; sourceTree = "<group>"; };
 		DCFE519115DC20F700F38D63 /* TwitterTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTimelineViewController.m; sourceTree = "<group>"; };
 		E2AF5E0EAFF54340B2666527 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -662,6 +666,8 @@
 		DC1F515516C0C87100002C46 /* PrettyKit */ = {
 			isa = PBXGroup;
 			children = (
+				DCC808AE15BF8A1E0060390F /* PrettyNavigationController.h */,
+				DCC808AF15BF8A1E0060390F /* PrettyNavigationController.m */,
 				DC1F515616C0C87100002C46 /* Cells */,
 				DC1F515F16C0C87100002C46 /* PrettyDrawing.h */,
 				DC1F516016C0C87100002C46 /* PrettyDrawing.m */,
@@ -974,6 +980,7 @@
 				DC7CAEFA15BFD36300ED728F /* SportViewController.xib */,
 				DC7CAEFB15BFD36300ED728F /* RosterViewController.h */,
 				DC7CAEFC15BFD36300ED728F /* RosterViewController.m */,
+				DCFBAA871720EDB2009FA7F0 /* ServerURLFile.h */,
 				DC7CAEFD15BFD36300ED728F /* RosterViewController.xib */,
 				DC7CAF0115BFD36300ED728F /* ScheduleViewController.h */,
 				DC7CAF0215BFD36300ED728F /* ScheduleViewController.m */,
@@ -1054,12 +1061,15 @@
 		DCC8088315BF89450060390F /* RPIMobile */ = {
 			isa = PBXGroup;
 			children = (
+				DCF04EAA1716054100ABEB6A /* NSString+Score.h */,
+				DCF04EAB1716054100ABEB6A /* NSString+Score.m */,
 				DC79E661171249FE006DAEC5 /* SDURLCache */,
 				DC79E65D1712491A006DAEC5 /* JSONKit */,
 				DC2073CF16C9A2D100ED07CE /* SVSegmentedControl */,
 				DC1F515516C0C87100002C46 /* PrettyKit */,
 				DC3DAE77165BF45000F50CCD /* Image Filters */,
 				DCC96EC51614967C00556D39 /* New Athletics */,
+				DC6A111015BF903600B2F462 /* RSSParser */,
 				DC30EFAB160FE8B900CB4B3E /* Map */,
 				DC8BAC0E15F068EC002CE3E9 /* HTMLParse */,
 				DCC3AFFF15E3649000DD3648 /* Events */,
@@ -1070,14 +1080,11 @@
 				DC7CAEF215BFD34F00ED728F /* Athletics */,
 				DC7CAE8415BFD15000ED728F /* Weather */,
 				DC6A111815BF94C100B2F462 /* imgs */,
-				DC6A111015BF903600B2F462 /* RSSParser */,
 				DCC808C815BF8AF90060390F /* News */,
 				DC7868DF160FA245000E9B35 /* LaundryViewController.h */,
 				DC7868E0160FA245000E9B35 /* LaundryViewController.m */,
 				DC74B2A515C70F1100FD4A69 /* WCXMLParser.h */,
 				DC74B2A615C70F1100FD4A69 /* WCXMLParser.m */,
-				DCC808AE15BF8A1E0060390F /* PrettyNavigationController.h */,
-				DCC808AF15BF8A1E0060390F /* PrettyNavigationController.m */,
 				DCC8088C15BF89450060390F /* RMAppDelegate.h */,
 				DCC8088D15BF89450060390F /* RMAppDelegate.m */,
 				DCD5839915FD0257001D6DCA /* SideMenuViewController.h */,
@@ -1532,6 +1539,7 @@
 				DCC4AF69170C7290008D2528 /* RMCalendarEvent.m in Sources */,
 				DCC4AF70170CA339008D2528 /* RMCalendarEventViewController.m in Sources */,
 				DC79E66017124922006DAEC5 /* JSONKit.m in Sources */,
+				DCF04EAC1716054100ABEB6A /* NSString+Score.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,10 @@
 #import "PrettyKit.h"
 #import <MapKit/MapKit.h>
 #import "UIImage+Tint.h"
+#import "NSString+Score.h"
 #import "MapPin.h"
+
+#define kSearchThreshold 0.25
 
 /*  BUGS:
     * empty
@@ -28,6 +31,7 @@
 
 @interface CampusMapViewController ()
 @property (nonatomic, retain) MTLocateMeButton *locateMeItem;
+@property (nonatomic, strong) NSArray *resultsArr;
 @end
 
 @implementation CampusMapViewController
@@ -45,16 +49,29 @@
 
 /*Places*/
 -(void) loadPlaces {
-    mapPoints = [NSArray array];
     NSString *mapData = [[NSBundle mainBundle] pathForResource:@"MapData" ofType:@"plist"];
     mapPoints = [[NSArray alloc] initWithContentsOfFile:mapData];
     NSLog(@"MapPoints: %@", mapPoints);
 }
 
+- (void) filterPinsFromText:(NSString *)searchString withFuzzyNumber:(NSNumber *) fuzz {
+    NSMutableArray *returnArr = [NSMutableArray array];
+    
+    for(MapPin *pin in mapPoints) {
+//        NSLog(@"%@", [pin getTitle]);
+        NSString *title = @"DCC";
+        float stringResults = [searchString scoreAgainst:title];
+        if(stringResults > [fuzz floatValue]) {
+            [returnArr addObject:pin];
+        }
+    }
+    _resultsArr = returnArr;
+}
+
 /*Build the map with pins*/
--(void) buildMap {    
+-(void) buildMapFromArray:(NSArray *) points {
     pins = [NSMutableArray array];
-    for(id marker in mapPoints) {
+    for(id marker in points) {
         MapPin *pin;
 
         pin = [[MapPin alloc] initWithCoordinates:CLLocationCoordinate2DMake([[marker objectAtIndex:2] doubleValue], [[marker objectAtIndex:3] doubleValue]) placeName:[marker objectAtIndex:0] description:[marker objectAtIndex:1] category:[[marker objectAtIndex:4] intValue]];
@@ -73,8 +90,7 @@
         _mapView.showsUserLocation = NO;
     }
     
-    [_mapView setUserTrackingMode: MKUserTrackingModeFollowWithHeading
-                         animated: YES];
+//    [_mapView setUserTrackingMode: MKUserTrackingModeFollowWithHeading animated: YES];
 }
 
 -(MKAnnotationView *)mapView:(MKMapView *)mV viewForAnnotation:(id <MKAnnotation>)annotation
@@ -107,6 +123,30 @@
     }
     return pinView;
 }
+
+- (void) buildSearchBar {
+    UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0,0,320,40)]; // frame has no effect.
+    searchBar.delegate = self;
+    searchBar.placeholder = @"Search buildings";
+    searchBar.showsCancelButton = YES;
+    [searchBar setTintColor:[UIColor redColor]];
+    
+    [self.view addSubview:searchBar];
+
+    UISearchDisplayController *searchCon = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self ];
+    self->searchController = searchCon;
+    searchController.delegate = self;
+//    searchController.searchResultsDataSource = self;
+//    searchController.searchResultsDelegate = self;
+    
+//    [searchController setActive:YES animated:YES];
+//    [searchBar becomeFirstResponder];
+}
+
+- (void) filter:(id) sender {
+    
+}
+
 /*Load View*/
 - (void)viewDidLoad
 {
@@ -127,13 +167,14 @@
     _mapView.showsUserLocation = TRUE;
     _mapView.mapType = MKMapTypeHybrid;
     _mapView.delegate = self;
+
     
     // Configure Location Manager
     [MTLocationManager sharedInstance].locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     [MTLocationManager sharedInstance].locationManager.distanceFilter = kCLDistanceFilterNone;
     [MTLocationManager sharedInstance].locationManager.headingFilter = 5; // 5 Degrees
     
-    [self buildMap];
+    [self buildMapFromArray:mapPoints];
     [self.view addSubview:_mapView];
     
     // create locate-me item, automatically prepare mapView
@@ -153,8 +194,76 @@
     // set toolbar items
     [toolbar setItems:toolbarItems animated:NO];
     [MTLocationManager sharedInstance].mapView = _mapView;
+    [self buildSearchBar];
+//    [self filterPinsFromText:@"DCC" withFuzzyNumber:[NSNumber numberWithFloat:0.25]];
+    
+    UIBarButtonItem *m_barButtonRight = [[UIBarButtonItem alloc] initWithTitle:@"Filter" style:UIBarButtonItemStylePlain target:self action:@selector(filter:)];
+    [m_barButtonRight setTintColor:[UIColor colorWithRed:0.579 green:0.000 blue:0.000 alpha:1.000]];
+    
+    self.navigationItem.rightBarButtonItem = m_barButtonRight;
+
 
 }
 
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+//    [self->tableView setHidden:YES];
+    [_mapView removeAnnotations:_mapView.annotations];
+    [self filterPinsFromText:searchBar.text withFuzzyNumber:[NSNumber numberWithFloat:kSearchThreshold]];
+    [self buildMapFromArray:_resultsArr];
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+    if ([searchText length]>5) {
+//        [self filterDataWithKeyword:searchText];
+//        [self.tableView reloadData];
+    } else {
+//        [self resetFilter];
+//        [self.tableView reloadData];
+    }
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;    //count of section
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return 0;
+}
+
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+{
+//    savedSearchTerm = searchString;
+    
+    [controller.searchResultsTableView setBackgroundColor:[UIColor colorWithWhite:0.0 alpha:0.8]];
+    [controller.searchResultsTableView setRowHeight:800];
+    [controller.searchResultsTableView setScrollEnabled:NO];
+    return NO;
+}
+
+- (void)searchDisplayController:(UISearchDisplayController *)controller didHideSearchResultsTableView:(UITableView *)tableView
+{
+    // undo the changes above to prevent artefacts reported below by mclin
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"cellId";
+    
+    UITableViewCell *cell = [self->tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    
+//    MapPin *pin = [_resultsArr objectAtIndex:indexPath.row];
+    cell.textLabel.text = @"tt";
+//    cell.detailTextLabel.text = [pin subtitle];
+    
+    return cell;
+}
 
 @end

@@ -17,8 +17,7 @@
 #import "PrettyKit.h"
 #import "ISRefreshControl.h"
 #import <QuartzCore/QuartzCore.h>
-
-
+#include "ServerURLFile.h"
 
 /*TO-DO for Twitter: 
 DONE      -Add custom XIB for tweet cells (link detection)
@@ -96,11 +95,6 @@ DONE      -UIWebView override for clicked links
     long long _lastID;
 }
 @end
-
-//Pages will soon be deprecated by Twitter API. Need to investigate max_id and since_id as alternatives, but that's for a later date
-#define kRPIMobileFeedURL @"https://api.twitter.com/1/lists/statuses.json?slug=rpimobileapp&owner_screen_name=rpimobile&per_page=25&include_entities=false&include_rts=true"
-#define kRPIMobileFeedURL_refresh @"https://api.twitter.com/1/lists/statuses.json?slug=rpimobileapp&owner_screen_name=rpimobile&include_entities=false&include_rts=true&since_id="
-//#define kTwitterImageUrl @"https://api.twitter.com/1/users/profile_image?screen_name=%@&size=bigger"
 
 #define kLoadingCellTag 999
 

@@ -10,8 +10,8 @@
 #import "ScheduleEntry.h"
 #import "UIImageExtras.h"
 #import "AthleticsScheduleViewController.h"
+#include "ServerURLFile.h"
 
-#define kScheduleURL @"http://mobilerpi.jcmcmillan.com/v1/schedule/"
 #define kLoadingCellTag 999
 @implementation AthleticsScheduleViewController
 

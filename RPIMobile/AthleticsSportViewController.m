@@ -13,9 +13,8 @@
 #import "AthleticsSportViewController.h"
 #import "AthleticsRosterViewController.h"
 #import "AthleticsScheduleViewController.h"
+#include "ServerURLFile.h"
 
-
-#define kTeamPicURL @"http://mobilerpi.jcmcmillan.com/v1/teampic/"
 
 #define start_color [UIColor colorWithHex:0xEEEEEE]
 #define end_color [UIColor colorWithHex:0xDEDEDE]

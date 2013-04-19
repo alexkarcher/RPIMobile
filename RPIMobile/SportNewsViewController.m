@@ -11,11 +11,11 @@
 #import "WebViewController.h"
 #import "AFNetworking.h"
 #import "RSSParser.h"
+#include "ServerURLFile.h"
 
 #define start_color [UIColor colorWithHex:0xEEEEEE]
 #define end_color [UIColor colorWithHex:0xDEDEDE]
 #define numToDisplay 50
-#define kFeedURL @"http://rpiathletics.com/rss.aspx?path="
 
 @implementation SportNewsViewController
 
