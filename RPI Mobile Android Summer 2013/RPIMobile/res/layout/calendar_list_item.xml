@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" 
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/calendartime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4/5/07 - 7:40am" 
+        android:textSize="5pt"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/calendarsummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:text="Summer@Rensselaer- Architecture Career Discovery Program- Session II" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/calendarlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="5pt"
+        android:text="Location: Campus-wide" 
+        android:textColor="#000000"/>
+
+</LinearLayout>

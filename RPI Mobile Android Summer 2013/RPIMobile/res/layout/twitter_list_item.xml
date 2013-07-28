@@ -10,14 +10,15 @@
         android:layout_width="61dp"
         android:layout_height="61dp"
         android:adjustViewBounds="true" 
-        android:padding="5dp"
+        android:padding="3dp"
         android:layout_gravity="center_vertical"/>
  
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical|left"
-        android:orientation="vertical" >
+        android:orientation="vertical" 
+        android:paddingBottom="3dp">
  		<LinearLayout
  		    android:layout_width="fill_parent"
  		    android:layout_height="wrap_content"
@@ -46,8 +47,9 @@
             android:id="@+id/content"
             android:textColor="#000000"
      		android:textSize="7pt"
+     		android:autoLink="web"
      		android:text="This is a max length 140 character tweet. It can ramble on for more though, with the new RT funtion, so I'll have to be carful of that now.."
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
 			 />
  

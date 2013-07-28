@@ -11,16 +11,17 @@ package rpi.edu.rpimobile;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+
+import com.google.android.youtube.player.YouTubeIntents;
  
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.Fragment;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
-import android.util.Log;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -40,6 +41,9 @@ public class MainActivity extends SherlockFragmentActivity {
     private Fragment fragment1 = new Fragment1();
     private Fragment fragment2 = new Fragment2();
     private Fragment fragment3 = new Fragment3();
+    private Fragment fragment4 = new Fragment4();
+    private Fragment fragment5 = new Fragment5();
+    
  
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -140,7 +144,7 @@ public class MainActivity extends SherlockFragmentActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position,
                 long id) {
             selectItem(position);
-            //mDrawerList.setItemChecked(position, true);
+            mDrawerList.setItemChecked(position, true);
             actiontitle = title[position];
             getSupportActionBar().setTitle(actiontitle);
         }
@@ -161,10 +165,10 @@ public class MainActivity extends SherlockFragmentActivity {
             ft.replace(R.id.content_frame, fragment3);
             break;
         case 3: //athletics
-        	Toast.makeText(this, "Athletics selected", Toast.LENGTH_SHORT).show();
+        	ft.replace(R.id.content_frame, fragment4);
         	break;
         case 4: //Events
-        	Toast.makeText(this, "Events selected", Toast.LENGTH_SHORT).show();
+        	ft.replace(R.id.content_frame, fragment5);
         	break;
         case 5: //Shuttles
         	Toast.makeText(this, "Shuttles selected", Toast.LENGTH_SHORT).show();
@@ -179,7 +183,9 @@ public class MainActivity extends SherlockFragmentActivity {
         	Toast.makeText(this, "Building Hours selected", Toast.LENGTH_SHORT).show();
         	break;
         case 9: //Videos
-        	Toast.makeText(this, "Videos selected", Toast.LENGTH_SHORT).show();
+        	//Toast.makeText(this, "Videos selected", Toast.LENGTH_SHORT).show();
+        	Intent i = YouTubeIntents.createUserIntent(this, "rpirensselaer");
+        	startActivity(i);
         	break;
         case 10://Map
         	Toast.makeText(this, "Map selected", Toast.LENGTH_SHORT).show();
