@@ -7,12 +7,17 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.actionbarsherlock.app.SherlockFragment;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 
 import rpi.edu.rpimobile.model.CalEvent;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Looper;
+import android.os.AsyncTask.Status;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,12 +34,14 @@ public class Fragment5 extends SherlockFragment {
 	private JSONObject jObj;
 	private ArrayList<CalEvent> events;
 	private CalendarListAdapter listadapter;
+	private MenuItem refreshbutton;
+	private JSONCallendarTask downloadtask;
 	
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment5, container, false);
-        
+        setHasOptionsMenu(true);
         
         events = new ArrayList<CalEvent>();
         
@@ -42,8 +49,8 @@ public class Fragment5 extends SherlockFragment {
         listadapter = new CalendarListAdapter(this.getActivity(), events);
         callist.setAdapter(listadapter);
         
-        JSONCallendarTask task = new JSONCallendarTask();
-		task.execute(new String[]{"http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/no--filter/no--object.json"});
+        downloadtask = new JSONCallendarTask();
+		downloadtask.execute(new String[]{"http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/no--filter/no--object.json"});
         
 		
       /*  WebView webv = (WebView) rootView.findViewById(R.id.WeatherWebView);
@@ -65,18 +72,63 @@ public class Fragment5 extends SherlockFragment {
         
        return rootView;
     }
+	
+	@Override
+	public void onStop(){
+    	super.onStop();
+    	if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Running onStop()");
+    	//check the state of the Download() task
+    	if(downloadtask != null && downloadtask.getStatus() == Status.RUNNING){
+    		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Stopping Thread");	
+    		downloadtask.cancel(true);
+    		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Thread Stopped");
+    	}
+    }
+	
+	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
+		super.onCreateOptionsMenu(menu, inflater);
+		refreshbutton = menu.add("Refresh");
+		refreshbutton.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+		refreshbutton.setIcon(R.drawable.navigation_refresh);
+	}
+	
+	public boolean onOptionsItemSelected(MenuItem item) {
+		 
+        if (item == refreshbutton){
+        	
+        	downloadtask = new JSONCallendarTask();
+    		downloadtask.execute(new String[]{"http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/no--filter/no--object.json"});
+        	
+        }
+ 
+        return super.onOptionsItemSelected(item);
+    }
+	
+	
+	
+	
+	
+	
 	private class JSONCallendarTask extends AsyncTask<String, Void, Boolean> {
 
+		
+		protected void onPreExecute(){
+			getActivity().setProgressBarIndeterminateVisibility(Boolean.TRUE);
+		}
+		
+		
 		@Override
 		protected Boolean doInBackground(String... params) {
-			Looper.prepare();
-			Log.d("RPI", "Begining Download");
+			if (Looper.myLooper()==null) {
+				 Looper.prepare();
+			 }
+			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Begining Download");
 			String data;
 			CalEvent temp = new CalEvent();
 			//Weather weather = new Weather();
 			try {
 			data = ( (new WeatherHttpClient()).getWeatherData(params[0]));//+"&units=imperial"));
-			Log.d("RPI", "downloaded data of length "+data.length());
+			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "downloaded data of length "+data.length());
 			}
 			catch(Exception e){
 				e.printStackTrace();
@@ -86,19 +138,19 @@ public class Fragment5 extends SherlockFragment {
 			try {
 				//weather = JSONWeatherParser.getWeather(data);
 				jObj = new JSONObject(data);
-				Log.d("RPI", "Parsing items");
+				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Parsing items");
 				
 				JSONArray items = jObj.getJSONObject("bwEventList").getJSONArray("events");
 				JSONObject tempJ;
 				
 				
 				for(int i = 0; i<items.length(); i++){
-					Log.d("RPI", "Adding item #"+i);
+					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Adding item #"+i);
 					temp = new CalEvent();
 					
 					tempJ = items.getJSONObject(i);
 					
-					Log.d("RPI", "Getting variables");
+					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Getting variables");
 					
 					temp.summary = tempJ.getString("summary");
 					temp.link = tempJ.getString("eventlink");
@@ -112,19 +164,20 @@ public class Fragment5 extends SherlockFragment {
 					
 					events.add(temp);
 					
-					Log.d("RPI", "Item saved: "+temp.summary);
+					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Item saved: "+temp.summary);
 				}
 				
 				
 				
-				Log.d("RPI", "Data pushed, Size: "+events.size());
+				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Data pushed, Size: "+events.size());
 				//today.icon = (new WeatherHttpClient()).getImage(tempicon);
 
 			} catch (JSONException e) {				
 				e.printStackTrace();
 				//Toast.makeText(getActivity(), "Weather Download Failed", Toast.LENGTH_SHORT).show();
 			}
-			Log.d("RPI", "Finished Download");
+			Looper.myLooper().quit();
+			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Finished Download");
 			return true;
 
 	}
@@ -135,8 +188,15 @@ public class Fragment5 extends SherlockFragment {
 	@Override
 		protected void onPostExecute(Boolean results) {			
 			//super.onPostExecute(weather);
-			Log.d("RPI", "Updating List");
-			listadapter.notifyDataSetChanged();
+			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Updating List");
+			getActivity().setProgressBarIndeterminateVisibility(Boolean.FALSE);
+			
+			try{
+				listadapter.notifyDataSetChanged();
+			}
+			catch(Exception e){
+				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", e.toString());
+			}
 			
 		}
 

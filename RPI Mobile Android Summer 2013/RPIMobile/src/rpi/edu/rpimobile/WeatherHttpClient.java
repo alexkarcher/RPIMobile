@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import android.preference.PreferenceManager;
 import android.util.Log;
 /*
  * Copyright (C) 2013 Surviving with Android (http://www.survivingwithandroid.com)
@@ -35,7 +36,7 @@ public class WeatherHttpClient {
 		InputStream is = null;
 
 		try {
-			Log.d("RPI", "Downloading: "+ location);
+			
 			con = (HttpURLConnection) ( new URL(location)).openConnection();
 			con.setRequestMethod("GET");
 			con.setDoInput(true);

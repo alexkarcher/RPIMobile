@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PrefsActivity" >
+
+    <PreferenceCategory
+        android:summary="Active Twitter Profiles"
+        android:title="Active Twitter Profiles" >
+
+        
+       <CheckBoxPreference
+            android:key="twitter_rensselaer"
+            android:summary="Display tweets from @rensselaer"
+            android:defaultValue="true"
+            android:title="Rensselaer" />
+       <CheckBoxPreference
+            android:key="twitter_rpinews"
+            android:summary="Display tweets from @RPInews"
+            android:defaultValue="true"
+            android:title="Rensselaer News" />
+       <CheckBoxPreference
+            android:key="twitter_RPIAlumni"
+            android:summary="Display tweets from @RPIAlumni"
+            android:defaultValue="true"
+            android:title="Rensselaer Alumni Association" />
+       <CheckBoxPreference
+            android:key="twitter_RPILally"
+            android:summary="Display tweets from @RPILally"
+            android:defaultValue="true"
+            android:title="Lally School of Management" />
+       <CheckBoxPreference
+            android:key="twitter_EMPACNews"
+            android:summary="Display tweets from @EMPACNews"
+            android:defaultValue="true"
+            android:title="EMPAC News" />
+       <CheckBoxPreference
+            android:key="twitter_RPISciDean"
+            android:summary="Display tweets from @RPISciDean"
+            android:defaultValue="true"
+            android:title="Dean of Science" />
+       <CheckBoxPreference
+            android:key="twitter_RPI_CCPD"
+            android:summary="Display tweets from @RPI_CCPD"
+            android:defaultValue="true"
+            android:title="Career and Professional Development" />
+   <!-- <CheckBoxPreference
+            android:key="twitter_"
+            android:summary="Display tweets from @"
+            android:defaultValue="true"
+            android:title="" />  -->    
+       
+        
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="customtwitter"
+            android:summary="Custom user to be included in list"
+            android:title="Custom Twitter Handle" />
+
+       
+    </PreferenceCategory>
+
+</PreferenceScreen>

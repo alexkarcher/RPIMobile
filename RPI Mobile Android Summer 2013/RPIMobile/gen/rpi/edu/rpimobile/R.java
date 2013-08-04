@@ -8,6 +8,12 @@
 package rpi.edu.rpimobile;
 
 public final class R {
+    public static final class array {
+        public static final int listOptions=0x7f0b0002;
+        public static final int listValues=0x7f0b0003;
+        public static final int temperatureOptions=0x7f0b0000;
+        public static final int temperatureValues=0x7f0b0001;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -935,7 +941,9 @@ containing a value of this type.
         public static final int ic_wm_tv=0x7f020086;
         public static final int ic_wm_video=0x7f020087;
         public static final int ic_wm_weather=0x7f020088;
-        public static final int rpi_buzz=0x7f020089;
+        public static final int navigation_refresh=0x7f020089;
+        public static final int rpi_buzz=0x7f02008a;
+        public static final int rpi_launcher=0x7f02008b;
     }
     public static final class id {
         public static final int City=0x7f04003c;
@@ -995,6 +1003,7 @@ containing a value of this type.
         public static final int disableHome=0x7f040009;
         public static final int drawer_layout=0x7f040032;
         public static final int edit_query=0x7f040026;
+        public static final int hilow=0x7f04003b;
         public static final int homeAsUp=0x7f040006;
         public static final int icon=0x7f040038;
         public static final int laundrylist=0x7f04003d;
@@ -1017,7 +1026,6 @@ containing a value of this type.
         public static final int used_washers=0x7f040046;
         public static final int used_washers_TITLE=0x7f040045;
         public static final int username=0x7f04004d;
-        public static final int weathericon=0x7f04003b;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -1053,14 +1061,16 @@ containing a value of this type.
         public static final int fragment3=0x7f03001a;
         public static final int fragment5=0x7f03001b;
         public static final int laundry_list_item=0x7f03001c;
-        public static final int rss_list_item=0x7f03001d;
-        public static final int rsslayout=0x7f03001e;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001f;
-        public static final int sherlock_spinner_item=0x7f030020;
-        public static final int twitter_list_item=0x7f030021;
+        public static final int prefs=0x7f03001d;
+        public static final int prefs_twitter=0x7f03001e;
+        public static final int rss_list_item=0x7f03001f;
+        public static final int rsslayout=0x7f030020;
+        public static final int sherlock_spinner_dropdown_item=0x7f030021;
+        public static final int sherlock_spinner_item=0x7f030022;
+        public static final int twitter_list_item=0x7f030023;
     }
     public static final class menu {
-        public static final int main=0x7f0b0000;
+        public static final int main=0x7f0c0000;
     }
     public static final class string {
         public static final int Fragment1=0x7f090012;

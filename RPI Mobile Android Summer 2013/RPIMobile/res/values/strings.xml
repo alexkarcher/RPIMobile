@@ -11,4 +11,30 @@
     <string name="Fragment3">This is Fragment 3</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="temperatureOptions">
+        <item >Fahrenheit</item>
+        <item >Celsius</item>
+        <item >Kelvin</item>
+    </string-array>
+    <string-array name="temperatureValues">
+        <item >f</item>
+        <item >c</item>
+        <item >k</item>
+    </string-array>
+        <string-array name="listOptions">
+        <item >Main Menu</item>
+        <item >Weather</item>
+        <item >Laundry</item>
+        <item >Twitter</item>
+        <item >Althletics</item>
+        <item >Events</item>
+    </string-array>
+    <string-array name="listValues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+    </string-array>
 </resources>

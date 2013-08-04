@@ -1,6 +1,9 @@
 package rpi.edu.rpimobile;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+
+import rpi.edu.rpimobile.model.RSSObject;
 
 
 import android.content.Context;
@@ -17,27 +20,23 @@ public class RSSListAdapter extends BaseAdapter {
  
     // Declare Variables
     Context context;
-    ArrayList<String> titles;
-	ArrayList<String> links;
-	ArrayList<String> times;
+	ArrayList<RSSObject> items;
     LayoutInflater inflater;
  
-    public RSSListAdapter(Context context, ArrayList<String> titles_, ArrayList<String> links_, ArrayList<String> times_) {
+    public RSSListAdapter(Context context, ArrayList<RSSObject> items_) {
         this.context = context;
-        this.titles = titles_;
-        this.times = times_;
-        this.links= links_;
+        this.items = items_;
 
     }
  
     @Override
     public int getCount() {
-        return titles.size();
+        return items.size();
     }
  
     @Override
     public Object getItem(int position) {
-        return titles.get(position);
+        return items.get(position);
     }
  
     @Override
@@ -59,7 +58,7 @@ public class RSSListAdapter extends BaseAdapter {
 			
 			@Override
 			public void onClick(View v) {
-				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(links.get(position)));
+				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(items.get(position).link));
 				context.startActivity(browserIntent);
 				
 			}
@@ -71,8 +70,10 @@ public class RSSListAdapter extends BaseAdapter {
         txtheading = (TextView) itemView.findViewById(R.id.rssheading);
         
         // Set the results into TextViews
-        txttitle.setText(titles.get(position));
-        txtheading.setText("General | "+times.get(position));
+        txttitle.setText(items.get(position).title);
+
+        SimpleDateFormat dtime = new SimpleDateFormat("h:mm a, MMM d");
+        txtheading.setText(items.get(position).category+" | "+dtime.format(items.get(position).time));
         
         // Set the results into ImageView
         

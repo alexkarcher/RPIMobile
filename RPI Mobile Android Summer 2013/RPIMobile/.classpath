@@ -7,6 +7,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/android-rss-master"/>
-	<classpathentry kind="lib" path="E:/Dropbox/workspace/YouTubeAndroidAPIDemo/libs/YouTubeAndroidPlayerApi.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

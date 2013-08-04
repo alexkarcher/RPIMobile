@@ -2,39 +2,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
-    android:background="#b8b8b8">
+    android:background="#ffffff">  <!-- @drawable/weatherfield -->
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:gravity="right"
+        android:paddingRight="8dp"
 
         android:orientation="vertical" >
 	        <LinearLayout
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:orientation="horizontal" >
+	        android:orientation="horizontal" 
+	        android:gravity="right">
 
 	            <TextView
 	                android:id="@+id/Temperature"
-	                android:textSize="24pt"
+	                android:textSize="28pt"
 	                android:textColor="#000000"
+	                android:gravity="right"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:text="TextView" />
+	            <TextView
+	                android:id="@+id/hilow"
+	                android:textSize="10pt"
+	                android:paddingLeft="5dp"
+	                android:textColor="#000000"
+	                android:gravity="center_vertical|left"
+	                android:layout_width="wrap_content"
+	                android:layout_height="fill_parent"
+	                android:text="TextView" />
+	            
 
-	            <ImageView
+	        <!--    <ImageView
 	                android:id="@+id/weathericon"
 	                android:layout_width="wrap_content"
 	                android:layout_height="30dp"
 	                android:layout_gravity="center_vertical|right"
-	                />
+	                />  -->
 	    	
-	    	</LinearLayout>
+	    </LinearLayout>	
 
 	        <TextView
 	            android:id="@+id/City"
-	            android:textSize="10pt"
+	            android:textSize="12pt"
 	            android:textColor="#000000"
+	            android:gravity="right"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:text="TextView" />

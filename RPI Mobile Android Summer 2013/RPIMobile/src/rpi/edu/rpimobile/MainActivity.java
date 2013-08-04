@@ -15,13 +15,17 @@ import com.actionbarsherlock.view.MenuItem;
 import com.google.android.youtube.player.YouTubeIntents;
  
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.Fragment;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -48,11 +52,15 @@ public class MainActivity extends SherlockFragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Start onCreate");
+        
+        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+        
         setContentView(R.layout.activity_main);
         
         // Generate title
-        title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events","Shuttles","Directory","TV Listings","Building Hours",
-                "Videos","Map" };
+        title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events"/*,"Shuttles","Directory","TV Listings","Building Hours",
+                "Map"*/,"Videos" };
  
         // Generate subtitle
         //subtitle = new String[] { "Subtitle Fragment 1", "Subtitle Fragment 2",
@@ -60,8 +68,8 @@ public class MainActivity extends SherlockFragmentActivity {
  
         // Generate icon
         icon = new int[] { R.drawable.ic_wm_weather, R.drawable.ic_wm_laundry, R.drawable.ic_m_twitter, R.drawable.ic_wm_athletics,
-        		R.drawable.ic_wm_event, R.drawable.ic_wm_shuttle, R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, R.drawable.ic_wm_map,
-        		R.drawable.ic_wm_video,R.drawable.ic_wm_map
+        		R.drawable.ic_wm_event,/* R.drawable.ic_wm_shuttle, R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, R.drawable.ic_wm_map,
+        		R.drawable.ic_wm_map,*/ R.drawable.ic_wm_video
                 };
  
         // Locate DrawerLayout in drawer_main.xml
@@ -83,7 +91,7 @@ public class MainActivity extends SherlockFragmentActivity {
  
         // Capture button clicks on side menu
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
- 
+        
         // Enable ActionBar app icon to behave as action to toggle nav drawer
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -108,23 +116,44 @@ public class MainActivity extends SherlockFragmentActivity {
         };
  
         mDrawerLayout.setDrawerListener(mDrawerToggle);
- 
+        
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        int startupscreen = Integer.parseInt(prefs.getString("startuppref", "0"));
+        
+        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Loading screen: " + startupscreen);
+        
         if (savedInstanceState == null) {
+        	if(startupscreen==0){
             selectItem(0);
+            actiontitle = title[0];
+            mDrawerLayout.openDrawer(mDrawerList);
+            }
+        	else{
+        		selectItem(startupscreen-1);
+        		actiontitle = title[startupscreen-1];
+        		getSupportActionBar().setTitle(actiontitle);
+        	}
+        		
         }
-        actiontitle = title[0];
-        mDrawerLayout.openDrawer(mDrawerList);
+        else{
+        	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "savedInstance state wasn't null");
+        }
+        
+        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Oncreate ran");
     }
  
+    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+    	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Inflating Menu");
         getSupportMenuInflater().inflate(R.menu.main, menu);
+        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Menu inflated");
         return true;
     }
  
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
- 
+    	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "MainAvtivity onOptions Selected");
         if (item.getItemId() == android.R.id.home) {
 
             if (mDrawerLayout.isDrawerOpen(mDrawerList)) {
@@ -132,6 +161,10 @@ public class MainActivity extends SherlockFragmentActivity {
             } else {
                 mDrawerLayout.openDrawer(mDrawerList);
             }
+        }
+        else if(item.getItemId() == R.id.action_settings){
+        	Intent intent = new Intent(MainActivity.this, PrefsActivity.class);
+        	startActivity(intent);
         }
  
         return super.onOptionsItemSelected(item);
@@ -145,13 +178,13 @@ public class MainActivity extends SherlockFragmentActivity {
                 long id) {
             selectItem(position);
             mDrawerList.setItemChecked(position, true);
-            actiontitle = title[position];
+            if(position!=5) actiontitle = title[position];
             getSupportActionBar().setTitle(actiontitle);
         }
     }
  
     private void selectItem(int position) {
- 
+    	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Beginnning fragment Transaction");
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         // Locate Position
         switch (position) {
@@ -170,7 +203,7 @@ public class MainActivity extends SherlockFragmentActivity {
         case 4: //Events
         	ft.replace(R.id.content_frame, fragment5);
         	break;
-        case 5: //Shuttles
+ /*       case 5: //Shuttles
         	Toast.makeText(this, "Shuttles selected", Toast.LENGTH_SHORT).show();
         	break;
         case 6: //Directory
@@ -182,13 +215,13 @@ public class MainActivity extends SherlockFragmentActivity {
         case 8: //Building Hours
         	Toast.makeText(this, "Building Hours selected", Toast.LENGTH_SHORT).show();
         	break;
-        case 9: //Videos
+        case 9://Map
+        	Toast.makeText(this, "Map selected", Toast.LENGTH_SHORT).show();
+        	break; //*/
+        case 5: //Videos
         	//Toast.makeText(this, "Videos selected", Toast.LENGTH_SHORT).show();
         	Intent i = YouTubeIntents.createUserIntent(this, "rpirensselaer");
         	startActivity(i);
-        	break;
-        case 10://Map
-        	Toast.makeText(this, "Map selected", Toast.LENGTH_SHORT).show();
         	break;
         
         }
@@ -197,7 +230,7 @@ public class MainActivity extends SherlockFragmentActivity {
         mDrawerList.setItemChecked(position, true);
         // Close drawer
         mDrawerLayout.closeDrawer(mDrawerList);
-        
+        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Fragment Transaction finished");
         switch(position){
         case 2:
         	

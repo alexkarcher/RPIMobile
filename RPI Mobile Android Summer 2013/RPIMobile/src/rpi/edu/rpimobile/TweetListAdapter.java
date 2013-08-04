@@ -1,14 +1,18 @@
 package rpi.edu.rpimobile;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
+import rpi.edu.rpimobile.model.tweetobject;
 
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.method.LinkMovementMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,28 +24,24 @@ public class TweetListAdapter extends BaseAdapter {
  
     // Declare Variables
     Context context;
-    ArrayList<String> avatars;
-	ArrayList<String> usernames;
-	ArrayList<Date> times;
-	ArrayList<String> tweetbodies;
+	ArrayList<tweetobject> tweets;
     LayoutInflater inflater;
  
-    public TweetListAdapter(Context context, ArrayList<String> avatars_, ArrayList<String> usernames_, ArrayList<Date> times_, ArrayList<String> tweetbodies_) {
+    public TweetListAdapter(Context context, ArrayList<tweetobject> tweets_) {
+    	//if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Tweetlist Size:"+tweets.size());
         this.context = context;
-        this.avatars = avatars_;
-        this.usernames= usernames_;
-        this.times = times_;
-        this.tweetbodies = tweetbodies_;
+        this.tweets = tweets_;
     }
  
     @Override
     public int getCount() {
-        return avatars.size();
+    	//if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Tweetlist Size:"+tweets.size());
+        return tweets.size();
     }
  
     @Override
     public Object getItem(int position) {
-        return avatars.get(position);
+        return tweets.get(position);
     }
  
     @Override
@@ -69,13 +69,16 @@ public class TweetListAdapter extends BaseAdapter {
         imgIcon = (ImageView) itemView.findViewById(R.id.avatar);
         
         // Set the results into TextViews
-        txtusername.setText(usernames.get(position));
-        txttime.setText(times.get(position).toString());
-        txtbody.setText(tweetbodies.get(position));
+        txtusername.setText(tweets.get(position).username);
+        
+        SimpleDateFormat dtime = new SimpleDateFormat("h:mm a, MMM d");
+        txttime.setText(dtime.format(tweets.get(position).time));
+        
+        txtbody.setText(tweets.get(position).body);
         txtbody.setMovementMethod(LinkMovementMethod.getInstance());
         // Set the results into ImageView
         //imgIcon.setImageResource(avatars.get(position));
-        File storemap = new File(this.context.getDir("avatars", Context.MODE_PRIVATE)+avatars.get(position));//declare what map image to use
+        File storemap = new File(this.context.getDir("avatars", Context.MODE_PRIVATE)+tweets.get(position).avatar);//declare what map image to use
 		Bitmap myBitmap = BitmapFactory.decodeFile(storemap.getAbsolutePath());
 		imgIcon.setImageBitmap(myBitmap);//set the map to the imageview
         
