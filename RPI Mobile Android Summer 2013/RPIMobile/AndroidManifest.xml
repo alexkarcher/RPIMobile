@@ -3,7 +3,8 @@
     package="rpi.edu.rpimobile"
     android:versionCode="1"
     android:versionName="0.7" >
-
+	
+<!--     Target Version 2.2 and up 		-->
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />

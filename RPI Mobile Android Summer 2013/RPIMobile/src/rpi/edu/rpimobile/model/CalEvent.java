@@ -1,7 +1,7 @@
 package rpi.edu.rpimobile.model;
 
-import android.net.Uri;
 
+//Class for storing all of the variables associated with a Calendar call
 public class CalEvent {
 	
 	//public String title;

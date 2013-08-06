@@ -1,13 +1,5 @@
 package rpi.edu.rpimobile;
 
-//import android.os.Bundle;
-//import android.app.Activity;
-//import android.view.Menu;
-
-//public class MainActivity extends Activity {
-
-//package com.androidbegin.sidemenututorial;
-
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
@@ -28,19 +20,18 @@ import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 import android.support.v4.view.GravityCompat;
  
+//MainActivity. Holds the navagation drawer and the fragment frame
 public class MainActivity extends SherlockFragmentActivity {
  
-    // Declare Variable
+    // Declare Variables to be used in this function
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
     private MenuListAdapter mMenuAdapter;
     private String actiontitle;
     private String[] title;
-    //private String[] subtitle;
     private int[] icon;
     private Fragment fragment1 = new Fragment1();
     private Fragment fragment2 = new Fragment2();
@@ -48,25 +39,22 @@ public class MainActivity extends SherlockFragmentActivity {
     private Fragment fragment4 = new Fragment4();
     private Fragment fragment5 = new Fragment5();
     
- 
+  //Initial function
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Start onCreate");
-        
+        logcat( "Start onCreate");
+        //Allow the action bar to display indeterminate progress
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         
+        //Set the view to show the activity_main xml file
         setContentView(R.layout.activity_main);
         
-        // Generate title
+        // Generate title array
         title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events"/*,"Shuttles","Directory","TV Listings","Building Hours",
                 "Map"*/,"Videos" };
  
-        // Generate subtitle
-        //subtitle = new String[] { "Subtitle Fragment 1", "Subtitle Fragment 2",
-         //       "Subtitle Fragment 3" };
- 
-        // Generate icon
+        // Generate icon array
         icon = new int[] { R.drawable.ic_wm_weather, R.drawable.ic_wm_laundry, R.drawable.ic_m_twitter, R.drawable.ic_wm_athletics,
         		R.drawable.ic_wm_event,/* R.drawable.ic_wm_shuttle, R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, R.drawable.ic_wm_map,
         		R.drawable.ic_wm_map,*/ R.drawable.ic_wm_video
@@ -78,8 +66,7 @@ public class MainActivity extends SherlockFragmentActivity {
         // Locate ListView in drawer_main.xml
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
  
-        // Set a custom shadow that overlays the main content when the drawer
-        // opens
+        // Set a custom shadow that overlays the main content when the drawer opens
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow,
                 GravityCompat.START);
  
@@ -96,32 +83,32 @@ public class MainActivity extends SherlockFragmentActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
  
-        // ActionBarDrawerToggle ties together the the proper interactions
+        // ActionBarDrawerToggle ties together the proper interactions
         // between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
                 R.drawable.ic_drawer, R.string.drawer_open,
                 R.string.drawer_close) {
  
             public void onDrawerClosed(View view) {
-                // TODO Auto-generated method stub
             	getSupportActionBar().setTitle(actiontitle);
                 super.onDrawerClosed(view);
             }
  
             public void onDrawerOpened(View drawerView) {
-                // TODO Auto-generated method stub
             	getSupportActionBar().setTitle(R.string.app_name);
                 super.onDrawerOpened(drawerView);
             }
         };
- 
+        
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         
+        //retrieve the startup screen preference
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         int startupscreen = Integer.parseInt(prefs.getString("startuppref", "0"));
         
-        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Loading screen: " + startupscreen);
+        logcat( "Loading screen: " + startupscreen);
         
+        //if the preference is to load the menu then open the navagation drawer
         if (savedInstanceState == null) {
         	if(startupscreen==0){
             selectItem(0);
@@ -129,6 +116,7 @@ public class MainActivity extends SherlockFragmentActivity {
             mDrawerLayout.openDrawer(mDrawerList);
             }
         	else{
+        		//if the user selected a specific screen then load that.
         		selectItem(startupscreen-1);
         		actiontitle = title[startupscreen-1];
         		getSupportActionBar().setTitle(actiontitle);
@@ -136,26 +124,29 @@ public class MainActivity extends SherlockFragmentActivity {
         		
         }
         else{
-        	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "savedInstance state wasn't null");
+        	logcat( "savedInstance state wasn't null");
         }
         
-        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Oncreate ran");
+        logcat( "Oncreate ran");
     }
  
     
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-    	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Inflating Menu");
+    	//Class called when the options menu is populated
+    	logcat( "Inflating Menu");
+    	//Inflate the menu xml file
         getSupportMenuInflater().inflate(R.menu.main, menu);
-        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Menu inflated");
+        logcat( "Menu inflated");
         return true;
     }
  
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-    	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "MainAvtivity onOptions Selected");
+    	//Class called when a menu item is selected
+    	logcat( "MainAvtivity onOptions Selected");
         if (item.getItemId() == android.R.id.home) {
-
+        	//If the home button is pressed then toggle the drawer open state
             if (mDrawerLayout.isDrawerOpen(mDrawerList)) {
                 mDrawerLayout.closeDrawer(mDrawerList);
             } else {
@@ -163,6 +154,7 @@ public class MainActivity extends SherlockFragmentActivity {
             }
         }
         else if(item.getItemId() == R.id.action_settings){
+        	//if the settings button is pressed then open the settings activity
         	Intent intent = new Intent(MainActivity.this, PrefsActivity.class);
         	startActivity(intent);
         }
@@ -176,15 +168,17 @@ public class MainActivity extends SherlockFragmentActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position,
                 long id) {
+        	//if one of the drawer items is clicked then launch that fragment
             selectItem(position);
             mDrawerList.setItemChecked(position, true);
+            //if the item was the youtube feed then don't change the action bar title
             if(position!=5) actiontitle = title[position];
             getSupportActionBar().setTitle(actiontitle);
         }
     }
- 
+    //Function that takes the selected item and launches the respective activity
     private void selectItem(int position) {
-    	if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Beginnning fragment Transaction");
+    	logcat( "Beginnning fragment Transaction");
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         // Locate Position
         switch (position) {
@@ -203,6 +197,8 @@ public class MainActivity extends SherlockFragmentActivity {
         case 4: //Events
         	ft.replace(R.id.content_frame, fragment5);
         	break;
+        //these are the future items. They will be uncommented as they are implemented	
+        	
  /*       case 5: //Shuttles
         	Toast.makeText(this, "Shuttles selected", Toast.LENGTH_SHORT).show();
         	break;
@@ -219,7 +215,7 @@ public class MainActivity extends SherlockFragmentActivity {
         	Toast.makeText(this, "Map selected", Toast.LENGTH_SHORT).show();
         	break; //*/
         case 5: //Videos
-        	//Toast.makeText(this, "Videos selected", Toast.LENGTH_SHORT).show();
+        	//the Youtube feed just opens the external youtube application
         	Intent i = YouTubeIntents.createUserIntent(this, "rpirensselaer");
         	startActivity(i);
         	break;
@@ -230,7 +226,7 @@ public class MainActivity extends SherlockFragmentActivity {
         mDrawerList.setItemChecked(position, true);
         // Close drawer
         mDrawerLayout.closeDrawer(mDrawerList);
-        if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false)) Log.d("RPI", "Fragment Transaction finished");
+        logcat( "Fragment Transaction finished");
         switch(position){
         case 2:
         	
@@ -252,5 +248,10 @@ public class MainActivity extends SherlockFragmentActivity {
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
+    private void logcat(String logtext){
+		//code to write a log.d message if the user allows it in preferences
+		if(PreferenceManager.getDefaultSharedPreferences(this).getBoolean("debugging", false))
+			Log.d("RPI", logtext);
+	}
 }
 	

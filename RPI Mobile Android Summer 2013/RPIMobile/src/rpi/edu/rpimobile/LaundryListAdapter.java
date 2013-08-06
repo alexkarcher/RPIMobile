@@ -19,13 +19,13 @@ import android.widget.TextView;
  
 public class LaundryListAdapter extends BaseAdapter {
  
-    // Declare Variables
+	//All variables to be used throughout the function
     Context context;
     ArrayList<Building> buildings;
     LayoutInflater inflater;
  
     public LaundryListAdapter(Context context, ArrayList<Building> buildings_) {
-    	
+    	//Assign passed list and context to local variables in the class 
         this.context = context;
         this.buildings = buildings_;
 
@@ -33,9 +33,11 @@ public class LaundryListAdapter extends BaseAdapter {
  
     @Override
     public int getCount() {
+    	//Method to tell Android the amount of items in the list
         return buildings.size();
     }
  
+  //These functions are not used in the current implementation
     @Override
     public Object getItem(int position) {
         return buildings.get(position);
@@ -47,20 +49,21 @@ public class LaundryListAdapter extends BaseAdapter {
     }
  
     public View getView(final int position, View convertView, ViewGroup parent) {
-        // Declare Variables
-    	//if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Setting layout Inflater");
+    	//inflate the layout into the parent view
         inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View itemView = inflater.inflate(R.layout.laundry_list_item, parent,
                 false);
-    	
-        //if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Assigning Views");
+     
+        // Declare Views and assign them to their respective widgets defined in the xml file
         TextView txttitle = (TextView) itemView.findViewById(R.id.building_title);
         TextView txtavai_washers = (TextView) itemView.findViewById(R.id.available_washers);
         TextView txtavai_dryers = (TextView) itemView.findViewById(R.id.available_dryers);
         TextView txtused_washers = (TextView) itemView.findViewById(R.id.used_washers);
         TextView txtused_dryers = (TextView) itemView.findViewById(R.id.used_dryers);
         
+        
+        //Onclick listener to eventually be used to open each room's individual laundry status
         /*itemView.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -72,20 +75,12 @@ public class LaundryListAdapter extends BaseAdapter {
         
         
         // Set the results into TextViews
-        //if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Setting Title");
         txttitle.setText(buildings.get(position).tag);
-        //if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "setting available washers");
         txtavai_washers.setText(String.valueOf(buildings.get(position).available_washers));
-       // if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Setting available dryers");
         txtavai_dryers.setText(String.valueOf(buildings.get(position).available_dryers));
-        //if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "setting used washers");
         txtused_washers.setText(String.valueOf(buildings.get(position).used_washers));
-       // if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "settting used dryers");
         txtused_dryers.setText(String.valueOf(buildings.get(position).used_dryers));
         
-        // Set the results into ImageView
-        
-       // if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Returning view");
         return itemView;
     }
  

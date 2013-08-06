@@ -1,5 +1,6 @@
 package rpi.edu.rpimobile.model;
 
+//Class for storing all of the variables associated with a laundry call
 public class Building{
 	
 	public String tag = "";

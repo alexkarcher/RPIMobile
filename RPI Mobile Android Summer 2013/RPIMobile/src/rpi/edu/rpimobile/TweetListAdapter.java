@@ -28,7 +28,6 @@ public class TweetListAdapter extends BaseAdapter {
     LayoutInflater inflater;
  
     public TweetListAdapter(Context context, ArrayList<tweetobject> tweets_) {
-    	//if(PreferenceManager.getDefaultSharedPreferences(this.context).getBoolean("debugging", false)) Log.d("RPI", "Tweetlist Size:"+tweets.size());
         this.context = context;
         this.tweets = tweets_;
     }
@@ -71,6 +70,7 @@ public class TweetListAdapter extends BaseAdapter {
         // Set the results into TextViews
         txtusername.setText(tweets.get(position).username);
         
+        //Format the date/time correctly
         SimpleDateFormat dtime = new SimpleDateFormat("h:mm a, MMM d");
         txttime.setText(dtime.format(tweets.get(position).time));
         

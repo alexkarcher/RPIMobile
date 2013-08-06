@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
  
+//Listadapter for the navigation drawer
 public class MenuListAdapter extends BaseAdapter {
  
     // Declare Variables
@@ -17,19 +18,20 @@ public class MenuListAdapter extends BaseAdapter {
     int[] mIcon;
     LayoutInflater inflater;
  
-    public MenuListAdapter(Context context, String[] title,// String[] subtitle,
-            int[] icon) {
+    public MenuListAdapter(Context context, String[] title, int[] icon) {
+    	//assign passed variables to local variables
         this.context = context;
         this.mTitle = title;
-        //this.mSubTitle = subtitle;
         this.mIcon = icon;
     }
  
     @Override
     public int getCount() {
+    	//Method to tell Android the amount of items in the list
         return mTitle.length;
     }
  
+    //These functions are not used in the current implementation
     @Override
     public Object getItem(int position) {
         return mTitle[position];
@@ -43,7 +45,6 @@ public class MenuListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Declare Variables
         TextView txtTitle;
-        //TextView txtSubTitle;
         ImageView imgIcon;
  
         inflater = (LayoutInflater) context
@@ -53,14 +54,12 @@ public class MenuListAdapter extends BaseAdapter {
  
         // Locate the TextViews in drawer_list_item.xml
         txtTitle = (TextView) itemView.findViewById(R.id.title);
-       // txtSubTitle = (TextView) itemView.findViewById(R.id.subtitle);
  
         // Locate the ImageView in drawer_list_item.xml
         imgIcon = (ImageView) itemView.findViewById(R.id.icon);
  
         // Set the results into TextViews
         txtTitle.setText(mTitle[position]);
-      //  txtSubTitle.setText(mSubTitle[position]);
  
         // Set the results into ImageView
         imgIcon.setImageResource(mIcon[position]);

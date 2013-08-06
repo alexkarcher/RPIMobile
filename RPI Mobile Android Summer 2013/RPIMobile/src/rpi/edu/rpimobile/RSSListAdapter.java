@@ -24,6 +24,7 @@ public class RSSListAdapter extends BaseAdapter {
     LayoutInflater inflater;
  
     public RSSListAdapter(Context context, ArrayList<RSSObject> items_) {
+    	//Assign passed list and context to local variables in the class
         this.context = context;
         this.items = items_;
 
@@ -31,9 +32,11 @@ public class RSSListAdapter extends BaseAdapter {
  
     @Override
     public int getCount() {
+    	//Method to tell Android the amount of items in the list
         return items.size();
     }
  
+  //These functions are not used in the current implementation
     @Override
     public Object getItem(int position) {
         return items.get(position);
@@ -49,11 +52,13 @@ public class RSSListAdapter extends BaseAdapter {
         TextView txttitle;
         TextView txtheading;
         
+      //inflate the layout into the parent view
         inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View itemView = inflater.inflate(R.layout.rss_list_item, parent,
                 false);
         
+      //set an OnClickListener on the parent view to launch a link intent when clicked 
         itemView.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -65,18 +70,16 @@ public class RSSListAdapter extends BaseAdapter {
 		});
         
         
-        // Locate the TextViews in drawer_list_item.xml
+        // Locate the TextViews in rss_list_item.xml
         txttitle = (TextView) itemView.findViewById(R.id.rsstitle);
         txtheading = (TextView) itemView.findViewById(R.id.rssheading);
         
         // Set the results into TextViews
         txttitle.setText(items.get(position).title);
 
+        //convert the date/time to the correct format
         SimpleDateFormat dtime = new SimpleDateFormat("h:mm a, MMM d");
         txtheading.setText(items.get(position).category+" | "+dtime.format(items.get(position).time));
-        
-        // Set the results into ImageView
-        
  
         return itemView;
     }

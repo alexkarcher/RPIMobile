@@ -22,63 +22,55 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
  
+//Events Calendar fragment
 public class Fragment5 extends SherlockFragment {
     
-	private TextView tempview;
-	private TextView cityview;
+	//All variables to be used throughout the function
 	private JSONObject jObj;
 	private ArrayList<CalEvent> events;
 	private CalendarListAdapter listadapter;
 	private MenuItem refreshbutton;
-	private JSONCallendarTask downloadtask;
+	private JSONCalendarTask downloadtask;
 	
+	
+	//Initial function
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment5, container, false);
+    	//Inflate the layout into the parent view of container view of the parent class
+		View rootView = inflater.inflate(R.layout.fragment5, container, false);
+		
+		//Allow this fragment to interact with the menu
         setHasOptionsMenu(true);
         
+        //initialize data
         events = new ArrayList<CalEvent>();
         
+        //set an adapter up for the listview to handle displaying the data
         ListView callist = (ListView) rootView.findViewById(R.id.calendarlist);
         listadapter = new CalendarListAdapter(this.getActivity(), events);
         callist.setAdapter(listadapter);
         
-        downloadtask = new JSONCallendarTask();
+        //Start the download of the calendar data
+        downloadtask = new JSONCalendarTask();
 		downloadtask.execute(new String[]{"http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/no--filter/no--object.json"});
-        
-		
-      /*  WebView webv = (WebView) rootView.findViewById(R.id.WeatherWebView);
-        webv.getSettings().setJavaScriptEnabled(true);
-        webv.setWebViewClient(new WebViewClient());
-        
-        /*XML to add again
-            <WebView
-        android:id="@+id/WeatherWebView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
- 			/> *//*
-        
-        
-        webv.loadUrl("http://m.weather.com/weather/today/12180");
-        //webv.loadUrl("http://www.google.com");*/
-        
-        
         
        return rootView;
     }
 	
+	
+	//Class to be run when the fragment is terminated
 	@Override
 	public void onStop(){
     	super.onStop();
+    	//this class, for some reason, didn't like the logcat() function. Very strange.
     	if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Running onStop()");
     	//check the state of the Download() task
     	if(downloadtask != null && downloadtask.getStatus() == Status.RUNNING){
+    		//if there is a download running stop it
     		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Stopping Thread");	
     		downloadtask.cancel(true);
     		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Thread Stopped");
@@ -86,21 +78,23 @@ public class Fragment5 extends SherlockFragment {
     }
 	
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
+		//Class called when the options menu is populated
 		super.onCreateOptionsMenu(menu, inflater);
+		//Add a refresh button and set its icon and visibility
 		refreshbutton = menu.add("Refresh");
 		refreshbutton.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 		refreshbutton.setIcon(R.drawable.navigation_refresh);
 	}
-	
+	//Class called when an options item is selected
 	public boolean onOptionsItemSelected(MenuItem item) {
-		 
+		//If the refresh button was pressed
         if (item == refreshbutton){
-        	
-        	downloadtask = new JSONCallendarTask();
+        	//refresh the data
+        	downloadtask = new JSONCalendarTask();
     		downloadtask.execute(new String[]{"http://events.rpi.edu/webcache/v1.0/jsonDays/31/list-json/no--filter/no--object.json"});
         	
         }
- 
+      //This passes the call back up the chain to the main class, which also handles onOptionsitemSeleced events
         return super.onOptionsItemSelected(item);
     }
 	
@@ -108,49 +102,51 @@ public class Fragment5 extends SherlockFragment {
 	
 	
 	
-	
-	private class JSONCallendarTask extends AsyncTask<String, Void, Boolean> {
+	//AsyncTask thread to download calendar data
+	private class JSONCalendarTask extends AsyncTask<String, Void, Boolean> {
 
-		
+		//before the thread is executed set the action bar to show indeterminate progress, usually a spinner
 		protected void onPreExecute(){
 			getActivity().setProgressBarIndeterminateVisibility(Boolean.TRUE);
 		}
 		
-		
+		//Class to be ran in another thread
 		@Override
 		protected Boolean doInBackground(String... params) {
+			//If a looper hasn't already been prepared by another thread prepare one for this application
 			if (Looper.myLooper()==null) {
 				 Looper.prepare();
 			 }
-			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Begining Download");
+			logcat( "Begining Download");
 			String data;
 			CalEvent temp = new CalEvent();
-			//Weather weather = new Weather();
+			//Try to download data
 			try {
 			data = ( (new WeatherHttpClient()).getWeatherData(params[0]));//+"&units=imperial"));
-			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "downloaded data of length "+data.length());
+			logcat( "downloaded data of length "+data.length());
 			}
 			catch(Exception e){
+				//if the download failed quit the thread and notify the user
 				e.printStackTrace();
 				Toast.makeText(getActivity(), "Calendar Download Failed", Toast.LENGTH_SHORT).show();
 				return true;
 			}
+			//Try to read all of the JSON objects into their respective variables
 			try {
-				//weather = JSONWeatherParser.getWeather(data);
 				jObj = new JSONObject(data);
-				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Parsing items");
+				logcat( "Parsing items");
 				
 				JSONArray items = jObj.getJSONObject("bwEventList").getJSONArray("events");
 				JSONObject tempJ;
 				
-				
+				//loop through each of the event items in the array
 				for(int i = 0; i<items.length(); i++){
-					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Adding item #"+i);
+					logcat( "Adding item #"+i);
 					temp = new CalEvent();
 					
 					tempJ = items.getJSONObject(i);
 					
-					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Getting variables");
+					logcat( "Getting variables");
 					
 					temp.summary = tempJ.getString("summary");
 					temp.link = tempJ.getString("eventlink");
@@ -164,20 +160,17 @@ public class Fragment5 extends SherlockFragment {
 					
 					events.add(temp);
 					
-					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Item saved: "+temp.summary);
+					logcat( "Item saved: "+temp.summary);
 				}
 				
-				
-				
-				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Data pushed, Size: "+events.size());
-				//today.icon = (new WeatherHttpClient()).getImage(tempicon);
+				logcat( "Data pushed, Size: "+events.size());
 
 			} catch (JSONException e) {				
 				e.printStackTrace();
-				//Toast.makeText(getActivity(), "Weather Download Failed", Toast.LENGTH_SHORT).show();
 			}
+			//Quit the looper now that we're done with it
 			Looper.myLooper().quit();
-			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Finished Download");
+			logcat( "Finished Download");
 			return true;
 
 	}
@@ -186,22 +179,28 @@ public class Fragment5 extends SherlockFragment {
 
 
 	@Override
-		protected void onPostExecute(Boolean results) {			
-			//super.onPostExecute(weather);
-			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Updating List");
+		protected void onPostExecute(Boolean results) {	
+		//code to be ran in the UI thread after the background thread has completed
+			logcat( "Updating List");
+			//Set the action bar back to normal
 			getActivity().setProgressBarIndeterminateVisibility(Boolean.FALSE);
 			
 			try{
+				//Notify the list of new data
 				listadapter.notifyDataSetChanged();
 			}
 			catch(Exception e){
-				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", e.toString());
+				logcat( e.toString());
 			}
 			
 		}
 
 
-
+	private void logcat(String logtext){
+		//code to write a log.d message if the user allows it in preferences
+		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false))
+			Log.d("RPI", logtext);
+	}
 
 
 

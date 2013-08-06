@@ -27,81 +27,104 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import rpi.edu.rpimobile.model.Building;
 
-
+//Laundry Fragment
 public class Fragment2 extends SherlockFragment {
     
+	//All variables to be used throughout the function
     private ArrayList<Building> buildings;
     private ListView buildinglist;
     private LaundryListAdapter listadapter;
     private MenuItem refreshbutton;
     private AsyncTask downloadtask;
     
+    
+    //Initial function
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
+    	
+    	//Inflate the layout into the parent view of container view of the parent class
     	View rootView = inflater.inflate(R.layout.fragment2, container, false);
+    	
+    	//Allow this fragment to interact with the menu
     	setHasOptionsMenu(true);
     	
+    	//Point the buildings variable to an arraylist of Building objects
         buildings = new ArrayList<Building>();
         
+        //assign a list adapter to the listview to handle displaying the data
         buildinglist = (ListView) rootView.findViewById(R.id.laundrylist);
         listadapter = new LaundryListAdapter(this.getActivity(), buildings);
         buildinglist.setAdapter(listadapter);
         
+        //download the Laundry data
         downloadtask = new Fragment2.Download().execute(5.0);
         
         
         return rootView;
     }
     
+  //Class to be run when the fragment is terminated
     @Override
 	public void onStop(){
     	super.onStop();
-    	if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Running onStop()");
+    	logcat( "Running onStop()");
     	//check the state of the Download() task
     	if(downloadtask != null && downloadtask.getStatus() == Status.RUNNING){
-    		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Stopping Thread");	
+    		//if there is a download running stop it
+    		logcat( "Stopping Thread");	
     		downloadtask.cancel(true);
-    		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Thread Stopped");
+    		logcat( "Thread Stopped");
     	}
     }
     
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
+    	//Class called when the options menu is populated
 		super.onCreateOptionsMenu(menu, inflater);
+		
+		//Add a refresh button and set its icon and visibility
 		refreshbutton = menu.add("Refresh");
 		refreshbutton.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 		refreshbutton.setIcon(R.drawable.navigation_refresh);
 	}
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
-		 
+		//Class called when an options item is selected
+		
+		//If the refresh button was pressed
         if (item == refreshbutton){
         	
+        	//Download the weather again
         	downloadtask = new Fragment2.Download().execute(5.0);
         	
         }
- 
+        
+      //This passes the call back up the chain to the main class, which also handles onOptionsitemSeleced events
         return super.onOptionsItemSelected(item);
     }
 	
-
+	//AsynchTask thread to download laundry data
     private class Download extends AsyncTask<Double, Void, Boolean>{
     		
+    	//before the thread is executed set the action bar to show indeterminate progress, usually a spinner
     	protected void onPreExecute(){
 			getActivity().setProgressBarIndeterminateVisibility(Boolean.TRUE);
 		}
     	
-    	
+    		
+    	//Class to be ran in another thread
     		@Override
     		protected Boolean doInBackground(Double... params) {
-    			// TODO Auto-generated method stub
-    			Building temp = new Building();
     			
+    			//temp variable for storing each building
+    			Building temp = new Building();
+    			//temp variable for the website source
     			String source = "";
     			
-    			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Beginning download");
+    			logcat( "Beginning download");
     			
     			try {
+    				//try to download the source of the webpage
     				HttpClient httpClient = new DefaultHttpClient();
         			HttpGet get = new HttpGet("http://www.laundryalert.com/cgi-bin/rpi2012/LMPage?CallingPage=LMRoom&RoomPersistence=&MachinePersistenceA=023&MachinePersistenceB=");
         			
@@ -114,8 +137,12 @@ public class Fragment2 extends SherlockFragment {
 					e.printStackTrace();
 				}
     			
-    			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Source download Length: "+source.length());
-    			//if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", source);
+    			//This code parses the webpage source and saves each building's name free washers and dryers, and used washers and dryers.
+    			//It is just a simple scrape of the webpage that will be phased out as soon as LaundryAlert has a public API, or RPIMobile 
+    			//has it's own server for data like this.
+    			
+    			logcat( "Source download Length: "+source.length());
+    			//logcat( source);
     			String[] results = source.split("\\s+");
     			int counter = 0;
     			for(int i=0; i<results.length; i++){
@@ -126,20 +153,20 @@ public class Fragment2 extends SherlockFragment {
 	    					
 	    					temp.tag = results[i].substring(12);
 	    					
-	    					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", temp.tag);
+	    					logcat( temp.tag);
 	    					
 	    					i++;
 	    					while(!results[i].contains("font")){
-	    						if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Concatinating: "+results[i]);
+	    						logcat( "Concatinating: "+results[i]);
 	    						temp.tag = temp.tag+" "+results[i];
 	    						i++;
 	    					}
-	    					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", temp.tag);
+	    					logcat( temp.tag);
 	    					
 	    					while(!results[i].contains("sans-serif")) i++;
 	    					i++;
 	    					temp.available_washers=Integer.parseInt(results[i]);
-	    					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", ""+temp.available_washers);
+	    					logcat( ""+temp.available_washers);
 	    					
 	    					while(!results[i].contains("sans-serif")) i++;
 	    					i++;
@@ -161,34 +188,38 @@ public class Fragment2 extends SherlockFragment {
     			
     			
     			
-    	        if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Exiting AsynchTask");
+    	        logcat( "Exiting AsynchTask");
     			return true;
     		}
     		
     		protected void onPostExecute(Boolean results) {
-    			
-    			if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Notifying list");
+    			//code to be ran in the UI thread after the background thread has completed
+    			logcat( "Notifying list");
+    			//Set the action bar back to normal
     			getActivity().setProgressBarIndeterminateVisibility(Boolean.FALSE);
     			try{ 
+    				//if the fragment is visible update the list adapter
     				if(Fragment2.this.isVisible())
     					listadapter.notifyDataSetChanged();
     				else {
-    					if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", "Canceling view, Fragment 2 not visible");
+    					logcat( "Canceling view, Fragment 2 not visible");
     				}
     			}
     			catch(Exception e){
-    				if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false)) Log.d("RPI", e.toString());
+    				logcat( e.toString());
     			}
-    			//dialog.dismiss();
-    			//return true;
-    		}//*/ 
+    		}
 
     		
     		
     	}
 
 
-
+	private void logcat(String logtext){
+		//code to write a log.d message if the user allows it in preferences
+		if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false))
+			Log.d("RPI", logtext);
+	}
 
 
 
