@@ -108,6 +108,7 @@ public class Fragment3 extends SherlockFragment {
     
     //Class called when an options item is selected
   	public boolean onOptionsItemSelected(MenuItem item) {
+  		logcat( "Fragment3: onOptionsItemSelected");
   		//If the refresh button was pressed
           if (item == refreshbutton){
           	//refresh the tweets

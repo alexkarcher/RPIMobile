@@ -20,12 +20,14 @@ public class RSSListAdapter extends BaseAdapter {
  
     // Declare Variables
     Context context;
+    Fragment4 fragment;
 	ArrayList<RSSObject> items;
     LayoutInflater inflater;
  
-    public RSSListAdapter(Context context, ArrayList<RSSObject> items_) {
+    public RSSListAdapter(Context context, Fragment4 fragment_, ArrayList<RSSObject> items_) {
     	//Assign passed list and context to local variables in the class
         this.context = context;
+        this.fragment = fragment_;
         this.items = items_;
 
     }
@@ -33,7 +35,7 @@ public class RSSListAdapter extends BaseAdapter {
     @Override
     public int getCount() {
     	//Method to tell Android the amount of items in the list
-        return items.size();
+        return items.size()+1;
     }
  
   //These functions are not used in the current implementation
@@ -53,9 +55,12 @@ public class RSSListAdapter extends BaseAdapter {
         TextView txtheading;
         
       //inflate the layout into the parent view
+        View itemView;
+        
+        if(position!=items.size()){
         inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View itemView = inflater.inflate(R.layout.rss_list_item, parent,
+        itemView = inflater.inflate(R.layout.rss_list_item, parent,
                 false);
         
       //set an OnClickListener on the parent view to launch a link intent when clicked 
@@ -80,6 +85,15 @@ public class RSSListAdapter extends BaseAdapter {
         //convert the date/time to the correct format
         SimpleDateFormat dtime = new SimpleDateFormat("h:mm a, MMM d");
         txtheading.setText(items.get(position).category+" | "+dtime.format(items.get(position).time));
+        
+        }
+        else{
+        	inflater = (LayoutInflater) context
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            itemView = inflater.inflate(R.layout.loading_list_item, parent,
+                    false);
+            fragment.loadpage(1);
+        }
  
         return itemView;
     }

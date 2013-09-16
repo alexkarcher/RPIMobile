@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".PrefsActivity" >
 
@@ -32,184 +33,184 @@
         -->
     </PreferenceCategory>
     
-    <PreferenceCategory
-        android:title="Feed settings">
+<PreferenceCategory
+   	android:title="Feed settings">
     
-<PreferenceScreen 
-    android:title="Twitter Profiles"
-    android:summary="Twitter Profiles to be shown">
+	<PreferenceScreen 
+	    android:title="Twitter Profiles"
+	    android:summary="Twitter Profiles to be shown">
+	
+	    <PreferenceCategory
+	        android:summary="Active Twitter Profiles"
+	        android:title="Active Twitter Profiles" >
+	
+	        
+	       <CheckBoxPreference
+	            android:key="twitter_rensselaer"
+	            android:summary="Display tweets from @rensselaer"
+	            android:defaultValue="true"
+	            android:title="Rensselaer" />
+	       <CheckBoxPreference
+	            android:key="twitter_rpinews"
+	            android:summary="Display tweets from @RPInews"
+	            android:defaultValue="true"
+	            android:title="Rensselaer News" />
+	       <CheckBoxPreference
+	            android:key="twitter_RPIAlumni"
+	            android:summary="Display tweets from @RPIAlumni"
+	            android:defaultValue="true"
+	            android:title="Rensselaer Alumni Association" />
+	       <CheckBoxPreference
+	            android:key="twitter_RPILally"
+	            android:summary="Display tweets from @RPILally"
+	            android:defaultValue="true"
+	            android:title="Lally School of Management" />
+	       <CheckBoxPreference
+	            android:key="twitter_EMPACNews"
+	            android:summary="Display tweets from @EMPACNews"
+	            android:defaultValue="true"
+	            android:title="EMPAC News" />
+	       <CheckBoxPreference
+	            android:key="twitter_RPISciDean"
+	            android:summary="Display tweets from @RPISciDean"
+	            android:defaultValue="true"
+	            android:title="Dean of Science" />
+	       <CheckBoxPreference
+	            android:key="twitter_RPI_CCPD"
+	            android:summary="Display tweets from @RPI_CCPD"
+	            android:defaultValue="true"
+	            android:title="Career and Professional Development" />
+	   <!-- <CheckBoxPreference
+	            android:key="twitter_"
+	            android:summary="Display tweets from @"
+	            android:defaultValue="true"
+	            android:title="" />  -->    
+	       
+	        
+	        <EditTextPreference
+	            android:defaultValue=""
+	            android:key="customtwitter"
+	            android:summary="Custom user to be included in list"
+	            android:title="Custom Twitter Handle" />
+	
+	       
+	    </PreferenceCategory>
+	
+	</PreferenceScreen>
 
-    <PreferenceCategory
-        android:summary="Active Twitter Profiles"
-        android:title="Active Twitter Profiles" >
-
-        
-       <CheckBoxPreference
-            android:key="twitter_rensselaer"
-            android:summary="Display tweets from @rensselaer"
-            android:defaultValue="true"
-            android:title="Rensselaer" />
-       <CheckBoxPreference
-            android:key="twitter_rpinews"
-            android:summary="Display tweets from @RPInews"
-            android:defaultValue="true"
-            android:title="Rensselaer News" />
-       <CheckBoxPreference
-            android:key="twitter_RPIAlumni"
-            android:summary="Display tweets from @RPIAlumni"
-            android:defaultValue="true"
-            android:title="Rensselaer Alumni Association" />
-       <CheckBoxPreference
-            android:key="twitter_RPILally"
-            android:summary="Display tweets from @RPILally"
-            android:defaultValue="true"
-            android:title="Lally School of Management" />
-       <CheckBoxPreference
-            android:key="twitter_EMPACNews"
-            android:summary="Display tweets from @EMPACNews"
-            android:defaultValue="true"
-            android:title="EMPAC News" />
-       <CheckBoxPreference
-            android:key="twitter_RPISciDean"
-            android:summary="Display tweets from @RPISciDean"
-            android:defaultValue="true"
-            android:title="Dean of Science" />
-       <CheckBoxPreference
-            android:key="twitter_RPI_CCPD"
-            android:summary="Display tweets from @RPI_CCPD"
-            android:defaultValue="true"
-            android:title="Career and Professional Development" />
-   <!-- <CheckBoxPreference
-            android:key="twitter_"
-            android:summary="Display tweets from @"
-            android:defaultValue="true"
-            android:title="" />  -->    
-       
-        
-        <EditTextPreference
-            android:defaultValue=""
-            android:key="customtwitter"
-            android:summary="Custom user to be included in list"
-            android:title="Custom Twitter Handle" />
-
-       
-    </PreferenceCategory>
-
-</PreferenceScreen>
-
-<PreferenceScreen 
-    android:title="Sports Feeds"
-    android:summary="Sports Feeds to be shown">
-
-    <PreferenceCategory
-        android:summary="Active Sports Feeds"
-        android:title="Active Sports Feeds" >
-
-        
-       <CheckBoxPreference
-            android:key="sports_Top"
-            android:defaultValue="true"
-            android:title="Top Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_Baseball"
-            android:defaultValue="false"
-            android:title="Baseball Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_Field Hockey"
-            android:defaultValue="false"
-            android:title="Field Hockey Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_Football"
-            android:defaultValue="false"
-            android:title="Football Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_General"
-            android:defaultValue="false"
-            android:title="General Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Basketball"
-            android:defaultValue="false"
-            android:title="Men's Basketball Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Cross Country"
-            android:defaultValue="false"
-            android:title="Men's Cross Country Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Golf"
-            android:defaultValue="false"
-            android:title="Men's Golf Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Hockey"
-            android:defaultValue="false"
-            android:title="Men's Hockey Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Indoor Track"
-            android:defaultValue="false"
-            android:title="Men's Indoor Track Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Lacrosse"
-            android:defaultValue="false"
-            android:title="Men's Lacrosse Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Soccer"
-            android:defaultValue="false"
-            android:title="Men's Soccer Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Swimming Diving"
-            android:defaultValue="false"
-            android:title="Men's Swimming and Diving Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Tennis"
-            android:defaultValue="false"
-            android:title="Men's Tennis Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_M Track Field"
-            android:defaultValue="false"
-            android:title="Men's Track and Field Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_Softball"
-            android:defaultValue="false"
-            android:title="Softball Stories Feed" />
-		<CheckBoxPreference
-            android:key="sports_W Cross Country"
-            android:defaultValue="false"
-            android:title="Women's Cross Country Stories Feed" />
-        <CheckBoxPreference
-            android:key="sports_W Ice Hockey"
-            android:defaultValue="false"
-            android:title="Women's Ice Hockey Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Indoor Track"
-            android:defaultValue="false"
-            android:title="Women's Indoor Track Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Lacrosse"
-            android:defaultValue="false"
-            android:title="Women's Lacrosse Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Soccer"
-            android:defaultValue="false"
-            android:title="Women's Soccer Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Swimming Diving"
-            android:defaultValue="false"
-            android:title="Women's Swimming and Diving Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Tennis"
-            android:defaultValue="false"
-            android:title="Women's Tennis Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Track Field"
-            android:defaultValue="false"
-            android:title="Women's Track and Field Stories Feed" />
-       <CheckBoxPreference
-            android:key="sports_W Basketball"
-            android:defaultValue="false"
-            android:title="Women's Basketball Stories Feed" />
-       
-    </PreferenceCategory>
-
-</PreferenceScreen>
+	<PreferenceScreen 
+	    android:title="Sports Feeds"
+	    android:summary="Sports Feeds to be shown">
+	
+	    <PreferenceCategory
+	        android:summary="Active Sports Feeds"
+	        android:title="Active Sports Feeds" >
+	
+	        
+	       <CheckBoxPreference
+	            android:key="sports_Top"
+	            android:defaultValue="true"
+	            android:title="Top Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_Baseball"
+	            android:defaultValue="false"
+	            android:title="Baseball Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_Field Hockey"
+	            android:defaultValue="false"
+	            android:title="Field Hockey Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_Football"
+	            android:defaultValue="false"
+	            android:title="Football Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_General"
+	            android:defaultValue="false"
+	            android:title="General Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Basketball"
+	            android:defaultValue="false"
+	            android:title="Men's Basketball Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Cross Country"
+	            android:defaultValue="false"
+	            android:title="Men's Cross Country Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Golf"
+	            android:defaultValue="false"
+	            android:title="Men's Golf Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Hockey"
+	            android:defaultValue="false"
+	            android:title="Men's Hockey Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Indoor Track"
+	            android:defaultValue="false"
+	            android:title="Men's Indoor Track Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Lacrosse"
+	            android:defaultValue="false"
+	            android:title="Men's Lacrosse Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Soccer"
+	            android:defaultValue="false"
+	            android:title="Men's Soccer Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Swimming Diving"
+	            android:defaultValue="false"
+	            android:title="Men's Swimming and Diving Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Tennis"
+	            android:defaultValue="false"
+	            android:title="Men's Tennis Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_M Track Field"
+	            android:defaultValue="false"
+	            android:title="Men's Track and Field Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_Softball"
+	            android:defaultValue="false"
+	            android:title="Softball Stories Feed" />
+			<CheckBoxPreference
+	            android:key="sports_W Cross Country"
+	            android:defaultValue="false"
+	            android:title="Women's Cross Country Stories Feed" />
+	        <CheckBoxPreference
+	            android:key="sports_W Ice Hockey"
+	            android:defaultValue="false"
+	            android:title="Women's Ice Hockey Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Indoor Track"
+	            android:defaultValue="false"
+	            android:title="Women's Indoor Track Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Lacrosse"
+	            android:defaultValue="false"
+	            android:title="Women's Lacrosse Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Soccer"
+	            android:defaultValue="false"
+	            android:title="Women's Soccer Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Swimming Diving"
+	            android:defaultValue="false"
+	            android:title="Women's Swimming and Diving Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Tennis"
+	            android:defaultValue="false"
+	            android:title="Women's Tennis Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Track Field"
+	            android:defaultValue="false"
+	            android:title="Women's Track and Field Stories Feed" />
+	       <CheckBoxPreference
+	            android:key="sports_W Basketball"
+	            android:defaultValue="false"
+	            android:title="Women's Basketball Stories Feed" />
+	       
+	    </PreferenceCategory>
+	
+	</PreferenceScreen>
     
     
 </PreferenceCategory>

@@ -25,6 +25,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 //Sports news feeds
@@ -57,7 +58,7 @@ public class Fragment4 extends SherlockFragment {
         
         //set an adapter up for the listview to handle displaying the data
         rsslist = (ListView) rootView.findViewById(R.id.rsslist);
-        rssadapter = new RSSListAdapter(this.getActivity(), stories);
+        rssadapter = new RSSListAdapter(this.getActivity(), this, stories);
         rsslist.setAdapter(rssadapter);//*/
         
         //Initialize the download cycle to 0
@@ -96,6 +97,7 @@ public class Fragment4 extends SherlockFragment {
 	
   //Class called when an options item is selected
 	public boolean onOptionsItemSelected(MenuItem item) {
+		logcat( "Fragment4: onOptionsItemSelected");
 		//If the refresh button was pressed
         if (item == refreshbutton){
         	//refresh the data
@@ -105,6 +107,11 @@ public class Fragment4 extends SherlockFragment {
       //This passes the call back up the chain to the main class, which also handles onOptionsitemSeleced events
         return super.onOptionsItemSelected(item);
     }
+	
+	//Function to be called when the user scrolls to the end of a page
+	public void loadpage(int pagenum){
+		Toast.makeText(getActivity(), "Loading page", Toast.LENGTH_SHORT).show();
+	}
 	
 	//A variable to keep position in the refreshcycle()
 	public int cyclenum;

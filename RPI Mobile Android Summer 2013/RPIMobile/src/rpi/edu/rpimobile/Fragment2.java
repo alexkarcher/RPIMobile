@@ -2,7 +2,6 @@ package rpi.edu.rpimobile;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -90,7 +89,7 @@ public class Fragment2 extends SherlockFragment {
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
 		//Class called when an options item is selected
-		
+		logcat( "Fragment2: onOptionsItemSelected");
 		//If the refresh button was pressed
         if (item == refreshbutton){
         	

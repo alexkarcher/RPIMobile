@@ -11,20 +11,15 @@ import com.actionbarsherlock.view.MenuItem;
 import rpi.edu.rpimobile.model.Weathervars;
 
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Looper;
 import android.os.AsyncTask.Status;
 import android.preference.PreferenceManager;
-import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
+import android.view.ViewGroup; 
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -69,6 +64,8 @@ public class Fragment1 extends SherlockFragment {
         
         today.temperature = (float) 255.372; //0f in Kelvin
         today.location = "Loading Weather"; //placeholder text
+        today.temphigh = (float) 255.372;
+        today.templow = (float) 255.372;
         this.SetDisplay();
         
         //Code to eventually be used to cache weather data
@@ -110,7 +107,7 @@ public class Fragment1 extends SherlockFragment {
     	}
     }
 	
-	@Override
+	
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
 		//Class called when the options menu is populated
 		logcat( "Fragment1: Filling options menu");
@@ -118,14 +115,18 @@ public class Fragment1 extends SherlockFragment {
 		
 		//Add a refresh button and set its icon and visibility
 		refreshbutton = menu.add("Refresh");
+		refreshbutton.setNumericShortcut((char)2);
 		refreshbutton.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 		refreshbutton.setIcon(R.drawable.navigation_refresh);
 	}
 	
-	public boolean onOptionsitemSelected(MenuItem item) {
+	
+	public boolean onOptionsItemSelected(MenuItem item) {
+		
 		//Class called when an options item is selected
 		logcat( "Fragment1: onOptionsItemSelected");
 		//If the refresh button was pressed
+			
         if (item == refreshbutton){
         	
         	//Download the weather again
@@ -214,8 +215,6 @@ public class Fragment1 extends SherlockFragment {
   }
 	private void SetDisplay(){
 		//code to update the UI with all of the variables in the "today" object
-		//Double check if the fragment is visible
-		if(this.isVisible()){
 			//if anything was actually downloaded
 		if(today.location != null && today.location.length()>0){
 			logcat( "Setting temp to "+(today.temperature));
@@ -246,10 +245,8 @@ public class Fragment1 extends SherlockFragment {
 			}
 			//if there isn't any data then alert the user
 			else Toast.makeText(getActivity(), "Weather Download Failed", Toast.LENGTH_SHORT).show();
-		}
-		else{ 
-			logcat( "Canceling view, Fragment 1 not visible");
-			}
+		
+
 	}
 	//class to convert temperature
 	private String tempconvert(float temp){

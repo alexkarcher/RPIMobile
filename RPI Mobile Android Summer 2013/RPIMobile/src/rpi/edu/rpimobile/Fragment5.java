@@ -87,6 +87,7 @@ public class Fragment5 extends SherlockFragment {
 	}
 	//Class called when an options item is selected
 	public boolean onOptionsItemSelected(MenuItem item) {
+		//logcat( "Fragment5: onOptionsItemSelected");
 		//If the refresh button was pressed
         if (item == refreshbutton){
         	//refresh the data

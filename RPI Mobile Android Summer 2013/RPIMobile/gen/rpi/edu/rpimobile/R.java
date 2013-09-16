@@ -948,6 +948,7 @@ containing a value of this type.
     public static final class id {
         public static final int City=0x7f04003c;
         public static final int Temperature=0x7f04003a;
+        public static final int Text=0x7f04004a;
         public static final int abs__action_bar=0x7f040020;
         public static final int abs__action_bar_container=0x7f04001f;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -987,18 +988,18 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040050;
+        public static final int action_settings=0x7f040052;
         public static final int available_dryers=0x7f040044;
         public static final int available_washers=0x7f040042;
         public static final int availwashers_TITLE=0x7f040041;
-        public static final int avatar=0x7f04004c;
+        public static final int avatar=0x7f04004e;
         public static final int avildryers_TITLE=0x7f040043;
         public static final int building_title=0x7f040040;
         public static final int calendarlist=0x7f04003f;
         public static final int calendarlocation=0x7f040037;
         public static final int calendarsummary=0x7f040036;
         public static final int calendartime=0x7f040035;
-        public static final int content=0x7f04004f;
+        public static final int content=0x7f040051;
         public static final int content_frame=0x7f040033;
         public static final int disableHome=0x7f040009;
         public static final int drawer_layout=0x7f040032;
@@ -1010,14 +1011,15 @@ containing a value of this type.
         public static final int left_drawer=0x7f040034;
         public static final int listMode=0x7f040002;
         public static final int normal=0x7f040001;
-        public static final int rssheading=0x7f040049;
-        public static final int rsslist=0x7f04004b;
-        public static final int rsstitle=0x7f04004a;
+        public static final int progressBar1=0x7f040049;
+        public static final int rssheading=0x7f04004b;
+        public static final int rsslist=0x7f04004d;
+        public static final int rsstitle=0x7f04004c;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
-        public static final int timestamp=0x7f04004e;
+        public static final int timestamp=0x7f040050;
         public static final int title=0x7f040039;
         public static final int tweetlist=0x7f04003e;
         public static final int useLogo=0x7f040004;
@@ -1025,7 +1027,7 @@ containing a value of this type.
         public static final int used_dryers_TITLE=0x7f040047;
         public static final int used_washers=0x7f040046;
         public static final int used_washers_TITLE=0x7f040045;
-        public static final int username=0x7f04004d;
+        public static final int username=0x7f04004f;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -1061,13 +1063,14 @@ containing a value of this type.
         public static final int fragment3=0x7f03001a;
         public static final int fragment5=0x7f03001b;
         public static final int laundry_list_item=0x7f03001c;
-        public static final int prefs=0x7f03001d;
-        public static final int prefs_twitter=0x7f03001e;
-        public static final int rss_list_item=0x7f03001f;
-        public static final int rsslayout=0x7f030020;
-        public static final int sherlock_spinner_dropdown_item=0x7f030021;
-        public static final int sherlock_spinner_item=0x7f030022;
-        public static final int twitter_list_item=0x7f030023;
+        public static final int loading_list_item=0x7f03001d;
+        public static final int prefs=0x7f03001e;
+        public static final int prefs_twitter=0x7f03001f;
+        public static final int rss_list_item=0x7f030020;
+        public static final int rsslayout=0x7f030021;
+        public static final int sherlock_spinner_dropdown_item=0x7f030022;
+        public static final int sherlock_spinner_item=0x7f030023;
+        public static final int twitter_list_item=0x7f030024;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;

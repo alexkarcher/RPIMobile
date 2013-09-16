@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rpi.edu.rpimobile"
-    android:versionCode="1"
-    android:versionName="0.7" >
+    android:versionCode="2"
+    android:versionName="0.7.1" >
 	
 <!--     Target Version 2.2 and up 		-->
     <uses-sdk

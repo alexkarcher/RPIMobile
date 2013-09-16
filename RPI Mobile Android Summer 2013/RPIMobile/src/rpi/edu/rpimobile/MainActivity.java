@@ -38,6 +38,7 @@ public class MainActivity extends SherlockFragmentActivity {
     private Fragment fragment3 = new Fragment3();
     private Fragment fragment4 = new Fragment4();
     private Fragment fragment5 = new Fragment5();
+    //private Fragment fragment6 = new Fragment6();
     
   //Initial function
     @Override
@@ -51,13 +52,13 @@ public class MainActivity extends SherlockFragmentActivity {
         setContentView(R.layout.activity_main);
         
         // Generate title array
-        title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events"/*,"Shuttles","Directory","TV Listings","Building Hours",
-                "Map"*/,"Videos" };
+        title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events"/*,"Shuttles","Directory"
+        		,"TV Listings","Building Hours","Map"*/,"Videos" };
  
         // Generate icon array
         icon = new int[] { R.drawable.ic_wm_weather, R.drawable.ic_wm_laundry, R.drawable.ic_m_twitter, R.drawable.ic_wm_athletics,
-        		R.drawable.ic_wm_event,/* R.drawable.ic_wm_shuttle, R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, R.drawable.ic_wm_map,
-        		R.drawable.ic_wm_map,*/ R.drawable.ic_wm_video
+        		R.drawable.ic_wm_event,/* R.drawable.ic_wm_shuttle, R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, 
+        		R.drawable.ic_wm_map, R.drawable.ic_wm_map,*/ R.drawable.ic_wm_video
                 };
  
         // Locate DrawerLayout in drawer_main.xml
@@ -158,6 +159,11 @@ public class MainActivity extends SherlockFragmentActivity {
         	Intent intent = new Intent(MainActivity.this, PrefsActivity.class);
         	startActivity(intent);
         }
+      /*  else if(item.getIcon().equals(R.drawable.navigation_refresh)){
+        	logcat("Mainactivity handled refreshbutton");
+        	
+        	
+        }*/
  
         return super.onOptionsItemSelected(item);
     }
@@ -206,7 +212,7 @@ public class MainActivity extends SherlockFragmentActivity {
         	Toast.makeText(this, "Directory selected", Toast.LENGTH_SHORT).show();
         	break;
         case 7: //TV Listings
-        	Toast.makeText(this, "TV Listings selected", Toast.LENGTH_SHORT).show();
+	   		ft.replace(R.id.content_frame, fragment6);
         	break;
         case 8: //Building Hours
         	Toast.makeText(this, "Building Hours selected", Toast.LENGTH_SHORT).show();
@@ -214,7 +220,7 @@ public class MainActivity extends SherlockFragmentActivity {
         case 9://Map
         	Toast.makeText(this, "Map selected", Toast.LENGTH_SHORT).show();
         	break; //*/
-        case 5: //Videos
+        case 6: //Videos
         	//the Youtube feed just opens the external youtube application
         	Intent i = YouTubeIntents.createUserIntent(this, "rpirensselaer");
         	startActivity(i);
