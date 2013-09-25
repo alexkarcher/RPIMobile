@@ -35,7 +35,9 @@ public class RSSListAdapter extends BaseAdapter {
     @Override
     public int getCount() {
     	//Method to tell Android the amount of items in the list
-        return items.size()+1;
+    	
+    	//uncomment the +1 when there is an actual loading message to display
+        return items.size();//+1;
     }
  
   //These functions are not used in the current implementation
@@ -57,6 +59,7 @@ public class RSSListAdapter extends BaseAdapter {
       //inflate the layout into the parent view
         View itemView;
         
+        //if we're viewing an item in the list load an object like normal
         if(position!=items.size()){
         inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -87,11 +90,14 @@ public class RSSListAdapter extends BaseAdapter {
         txtheading.setText(items.get(position).category+" | "+dtime.format(items.get(position).time));
         
         }
+        //if we're viewing the end of the list show a loading message
         else{
+        	//
         	inflater = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             itemView = inflater.inflate(R.layout.loading_list_item, parent,
                     false);
+            //call back the original function to actually load the next page
             fragment.loadpage(1);
         }
  

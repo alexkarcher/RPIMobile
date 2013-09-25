@@ -110,7 +110,7 @@ public class Fragment4 extends SherlockFragment {
 	
 	//Function to be called when the user scrolls to the end of a page
 	public void loadpage(int pagenum){
-		Toast.makeText(getActivity(), "Loading page", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getActivity(), "Loading page", Toast.LENGTH_SHORT).show();
 	}
 	
 	//A variable to keep position in the refreshcycle()

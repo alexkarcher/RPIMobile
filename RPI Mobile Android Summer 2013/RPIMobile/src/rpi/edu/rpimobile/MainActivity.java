@@ -220,7 +220,7 @@ public class MainActivity extends SherlockFragmentActivity {
         case 9://Map
         	Toast.makeText(this, "Map selected", Toast.LENGTH_SHORT).show();
         	break; //*/
-        case 6: //Videos
+        case 5: //Videos
         	//the Youtube feed just opens the external youtube application
         	Intent i = YouTubeIntents.createUserIntent(this, "rpirensselaer");
         	startActivity(i);

@@ -1,0 +1,28 @@
+<rss xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">  
+  <channel> 
+    <title>Example Channel</title>  
+    <link>http://example.com/</link>  
+    <description>My example channel</description>  
+    <language>en-gb</language>  
+    <lastBuildDate>Sun, 07 Nov 2010 09:33:11 GMT</lastBuildDate>  
+    <copyright>Public Domain</copyright>  
+    <item>
+       <title>News for November</title>
+       <link>http://example.com/2010/11/07</link>
+       <pubDate>Sun, 07 Nov 2010 08:22:14 GMT</pubDate>
+       <description>Other things happened today</description>
+       <media:thumbnail width="66" height="49" url="http://example.com/media/images/12/jpg/_7_2.jpg"/>  
+       <media:thumbnail width="144" height="81" url="http://example.com/media/images/12/jpg/_7_2-1.jpg"/> 
+    </item>
+    <item>
+      <title>News for October</title>
+      <link>http://example.com/2010/10/12</link>
+      <!-- Unfortunately, CDATA is often abused within description elements -->
+      <description><![CDATA[October days: we&#8217;re, <b>apple</b> ##<i>pie</i>]]></description>
+      <content:encoded><![CDATA[October days: we&#8217;re, <b>apple</b> ##<i>pie</i>]]></content:encoded>
+      <category>Daily news</category>
+      <category>October news</category>
+    </item>
+  </channel>
+</rss>
