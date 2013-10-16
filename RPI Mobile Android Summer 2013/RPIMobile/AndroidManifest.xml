@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rpi.edu.rpimobile"
+    package="edu.rpi.rpimobile"
     android:versionCode="4"
     android:versionName="0.7.2" >
 	
@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Sherlock" >
         <activity
-            android:name="rpi.edu.rpimobile.MainActivity"
+            android:name="edu.rpi.rpimobile.MainActivity"
             android:label="@string/app_name" 
             android:configChanges="orientation"
             android:screenOrientation="portrait">
@@ -30,11 +30,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="rpi.edu.rpimobile.PrefsActivity"
+            android:name="edu.rpi.rpimobile.PrefsActivity"
             android:screenOrientation="portrait"
             >
             <intent-filter>
-                <action android:name="android.intent.actioin.PREFS" />
+                <action android:name="edu.rpi.rpimobile.PREFS" />
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
