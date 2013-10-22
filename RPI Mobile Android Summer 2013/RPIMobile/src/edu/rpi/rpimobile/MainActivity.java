@@ -38,6 +38,7 @@ public class MainActivity extends SherlockFragmentActivity {
     private Fragment fragment4 = new Fragment4();
     private Fragment fragment5 = new Fragment5();
     //private Fragment fragment6 = new Fragment6();
+    private Fragment fragment7 = new Fragment7();
     
   //Initial function
     @Override
@@ -51,13 +52,13 @@ public class MainActivity extends SherlockFragmentActivity {
         setContentView(R.layout.activity_main);
         
         // Generate title array
-        title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events"/*,"Shuttles","Directory"
-        		,"TV Listings","Building Hours","Map"*/,"Videos" };
+        title = new String[] { "Weather", "Laundry","Twitter","Athletics","Events"/*,"Directory"*/
+        		/*,"TV Listings","Building Hours","Map"*/,"Videos","Shuttles" };
  
         // Generate icon array
         icon = new int[] { R.drawable.ic_wm_weather, R.drawable.ic_wm_laundry, R.drawable.ic_m_twitter, R.drawable.ic_wm_athletics,
-        		R.drawable.ic_wm_event,/* R.drawable.ic_wm_shuttle, R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, 
-        		R.drawable.ic_wm_map, R.drawable.ic_wm_map,*/ R.drawable.ic_wm_video
+        		R.drawable.ic_wm_event,/* R.drawable.ic_wm_directory, R.drawable.ic_wm_tv, 
+        		R.drawable.ic_wm_map, R.drawable.ic_wm_map,*/ R.drawable.ic_wm_video, R.drawable.ic_wm_shuttle
                 };
  
         // Locate DrawerLayout in drawer_main.xml
@@ -204,9 +205,7 @@ public class MainActivity extends SherlockFragmentActivity {
         	break;
         //these are the future items. They will be uncommented as they are implemented	
         	
- /*       case 5: //Shuttles
-        	Toast.makeText(this, "Shuttles selected", Toast.LENGTH_SHORT).show();
-        	break;
+ /*
         case 6: //Directory
         	Toast.makeText(this, "Directory selected", Toast.LENGTH_SHORT).show();
         	break;
@@ -223,6 +222,9 @@ public class MainActivity extends SherlockFragmentActivity {
         	//the Youtube feed just opens the external youtube application
         	Intent i = YouTubeIntents.createUserIntent(this, "rpirensselaer");
         	startActivity(i);
+        	break;
+        case 6: //Shuttles
+        	ft.replace(R.id.content_frame, fragment7);
         	break;
         
         }
