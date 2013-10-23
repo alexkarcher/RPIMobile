@@ -11,6 +11,12 @@
     
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
     
     <application
         android:allowBackup="true"
@@ -38,6 +44,10 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC5fDzR8HuMXOBb_fJeHvZMzZjEq815zM8" />
     </application>
 
 </manifest>

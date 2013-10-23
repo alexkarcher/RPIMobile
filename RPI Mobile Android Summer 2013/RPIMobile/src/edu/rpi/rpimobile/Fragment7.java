@@ -1,5 +1,10 @@
 package edu.rpi.rpimobile;
 
+import com.google.android.gms.maps.SupportMapFragment;
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -47,7 +52,7 @@ public class Fragment7 extends SherlockFragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                         Bundle savedInstanceState) {
-                
+        	
                 //Inflate the layout into the parent view of container view of the parent class
                 View rootView = inflater.inflate(R.layout.fragment7, container, false);
                 
@@ -158,9 +163,19 @@ public class Fragment7 extends SherlockFragment {
                 
                 protected void onPostExecute(ArrayList<Shuttle> shuttles) {
                         getActivity().setProgressBarIndeterminateVisibility(Boolean.FALSE);
+                        setDisplay();
                 }
                 
         }
+        
+        public void setDisplay() {
+        	//Display shuttle locations only if they are available
+        	if (shuttles.size() > 0) {
+        		
+        		
+        	}
+			
+		}
         
         private void logcat(String logtext){
                 if(PreferenceManager.getDefaultSharedPreferences(getActivity()).getBoolean("debugging", false))
