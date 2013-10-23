@@ -48,6 +48,7 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyC5fDzR8HuMXOBb_fJeHvZMzZjEq815zM8" />
+        	<!-- remove API Key before uploading to play store -->
     </application>
 
 </manifest>
