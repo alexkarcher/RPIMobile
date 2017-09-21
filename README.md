@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexkarcher%2FRPIMobile.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexkarcher%2FRPIMobile?ref=badge_shield)
+
 Rensselaer Center for Open Source Software:
 ==============
 RPIMobile - http://rcos.rpi.edu/projects/rpi-mobile/
@@ -68,3 +70,7 @@ Libraries used in this project:
   - SDURLCache:    https://github.com/rs/SDURLCache 
   - TestFlight:    https://testflightapp.com/ 
   
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexkarcher%2FRPIMobile.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexkarcher%2FRPIMobile?ref=badge_large)
